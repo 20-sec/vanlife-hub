@@ -2,7 +2,9 @@
 
 Erster Entwurf einer KI-automatisierten Affiliate-Hub-Seite fuer Camper-Ausruestung (deutscher Markt). Statische Seite, kein Backend.
 
-**Live-Vorschau:** GitHub Pages (siehe Repo-Einstellungen → Pages). Die Vorschau ist auf `noindex` plus sperrende `robots.txt` gestellt, damit der Entwurf nicht vorzeitig in Suchmaschinen landet.
+**Live-Vorschau:** https://20-sec.github.io/vanlife-hub/
+
+Die Vorschau ist auf `noindex` plus sperrende `robots.txt` gestellt, damit der Entwurf nicht vorzeitig in Suchmaschinen landet. Repo ist oeffentlich (fuer die kostenlose Pages-Vorschau), enthaelt aber nur statisches HTML mit Platzhaltern, keine echten Affiliate-IDs oder Geheimnisse.
 
 ## Inhalt
 
