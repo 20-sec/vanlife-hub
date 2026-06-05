@@ -1,0 +1,5 @@
+# ENTWURF / Staging-Vorschau auf GitHub Pages - nicht crawlen, nicht indexieren.
+# Vor dem Live-Gang auf der echten Domain ersetzen durch ein echtes robots.txt
+# mit Sitemap-Verweis und freigegebenen KI-Crawlern (GPTBot, PerplexityBot, ClaudeBot, Google-Extended).
+User-agent: *
+Disallow: /
