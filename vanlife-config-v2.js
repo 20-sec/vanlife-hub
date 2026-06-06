@@ -69,20 +69,49 @@ window.VANLIFE_AFFILIATE = {
     return target || "#";
   }
 
+  function resolveOne(b) {
+    // Idempotent: nicht doppelt aufloesen
+    if (b.dataset.resolved === "1") return;
+    b.setAttribute("href", buildHref(b));
+    b.setAttribute("rel", "sponsored nofollow");
+    b.setAttribute("target", "_blank");
+    if (!b.querySelector(".ad")) {
+      var ad = document.createElement("span");
+      ad.className = "ad";
+      ad.textContent = "* " + C.kennzeichnung_text;
+      b.appendChild(ad);
+    }
+    b.dataset.resolved = "1";
+  }
+
+  function resolveAll(root) {
+    var scope = root || document;
+    var btns = scope.querySelectorAll("a.aff-btn");
+    for (var i = 0; i < btns.length; i++) resolveOne(btns[i]);
+  }
+
+  // Global exportieren, damit reaktiv gerenderte Tools (Autark-Check etc.) ihn nach jedem Re-Render aufrufen koennen.
+  window.VanKompassResolveAffiliateLinks = resolveAll;
+
   function init() {
-    var btns = document.querySelectorAll("a.aff-btn");
-    for (var i = 0; i < btns.length; i++) {
-      var b = btns[i];
-      b.setAttribute("href", buildHref(b));
-      b.setAttribute("rel", "sponsored nofollow");
-      b.setAttribute("target", "_blank");
-      // Werbe-Kennzeichnung direkt am Knopf, falls noch nicht im Markup
-      if (!b.querySelector(".ad")) {
-        var ad = document.createElement("span");
-        ad.className = "ad";
-        ad.textContent = "* " + C.kennzeichnung_text;
-        b.appendChild(ad);
-      }
+    resolveAll(document);
+    // MutationObserver: faengt alle nachgerenderten Buttons automatisch ab, ohne dass das Tool den Resolver explizit aufrufen muss.
+    if (typeof MutationObserver !== "undefined") {
+      var mo = new MutationObserver(function (mutations) {
+        for (var m = 0; m < mutations.length; m++) {
+          var added = mutations[m].addedNodes;
+          for (var n = 0; n < added.length; n++) {
+            var node = added[n];
+            if (node.nodeType !== 1) continue;
+            if (node.matches && node.matches("a.aff-btn")) resolveOne(node);
+            if (node.querySelectorAll) {
+              var inner = node.querySelectorAll("a.aff-btn");
+              for (var k = 0; k < inner.length; k++) resolveOne(inner[k]);
+            }
+          }
+        }
+      });
+      mo.observe(document.body, { childList: true, subtree: true });
     }
   }
 

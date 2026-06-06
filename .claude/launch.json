@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vanlife",
+      "runtimeExecutable": "/Users/twentyseconds/Library/CloudStorage/GoogleDrive-coenensmarkus@gmail.com/Meine Ablage/_im-yes-modus/beruflich/flotte/ms-phantom/_werkzeuge/affiliate-system/vanlife-hub-entwurf/.claude/serve.sh",
+      "runtimeArgs": [],
+      "port": 8765
+    }
+  ]
+}
