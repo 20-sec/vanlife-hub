@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Autark-Check: Wie viel Strom brauchst du im Camper? | VanKompass</title>
+<meta name="description" content="In 60 Sekunden zur passenden Speichergröße. Wähle deine Verbraucher, gib Stunden und autarke Tage an und das Tool rechnet dir den Tagesbedarf und die empfohlene Powerstation aus.">
+<link rel="stylesheet" href="../vanlife-styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "VanKompass Autark-Check",
+  "url": "https://vankompass.example/tools/autark-check.html",
+  "description": "Interaktiver Rechner: ermittelt aus deinen Verbrauchern und Standzeiten den täglichen Strombedarf im Camper und empfiehlt eine passende Powerstation oder einen Festeinbau.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "inLanguage": "de-DE",
+  "isAccessibleForFree": true
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Start", "item": "https://vankompass.example/"},
+    {"@type": "ListItem", "position": 2, "name": "Batterie & Strom", "item": "https://vankompass.example/silo-strom.html"},
+    {"@type": "ListItem", "position": 3, "name": "Autark-Check", "item": "https://vankompass.example/tools/autark-check.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie genau ist der Autark-Check?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Das Tool arbeitet mit realistischen Mittelwerten aus Camper-Messungen. Es liefert dir eine Spanne, keine eurogenaue Berechnung. Vor dem Kauf einer Speicherlösung lohnt sich der eigene Test mit einer Messsteckdose über zwei bis drei typische Reisetage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Warum wird der Speicher größer empfohlen als der Tagesbedarf?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wir multiplizieren den Tagesbedarf mit der Anzahl autarker Tage und schlagen 20 Prozent Reserve drauf. Damit fängst du Kälte, schlechte Solartage und kleinere Mehrverbraucher ab und musst nicht beim ersten Bewölkungstag den Standort wechseln."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wann reicht eine Powerstation und wann brauche ich einen Festeinbau?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bis etwa 1800 Wh Tagesbedarf bei zwei autarken Tagen kommst du mit einer Powerstation gut hin. Wer regelmäßig drei Tage und mehr autark steht, größere Verbraucher hat oder einen Wechselrichter dauerhaft betreibt, fährt mit LiFePO4-Festeinbau plus Ladebooster langfristig günstiger."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Sind die Watt-Werte realistisch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Werte stammen aus typischen Camper-Verbrauchern und berücksichtigen, dass Kühlgeräte takten und Pumpen nur kurz laufen. Sie sind als Anhalt gedacht. Wer einen sehr alten Kompressorkühler hat oder einen riesigen Wechselrichter dauerhaft betreibt, sollte den eigenen Wert messen."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../index.html">
+      <span class="mark"></span>
+      <span class="brand-text">VanKompass</span>
+    </a>
+    <nav class="topnav">
+      <a href="../index.html">Start</a>
+      <a href="../silo-strom.html">Batterie & Strom</a>
+      <a href="../silo-kueche.html">Küche</a>
+      <a href="../silo-schlafen.html">Schlafen</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <nav class="breadcrumb" aria-label="Brotkrumen">
+    <a href="../index.html">Start</a> ›
+    <a href="../silo-strom.html">Batterie & Strom</a> ›
+    <span>Autark-Check</span>
+  </nav>
+
+  <section class="hero">
+    <h1>Autark-Check: Wie viel Strom brauchst du im Camper?</h1>
+    <p class="lead">In 60 Sekunden zur passenden Speichergröße. Du klickst an, was bei dir an Bord ist, sagst, wie lange jedes Gerät läuft, und wir zeigen dir Tagesbedarf, Reserve und die Powerstation, die wirklich passt. Ohne Overkill, ohne zu klein gerechnet.</p>
+    <p class="lead"><strong>Stand: Juni 2026.</strong> Werte sind Mittel aus Camper-Messungen. Spannen, keine eurogenauen Zahlen.</p>
+    <div class="chips" role="list">
+      <span class="chip" role="listitem">Reaktive Berechnung</span>
+      <span class="chip" role="listitem">Ehrlicher Nein-Pfad</span>
+      <span class="chip" role="listitem">Powerstation oder Festeinbau</span>
+      <span class="chip" role="listitem">Konfiguration teilbar</span>
+    </div>
+  </section>
+
+  <section class="tool-card" aria-labelledby="step1">
+    <h2 id="step1">Schritt 1: Deine Verbraucher</h2>
+    <p>Hak an, was an Bord ist, und stelle die typische Laufzeit pro Tag ein. Bei taktenden Geräten (Kühlbox, Kühlschrank) ist die <strong>Standzeit</strong> gemeint, also die Stunden, in denen das Gerät am Netz hängt. Die Taktung haben wir schon eingerechnet.</p>
+
+    <div id="verbraucher-liste" class="verbraucher-liste" aria-live="polite"></div>
+
+    <p class="disclosure" style="margin-top:1.5em;">
+      <strong>Warum diese Werte?</strong> Eine Kompressorkühlbox zieht zwar 45 W, aber sie läuft nicht durchgehend. Über den Tag gemittelt landen wir bei rund 15 Wh pro Stunde Standzeit. Genauso bei Kühlschrank und Pumpe: nicht der Spitzenwert zählt, sondern der Mittelwert. Wer ganz genau will, misst mit einer Steckdose.
+    </p>
+  </section>
+
+  <section class="tool-card" aria-labelledby="step2">
+    <h2 id="step2">Schritt 2: Wie lange willst du autark stehen?</h2>
+    <p>Anzahl Tage ohne Landstrom und ohne Solar-Auftankung. Auch bei Solar an Bord rechnen wir konservativ: ein Schlechtwettertag ist immer drin.</p>
+
+    <div class="slider-row">
+      <label for="tage-slider"><strong>Autarke Tage:</strong> <span id="tage-anzeige">2</span></label>
+      <input type="range" id="tage-slider" min="1" max="5" value="2" step="1">
+      <div class="slider-marks">
+        <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="answer-box" id="ergebnis-box" aria-live="polite" aria-atomic="true">
+    <h2>Dein Ergebnis</h2>
+    <div class="ergebnis-grid">
+      <div class="ergebnis-tile">
+        <div class="ergebnis-label">Tagesbedarf</div>
+        <div class="ergebnis-wert"><span id="tagesbedarf">0</span> Wh</div>
+        <div class="ergebnis-sub">pro Tag, gemittelt</div>
+      </div>
+      <div class="ergebnis-tile">
+        <div class="ergebnis-label">Empfohlene Speichergröße</div>
+        <div class="ergebnis-wert"><span id="speicher">0</span> Wh</div>
+        <div class="ergebnis-sub">Tagesbedarf x Tage x 1,2 Reserve</div>
+      </div>
+      <div class="ergebnis-tile architektur">
+        <div class="ergebnis-label">Architektur-Verdict</div>
+        <div class="ergebnis-wert" id="architektur">Wähle Verbraucher</div>
+        <div class="ergebnis-sub" id="architektur-sub">Hak oben deine Geräte an, dann rechnen wir mit.</div>
+      </div>
+    </div>
+
+    <div class="begruendung" id="begruendung">
+      <p>Sobald du oben mindestens einen Verbraucher anklickst, erscheint hier die Begründung: warum diese Speichergröße, warum diese Architektur, was du dir sparen kannst.</p>
+    </div>
+
+    <div class="teil-row">
+      <button type="button" class="btn" id="teilen-btn">Konfiguration teilen (Link kopieren)</button>
+      <span id="teilen-info" class="teilen-info"></span>
+    </div>
+  </section>
+
+  <section class="produkt-empfehlung" id="produkt-empfehlung" aria-live="polite">
+    <h2>Konkrete Empfehlung</h2>
+    <p>Aus deinem Bedarf folgt diese Shortlist. Wir nennen nur Geräte, die wir selbst auf Camper-Tauglichkeit geprüft haben oder die in der Szene seit Jahren stabil laufen. Keine Nischenmarken ohne Service.</p>
+    <div id="produkt-cards"></div>
+  </section>
+
+  <section class="praxis">
+    <h2>So wendest du das Ergebnis in der Praxis an</h2>
+    <ol>
+      <li><strong>Eine Woche lang Verbraucher mitschreiben.</strong> Welche Geräte hast du wirklich täglich an Bord? Was läuft nur am Wochenende? Der Autark-Check ist ein Anhalt, der eigene Reisealltag ist die Wahrheit.</li>
+      <li><strong>Messsteckdose besorgen.</strong> Für unter 20 Euro misst du den realen Verbrauch deines Kühlschranks über 24 Stunden. Damit ersetzt du unsere Mittelwerte durch deinen Wert.</li>
+      <li><strong>Erst Speicher, dann Solar.</strong> Erst weißt du, wie viel du speicherst, dann planst du die Solarfläche. Wer andersherum vorgeht, baut entweder zu groß oder bleibt im November im Dunkeln.</li>
+      <li><strong>Wechselrichter ehrlich bewerten.</strong> Allein der Eigenverbrauch eines aktiven Wechselrichters frisst pro Tag 100 bis 200 Wh. Wenn du nur Handy und Laptop lädst, geht das beides per USB-C und du brauchst gar keinen 230-V-Zweig.</li>
+    </ol>
+  </section>
+
+  <section class="faq">
+    <h2>Häufige Fragen</h2>
+    <details>
+      <summary>Wie genau ist der Autark-Check?</summary>
+      <p>Das Tool arbeitet mit realistischen Mittelwerten aus Camper-Messungen. Es liefert dir eine Spanne, keine eurogenaue Berechnung. Vor dem Kauf einer Speicherlösung lohnt sich der eigene Test mit einer Messsteckdose über zwei bis drei typische Reisetage.</p>
+    </details>
+    <details>
+      <summary>Warum wird der Speicher größer empfohlen als der Tagesbedarf?</summary>
+      <p>Wir multiplizieren den Tagesbedarf mit der Anzahl autarker Tage und schlagen 20 Prozent Reserve drauf. Damit fängst du Kälte, schlechte Solartage und kleinere Mehrverbraucher ab und musst nicht beim ersten Bewölkungstag den Standort wechseln.</p>
+    </details>
+    <details>
+      <summary>Wann reicht eine Powerstation und wann brauche ich einen Festeinbau?</summary>
+      <p>Bis etwa 1800 Wh Tagesbedarf bei zwei autarken Tagen kommst du mit einer Powerstation gut hin. Wer regelmäßig drei Tage und mehr autark steht, größere Verbraucher hat oder einen Wechselrichter dauerhaft betreibt, fährt mit LiFePO4-Festeinbau plus Ladebooster langfristig günstiger. Vorteil Festeinbau: höhere Kapazität, Laden während der Fahrt, längere Lebensdauer. Nachteil: Einbauaufwand und höhere Investition.</p>
+    </details>
+    <details>
+      <summary>Sind die Watt-Werte realistisch?</summary>
+      <p>Die Werte stammen aus typischen Camper-Verbrauchern und berücksichtigen, dass Kühlgeräte takten und Pumpen nur kurz laufen. Sie sind als Anhalt gedacht. Wer einen sehr alten Kompressorkühler hat oder einen riesigen Wechselrichter dauerhaft betreibt, sollte den eigenen Wert messen.</p>
+    </details>
+    <details>
+      <summary>Warum erscheint manchmal eine Warnung vor Overkill?</summary>
+      <p>Weil wir nicht möchten, dass du 1500 Euro für eine Powerstation ausgibst, von der du nur ein Drittel nutzt. Wenn dein Tagesbedarf klein ist, sagen wir das klar. Eine kompakte 300-Wh-Powerstation reicht für viele Reisende vollkommen aus.</p>
+    </details>
+  </section>
+
+  <section class="crosslinks">
+    <h2>Mehr zum Thema</h2>
+    <ul>
+      <li><a href="../silo-strom.html">Übersicht: Batterie & Strom im Camper</a></li>
+      <li><a href="../powerstation-test.html">Powerstation-Vergleich: Anker, EcoFlow, Bluetti</a></li>
+      <li><a href="../solar-grundlagen.html">Solar auf dem Dach: was wirklich ankommt</a></li>
+      <li><a href="../festeinbau-lifepo4.html">LiFePO4-Festeinbau: Komponenten und Aufwand</a></li>
+    </ul>
+  </section>
+
+  <section class="disclosure">
+    <strong>Richtwerte, kein Versprechen.</strong> Vor dem Kauf eigene Verbraucher mit Messsteckdose prüfen. Temperaturen, Alter der Geräte und Nutzungsverhalten verändern den Verbrauch teils deutlich. Wer auf Nummer sicher gehen will, plant 20 Prozent mehr Speicher als das Tool vorschlägt.
+  </section>
+
+</main>
+
+<footer class="site"><div class="wrap"><div class="cols"><div><strong style="color:#fff;">VanKompass</strong><br>Camper-Ausrüstung mit Plan.</div><div><a href="../index.html">Start</a> · <a href="../silo-strom.html">Batterie & Strom</a> · <a href="#">Impressum</a> · <a href="#">Datenschutz</a></div></div><div class="legal">Mit * gekennzeichnete Links sind Werbe-/Affiliate-Links. Kaufst du darüber, erhalten wir eine Provision. Für dich bleibt der Preis gleich. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.</div></div></footer>
+
+<style>
+.verbraucher-liste { display:grid; gap:0.8em; margin:1.5em 0; }
+.verbraucher-item { border:1px solid #d9d2c2; border-radius:10px; padding:1em; background:#f4ead7; transition:all 0.2s; }
+.verbraucher-item.aktiv { background:#efe2c9; border-color:#0f3d3e; box-shadow:0 2px 6px rgba(15,61,62,0.08); }
+.verbraucher-head { display:flex; align-items:center; gap:0.7em; flex-wrap:wrap; }
+.verbraucher-head input[type="checkbox"] { width:22px; height:22px; accent-color:#0f3d3e; flex-shrink:0; }
+.verbraucher-head label { font-weight:600; color:#1c2321; cursor:pointer; flex:1; min-width:200px; }
+.verbraucher-watt { color:#5d6b66; font-size:0.9em; font-weight:400; }
+.verbraucher-stunden { display:none; margin-top:0.8em; padding-top:0.8em; border-top:1px dashed #d9d2c2; align-items:center; gap:0.7em; flex-wrap:wrap; }
+.verbraucher-item.aktiv .verbraucher-stunden { display:flex; }
+.verbraucher-stunden label { color:#1c2321; font-size:0.95em; }
+.verbraucher-stunden input[type="range"] { flex:1; min-width:150px; accent-color:#e08a2b; }
+.verbraucher-stunden .stunden-anzeige { font-weight:700; color:#0f3d3e; min-width:60px; text-align:right; }
+.verbraucher-stunden .wh-anzeige { color:#5d6b66; font-size:0.9em; }
+.slider-row { margin:1.2em 0; }
+.slider-row label { display:block; margin-bottom:0.6em; color:#1c2321; }
+.slider-row input[type="range"] { width:100%; accent-color:#e08a2b; }
+.slider-marks { display:flex; justify-content:space-between; margin-top:0.3em; color:#5d6b66; font-size:0.85em; padding:0 0.5em; }
+.ergebnis-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1em; margin:1.5em 0; }
+.ergebnis-tile { background:#fff; border:1px solid #d9d2c2; border-radius:10px; padding:1.2em; }
+.ergebnis-tile.architektur { background:#0f3d3e; color:#f4ead7; border-color:#0f3d3e; }
+.ergebnis-label { font-size:0.85em; text-transform:uppercase; letter-spacing:0.05em; color:#5d6b66; margin-bottom:0.4em; }
+.ergebnis-tile.architektur .ergebnis-label { color:#efe2c9; }
+.ergebnis-wert { font-size:1.6em; font-weight:700; color:#0f3d3e; line-height:1.2; }
+.ergebnis-tile.architektur .ergebnis-wert { color:#fff; font-size:1.2em; }
+.ergebnis-sub { font-size:0.85em; color:#5d6b66; margin-top:0.4em; }
+.ergebnis-tile.architektur .ergebnis-sub { color:#efe2c9; }
+.begruendung { background:#f4ead7; border-left:4px solid #e08a2b; padding:1em 1.2em; border-radius:6px; margin-top:1.2em; }
+.begruendung p { margin:0.4em 0; color:#1c2321; }
+.begruendung.warn { background:#fef3e0; border-left-color:#c4751c; }
+.begruendung.ok { background:#e8f5ee; border-left-color:#2e7d52; }
+.teil-row { margin-top:1.2em; display:flex; align-items:center; gap:1em; flex-wrap:wrap; }
+.teilen-info { color:#2e7d52; font-size:0.9em; }
+#produkt-cards { display:grid; gap:1.5em; margin-top:1em; }
+.produkt-rank { display:inline-block; background:#e08a2b; color:#fff; padding:0.2em 0.6em; border-radius:4px; font-weight:700; font-size:0.85em; margin-right:0.5em; }
+.produkt-label { display:inline-block; background:#0f3d3e; color:#f4ead7; padding:0.2em 0.6em; border-radius:4px; font-size:0.8em; }
+.wann-richtig { background:#f4ead7; padding:0.8em 1em; border-radius:6px; margin:0.8em 0; }
+.wann-richtig strong { color:#0f3d3e; }
+</style>
+
+<script>
+(function() {
+  'use strict';
+
+  const VERBRAUCHER = [
+    { id:'kühlbox',    name:'Kompressor-Kühlbox',            wh_pro_std:15, default_std:24, hinweis:'45 W Spitze, taktet ~33%' },
+    { id:'kühlschrank',name:'Kühlschrank Einbau (60 L)',     wh_pro_std:20, default_std:24, hinweis:'50 W Spitze, taktet ~40%' },
+    { id:'handy',       name:'Handy laden',                   wh_pro_std:10, default_std:2,  hinweis:'10 W beim Laden' },
+    { id:'laptop',      name:'Laptop / Notebook',             wh_pro_std:55, default_std:3,  hinweis:'55 W bei Nutzung' },
+    { id:'led',         name:'LED-Beleuchtung (gesamt)',      wh_pro_std:8,  default_std:5,  hinweis:'8 W gesamt im Camper' },
+    { id:'pumpe',       name:'Wasserpumpe (Druck)',           wh_pro_std:4,  default_std:6,  hinweis:'50 W, läuft ~5 min/Std Nutzung' },
+    { id:'heizung',     name:'Standheizung Gebläse',          wh_pro_std:20, default_std:4,  hinweis:'20 W im Betrieb' },
+    { id:'cpap',        name:'CPAP-Atemgerät',                wh_pro_std:45, default_std:7,  hinweis:'45 W, nur Schlafstunden' },
+    { id:'wr',          name:'Wechselrichter-Eigenverbrauch', wh_pro_std:8,  default_std:8,  hinweis:'8 W wenn aktiv, zusätzlich' }
+  ];
+
+  let state = {};
+  let autarkeTage = 2;
+
+  VERBRAUCHER.forEach(v => {
+    state[v.id] = { aktiv:false, stunden:v.default_std };
+  });
+
+  function renderListe() {
+    const wrap = document.getElementById('verbraucher-liste');
+    wrap.innerHTML = '';
+    VERBRAUCHER.forEach(v => {
+      const item = document.createElement('div');
+      item.className = 'verbraucher-item' + (state[v.id].aktiv ? ' aktiv' : '');
+      const wh = Math.round(state[v.id].stunden * v.wh_pro_std);
+      item.innerHTML = `
+        <div class="verbraucher-head">
+          <input type="checkbox" id="cb-${v.id}" ${state[v.id].aktiv ? 'checked' : ''}>
+          <label for="cb-${v.id}">${v.name} <span class="verbraucher-watt">(${v.hinweis})</span></label>
+        </div>
+        <div class="verbraucher-stunden">
+          <label for="std-${v.id}">Stunden/Tag:</label>
+          <input type="range" id="std-${v.id}" min="1" max="24" value="${state[v.id].stunden}" step="1">
+          <span class="stunden-anzeige" id="anz-${v.id}">${state[v.id].stunden} h</span>
+          <span class="wh-anzeige">≈ ${wh} Wh</span>
+        </div>
+      `;
+      wrap.appendChild(item);
+      document.getElementById('cb-' + v.id).addEventListener('change', e => {
+        state[v.id].aktiv = e.target.checked;
+        renderListe();
+        rechnen();
+        updateHash();
+      });
+      document.getElementById('std-' + v.id).addEventListener('input', e => {
+        state[v.id].stunden = parseInt(e.target.value, 10);
+        document.getElementById('anz-' + v.id).textContent = state[v.id].stunden + ' h';
+        const newWh = Math.round(state[v.id].stunden * v.wh_pro_std);
+        item.querySelector('.wh-anzeige').textContent = '≈ ' + newWh + ' Wh';
+        rechnen();
+        updateHash();
+      });
+    });
+  }
+
+  function berechneTagesbedarf() {
+    let summe = 0;
+    VERBRAUCHER.forEach(v => {
+      if (state[v.id].aktiv) summe += state[v.id].stunden * v.wh_pro_std;
+    });
+    return Math.round(summe);
+  }
+
+  function empfehlung(tagesbedarf, tage) {
+    const speicher = Math.round(tagesbedarf * tage * 1.2);
+    let arch, archSub, kategorie, produkte = [], begruendung = '', begruendungClass = '';
+
+    if (tagesbedarf === 0) {
+      return { tagesbedarf:0, speicher:0, arch:'Wähle Verbraucher', archSub:'Hak oben deine Geräte an, dann rechnen wir mit.', kategorie:'leer', produkte:[], begruendung:'Sobald du oben mindestens einen Verbraucher anklickst, erscheint hier die Begründung.', begruendungClass:'' };
+    }
+
+    if (tagesbedarf < 500 && tage <= 3) {
+      arch = 'Powerstation klein';
+      archSub = 'Kompakt, leise, mitnehmbar';
+      kategorie = 'klein';
+      begruendung = `Dein Tagesbedarf liegt bei ${tagesbedarf} Wh. Über ${tage} Tag${tage>1?'e':''} mit 20 Prozent Reserve landest du bei rund ${speicher} Wh. Das ist ein typischer Wochenend-Bedarf. <strong>Spar dir die große Powerstation.</strong> Eine kompakte 300-Wh-Klasse reicht und lässt sich überall verstauen. Wer mehr Speicher kauft, schleppt nur unnötig Gewicht durch die Gegend.`;
+      begruendungClass = 'ok';
+      produkte = [
+        { rank:1, label:'Top für kleinen Bedarf', name:'Anker Solix C300', verdict:'288 Wh LiFePO4, knapp 3 kg, leiser Lüfter, USB-C mit 140 W. Für deinen Bedarf der Sweet Spot.', wann:'Wann richtig: Wochenend-Touren, Handy + Laptop + LED + Kühlbox einige Stunden. Nicht für Standheizung über Tage.', merchant:'anker-solix', target:'https://www.anker.com/de/products/solix-c300', asin:'B0EXAMPLE01' }
+      ];
+    } else if (tagesbedarf < 1000 && tage <= 3) {
+      arch = 'Powerstation mittel';
+      archSub = '300 bis 600 Wh Klasse';
+      kategorie = 'mittel';
+      begruendung = `Tagesbedarf ${tagesbedarf} Wh, über ${tage} Tage mit Reserve sind das ${speicher} Wh. Mit einer Powerstation der mittleren Klasse bist du gut versorgt. <strong>Wichtig:</strong> wenn du planst, irgendwann eine Standheizung über mehrere Nächte zu betreiben, gleich eine Stufe größer denken.`;
+      begruendungClass = '';
+      produkte = [
+        { rank:1, label:'Erweiterbar', name:'EcoFlow River 3 Plus', verdict:'286 Wh Basis, erweiterbar auf 858 Wh mit Zusatzakku. Schnellladung, sauberer Sinus. Wächst mit dir mit.', wann:'Wann richtig: du willst klein starten und später aufstocken, ohne ein zweites Gerät zu kaufen.', merchant:'ecoflow', target:'https://www.ecoflow.com/de/river-3-plus', asin:'B0EXAMPLE02' },
+        { rank:2, label:'Solide Alternative', name:'Anker Solix C300', verdict:'288 Wh LiFePO4, wenn dir Erweiterbarkeit egal ist und du den leisesten Lüfter willst.', wann:'Wann richtig: du bleibst bei deinem aktuellen Verbrauch und willst nicht ständig nachrüsten.', merchant:'anker-solix', target:'https://www.anker.com/de/products/solix-c300', asin:'B0EXAMPLE01' }
+      ];
+    } else if (tagesbedarf <= 1800 && tage <= 3) {
+      arch = 'Powerstation groß';
+      archSub = '1000 Wh+ Klasse';
+      kategorie = 'gross';
+      begruendung = `Tagesbedarf ${tagesbedarf} Wh über ${tage} Tage ergibt mit Reserve ${speicher} Wh. Das ist die Liga der großen Powerstations. <strong>Die Bluetti AC180 mit 1152 Wh deckt dich für 2 bis 3 Tage gut ab.</strong> Wenn du regelmäßig länger autark stehen willst, schau dir parallel den Festeinbau an: rechnet sich ab dem dritten autarken Tag oft besser.`;
+      begruendungClass = '';
+      produkte = [
+        { rank:1, label:'Beste Powerstation in der Klasse', name:'Bluetti AC180', verdict:'1152 Wh LiFePO4, 1800 W Sinus, kann auch Föhn und Wasserkocher. Reicht für 2 bis 3 autarke Tage mit normalem Verbrauch.', wann:'Wann richtig: längere Aufenthalte auf Stellplätzen ohne Strom, Mischbetrieb DC und 230 V, gelegentliche Hochstrom-Verbraucher.', merchant:'bluetti', target:'https://www.bluettipower.eu/products/ac180', asin:'B0EXAMPLE03' },
+        { rank:2, label:'Mehr Reserve', name:'EcoFlow River 3 Plus (mit Zusatzakku)', verdict:'Auf 858 Wh erweitert noch unter der AC180, aber leichter. Wenn dir Mobilität wichtiger ist als maximale Reserve.', wann:'Wann richtig: du wechselst oft den Standort und willst nicht 16 kg durch die Heckklappe wuchten.', merchant:'ecoflow', target:'https://www.ecoflow.com/de/river-3-plus', asin:'B0EXAMPLE02' }
+      ];
+    } else {
+      arch = 'Festeinbau prüfen';
+      archSub = 'LiFePO4 + Ladebooster';
+      kategorie = 'festeinbau';
+      begruendung = `Tagesbedarf ${tagesbedarf} Wh über ${tage} Tage mit Reserve sind ${speicher} Wh. <strong>Das ist Festeinbau-Territorium.</strong> Eine 100-Ah-LiFePO4 hat rund 1280 Wh, zwei davon parallel 2560 Wh: lädt während der Fahrt über den Ladebooster, kann dauerhaft Wechselrichter befeuern und hält 10 Jahre. Eine Powerstation in dieser Größenordnung kostet ähnlich viel, wiegt aber mehr und altert schneller. Wer regelmäßig so steht, baut ein.`;
+      begruendungClass = 'warn';
+      produkte = [
+        { rank:1, label:'Festeinbau-Basis', name:'Offgridtec LiFePO4 100 Ah', verdict:'1280 Wh nutzbar, 12 V, BMS integriert, für rund 10 Jahre Camper-Betrieb ausgelegt. Skaliert durch Parallelschaltung.', wann:'Wann richtig: regelmäßig 3+ autarke Tage, Wechselrichter-Dauerbetrieb, Einbau-Bereitschaft.', merchant:'offgridtec', target:'https://www.offgridtec.com/lifepo4-100ah', asin:'B0EXAMPLE04' },
+        { rank:2, label:'Übergangslösung Powerstation', name:'Bluetti AC180', verdict:'Wenn du den Festeinbau noch scheust: die größte sinnvolle Powerstation. Reicht bei diesem Bedarf aber nicht für 3+ Tage.', wann:'Wann richtig: du willst kein Loch in die Verkleidung schneiden und akzeptierst dafür kürzere Autarkie.', merchant:'bluetti', target:'https://www.bluettipower.eu/products/ac180', asin:'B0EXAMPLE03' },
+        { rank:3, label:'Komplettpaket bei Fritz Berger', name:'Fritz Berger LiFePO4-Set', verdict:'Komplettpaket mit Ladebooster und Sicherungen. Für Camper-Einsteiger, die alles aus einer Hand wollen.', wann:'Wann richtig: erster Festeinbau, kein Bock auf 12 Bestellungen aus 7 Shops.', merchant:'fritz-berger', target:'https://www.fritz-berger.de/lifepo4-set', asin:'B0EXAMPLE05' }
+      ];
+    }
+
+    return { tagesbedarf, speicher, arch, archSub, kategorie, produkte, begruendung, begruendungClass };
+  }
+
+  function renderProdukte(produkte) {
+    const wrap = document.getElementById('produkt-cards');
+    wrap.innerHTML = '';
+    if (produkte.length === 0) {
+      wrap.innerHTML = '<p style="color:#5d6b66;font-style:italic;">Sobald wir wissen, was du brauchst, zeigen wir hier 1 bis 3 konkrete Empfehlungen.</p>';
+      return;
+    }
+    produkte.forEach(p => {
+      const card = document.createElement('div');
+      card.className = 'product';
+      card.innerHTML = `
+        <div>
+          <span class="produkt-rank">Platz ${p.rank}</span>
+          <span class="produkt-label">${p.label}</span>
+        </div>
+        <h3>${p.name}</h3>
+        <p>${p.verdict}</p>
+        <div class="wann-richtig"><strong>${p.wann}</strong></div>
+        <div class="buybar">
+          <a class="aff-btn primary" data-merchant="${p.merchant}" data-target="${p.target}" data-label="${p.name} ansehen">${p.name} ansehen</a>
+          <a class="aff-btn secondary" data-merchant="amazon" data-asin="${p.asin}" data-label="Bei Amazon ansehen">Bei Amazon ansehen</a>
+        </div>
+      `;
+      wrap.appendChild(card);
+    });
+  }
+
+  function rechnen() {
+    const tagesbedarf = berechneTagesbedarf();
+    const erg = empfehlung(tagesbedarf, autarkeTage);
+    document.getElementById('tagesbedarf').textContent = erg.tagesbedarf.toLocaleString('de-DE');
+    document.getElementById('speicher').textContent = erg.speicher.toLocaleString('de-DE');
+    document.getElementById('architektur').textContent = erg.arch;
+    document.getElementById('architektur-sub').textContent = erg.archSub;
+    const begDiv = document.getElementById('begruendung');
+    begDiv.className = 'begruendung' + (erg.begruendungClass ? ' ' + erg.begruendungClass : '');
+    begDiv.innerHTML = '<p>' + erg.begruendung + '</p>';
+    renderProdukte(erg.produkte);
+  }
+
+  function updateHash() {
+    const aktive = VERBRAUCHER.filter(v => state[v.id].aktiv)
+      .map(v => v.id + ':' + state[v.id].stunden).join(',');
+    const cfg = 't=' + autarkeTage + (aktive ? '&v=' + aktive : '');
+    history.replaceState(null, '', '#config=' + encodeURIComponent(cfg));
+  }
+
+  function readHash() {
+    const h = window.location.hash;
+    if (!h.startsWith('#config=')) return;
+    try {
+      const cfg = decodeURIComponent(h.substring(8));
+      const parts = cfg.split('&');
+      parts.forEach(p => {
+        if (p.startsWith('t=')) {
+          autarkeTage = Math.min(5, Math.max(1, parseInt(p.substring(2), 10) || 2));
+        } else if (p.startsWith('v=')) {
+          p.substring(2).split(',').forEach(item => {
+            const [id, std] = item.split(':');
+            if (state[id]) {
+              state[id].aktiv = true;
+              state[id].stunden = Math.min(24, Math.max(1, parseInt(std, 10) || state[id].stunden));
+            }
+          });
+        }
+      });
+    } catch(e) { /* ignore */ }
+  }
+
+  document.getElementById('tage-slider').addEventListener('input', e => {
+    autarkeTage = parseInt(e.target.value, 10);
+    document.getElementById('tage-anzeige').textContent = autarkeTage;
+    rechnen();
+    updateHash();
+  });
+
+  document.getElementById('teilen-btn').addEventListener('click', () => {
+    const url = window.location.href;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        const info = document.getElementById('teilen-info');
+        info.textContent = 'Link kopiert. Einfach einfügen.';
+        setTimeout(() => info.textContent = '', 4000);
+      });
+    } else {
+      const info = document.getElementById('teilen-info');
+      info.textContent = 'URL aus der Adresszeile kopieren.';
+    }
+  });
+
+  readHash();
+  document.getElementById('tage-slider').value = autarkeTage;
+  document.getElementById('tage-anzeige').textContent = autarkeTage;
+  renderListe();
+  rechnen();
+
+})();
+</script>
+
+<script src="../vanlife-config.js"></script>
+
+</body>
+</html>
