@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>So baust du die VanKompass-Brevo-Strecken | Anleitung</title>
+<style>
+:root { --petrol:#0f3d3e; --amber:#e08a2b; --amber-d:#c4751c; --sand:#f4ead7; --ink:#1c2321; --muted:#5d6b66; --line:#d9d2c2; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--sand); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; line-height:1.55; }
+.wrap { max-width:980px; margin:0 auto; padding:24px 20px 60px; }
+.cover { background:var(--petrol); color:#fff; padding:22px 26px; border-radius:14px 14px 0 0; display:flex; align-items:center; gap:10px; }
+.cover .mark { width:26px; height:26px; border-radius:7px; background:var(--amber); color:var(--petrol); display:inline-grid; place-items:center; font-weight:900; }
+.cover .kind { margin-left:auto; background:var(--amber); color:var(--petrol); font-weight:700; font-size:11pt; padding:5px 12px; border-radius:999px; }
+.card { background:#fff; padding:26px 28px; border-radius:0 0 14px 14px; box-shadow:0 4px 18px rgba(15,61,62,.08); }
+h1 { font-size:24pt; color:var(--petrol); margin:18px 0 6px; letter-spacing:-.3px; }
+h2 { font-size:14pt; color:var(--petrol); margin:24px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--sand); }
+h3 { font-size:11.5pt; color:var(--petrol); margin:18px 0 6px; }
+p { margin:0 0 10px; }
+.field { background:var(--sand); padding:10px 14px; border-radius:8px; margin:6px 0; font-family:'SF Mono','Menlo','Monaco',monospace; font-size:11pt; }
+.field strong { color:var(--petrol); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+.copy { position:relative; }
+.copy textarea { width:100%; min-height:140px; padding:14px 16px; border:1px solid var(--line); border-radius:10px; font-family:'SF Mono','Menlo','Monaco',monospace; font-size:10.5pt; line-height:1.5; background:#fafafa; resize:vertical; }
+.copy button { position:absolute; top:8px; right:8px; background:var(--petrol); color:#fff; border:none; padding:8px 14px; border-radius:8px; font-weight:600; cursor:pointer; font-size:11pt; }
+.copy button:hover { background:#0a2c2d; }
+.copy button.ok { background:#2e7d52; }
+.note { background:#fff7e9; border-left:4px solid var(--amber); padding:10px 14px; border-radius:0 8px 8px 0; margin:14px 0; font-size:10.5pt; }
+.steps { counter-reset:step; padding:0; margin:0; list-style:none; }
+.steps li { counter-increment:step; padding:10px 0 10px 38px; position:relative; border-bottom:1px dashed var(--line); }
+.steps li:last-child { border-bottom:none; }
+.steps li::before { content:counter(step); position:absolute; left:0; top:8px; width:26px; height:26px; border-radius:50%; background:var(--petrol); color:#fff; font-weight:800; text-align:center; line-height:26px; font-size:13px; }
+.preview { border:1px solid var(--line); border-radius:10px; overflow:hidden; margin:8px 0 4px; max-height:480px; }
+.preview iframe { width:100%; height:480px; border:0; }
+.toc { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin:18px 0; }
+@media (max-width:680px) { .toc { grid-template-columns:1fr; } }
+.toc a { background:#fff; border:1px solid var(--line); padding:12px 14px; border-radius:10px; text-decoration:none; color:var(--ink); display:block; }
+.toc a:hover { border-color:var(--amber); }
+.toc a strong { display:block; color:var(--petrol); font-size:13pt; margin-bottom:2px; }
+.toc a span { color:var(--muted); font-size:11pt; }
+.btn-back { display:inline-block; color:var(--petrol); text-decoration:none; font-weight:600; margin:0 0 10px; }
+@page { size:A4; margin:14mm; }
+@media print { body { background:#fff; } .copy button { display:none; } }
+</style>
+</head><body>
+<div class="wrap">
+  <div class="cover">
+    <span class="mark">V</span>
+    <div><strong>VanKompass</strong><br><span style="font-size:11pt;opacity:.85;">Brevo-Strecken Anleitung</span></div>
+    <div class="kind">einmal verstehen, 16x durchziehen</div>
+  </div>
+  <div class="card">
+    <h1>So baust du die VanKompass-Brevo-Strecken</h1>
+    <p style="color:var(--muted);font-size:12pt;">Diese Anleitung erklärt das Vorgehen einmal. Danach machst du für jeden der 16 Bereiche dasselbe, mit den fertigen Bausteinen aus dem jeweiligen Baukasten. Plane für die einmaligen Schritte ca. 20 Minuten, pro Strecke danach ca. 10 Minuten.</p>
+
+    <h2>Die Architektur (so hängt es zusammen)</h2>
+    <ul>
+      <li>Eine Liste in Brevo: <strong>VanKompass Newsletter</strong>. Alle 16 Strecken schreiben in diese eine Liste.</li>
+      <li>Ein Kontakt-Attribut <strong>BEREICH</strong>. Sein Wert (z.B. &quot;strom&quot;) entscheidet, welches Freebie der Abonnent bekommt und welcher Newsletter ihn später trifft.</li>
+      <li>Eine globale DOI-Mail. Gilt für alle 16, einmal hinterlegt.</li>
+      <li>Pro Bereich: ein Formular, ein Welcome-Mail-Template, eine Automation. Identische Mechanik, nur Inhalte und der BEREICH-Wert ändern sich.</li>
+    </ul>
+
+    <h2>A. Einmaliges Setup (machst du genau einmal)</h2>
+    <ol class="steps">
+      <li><strong>Absender-Domain authentifizieren.</strong> Brevo &rarr; Einstellungen &rarr; Absender und IP &rarr; Domains: vankompass.de hinzufügen und die SPF/DKIM-Einträge bei deinem Hoster eintragen. Ohne das landen die Mails im Spam.</li>
+      <li><strong>Liste anlegen.</strong> Brevo &rarr; Kontakte &rarr; Listen &rarr; Neue Liste: <em>VanKompass Newsletter</em>.</li>
+      <li><strong>Kontakt-Attribut anlegen.</strong> Brevo &rarr; Kontakte &rarr; Einstellungen &rarr; Kontakt-Attribute &rarr; Neues Attribut: Name <em>BEREICH</em>, Typ <em>Text</em>.</li>
+      <li><strong>DOI-Mail einrichten.</strong> Brevo &rarr; Kontakte &rarr; Einstellungen &rarr; Double-Opt-in-Bestätigungsmail: Betreff und HTML aus dem <a href="strecke-doi.html" style="color:var(--amber-d);font-weight:600;">DOI-Baukasten</a> einsetzen.</li>
+      <li><strong>Datenschutz.</strong> Prüfe, dass die VanKompass-Datenschutzerklärung Brevo als Auftragsverarbeiter nennt (Standard-Bausteine, hat Brevo selbst dokumentiert). Footer-Link in den Mails zeigt darauf.</li>
+    </ol>
+
+    <h2>B. Pro Strecke (16x dieselbe Mechanik)</h2>
+    <p>Öffne den Baukasten für den jeweiligen Bereich (Liste unten). Dort findest du die kopierbaren Bausteine. Arbeite eine Strecke in einem Rutsch durch:</p>
+    <ol class="steps">
+      <li><strong>Welcome-Mail anlegen.</strong> Brevo &rarr; Kampagnen &rarr; Vorlagen &rarr; Neue Vorlage &rarr; HTML-Editor. Betreff und HTML aus dem Baukasten kopieren. Speichern als <em>Freebie [Bereich]</em>.</li>
+      <li><strong>Formular bauen.</strong> Brevo &rarr; Kontakte &rarr; Formulare &rarr; Neues Formular. Felder VORNAME (Pflicht) und E-Mail. Verstecktes Feld <em>BEREICH</em> mit dem Wert aus dem Baukasten vorbelegen. Liste auswählen: VanKompass Newsletter. DOI aktivieren. Erfolgsmeldung aus dem Baukasten einsetzen. Embed-Code später in die Landingpage einbauen.</li>
+      <li><strong>Automation anlegen.</strong> Brevo &rarr; Automation &rarr; Neuer Workflow. Trigger: Kontakt wird zur Liste hinzugefügt. Bedingung: BEREICH ist gleich dem Wert aus dem Baukasten. Aktion: Sende E-Mail mit der Vorlage aus Schritt 1.</li>
+      <li><strong>PDF hochladen.</strong> Lade das passende Freebie-PDF in Brevo Medien hoch ODER lege es auf vankompass.de unter freebies/. Den Link trägt die Welcome-Mail bereits, du musst nichts ändern, solange die URL stimmt.</li>
+      <li><strong>Testen.</strong> Mit einer Test-Adresse anmelden. DOI-Mail muss kommen, bestätigen, Welcome-Mail muss kommen, PDF muss laden. Erst dann zur nächsten Strecke.</li>
+    </ol>
+
+    <h2>C. Die 16 Strecken</h2>
+    <div class="toc"><a href="strecke-cockpit.html"><strong>1. Cockpit</strong><span>Ordnung im Fahrerhaus</span></a>
+<a href="strecke-strom.html"><strong>2. Batterie &amp; Strom</strong><span>Die Camper-Strom-Checkliste</span></a>
+<a href="strecke-solar.html"><strong>3. Solar</strong><span>Solar-Spickzettel</span></a>
+<a href="strecke-schlafen.html"><strong>4. Schlafen</strong><span>Die Camper-Schlaf-Checkliste</span></a>
+<a href="strecke-sanitaer.html"><strong>5. Toilette &amp; Sanitär</strong><span>Trockentrenntoilette oder nicht? Die Entscheidungshilfe für dein Camper-Klo</span></a>
+<a href="strecke-kueche.html"><strong>6. Küche</strong><span>Die Camper-Küchen-Packliste plus Kühlbox-Energie-Faustformel</span></a>
+<a href="strecke-wasser.html"><strong>7. Wasser</strong><span>Der VanKompass Wassersystem-Planer</span></a>
+<a href="strecke-heizung.html"><strong>8. Heizung</strong><span>Der Standheizungs-Spickzettel</span></a>
+<a href="strecke-verdunkelung.html"><strong>9. Verdunkelung &amp; Insektenschutz</strong><span>Dunkel schlafen, mückenfrei lüften</span></a>
+<a href="strecke-stauraum.html"><strong>10. Stauraum</strong><span>Die Stauraum-Optimierungs-Checkliste</span></a>
+<a href="strecke-aussenbereich.html"><strong>11. Außenbereich</strong><span>Markise oder Vorzelt</span></a>
+<a href="strecke-sicherheit.html"><strong>12. Sicherheit</strong><span>Die Camper-Sicherheits-Checkliste</span></a>
+<a href="strecke-internet.html"><strong>13. Internet</strong><span>Online im Funkloch</span></a>
+<a href="strecke-apps.html"><strong>14. Camper-Apps</strong><span>Die Camper-App-Toolbox</span></a>
+<a href="strecke-sitze.html"><strong>15. Sitze &amp; Drehkonsole</strong><span>Aus Fahrersitz wird Wohn-Sessel</span></a>
+<a href="strecke-sound.html"><strong>16. Sound</strong><span>Die Camper-Sound-und-Entertainment-Checkliste</span></a></div>
+    <p style="margin-top:18px;"><a href="strecke-doi.html" style="color:var(--amber-d);font-weight:600;">&rarr; Plus: die globale DOI-Mail (einmal für alle)</a></p>
+
+    <h2>Hinweise und Fallstricke</h2>
+    <ul>
+      <li><strong>Personalisierung:</strong> Wir nutzen überall <code style="background:var(--sand);padding:1px 6px;border-radius:4px;">{{contact.VORNAME}}</code>. Wenn kein Vorname vorliegt, trägt Brevo eine leere Zeichenkette ein. Fällt nur leicht auf, ist tolerierbar.</li>
+      <li><strong>Abmelde-Link:</strong> <code style="background:var(--sand);padding:1px 6px;border-radius:4px;">{{unsubscribe}}</code> ist im Footer drin, Brevo setzt den Link automatisch.</li>
+      <li><strong>DOI-Link:</strong> <code style="background:var(--sand);padding:1px 6px;border-radius:4px;">{{doubleoptin}}</code> ist NUR in der globalen DOI-Mail zu setzen.</li>
+      <li><strong>Welche Liste pro Formular?</strong> Immer dieselbe: VanKompass Newsletter. Die Segmentierung kommt über das Attribut BEREICH.</li>
+      <li><strong>Reihenfolge:</strong> Starte mit der DOI-Mail und einer Strecke (Empfehlung: Strom), teste dort sauber durch. Erst danach die anderen 15. Dann hast du das System einmal verstanden und der Rest ist Routine.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+function cp(btn){
+  const ta = btn.parentElement.querySelector('textarea');
+  ta.select();
+  ta.setSelectionRange(0, 99999);
+  try { navigator.clipboard.writeText(ta.value); } catch(e) { document.execCommand('copy'); }
+  const old = btn.textContent;
+  btn.textContent = 'Kopiert.';
+  btn.classList.add('ok');
+  setTimeout(() => { btn.textContent = old; btn.classList.remove('ok'); }, 1600);
+}
+</script>
+
+</body></html>

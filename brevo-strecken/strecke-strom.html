@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Brevo-Baukasten 2/16: Batterie &amp; Strom | VanKompass</title>
+<style>
+:root { --petrol:#0f3d3e; --amber:#e08a2b; --amber-d:#c4751c; --sand:#f4ead7; --ink:#1c2321; --muted:#5d6b66; --line:#d9d2c2; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--sand); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; line-height:1.55; }
+.wrap { max-width:980px; margin:0 auto; padding:24px 20px 60px; }
+.cover { background:var(--petrol); color:#fff; padding:22px 26px; border-radius:14px 14px 0 0; display:flex; align-items:center; gap:10px; }
+.cover .mark { width:26px; height:26px; border-radius:7px; background:var(--amber); color:var(--petrol); display:inline-grid; place-items:center; font-weight:900; }
+.cover .kind { margin-left:auto; background:var(--amber); color:var(--petrol); font-weight:700; font-size:11pt; padding:5px 12px; border-radius:999px; }
+.card { background:#fff; padding:26px 28px; border-radius:0 0 14px 14px; box-shadow:0 4px 18px rgba(15,61,62,.08); }
+h1 { font-size:24pt; color:var(--petrol); margin:18px 0 6px; letter-spacing:-.3px; }
+h2 { font-size:14pt; color:var(--petrol); margin:24px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--sand); }
+h3 { font-size:11.5pt; color:var(--petrol); margin:18px 0 6px; }
+p { margin:0 0 10px; }
+.field { background:var(--sand); padding:10px 14px; border-radius:8px; margin:6px 0; font-family:'SF Mono','Menlo','Monaco',monospace; font-size:11pt; }
+.field strong { color:var(--petrol); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+.copy { position:relative; }
+.copy textarea { width:100%; min-height:140px; padding:14px 16px; border:1px solid var(--line); border-radius:10px; font-family:'SF Mono','Menlo','Monaco',monospace; font-size:10.5pt; line-height:1.5; background:#fafafa; resize:vertical; }
+.copy button { position:absolute; top:8px; right:8px; background:var(--petrol); color:#fff; border:none; padding:8px 14px; border-radius:8px; font-weight:600; cursor:pointer; font-size:11pt; }
+.copy button:hover { background:#0a2c2d; }
+.copy button.ok { background:#2e7d52; }
+.note { background:#fff7e9; border-left:4px solid var(--amber); padding:10px 14px; border-radius:0 8px 8px 0; margin:14px 0; font-size:10.5pt; }
+.steps { counter-reset:step; padding:0; margin:0; list-style:none; }
+.steps li { counter-increment:step; padding:10px 0 10px 38px; position:relative; border-bottom:1px dashed var(--line); }
+.steps li:last-child { border-bottom:none; }
+.steps li::before { content:counter(step); position:absolute; left:0; top:8px; width:26px; height:26px; border-radius:50%; background:var(--petrol); color:#fff; font-weight:800; text-align:center; line-height:26px; font-size:13px; }
+.preview { border:1px solid var(--line); border-radius:10px; overflow:hidden; margin:8px 0 4px; max-height:480px; }
+.preview iframe { width:100%; height:480px; border:0; }
+.toc { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin:18px 0; }
+@media (max-width:680px) { .toc { grid-template-columns:1fr; } }
+.toc a { background:#fff; border:1px solid var(--line); padding:12px 14px; border-radius:10px; text-decoration:none; color:var(--ink); display:block; }
+.toc a:hover { border-color:var(--amber); }
+.toc a strong { display:block; color:var(--petrol); font-size:13pt; margin-bottom:2px; }
+.toc a span { color:var(--muted); font-size:11pt; }
+.btn-back { display:inline-block; color:var(--petrol); text-decoration:none; font-weight:600; margin:0 0 10px; }
+@page { size:A4; margin:14mm; }
+@media print { body { background:#fff; } .copy button { display:none; } }
+</style>
+</head><body>
+<div class="wrap">
+  <a class="btn-back" href="uebersicht.html">&larr; Zur Übersicht aller 16 Strecken</a>
+  <div class="cover">
+    <span class="mark">V</span>
+    <div><strong>VanKompass Brevo-Baukasten</strong><br><span style="font-size:11pt;opacity:.85;">Strecke 2 von 16</span></div>
+    <div class="kind">Batterie &amp; Strom</div>
+  </div>
+  <div class="card">
+    <h1>Die Camper-Strom-Checkliste</h1>
+    <p style="color:var(--muted);">Alle Bausteine, die du in Brevo einsetzt, fertig zum Kopieren. Folge der <a href="anleitung.html" style="color:var(--amber-d);font-weight:600;">Anleitung</a> und arbeite die Strecke in einem Rutsch durch.</p>
+
+    <h2>1. Formular (Brevo &rarr; Formulare &rarr; Neues Formular)</h2>
+    <div class="field"><strong>Liste:</strong> VanKompass Newsletter</div>
+    <div class="field"><strong>Pflichtfelder:</strong> VORNAME, E-Mail</div>
+    <div class="field"><strong>Verstecktes Feld BEREICH (vorbelegt):</strong> strom</div>
+    <div class="field"><strong>Double-Opt-in:</strong> aktiviert (Pflicht)</div>
+
+    <h3>Erfolgsmeldung nach Absenden</h3>
+    <div class="copy">
+      <button onclick="cp(this)">Kopieren</button>
+      <textarea readonly>Danke. Schau in dein E-Mail-Postfach: dort wartet eine kurze Bestätigungsmail von uns. Klick den Knopf darin, dann bekommst du dein PDF.</textarea>
+    </div>
+
+    <h2>2. Welcome-Mail Template (Brevo &rarr; Vorlagen &rarr; Neue Vorlage &rarr; HTML)</h2>
+    <h3>Betreff</h3>
+    <div class="copy">
+      <button onclick="cp(this)">Kopieren</button>
+      <textarea readonly style="min-height:50px;">Da ist deine Die Camper-Strom-Checkliste</textarea>
+    </div>
+
+    <h3>Preheader / Vorschau-Text</h3>
+    <div class="copy">
+      <button onclick="cp(this)">Kopieren</button>
+      <textarea readonly style="min-height:60px;">In zehn Minuten weißt du, wie groß deine Bordbatterie wirklich sein muss: ankreuzen, addieren, fertig.</textarea>
+    </div>
+
+    <h3>Mail-HTML (vollstaendig, fertig zum Einfuegen in Brevo HTML-Editor)</h3>
+    <div class="copy">
+      <button onclick="cp(this)">Kopieren</button>
+      <textarea readonly>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;de&quot;&gt;&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;title&gt;Da ist deine Die Camper-Strom-Checkliste&lt;/title&gt;
+&lt;/head&gt;&lt;body style=&quot;margin:0;padding:0;background:#f0eadb;font-family:-apple-system,BlinkMacSystemFont,&#x27;Segoe UI&#x27;,Helvetica,Arial,sans-serif;color:#1c2321;&quot;&gt;
+&lt;div style=&quot;display:none;max-height:0;overflow:hidden;opacity:0;font-size:1px;line-height:1px;color:#f0eadb;&quot;&gt;In zehn Minuten weißt du, wie groß deine Bordbatterie wirklich sein muss: ankreuzen, addieren, fertig.&lt;/div&gt;
+&lt;table role=&quot;presentation&quot; width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;background:#f0eadb;&quot;&gt;
+  &lt;tr&gt;&lt;td align=&quot;center&quot; style=&quot;padding:24px 12px;&quot;&gt;
+    &lt;table role=&quot;presentation&quot; width=&quot;600&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;max-width:600px;width:100%;background:#ffffff;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(15,61,62,.08);&quot;&gt;
+      &lt;tr&gt;&lt;td style=&quot;background:#0f3d3e;color:#ffffff;padding:18px 26px;font-weight:800;font-size:18px;letter-spacing:-.3px;&quot;&gt;
+        &lt;span style=&quot;display:inline-block;width:24px;height:24px;border-radius:6px;background:#e08a2b;color:#0f3d3e;text-align:center;line-height:24px;font-weight:900;vertical-align:middle;margin-right:8px;&quot;&gt;V&lt;/span&gt;
+        VanKompass
+      &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td style=&quot;padding:26px 28px 8px;font-size:16px;line-height:1.55;color:#1c2321;&quot;&gt;
+        
+&lt;p style=&quot;margin:0 0 14px;font-size:18px;color:#0f3d3e;font-weight:700;&quot;&gt;Hallo {{contact.VORNAME}},&lt;/p&gt;
+&lt;p style=&quot;margin:0 0 14px;&quot;&gt;danke, dass du dabei bist. Wie versprochen, hier ist deine Die Camper-Strom-Checkliste:&lt;/p&gt;
+
+&lt;table role=&quot;presentation&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;margin:18px 0 22px;&quot;&gt;
+  &lt;tr&gt;&lt;td style=&quot;background:#e08a2b;border-radius:10px;&quot;&gt;
+    &lt;a href=&quot;https://vankompass.de/freebies/freebie-strom.pdf&quot; style=&quot;display:inline-block;padding:14px 28px;color:#0f3d3e;text-decoration:none;font-weight:700;font-size:16px;&quot;&gt;PDF herunterladen&lt;/a&gt;
+  &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p style=&quot;margin:0 0 14px;&quot;&gt;In zehn Minuten weißt du, wie groß deine Bordbatterie wirklich sein muss: ankreuzen, addieren, fertig.&lt;/p&gt;
+
+&lt;p style=&quot;margin:18px 0 6px;font-weight:700;color:#0f3d3e;&quot;&gt;Was dich von uns künftig erwartet&lt;/p&gt;
+&lt;p style=&quot;margin:0 0 14px;&quot;&gt;Wir schicken dir etwa einmal pro Woche eine ehrliche Empfehlung zum Thema Batterie &amp;amp; Strom und manchmal einen Hinweis auf etwas Neues bei VanKompass. Keine Verkaufstaktiken, kein Spam. Wenn du es nicht mehr willst, am Ende jeder Mail ein Klick zum Abmelden.&lt;/p&gt;
+
+&lt;p style=&quot;margin:22px 0 14px;&quot;&gt;Wenn du Fragen hast, antworte einfach auf diese Mail.&lt;br&gt;Viele Grüße von der Insel,&lt;br&gt;&lt;strong&gt;die VanKompass-Redaktion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;margin:22px 0 0;padding:12px 14px;background:#f4ead7;border-radius:8px;font-size:14px;color:#1c2321;&quot;&gt;
+  &lt;strong&gt;Tipp:&lt;/strong&gt; Speicher dir diese Mail. Du kannst das PDF jederzeit über den Link oben erneut laden.
+&lt;/p&gt;
+
+      &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td style=&quot;padding:18px 28px 26px;color:#5d6b66;font-size:12px;line-height:1.6;border-top:1px solid #d9d2c2;&quot;&gt;
+        Du erhältst diese Mail, weil du dich auf vankompass.de für ein kostenloses Freebie angemeldet hast.&lt;br&gt;
+        VanKompass &amp;middot; rc:com UG (haftungsbeschränkt) &amp;middot; &lt;a href=&quot;{{unsubscribe}}&quot; style=&quot;color:#5d6b66;&quot;&gt;Newsletter abbestellen&lt;/a&gt; &amp;middot; &lt;a href=&quot;https://vankompass.de/datenschutz/&quot; style=&quot;color:#5d6b66;&quot;&gt;Datenschutz&lt;/a&gt; &amp;middot; &lt;a href=&quot;https://vankompass.de/impressum/&quot; style=&quot;color:#5d6b66;&quot;&gt;Impressum&lt;/a&gt;
+      &lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;&lt;/html&gt;</textarea>
+    </div>
+
+    <h3>Vorschau</h3>
+    <div class="preview"><iframe srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;de&quot;&gt;&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;title&gt;Da ist deine Die Camper-Strom-Checkliste&lt;/title&gt;
+&lt;/head&gt;&lt;body style=&quot;margin:0;padding:0;background:#f0eadb;font-family:-apple-system,BlinkMacSystemFont,&#x27;Segoe UI&#x27;,Helvetica,Arial,sans-serif;color:#1c2321;&quot;&gt;
+&lt;div style=&quot;display:none;max-height:0;overflow:hidden;opacity:0;font-size:1px;line-height:1px;color:#f0eadb;&quot;&gt;In zehn Minuten weißt du, wie groß deine Bordbatterie wirklich sein muss: ankreuzen, addieren, fertig.&lt;/div&gt;
+&lt;table role=&quot;presentation&quot; width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;background:#f0eadb;&quot;&gt;
+  &lt;tr&gt;&lt;td align=&quot;center&quot; style=&quot;padding:24px 12px;&quot;&gt;
+    &lt;table role=&quot;presentation&quot; width=&quot;600&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;max-width:600px;width:100%;background:#ffffff;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(15,61,62,.08);&quot;&gt;
+      &lt;tr&gt;&lt;td style=&quot;background:#0f3d3e;color:#ffffff;padding:18px 26px;font-weight:800;font-size:18px;letter-spacing:-.3px;&quot;&gt;
+        &lt;span style=&quot;display:inline-block;width:24px;height:24px;border-radius:6px;background:#e08a2b;color:#0f3d3e;text-align:center;line-height:24px;font-weight:900;vertical-align:middle;margin-right:8px;&quot;&gt;V&lt;/span&gt;
+        VanKompass
+      &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td style=&quot;padding:26px 28px 8px;font-size:16px;line-height:1.55;color:#1c2321;&quot;&gt;
+        
+&lt;p style=&quot;margin:0 0 14px;font-size:18px;color:#0f3d3e;font-weight:700;&quot;&gt;Hallo {{contact.VORNAME}},&lt;/p&gt;
+&lt;p style=&quot;margin:0 0 14px;&quot;&gt;danke, dass du dabei bist. Wie versprochen, hier ist deine Die Camper-Strom-Checkliste:&lt;/p&gt;
+
+&lt;table role=&quot;presentation&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;margin:18px 0 22px;&quot;&gt;
+  &lt;tr&gt;&lt;td style=&quot;background:#e08a2b;border-radius:10px;&quot;&gt;
+    &lt;a href=&quot;https://vankompass.de/freebies/freebie-strom.pdf&quot; style=&quot;display:inline-block;padding:14px 28px;color:#0f3d3e;text-decoration:none;font-weight:700;font-size:16px;&quot;&gt;PDF herunterladen&lt;/a&gt;
+  &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p style=&quot;margin:0 0 14px;&quot;&gt;In zehn Minuten weißt du, wie groß deine Bordbatterie wirklich sein muss: ankreuzen, addieren, fertig.&lt;/p&gt;
+
+&lt;p style=&quot;margin:18px 0 6px;font-weight:700;color:#0f3d3e;&quot;&gt;Was dich von uns künftig erwartet&lt;/p&gt;
+&lt;p style=&quot;margin:0 0 14px;&quot;&gt;Wir schicken dir etwa einmal pro Woche eine ehrliche Empfehlung zum Thema Batterie &amp;amp; Strom und manchmal einen Hinweis auf etwas Neues bei VanKompass. Keine Verkaufstaktiken, kein Spam. Wenn du es nicht mehr willst, am Ende jeder Mail ein Klick zum Abmelden.&lt;/p&gt;
+
+&lt;p style=&quot;margin:22px 0 14px;&quot;&gt;Wenn du Fragen hast, antworte einfach auf diese Mail.&lt;br&gt;Viele Grüße von der Insel,&lt;br&gt;&lt;strong&gt;die VanKompass-Redaktion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p style=&quot;margin:22px 0 0;padding:12px 14px;background:#f4ead7;border-radius:8px;font-size:14px;color:#1c2321;&quot;&gt;
+  &lt;strong&gt;Tipp:&lt;/strong&gt; Speicher dir diese Mail. Du kannst das PDF jederzeit über den Link oben erneut laden.
+&lt;/p&gt;
+
+      &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td style=&quot;padding:18px 28px 26px;color:#5d6b66;font-size:12px;line-height:1.6;border-top:1px solid #d9d2c2;&quot;&gt;
+        Du erhältst diese Mail, weil du dich auf vankompass.de für ein kostenloses Freebie angemeldet hast.&lt;br&gt;
+        VanKompass &amp;middot; rc:com UG (haftungsbeschränkt) &amp;middot; &lt;a href=&quot;{{unsubscribe}}&quot; style=&quot;color:#5d6b66;&quot;&gt;Newsletter abbestellen&lt;/a&gt; &amp;middot; &lt;a href=&quot;https://vankompass.de/datenschutz/&quot; style=&quot;color:#5d6b66;&quot;&gt;Datenschutz&lt;/a&gt; &amp;middot; &lt;a href=&quot;https://vankompass.de/impressum/&quot; style=&quot;color:#5d6b66;&quot;&gt;Impressum&lt;/a&gt;
+      &lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;&lt;/html&gt;" title="Vorschau Batterie &amp; Strom"></iframe></div>
+
+    <h2>3. Automation (Brevo &rarr; Automation &rarr; Neuer Workflow)</h2>
+    <div class="field"><strong>Workflow-Name:</strong> Freebie Batterie & Strom ausliefern</div>
+    <div class="field"><strong>Trigger:</strong> Kontakt wird zur Liste &quot;VanKompass Newsletter&quot; hinzugefügt</div>
+    <div class="field"><strong>Bedingung:</strong> Kontakt-Attribut BEREICH ist gleich &quot;strom&quot;</div>
+    <div class="field"><strong>Aktion:</strong> Sende E-Mail &rarr; Vorlage &quot;Freebie Batterie & Strom&quot; (die du in Schritt 2 angelegt hast)</div>
+    <div class="note">Wichtig: Brevo sendet die Welcome-Mail erst, NACHDEM der Kontakt die DOI-Bestätigung geklickt hat. Das ist der Standard-Schutz. Du musst dafür nichts extra konfigurieren, solange du oben Double-Opt-in aktiviert hast.</div>
+
+    <h2>Check: Was ist nach dieser Strecke fertig?</h2>
+    <ul class="steps">
+      <li>Formular für Batterie &amp; Strom steht und schreibt in die Liste &quot;VanKompass Newsletter&quot; mit BEREICH=strom.</li>
+      <li>Welcome-Mail-Template &quot;Freebie Batterie &amp; Strom&quot; ist angelegt.</li>
+      <li>Automation &quot;Freebie Batterie &amp; Strom ausliefern&quot; ist aktiv.</li>
+      <li>Test mit deiner eigenen E-Mail durchgeführt: DOI-Mail kommt &rarr; bestätigt &rarr; Welcome-Mail mit Download-Link kommt &rarr; PDF lädt.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+function cp(btn){
+  const ta = btn.parentElement.querySelector('textarea');
+  ta.select();
+  ta.setSelectionRange(0, 99999);
+  try { navigator.clipboard.writeText(ta.value); } catch(e) { document.execCommand('copy'); }
+  const old = btn.textContent;
+  btn.textContent = 'Kopiert.';
+  btn.classList.add('ok');
+  setTimeout(() => { btn.textContent = old; btn.classList.remove('ok'); }, 1600);
+}
+</script>
+
+</body></html>

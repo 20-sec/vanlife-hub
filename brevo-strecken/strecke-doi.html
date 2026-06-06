@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Globale DOI-Mail | VanKompass Brevo-Baukasten</title>
+<style>
+:root { --petrol:#0f3d3e; --amber:#e08a2b; --amber-d:#c4751c; --sand:#f4ead7; --ink:#1c2321; --muted:#5d6b66; --line:#d9d2c2; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--sand); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; line-height:1.55; }
+.wrap { max-width:980px; margin:0 auto; padding:24px 20px 60px; }
+.cover { background:var(--petrol); color:#fff; padding:22px 26px; border-radius:14px 14px 0 0; display:flex; align-items:center; gap:10px; }
+.cover .mark { width:26px; height:26px; border-radius:7px; background:var(--amber); color:var(--petrol); display:inline-grid; place-items:center; font-weight:900; }
+.cover .kind { margin-left:auto; background:var(--amber); color:var(--petrol); font-weight:700; font-size:11pt; padding:5px 12px; border-radius:999px; }
+.card { background:#fff; padding:26px 28px; border-radius:0 0 14px 14px; box-shadow:0 4px 18px rgba(15,61,62,.08); }
+h1 { font-size:24pt; color:var(--petrol); margin:18px 0 6px; letter-spacing:-.3px; }
+h2 { font-size:14pt; color:var(--petrol); margin:24px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--sand); }
+h3 { font-size:11.5pt; color:var(--petrol); margin:18px 0 6px; }
+p { margin:0 0 10px; }
+.field { background:var(--sand); padding:10px 14px; border-radius:8px; margin:6px 0; font-family:'SF Mono','Menlo','Monaco',monospace; font-size:11pt; }
+.field strong { color:var(--petrol); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+.copy { position:relative; }
+.copy textarea { width:100%; min-height:140px; padding:14px 16px; border:1px solid var(--line); border-radius:10px; font-family:'SF Mono','Menlo','Monaco',monospace; font-size:10.5pt; line-height:1.5; background:#fafafa; resize:vertical; }
+.copy button { position:absolute; top:8px; right:8px; background:var(--petrol); color:#fff; border:none; padding:8px 14px; border-radius:8px; font-weight:600; cursor:pointer; font-size:11pt; }
+.copy button:hover { background:#0a2c2d; }
+.copy button.ok { background:#2e7d52; }
+.note { background:#fff7e9; border-left:4px solid var(--amber); padding:10px 14px; border-radius:0 8px 8px 0; margin:14px 0; font-size:10.5pt; }
+.steps { counter-reset:step; padding:0; margin:0; list-style:none; }
+.steps li { counter-increment:step; padding:10px 0 10px 38px; position:relative; border-bottom:1px dashed var(--line); }
+.steps li:last-child { border-bottom:none; }
+.steps li::before { content:counter(step); position:absolute; left:0; top:8px; width:26px; height:26px; border-radius:50%; background:var(--petrol); color:#fff; font-weight:800; text-align:center; line-height:26px; font-size:13px; }
+.preview { border:1px solid var(--line); border-radius:10px; overflow:hidden; margin:8px 0 4px; max-height:480px; }
+.preview iframe { width:100%; height:480px; border:0; }
+.toc { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin:18px 0; }
+@media (max-width:680px) { .toc { grid-template-columns:1fr; } }
+.toc a { background:#fff; border:1px solid var(--line); padding:12px 14px; border-radius:10px; text-decoration:none; color:var(--ink); display:block; }
+.toc a:hover { border-color:var(--amber); }
+.toc a strong { display:block; color:var(--petrol); font-size:13pt; margin-bottom:2px; }
+.toc a span { color:var(--muted); font-size:11pt; }
+.btn-back { display:inline-block; color:var(--petrol); text-decoration:none; font-weight:600; margin:0 0 10px; }
+@page { size:A4; margin:14mm; }
+@media print { body { background:#fff; } .copy button { display:none; } }
+</style>
+</head><body>
+<div class="wrap">
+  <a class="btn-back" href="uebersicht.html">&larr; Zur Übersicht</a>
+  <div class="cover">
+    <span class="mark">V</span>
+    <div><strong>VanKompass Brevo-Baukasten</strong><br><span style="font-size:11pt;opacity:.85;">Einmalig für alle 16 Strecken</span></div>
+    <div class="kind">DOI-Mail</div>
+  </div>
+  <div class="card">
+    <h1>Die globale DOI-Mail</h1>
+    <p style="color:var(--muted);">Diese Mail bekommt jeder, der sich anmeldet, BEVOR er das Freebie erhält. Sie ist für alle 16 Strecken dieselbe. Du legst sie einmal in Brevo als Standard-DOI-Mail fest.</p>
+
+    <h2>Wo in Brevo?</h2>
+    <p>Brevo &rarr; Kontakte &rarr; Einstellungen &rarr; Double-Opt-in-Bestätigungsmail. Dort trägst du Betreff und HTML ein. Das Token <code style="background:var(--sand);padding:1px 6px;border-radius:4px;">{{doubleoptin}}</code> ersetzt Brevo automatisch durch den individuellen Bestätigungs-Link.</p>
+
+    <h2>Betreff</h2>
+    <div class="copy">
+      <button onclick="cp(this)">Kopieren</button>
+      <textarea readonly style="min-height:50px;">Bitte bestätige kurz deine Anmeldung</textarea>
+    </div>
+
+    <h2>Preheader</h2>
+    <div class="copy">
+      <button onclick="cp(this)">Kopieren</button>
+      <textarea readonly style="min-height:50px;">Ein Klick, dann schicken wir dir dein Freebie.</textarea>
+    </div>
+
+    <h2>Mail-HTML</h2>
+    <div class="copy">
+      <button onclick="cp(this)">Kopieren</button>
+      <textarea readonly>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;de&quot;&gt;&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;title&gt;Bitte bestätige kurz deine Anmeldung&lt;/title&gt;
+&lt;/head&gt;&lt;body style=&quot;margin:0;padding:0;background:#f0eadb;font-family:-apple-system,BlinkMacSystemFont,&#x27;Segoe UI&#x27;,Helvetica,Arial,sans-serif;color:#1c2321;&quot;&gt;
+&lt;div style=&quot;display:none;max-height:0;overflow:hidden;opacity:0;font-size:1px;line-height:1px;color:#f0eadb;&quot;&gt;Ein Klick, dann schicken wir dir dein Freebie.&lt;/div&gt;
+&lt;table role=&quot;presentation&quot; width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;background:#f0eadb;&quot;&gt;
+  &lt;tr&gt;&lt;td align=&quot;center&quot; style=&quot;padding:24px 12px;&quot;&gt;
+    &lt;table role=&quot;presentation&quot; width=&quot;600&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;max-width:600px;width:100%;background:#ffffff;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(15,61,62,.08);&quot;&gt;
+      &lt;tr&gt;&lt;td style=&quot;background:#0f3d3e;color:#ffffff;padding:18px 26px;font-weight:800;font-size:18px;letter-spacing:-.3px;&quot;&gt;
+        &lt;span style=&quot;display:inline-block;width:24px;height:24px;border-radius:6px;background:#e08a2b;color:#0f3d3e;text-align:center;line-height:24px;font-weight:900;vertical-align:middle;margin-right:8px;&quot;&gt;V&lt;/span&gt;
+        VanKompass
+      &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td style=&quot;padding:26px 28px 8px;font-size:16px;line-height:1.55;color:#1c2321;&quot;&gt;
+        
+&lt;p style=&quot;margin:0 0 14px;font-size:18px;color:#0f3d3e;font-weight:700;&quot;&gt;Hallo {{contact.VORNAME}},&lt;/p&gt;
+&lt;p style=&quot;margin:0 0 14px;&quot;&gt;eine kurze Bestätigung noch, damit wir sicher sind, dass du das warst: Bitte klicke auf den Knopf unten, dann schicken wir dir deinen Download direkt im nächsten Schritt.&lt;/p&gt;
+
+&lt;table role=&quot;presentation&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;margin:18px 0 22px;&quot;&gt;
+  &lt;tr&gt;&lt;td style=&quot;background:#e08a2b;border-radius:10px;&quot;&gt;
+    &lt;a href=&quot;{{doubleoptin}}&quot; style=&quot;display:inline-block;padding:14px 28px;color:#0f3d3e;text-decoration:none;font-weight:700;font-size:16px;&quot;&gt;Anmeldung bestätigen&lt;/a&gt;
+  &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p style=&quot;margin:0 0 14px;color:#5d6b66;font-size:14px;&quot;&gt;Wenn der Knopf nicht funktioniert, kopiere bitte diesen Link in deinen Browser:&lt;br&gt;&lt;span style=&quot;color:#0f3d3e;&quot;&gt;{{doubleoptin}}&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;margin:18px 0 0;&quot;&gt;Falls du diese Mail nicht angefordert hast, ignoriere sie einfach. Ohne deine Bestätigung passiert nichts.&lt;/p&gt;
+
+&lt;p style=&quot;margin:22px 0 0;&quot;&gt;Viele Grüße,&lt;br&gt;&lt;strong&gt;die VanKompass-Redaktion&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td style=&quot;padding:18px 28px 26px;color:#5d6b66;font-size:12px;line-height:1.6;border-top:1px solid #d9d2c2;&quot;&gt;
+        Du erhältst diese Mail, weil du dich auf vankompass.de für ein kostenloses Freebie angemeldet hast.&lt;br&gt;
+        VanKompass &amp;middot; rc:com UG (haftungsbeschränkt) &amp;middot; &lt;a href=&quot;{{unsubscribe}}&quot; style=&quot;color:#5d6b66;&quot;&gt;Newsletter abbestellen&lt;/a&gt; &amp;middot; &lt;a href=&quot;https://vankompass.de/datenschutz/&quot; style=&quot;color:#5d6b66;&quot;&gt;Datenschutz&lt;/a&gt; &amp;middot; &lt;a href=&quot;https://vankompass.de/impressum/&quot; style=&quot;color:#5d6b66;&quot;&gt;Impressum&lt;/a&gt;
+      &lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;&lt;/html&gt;</textarea>
+    </div>
+
+    <h2>Vorschau</h2>
+    <div class="preview"><iframe srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;de&quot;&gt;&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;title&gt;Bitte bestätige kurz deine Anmeldung&lt;/title&gt;
+&lt;/head&gt;&lt;body style=&quot;margin:0;padding:0;background:#f0eadb;font-family:-apple-system,BlinkMacSystemFont,&#x27;Segoe UI&#x27;,Helvetica,Arial,sans-serif;color:#1c2321;&quot;&gt;
+&lt;div style=&quot;display:none;max-height:0;overflow:hidden;opacity:0;font-size:1px;line-height:1px;color:#f0eadb;&quot;&gt;Ein Klick, dann schicken wir dir dein Freebie.&lt;/div&gt;
+&lt;table role=&quot;presentation&quot; width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;background:#f0eadb;&quot;&gt;
+  &lt;tr&gt;&lt;td align=&quot;center&quot; style=&quot;padding:24px 12px;&quot;&gt;
+    &lt;table role=&quot;presentation&quot; width=&quot;600&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;max-width:600px;width:100%;background:#ffffff;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(15,61,62,.08);&quot;&gt;
+      &lt;tr&gt;&lt;td style=&quot;background:#0f3d3e;color:#ffffff;padding:18px 26px;font-weight:800;font-size:18px;letter-spacing:-.3px;&quot;&gt;
+        &lt;span style=&quot;display:inline-block;width:24px;height:24px;border-radius:6px;background:#e08a2b;color:#0f3d3e;text-align:center;line-height:24px;font-weight:900;vertical-align:middle;margin-right:8px;&quot;&gt;V&lt;/span&gt;
+        VanKompass
+      &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td style=&quot;padding:26px 28px 8px;font-size:16px;line-height:1.55;color:#1c2321;&quot;&gt;
+        
+&lt;p style=&quot;margin:0 0 14px;font-size:18px;color:#0f3d3e;font-weight:700;&quot;&gt;Hallo {{contact.VORNAME}},&lt;/p&gt;
+&lt;p style=&quot;margin:0 0 14px;&quot;&gt;eine kurze Bestätigung noch, damit wir sicher sind, dass du das warst: Bitte klicke auf den Knopf unten, dann schicken wir dir deinen Download direkt im nächsten Schritt.&lt;/p&gt;
+
+&lt;table role=&quot;presentation&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;margin:18px 0 22px;&quot;&gt;
+  &lt;tr&gt;&lt;td style=&quot;background:#e08a2b;border-radius:10px;&quot;&gt;
+    &lt;a href=&quot;{{doubleoptin}}&quot; style=&quot;display:inline-block;padding:14px 28px;color:#0f3d3e;text-decoration:none;font-weight:700;font-size:16px;&quot;&gt;Anmeldung bestätigen&lt;/a&gt;
+  &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p style=&quot;margin:0 0 14px;color:#5d6b66;font-size:14px;&quot;&gt;Wenn der Knopf nicht funktioniert, kopiere bitte diesen Link in deinen Browser:&lt;br&gt;&lt;span style=&quot;color:#0f3d3e;&quot;&gt;{{doubleoptin}}&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;margin:18px 0 0;&quot;&gt;Falls du diese Mail nicht angefordert hast, ignoriere sie einfach. Ohne deine Bestätigung passiert nichts.&lt;/p&gt;
+
+&lt;p style=&quot;margin:22px 0 0;&quot;&gt;Viele Grüße,&lt;br&gt;&lt;strong&gt;die VanKompass-Redaktion&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td style=&quot;padding:18px 28px 26px;color:#5d6b66;font-size:12px;line-height:1.6;border-top:1px solid #d9d2c2;&quot;&gt;
+        Du erhältst diese Mail, weil du dich auf vankompass.de für ein kostenloses Freebie angemeldet hast.&lt;br&gt;
+        VanKompass &amp;middot; rc:com UG (haftungsbeschränkt) &amp;middot; &lt;a href=&quot;{{unsubscribe}}&quot; style=&quot;color:#5d6b66;&quot;&gt;Newsletter abbestellen&lt;/a&gt; &amp;middot; &lt;a href=&quot;https://vankompass.de/datenschutz/&quot; style=&quot;color:#5d6b66;&quot;&gt;Datenschutz&lt;/a&gt; &amp;middot; &lt;a href=&quot;https://vankompass.de/impressum/&quot; style=&quot;color:#5d6b66;&quot;&gt;Impressum&lt;/a&gt;
+      &lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;&lt;/html&gt;" title="DOI-Mail Vorschau"></iframe></div>
+  </div>
+</div>
+
+<script>
+function cp(btn){
+  const ta = btn.parentElement.querySelector('textarea');
+  ta.select();
+  ta.setSelectionRange(0, 99999);
+  try { navigator.clipboard.writeText(ta.value); } catch(e) { document.execCommand('copy'); }
+  const old = btn.textContent;
+  btn.textContent = 'Kopiert.';
+  btn.classList.add('ok');
+  setTimeout(() => { btn.textContent = old; btn.classList.remove('ok'); }, 1600);
+}
+</script>
+
+</body></html>

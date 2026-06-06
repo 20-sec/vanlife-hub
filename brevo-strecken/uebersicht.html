@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>VanKompass Brevo-Strecken Übersicht</title>
+<style>
+:root { --petrol:#0f3d3e; --amber:#e08a2b; --amber-d:#c4751c; --sand:#f4ead7; --ink:#1c2321; --muted:#5d6b66; --line:#d9d2c2; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--sand); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; line-height:1.55; }
+.wrap { max-width:980px; margin:0 auto; padding:24px 20px 60px; }
+.cover { background:var(--petrol); color:#fff; padding:22px 26px; border-radius:14px 14px 0 0; display:flex; align-items:center; gap:10px; }
+.cover .mark { width:26px; height:26px; border-radius:7px; background:var(--amber); color:var(--petrol); display:inline-grid; place-items:center; font-weight:900; }
+.cover .kind { margin-left:auto; background:var(--amber); color:var(--petrol); font-weight:700; font-size:11pt; padding:5px 12px; border-radius:999px; }
+.card { background:#fff; padding:26px 28px; border-radius:0 0 14px 14px; box-shadow:0 4px 18px rgba(15,61,62,.08); }
+h1 { font-size:24pt; color:var(--petrol); margin:18px 0 6px; letter-spacing:-.3px; }
+h2 { font-size:14pt; color:var(--petrol); margin:24px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--sand); }
+h3 { font-size:11.5pt; color:var(--petrol); margin:18px 0 6px; }
+p { margin:0 0 10px; }
+.field { background:var(--sand); padding:10px 14px; border-radius:8px; margin:6px 0; font-family:'SF Mono','Menlo','Monaco',monospace; font-size:11pt; }
+.field strong { color:var(--petrol); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+.copy { position:relative; }
+.copy textarea { width:100%; min-height:140px; padding:14px 16px; border:1px solid var(--line); border-radius:10px; font-family:'SF Mono','Menlo','Monaco',monospace; font-size:10.5pt; line-height:1.5; background:#fafafa; resize:vertical; }
+.copy button { position:absolute; top:8px; right:8px; background:var(--petrol); color:#fff; border:none; padding:8px 14px; border-radius:8px; font-weight:600; cursor:pointer; font-size:11pt; }
+.copy button:hover { background:#0a2c2d; }
+.copy button.ok { background:#2e7d52; }
+.note { background:#fff7e9; border-left:4px solid var(--amber); padding:10px 14px; border-radius:0 8px 8px 0; margin:14px 0; font-size:10.5pt; }
+.steps { counter-reset:step; padding:0; margin:0; list-style:none; }
+.steps li { counter-increment:step; padding:10px 0 10px 38px; position:relative; border-bottom:1px dashed var(--line); }
+.steps li:last-child { border-bottom:none; }
+.steps li::before { content:counter(step); position:absolute; left:0; top:8px; width:26px; height:26px; border-radius:50%; background:var(--petrol); color:#fff; font-weight:800; text-align:center; line-height:26px; font-size:13px; }
+.preview { border:1px solid var(--line); border-radius:10px; overflow:hidden; margin:8px 0 4px; max-height:480px; }
+.preview iframe { width:100%; height:480px; border:0; }
+.toc { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin:18px 0; }
+@media (max-width:680px) { .toc { grid-template-columns:1fr; } }
+.toc a { background:#fff; border:1px solid var(--line); padding:12px 14px; border-radius:10px; text-decoration:none; color:var(--ink); display:block; }
+.toc a:hover { border-color:var(--amber); }
+.toc a strong { display:block; color:var(--petrol); font-size:13pt; margin-bottom:2px; }
+.toc a span { color:var(--muted); font-size:11pt; }
+.btn-back { display:inline-block; color:var(--petrol); text-decoration:none; font-weight:600; margin:0 0 10px; }
+@page { size:A4; margin:14mm; }
+@media print { body { background:#fff; } .copy button { display:none; } }
+</style>
+</head><body>
+<div class="wrap">
+  <div class="cover">
+    <span class="mark">V</span>
+    <div><strong>VanKompass</strong><br><span style="font-size:11pt;opacity:.85;">Brevo-Strecken</span></div>
+    <div class="kind">Übersicht</div>
+  </div>
+  <div class="card">
+    <h1>16 Strecken plus eine globale DOI-Mail</h1>
+    <p style="color:var(--muted);font-size:12pt;">Starte mit der <a href="anleitung.html" style="color:var(--amber-d);font-weight:600;">Anleitung</a>. Dort steht das einmalige Setup. Pro Strecke folgst du dann dem jeweiligen Baukasten.</p>
+    <div class="note">Empfohlene Reihenfolge: erst die globale DOI-Mail einrichten, dann eine Strecke (Strom) komplett durchziehen und testen, danach die restlichen 15 Strecken in einem Schwung. Pro Strecke ca. 10 Minuten. Tipp: Mach den Test mit deiner privaten Mail-Adresse, dann siehst du die echte Erfahrung des Abonnenten.</div>
+
+    <h2>Globaler Baustein</h2>
+    <div class="toc">
+      <a href="anleitung.html"><strong>Die Anleitung</strong><span>Einmal verstehen, 16x durchziehen</span></a>
+      <a href="strecke-doi.html"><strong>DOI-Mail (global)</strong><span>Einmalig für alle 16 hinterlegen</span></a>
+    </div>
+
+    <h2>Die 16 Strecken</h2>
+    <div class="toc"><a href="strecke-cockpit.html"><strong>1. Cockpit</strong><span>Ordnung im Fahrerhaus</span></a>
+<a href="strecke-strom.html"><strong>2. Batterie &amp; Strom</strong><span>Die Camper-Strom-Checkliste</span></a>
+<a href="strecke-solar.html"><strong>3. Solar</strong><span>Solar-Spickzettel</span></a>
+<a href="strecke-schlafen.html"><strong>4. Schlafen</strong><span>Die Camper-Schlaf-Checkliste</span></a>
+<a href="strecke-sanitaer.html"><strong>5. Toilette &amp; Sanitär</strong><span>Trockentrenntoilette oder nicht? Die Entscheidungshilfe für dein Camper-Klo</span></a>
+<a href="strecke-kueche.html"><strong>6. Küche</strong><span>Die Camper-Küchen-Packliste plus Kühlbox-Energie-Faustformel</span></a>
+<a href="strecke-wasser.html"><strong>7. Wasser</strong><span>Der VanKompass Wassersystem-Planer</span></a>
+<a href="strecke-heizung.html"><strong>8. Heizung</strong><span>Der Standheizungs-Spickzettel</span></a>
+<a href="strecke-verdunkelung.html"><strong>9. Verdunkelung &amp; Insektenschutz</strong><span>Dunkel schlafen, mückenfrei lüften</span></a>
+<a href="strecke-stauraum.html"><strong>10. Stauraum</strong><span>Die Stauraum-Optimierungs-Checkliste</span></a>
+<a href="strecke-aussenbereich.html"><strong>11. Außenbereich</strong><span>Markise oder Vorzelt</span></a>
+<a href="strecke-sicherheit.html"><strong>12. Sicherheit</strong><span>Die Camper-Sicherheits-Checkliste</span></a>
+<a href="strecke-internet.html"><strong>13. Internet</strong><span>Online im Funkloch</span></a>
+<a href="strecke-apps.html"><strong>14. Camper-Apps</strong><span>Die Camper-App-Toolbox</span></a>
+<a href="strecke-sitze.html"><strong>15. Sitze &amp; Drehkonsole</strong><span>Aus Fahrersitz wird Wohn-Sessel</span></a>
+<a href="strecke-sound.html"><strong>16. Sound</strong><span>Die Camper-Sound-und-Entertainment-Checkliste</span></a></div>
+  </div>
+</div>
+</body></html>
