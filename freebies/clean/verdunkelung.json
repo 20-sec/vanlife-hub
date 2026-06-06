@@ -1,0 +1,87 @@
+{
+  "slug": "verdunkelung-insektenschutz-mess-auswahl-checkliste",
+  "siloName": "Verdunkelung / Insektenschutz",
+  "freebieTitle": "Dunkel schlafen, mückenfrei lüften: Die Mess- und Auswahl-Checkliste für Verdunkelung und Insektenschutz im Camper",
+  "freebieType": "checkliste",
+  "coverHook": "Miss deine Fenster einmal richtig aus und du kaufst Verdunkelung und Insektenschutz, die beim ersten Versuch passen.",
+  "whyUseful": "Der teuerste Fehler in diesem Bereich ist nicht das falsche Produkt, sondern das falsche Maß. Wer eine Magnet-Thermomatte oder ein Kombi-Rollo bestellt, ohne Fenstertyp, Rahmenmaterial und Befestigungsfläche sauber erfasst zu haben, schickt zurück oder lebt mit Lichtkanten und Mückenlücken. Diese Checkliste bringt den Leser genau an den Punkt der Kaufentscheidung: Sie klärt in fünf Schritten, was er hat, was er braucht und welcher Lösungstyp dazu passt, modell-agnostisch und ohne dass er erst zehn Produktseiten vergleichen muss. Damit koppelt sie direkt an die zentrale Conversion des Silos: die Auswahl einer konkreten Verdunkelungs- und Insektenschutz-Lösung.",
+  "toolTie": "kein Tool",
+  "contentBlocks": [
+    {
+      "heading": "So benutzt du diese Checkliste",
+      "body": "Du brauchst zehn Minuten, ein Maßband (Zollstock geht auch), einen Stift und dein Telefon für Fotos. Geh Fenster für Fenster vor, nicht Lösung für Lösung. Erst weißt du, was du hast. Dann weißt du, was du brauchst. Zwei Grundregeln vorab: Miss immer in Millimetern, nicht in Zentimetern, denn bei Verdunkelung entscheiden wenige Millimeter über Lichtkanten. Und miss jedes Fenster einzeln, auch wenn zwei gleich aussehen: Camper-Fenster sind selten exakt baugleich.",
+      "items": [
+        "Maßband oder Zollstock, Stift, Notizzettel",
+        "Telefon für ein Foto pro Fenster (Rahmen, Ecken, Befestigungsbereich)",
+        "Pro Fenster eine eigene Zeile, kein Sammelmaß",
+        "Alle Maße in Millimetern notieren"
+      ]
+    },
+    {
+      "heading": "Schritt 1: Bestandsaufnahme, welche Fenster du wirklich hast",
+      "body": "Camper haben selten nur ein Fenstertyp. Geh durch und hak ab, was bei dir vorkommt. Jeder Typ verlangt eine andere Lösung, deshalb ist diese Liste die Grundlage für alles Weitere.",
+      "items": [
+        "Frontscheibe und Fahrerhaus-Seitenscheiben (große, schräge Glasfläche, oft die größte Licht- und Privatsphäre-Lücke)",
+        "Schiebefenster in der Seitenwand (Glas, schiebt seitlich auf)",
+        "Ausstellfenster (Kunststoffrahmen, wird nach außen aufgeklappt, hat oft schon eine Nut für Rollos)",
+        "Heckklappen- oder Hecktürfenster (zwei Scheiben, viel Lichteinfall am Morgen)",
+        "Dachhaube oder Dachfenster (Licht von oben, eigener Rollo- und Gittertyp)",
+        "Aufstelldach-Fenster oder Zeltstoff-Fenster (weicher Rand, keine harte Befestigungsfläche)"
+      ]
+    },
+    {
+      "heading": "Schritt 2: Pro Fenster die fünf Maße und Merkmale erfassen",
+      "body": "Das ist der Kern. Notiere für jedes einzelne Fenster diese Punkte. Mit diesen Angaben kannst du jede modell-agnostische Lösung prüfen, ob sie passt, egal von welcher Marke.",
+      "items": [
+        "Breite und Höhe der Glasfläche (das, was du verdunkeln willst)",
+        "Breite und Höhe der Fensterlaibung oder des Rahmens (der Bereich, an dem du befestigst, oft größer als das Glas)",
+        "Rahmenmaterial: Metall (Magnet haftet direkt) oder Kunststoff (Magnet braucht aufgeklebte Metallpads als Haftpunkte)",
+        "Befestigungsfläche ringsum: Gibt es einen umlaufenden Rand, an dem Magnet, Saugnapf oder Klemmung Halt findet?",
+        "Öffnungsrichtung und Lüftungswunsch: Willst du das Fenster bei montierter Lösung noch öffnen können (Lüften), oder ist es ein reines Schlaf-Fenster?"
+      ]
+    },
+    {
+      "heading": "Schritt 3: Lösungstypen verstehen, was es überhaupt gibt",
+      "body": "Es gibt nicht die eine Lösung, sondern Familien. Hier die gängigen Typen mit ihrem typischen Einsatz, damit du im nächsten Schritt zuordnen kannst. Keine Marke ist hier Pflicht, alle Typen gibt es von mehreren Anbietern.",
+      "items": [
+        "Magnet-Thermomatte: Zugeschnittene Matte, haftet per Magnet am Rahmen, verdunkelt und isoliert zugleich. Stark für Schiebefenster und Fahrerhaus. Kein Lüften bei montierter Matte.",
+        "Faltrollo oder Außen-Thermohaube für die Frontscheibe: Passgenau für den großen Frontbereich, gute Verdunkelung und Isolierung.",
+        "Integriertes Kombi-Rollo (Verdunkelung plus Plissee-Insektenschutz in einem Rahmen): Typisch bei Ausstellfenstern, beide Funktionen getrennt einstellbar, Lüften bleibt möglich.",
+        "Separates Insektenschutz-Rollo oder Moskito-Rollo zum Nachrüsten: Wenn du nur Mückenschutz brauchst und Licht kein Thema ist.",
+        "Saugnapf- oder Klemm-Verdunkelung: Für Fenster ohne Magnet-Haftfläche, etwa glatte Glasflächen.",
+        "Heckklappen-Abdeckung: Passgenau eingehängt, verdunkelt die beiden Heckscheiben.",
+        "Dachhauben-Set mit Rollo und Fliegengitter: Eigene Lösung für Licht und Mücken von oben."
+      ]
+    },
+    {
+      "heading": "Schritt 4: Zuordnung, welcher Typ zu deinem Fenster passt",
+      "body": "Jetzt verbindest du Schritt 2 und 3. Geh deine Fensterliste durch und entscheide pro Fenster. Diese Faustformeln helfen bei der schnellen Zuordnung.",
+      "items": [
+        "Metallrahmen plus Schlaf-Fenster ohne Lüftungswunsch: Magnet-Thermomatte ist meist die einfachste Wahl.",
+        "Kunststoffrahmen: Magnetlösung nur mit aufgeklebten Metallpads als Haftpunkte einplanen, sonst Klemm- oder Saugnapf-Variante.",
+        "Lüften und Verdunkeln gleichzeitig gewünscht: Such ein integriertes Kombi-Rollo mit getrenntem Verdunkelungs- und Insektenschutzteil.",
+        "Glatte Glasfläche ohne umlaufenden Rand: Saugnapf-Lösung prüfen, Magnet findet hier keinen Halt.",
+        "Frontscheibe: Eigenes Faltrollo oder Außenhaube, keine Universalmatte.",
+        "Weicher Rand (Aufstelldach, Zeltstoff): Klett- oder eingenähte Lösung statt Magnet.",
+        "Faustregel Verdunkelungsqualität: Eine Lösung verdunkelt nur so gut wie ihr Rand abschließt. Plane an jeder Seite etwas Überstand über die Glasfläche ein, damit keine Lichtkante entsteht."
+      ]
+    },
+    {
+      "heading": "Schritt 5: Vor dem Kauf gegenprüfen",
+      "body": "Diese letzte Liste fängt die häufigsten Fehlkäufe ab. Geh sie durch, bevor du bestellst.",
+      "items": [
+        "Habe ich Glasmaß UND Rahmenmaß notiert, nicht nur eines von beiden?",
+        "Passt die Befestigungsart zu meinem Rahmenmaterial (Magnet braucht Metall oder Metallpads)?",
+        "Bleibt eine Lüftungsoption erhalten, wo ich nachts Frischluft will?",
+        "Ist der Insektenschutz feinmaschig genug auch für kleine Mücken, nicht nur für Fliegen?",
+        "Kann ich die Lösung morgens schnell wegnehmen oder hochziehen, ohne Werkzeug?",
+        "Bei Klebepunkten oder Pads: Sind sie rückstandsfrei entfernbar, falls ich das Fahrzeug später verkaufe?",
+        "Habe ich alle Fenster erfasst, auch Dachhaube und Heck, oder bleibt eine Lichtquelle übrig, die mich morgens weckt?"
+      ]
+    }
+  ],
+  "softCta": "Wenn deine Maße stehen, findest du im Bereich Verdunkelung und Insektenschutz auf VanKompass die Detail-Vergleiche zu jedem dieser Lösungstypen, mit den Punkten, auf die es bei der konkreten Auswahl ankommt. Stöber dort weiter, sobald du weißt, welcher Typ zu welchem Fenster passt.",
+  "brevoNote": "Auslieferung als PDF-Download nach Double-Opt-in: Der Leser trägt sich über das VanKompass-Anmeldeformular (Brevo-Formular) ein und bestätigt die Anmeldung per Bestätigungslink in der DOI-Mail. Erst nach Bestätigung wird die Willkommens-Mail mit dem Download-Link zum gehosteten PDF ausgelöst (Brevo Automation, Trigger: Kontakt wurde der Liste bestätigt hinzugefügt). Der Download-Link kann als wiederverwendbarer Button oder als Merge-Tag im Template hinterlegt werden. Optional Merge-Feld {{ contact.VORNAME }} für die persönliche Anrede in der Willkommens-Mail, mit Fallback auf eine neutrale Anrede, falls leer.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "verdunkelung"
+}

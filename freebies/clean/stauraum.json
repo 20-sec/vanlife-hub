@@ -1,0 +1,78 @@
+{
+  "slug": "stauraum-optimierungs-checkliste",
+  "siloName": "Stauraum / Organisation",
+  "freebieTitle": "Die Stauraum-Optimierungs-Checkliste: Mehr Liter, mehr Ordnung, sicheres Gewicht im Camper",
+  "freebieType": "checkliste",
+  "coverHook": "Hol mehr nutzbare Liter aus deinem Camper, ohne neu auszubauen: Diese Checkliste zeigt dir Raum für Raum, wie du Platz gewinnst, Ordnung hältst und das Gewicht dahin bekommst, wo es hingehört.",
+  "whyUseful": "Stauraum ist im Camper die Dauerbaustelle Nummer eins: Jeder hat zu wenig, und fast jeder verschenkt gleichzeitig Liter durch Luft in Schränken, totes Volumen in Ecken und Krimskrams ohne festen Platz. Die Checkliste setzt genau da an, bevor jemand teures Zubehör kauft. Sie trennt sauber zwischen drei Aufgaben, die oft vermischt werden: mehr Volumen erschließen, dieses Volumen ordnen, und das Ganze fahrsicher und innerhalb der Zuladung verteilen. Wer sie einmal durchgeht, weiß danach, ob er überhaupt einen Organizer, eine Box oder ein Auszugssystem braucht, und welchen Typ. Damit koppelt das Freebie direkt an die Kaufentscheidung des Bereichs: Es macht den Leser entscheidungsfähig, statt ihm blind ein Produkt zu verkaufen, und schafft Vertrauen in die VanKompass-Empfehlungen, die danach kommen.",
+  "toolTie": "Wenn der Bereich Stauraum / Organisation einen Zuladungs- oder Achslast-Rechner als On-Site-Tool führt, knüpft die Checkliste im Block Gewichtsverteilung daran an (Restzuladung ausrechnen, Achslasten gegenprüfen). Falls noch kein Tool existiert: kein Tool, dann verweist der Soft-CTA stattdessen auf den passenden Vergleichs- oder Ratgeber-Artikel.",
+  "contentBlocks": [
+    {
+      "heading": "So nutzt du diese Checkliste",
+      "body": "Stauraum hat drei Aufgaben, die oft durcheinandergehen: Volumen erschließen, Ordnung halten, Gewicht sicher verteilen. Geh die Checkliste in dieser Reihenfolge durch. Erst wenn du Schritt 1 und 2 erledigt hast, weißt du verlässlich, welches Zubehör du wirklich brauchst, und kaufst nichts doppelt. Plane rund eine Stunde ein und räume dafür einmal komplett aus, was in einen Bereich gehört. Nur was du in der Hand hattest, kannst du ehrlich beurteilen.",
+      "items": [
+        "Schritt 1: Liter rausholen, vorhandenes Volumen voll ausnutzen",
+        "Schritt 2: Ordnung schaffen, jedem Ding einen festen Platz geben",
+        "Schritt 3: Gewicht verteilen, sicher und innerhalb der Zuladung bleiben",
+        "Faustregel vorab: Erst entrümpeln, dann organisieren, dann erst kaufen"
+      ]
+    },
+    {
+      "heading": "Schritt 1: Liter rausholen, totes Volumen aktivieren",
+      "body": "In fast jedem Camper steckt ungenutzter Raum: Luft über gestapelten Töpfen, leere Ecken in tiefen Schränken, ungenutzte vertikale Flächen an Türen und Wänden. Geh Bereich für Bereich durch und frag bei jedem Hohlraum: Ist der wirklich voll, oder ist da nur Luft drin?",
+      "items": [
+        "Vertikale Flächen aktivieren: Schranktür-Innenseiten, Wandflächen und Sitzrückseiten mit Hängeorganizern oder Netzen bestücken (Kleinkram, Schuhe, Bürsten, Sonnenbrille)",
+        "Hohe Fächer unterteilen: ein Zwischenboden oder stapelbare Boxen verdoppeln oft die nutzbare Fläche, weil du den Luftraum oben nicht mehr verschenkst",
+        "Tiefe, schwer erreichbare Fächer mit Auszügen oder ausziehbaren Körben erschließen, damit auch das hinten Liegende erreichbar bleibt",
+        "Weiche, voluminöse Textilien (Bettzeug, Winterjacken, Reservedecken) mit Vakuum- oder Kompressionsbeuteln verkleinern, ideal für selten Gebrauchtes",
+        "Doppelten Boden, Sitztruhen und Heckgarage als Stauraum mitdenken, gerade für sperrige und schwere Teile",
+        "Rundungen und Ecken mit weichen Faltboxen statt starrer Hartschalenboxen füllen, Stoffboxen passen sich der Form an und lassen sich zusammenfalten, wenn leer",
+        "Tote Spalten zwischen Möbeln und Wand mit schmalen Einsätzen oder Spannstangen nutzbar machen"
+      ]
+    },
+    {
+      "heading": "Schritt 2: Ordnung halten, jedem Ding einen festen Platz",
+      "body": "Mehr Liter helfen nichts, wenn alles lose durcheinanderrutscht. Ordnung im Camper heißt: feste Plätze, Gruppen nach Funktion, und nichts, was bei der Fahrt wandert oder klappert. Das Prinzip dahinter ist immer dasselbe, egal ob du fertige Organizer kaufst oder selbst trennst.",
+      "items": [
+        "Nach Funktion gruppieren: Küche, Bad, Werkzeug, Technik, Kleidung getrennt, jede Gruppe an einem festen Ort",
+        "Große Fächer mit Trennboxen, Einsätzen oder verstellbaren Teilern unterteilen, damit kleine Dinge nicht im großen Fach versinken",
+        "Häufig Genutztes nach vorn und in Griffhöhe, Selten Gebrauchtes nach hinten, oben oder in die Heckgarage",
+        "Durchsichtige Boxen oder Beschriftung nutzen, damit du nicht alles ausräumen musst, um etwas zu finden",
+        "Anti-Rutsch-Matten, Spannstangen oder Gurte einsetzen, damit während der Fahrt nichts verrutscht oder klappert",
+        "Eine Leer-Reserve einplanen: ein Fach bewusst frei lassen für Einkäufe, Mitbringsel und Dinge, die unterwegs dazukommen",
+        "Regelmäßig ausmisten: was eine ganze Saison nicht in der Hand war, fliegt raus oder kommt nach Hause"
+      ]
+    },
+    {
+      "heading": "Schritt 3: Gewicht sicher verteilen, Zuladung und Achslast im Blick",
+      "body": "Stauraum-Optimierung endet nicht beim Platz, sie endet beim Gewicht. Wo schwere Dinge liegen, entscheidet über Fahrverhalten und Sicherheit, und die zulässigen Grenzen deines Fahrzeugs sind bindend. Hier geht es nicht um Tricks, sondern um nüchterne Pflicht: Bleib innerhalb der Werte aus deinen Fahrzeugpapieren und lass im Zweifel auf einer öffentlichen Waage wiegen.",
+      "items": [
+        "Schwere Teile (Wassertank, Batterie, Vorräte, Werkzeug) möglichst tief und nah an den Achsen verstauen, das senkt die Hebelwirkung und verbessert die Fahrstabilität",
+        "Gewicht links und rechts ausgewogen verteilen, keine schwere Seite",
+        "Schweres nach unten, Leichtes nach oben, hoher Schwerpunkt verschlechtert das Fahrverhalten",
+        "Hinter der Hinterachse (Heckgarage, Heckstauraum) nur so viel laden, wie nötig, sonst entlastet sich die Vorderachse",
+        "Zulässiges Gesamtgewicht und beide Achslasten aus den Fahrzeugpapieren kennen und einhalten, das ist keine Empfehlung, sondern Vorschrift",
+        "Restzuladung ehrlich rechnen: Leergewicht plus Ausbau plus Wasser plus Gas plus Personen plus Gepäck, und vor großen Touren auf einer öffentlichen Waage gegenprüfen",
+        "Schwere Ladung gegen Verrutschen sichern (Zurrgurte, feste Fächer), lose schwere Teile sind im Notfall ein Sicherheitsrisiko"
+      ]
+    },
+    {
+      "heading": "Entscheidungshilfe: Brauchst du überhaupt Zubehör, und welches?",
+      "body": "Nach den ersten drei Schritten siehst du, wo wirklich noch ein Produkt fehlt. Diese kurze Logik hilft dir, den richtigen Typ zu wählen, statt blind zu kaufen. Konkrete Modelle, Maße und Preise ändern sich ständig, deshalb hier nur die Auswahl-Prinzipien.",
+      "items": [
+        "Loser Kleinkram an Tür oder Wand: Hängeorganizer oder Netz",
+        "Tiefes oder hohes Fach mit viel Luft: Zwischenboden oder stapelbare Boxen",
+        "Schwer erreichbarer Tiefraum (Heckgarage, tiefe Schränke): Auszug oder ausziehbarer Korb",
+        "Unregelmäßige Form, Ecken, Rundungen: weiche Faltbox statt Hartschale",
+        "Selten genutzte, voluminöse Textilien: Vakuum- oder Kompressionsbeutel",
+        "Schublade mit Mischmasch: Trennboxen oder verstellbare Einsätze",
+        "Faustregel Material: starre Boxen für Schweres und Stapelbares, Stoff für Leichtes und Formflexibles",
+        "Faustregel Befestigung: alles, was während der Fahrt nicht klappern oder fliegen darf, muss fixiert sein (Gurt, Spannstange, Anti-Rutsch)"
+      ]
+    }
+  ],
+  "softCta": "Wenn du jetzt weißt, welcher Organizer-Typ zu deinem Camper passt, findest du im Bereich Stauraum und Organisation auf VanKompass die passenden Lösungstypen im Detail, mit ehrlichen Vergleichen und Hinweisen, worauf es beim Kauf wirklich ankommt. Schau dort vorbei, bevor du dich entscheidest.",
+  "brevoNote": "Auslieferung über Brevo nach Double-Opt-in: Der Interessent trägt sich über das Anmeldeformular (Block neben dem Cover-Hook) in die Brevo-Liste Stauraum-Organisation ein. Brevo versendet zuerst die Bestätigungsmail (Double-Opt-in, DSGVO-konform). Erst nach Klick auf den Bestätigungslink löst die zugehörige Automation (Workflow) die Willkommensmail aus, die den Download-Link zur PDF enthält. Die PDF liegt extern (z.B. im Medien-/Dateibereich oder auf der Domain) und wird per Merge-Feld {{ params.DOWNLOAD_URL }} oder fest verlinkt eingebunden; optional Anrede über {{ contact.VORNAME }}. Der Download-Link gehört nicht in die Bestätigungsmail, sondern erst in die Mail nach bestätigtem Opt-in, damit der Lead sauber verifiziert ist.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "stauraum"
+}

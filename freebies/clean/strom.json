@@ -1,0 +1,67 @@
+{
+  "toolTie": "Begleiter zum Autark-Check-Rechner auf VanKompass: Das druckbare Worksheet ist die Offline-Version, die man beim Händler, im Zubehörladen oder am Küchentisch ausfüllt. Wer es interaktiv mag, gibt dieselben Werte in den Online-Rechner ein und bekommt die Empfehlung sofort kalkuliert.",
+  "slug": "camper-strom-checkliste",
+  "siloName": "Batterie / Strom",
+  "freebieTitle": "Die Camper-Strom-Checkliste: Verbrauch ankreuzen, Batteriegröße ausrechnen",
+  "freebieType": "rechen-worksheet",
+  "coverHook": "In zehn Minuten weißt du, wie groß deine Bordbatterie wirklich sein muss: ankreuzen, addieren, fertig.",
+  "whyUseful": "Die Batteriegröße ist die teuerste und am schwersten zu korrigierende Entscheidung im Stromsystem. Wer zu klein kauft, steht im dritten autarken Tag im Dunkeln, wer zu groß kauft, schleppt Gewicht und Geld spazieren. Das Worksheet bringt den Leser von einem diffusen Gefühl zu einer konkreten Ah-Zahl, die er beim Kauf direkt benutzen kann. Es koppelt damit exakt an die Kaufentscheidung des Bereichs: Welche Batterie, welche Kapazität. Statt veraltbarer Preise arbeitet es mit Faustformeln und Spannen, die auch in zwei Jahren noch stimmen.",
+  "contentBlocks": [
+    {
+      "heading": "So funktioniert dieses Blatt (3 Schritte)",
+      "body": "Du brauchst nichts außer einem Stift. In drei Schritten kommst du von deinem Tagesablauf zur passenden Batteriegröße. Rechne großzügig: Eine Reserve nach oben hast du nie bereut, eine zu knappe Batterie schon.",
+      "items": [
+        "Schritt 1: In der Tabelle unten jeden Verbraucher ankreuzen, den du an Bord hast. Trage die Stunden ein, die er pro Tag läuft.",
+        "Schritt 2: Pro Zeile rechnen: Watt mal Stunden = Wattstunden (Wh). Alle Wh-Werte addieren zu deinem Tagesbedarf.",
+        "Schritt 3: Mit der Faustformel unten den Tagesbedarf auf deine gewünschten Autark-Tage und deinen Batterietyp hochrechnen. Das Ergebnis ist deine Ziel-Kapazität."
+      ]
+    },
+    {
+      "heading": "Verbraucher-Tabelle zum Ankreuzen",
+      "body": "Die Watt-Spannen sind typische Richtwerte für 12-Volt-Geräte im Camper. Steht auf deinem Gerät ein eigener Wert (Typenschild oder Datenblatt), nimm diesen. Notiere pro Zeile: Watt (W) mal Stunden pro Tag (h) = Wattstunden pro Tag (Wh). Beispiel Kompressorkühlbox: 50 W mal 8 h Laufzeit = 400 Wh. Hinweis: Kompressorkühlgeräte laufen nicht durchgehend, sondern takten. Rechne als grobe Faustregel mit rund einem Drittel bis der Hälfte der Standzeit als echter Laufzeit, also bei 24 Stunden Standzeit etwa 8 bis 12 Stunden Laufzeit.",
+      "items": [
+        "[ ] Kompressor-Kühlbox / -Kühlschrank: 40 bis 60 W, Laufzeit ca. 8 bis 12 h/Tag (taktet) = ____ Wh",
+        "[ ] LED-Innenbeleuchtung (gesamt): 5 bis 20 W, ca. 3 bis 5 h/Tag = ____ Wh",
+        "[ ] Druck-Wasserpumpe: 50 bis 100 W, nur ca. 0,1 bis 0,2 h/Tag (fällt kaum ins Gewicht) = ____ Wh",
+        "[ ] Handy / Tablet laden: 5 bis 20 W pro Gerät, ca. 2 bis 3 h/Tag = ____ Wh",
+        "[ ] Laptop laden / nutzen: 40 bis 90 W, ca. 1 bis 3 h/Tag = ____ Wh",
+        "[ ] Standheizung (Diesel/Gas, nur Gebläse-Strom): 10 bis 40 W, ca. 4 bis 8 h/Tag im Betrieb = ____ Wh",
+        "[ ] Diesel-/Gas-Warmwasser oder Boiler-Steuerung: 5 bis 20 W, nach Nutzung = ____ Wh",
+        "[ ] TV / Beamer: 30 bis 60 W, ca. 1 bis 3 h/Tag = ____ Wh",
+        "[ ] WLAN-Router / Mobilfunk-Verstärker: 5 bis 15 W, ca. 8 bis 16 h/Tag = ____ Wh",
+        "[ ] Lüftung / Dachventilator: 5 bis 25 W, ca. 2 bis 8 h/Tag = ____ Wh",
+        "[ ] Maxxfan / Klima auf 12 V: stark schwankend, Datenblatt prüfen = ____ Wh",
+        "[ ] Sonstiges (Kaffeemühle, Fön über Wechselrichter, Kompressor): Watt vom Gerät ablesen = ____ Wh",
+        "Summe Tagesbedarf (alle Wh addieren): ____ Wh pro Tag"
+      ]
+    },
+    {
+      "heading": "Faustformel: vom Tagesbedarf zur Batteriegröße",
+      "body": "Jetzt rechnest du deinen Tagesbedarf auf eine nutzbare Batteriekapazität hoch. Wichtig: Du kannst nie die volle Nennkapazität entnehmen. Wie viel wirklich nutzbar ist, hängt am Batterietyp (Entladetiefe). Rechne in vier Schritten und runde am Ende nach oben auf eine handelsübliche Größe.",
+      "items": [
+        "1) Wunsch festlegen: Wie viele Tage willst du ohne Nachladen (Landstrom, Solar, Lichtmaschine) auskommen? Realistisch sind 1 bis 3 Tage. Tagesbedarf (Wh) mal Autark-Tage = Energiebedarf gesamt (Wh).",
+        "2) Reserve einrechnen: Energiebedarf mal 1,2 (also plus 20 Prozent Puffer für kalte Tage, Alterung, Rechenfehler).",
+        "3) Entladetiefe berücksichtigen: Blei/AGM lässt sich nur etwa zur Hälfte sicher entladen (Faktor mal 2), LiFePO4 (Lithium) deutlich tiefer, meist 80 bis 90 Prozent (Faktor mal ca. 1,2). Ergebnis = nötige Nennkapazität in Wh.",
+        "4) In Amperestunden umrechnen (falls du in Ah kaufst): Wh geteilt durch Bordspannung (meist 12 V) = Ah. Beispiel: 600 Wh / 12 V = 50 Ah.",
+        "Rechenbeispiel LiFePO4: 250 Wh/Tag mal 2 Tage = 500 Wh, mal 1,2 Puffer = 600 Wh, mal 1,2 für Entladetiefe = 720 Wh nutzbar abgesichert, also rund 60 Ah bei 12 V. Aufgerundet greifst du zur nächsten Standardgröße.",
+        "Merksatz: Bei AGM brauchst du für denselben nutzbaren Strom rund die doppelte Nennkapazität wie bei LiFePO4, und mehr Gewicht dazu."
+      ]
+    },
+    {
+      "heading": "Bevor du kaufst: 6 Punkte gegenprüfen",
+      "body": "Die Kapazität ist nur eine Hälfte der Entscheidung. Diese sechs Punkte entscheiden, ob die Batterie zu deinem Fahrzeug und deiner Nutzung passt. Strom-Installation im Fahrzeug ist Fachhandwerk: Wenn du bei Querschnitten, Absicherung oder Ladetechnik unsicher bist, lass den Einbau prüfen, statt zu raten.",
+      "items": [
+        "Lade-Quelle passt zur Größe? Eine große Batterie ohne ausreichend Solar oder Ladebooster wird nie voll. Speicher und Nachladen müssen zueinander passen.",
+        "Platz und Einbaulage geklärt? Maße und Gewicht der Batterie gegen den vorgesehenen Einbauort halten, inklusive Zuladungsgrenze des Fahrzeugs.",
+        "Temperaturbereich beachtet? LiFePO4 darf unter dem Gefrierpunkt nicht ohne Schutz geladen werden. Prüfe, ob ein Laden bei Kälte für dich relevant ist.",
+        "Wechselrichter geplant? Wenn 230-Volt-Geräte laufen sollen, steigt der Bedarf deutlich. Diese Verbraucher gehören mit in die Tabelle oben.",
+        "Batterie-Monitor eingeplant? Ohne Anzeige des Ladezustands rätst du. Ein Shunt-Monitor zeigt, was wirklich drin ist.",
+        "Reserve statt Punktlandung? Lieber eine Nummer größer als zu knapp. Eine halb gefüllte große Batterie hält länger als eine ständig leer gefahrene kleine."
+      ]
+    }
+  ],
+  "softCta": "Du hast deine Ziel-Kapazität ausgerechnet? Auf VanKompass findest du den interaktiven Autark-Check, der dir dieselbe Rechnung in Sekunden abnimmt, plus unsere Übersicht zu Batterietypen im Vergleich, damit du AGM und LiFePO4 für deinen Fall richtig einordnest.",
+  "brevoNote": "Auslieferung über Brevo nach Double-Opt-in: Der Interessent trägt sich über das Anmeldeformular (Bereich Batterie/Strom) ein, bestätigt die Opt-in-Mail, und erhält danach automatisch die Willkommensmail mit dem Download-Link zur PDF (gehostet auf VanKompass, z. B. /downloads/camper-strom-checkliste.pdf). Personalisierung über Merge-Feld {{ contact.VORNAME }} mit neutralem Fallback. Kontakt wird in die Liste Batterie/Strom geschrieben und mit Attribut FREEBIE = camper-strom-checkliste getaggt, damit die nachgelagerte Mail-Strecke (Batterietypen, Solar, Autark-Check-Tool) passend ausgespielt wird. Der Link liegt erst in der Mail nach bestätigtem Double-Opt-in, nicht in der Opt-in-Mail selbst.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "strom"
+}

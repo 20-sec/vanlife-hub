@@ -1,0 +1,92 @@
+{
+  "slug": "markise-vorzelt-auswahlhilfe",
+  "siloName": "Außenbereich / Markise / Vorzelt",
+  "freebieTitle": "Markise oder Vorzelt: Die Auswahlhilfe für den Platz vor der Tür",
+  "freebieType": "entscheidungshilfe",
+  "coverHook": "In sieben Entscheidungen zur richtigen Wahl: Markise, Vorzelt oder beides, passend zu deinem Fahrzeug und eingemessen, bevor du bestellst.",
+  "whyUseful": "Der Außenbereich ist die Kaufentscheidung mit den meisten Variablen und den teuersten Fehlkäufen: Eine Markise sitzt am Fahrzeug, ein Vorzelt muss in der Höhe und im Keder dazu passen, und freistehend gegen busgebunden entscheidet über den gesamten Komfort am Stellplatz. Wer hier ohne System kauft, bestellt zu lang, zu kurz, mit falscher Anschlusshöhe oder mit einer Befestigungsart, die das eigene Fahrzeug gar nicht hergibt. Diese Entscheidungshilfe führt in sieben klaren Schritten durch genau die Reihenfolge, in der die Entscheidungen aufeinander aufbauen, mit konkreten Messpunkten und Faustformeln statt Marketing. Sie koppelt direkt an die Kaufentscheidung des Bereichs, weil sie den Leser von der diffusen Frage Was brauche ich eigentlich? zu einer einzigen, abgehakten Bestell-Spezifikation bringt.",
+  "toolTie": "Wenn der Bereich später einen Markisen-Längen- und Ausfall-Rechner bzw. einen Vorzelt-Kompatibilitäts-Finder (Anschlusshöhe x Fahrzeugmodell) bekommt, dockt diese Entscheidungshilfe direkt davor an: Sie liefert die Messwerte, die der Rechner als Eingabe braucht. Aktuell kein Tool, der Soft-CTA verweist auf den passenden Vergleichsartikel.",
+  "contentBlocks": [
+    {
+      "heading": "Schritt 0: Was willst du vor der Tür wirklich? (Erst Bedarf, dann Produkt)",
+      "body": "Bevor du über Modelle nachdenkst, kläre den Zweck. Drei Bedarfsstufen, die sich in der Praxis sauber trennen lassen. Kreuze an, was auf dich zutrifft. Je weiter unten dein Schwerpunkt liegt, desto mehr geht die Wahl Richtung Vorzelt statt bloßer Markise.",
+      "items": [
+        "Nur Schatten und leichter Regenschutz für spontane Stopps, schnell raus und schnell rein: Das spricht für eine reine Markise.",
+        "Wind- und Sichtschutz, ein halb geschlossener Außenbereich für Kochen und Sitzen bei wechselndem Wetter: Markise mit anbaubaren Seitenwänden oder ein leichtes Anbau-Vorzelt.",
+        "Echter Zusatzraum zum Schlafen, Umziehen, Lagern oder für mehrtägigen Standplatz bei jedem Wetter: Das ist ein vollwertiges Vorzelt, oft freistehend.",
+        "Frage zur Standdauer: Bleibst du meist eine Nacht (Markise reicht) oder stehst du Tage am gleichen Platz (Vorzelt zahlt sich aus)?",
+        "Frage zur Mitfahrerzahl: Zusätzliche Schlafkabine nötig? Dann von vornherein nach modular erweiterbaren Vorzelten schauen."
+      ]
+    },
+    {
+      "heading": "Schritt 1: Miss dein Fahrzeug aus (die vier Zahlen, die alles bestimmen)",
+      "body": "Fast jeder Fehlkauf entsteht, weil eine dieser vier Zahlen geschätzt statt gemessen wurde. Nimm ein Maßband und notiere sie, bevor du irgendetwas auswählst. Diese Werte sind die Eingabe für jede weitere Entscheidung.",
+      "items": [
+        "Anschlusshöhe: Höhe von der Dachkante bzw. Markisenunterkante bis zum Boden. Sie entscheidet, welche Vorzelt-Größenklasse überhaupt passt. Passt die Höhe nicht, entstehen Spalten, durch die Wind und Regen ziehen.",
+        "Verfügbare Montagelänge: Die nutzbare gerade Fläche an der Fahrzeugseite oberhalb von Türen und Fenstern. Eine Markise sollte diese Länge nicht überschreiten, langer Überhang erschwert die Befestigung.",
+        "Befestigungsbasis: Hast du eine Dachreling, eine Regenrinne, eine glatte verblechte Wand oder eine vorhandene Kederschiene? Das legt die mögliche Montageart fest (siehe Schritt 4).",
+        "Vorhandener Keder: Hat dein Fahrzeug oder deine Markise bereits eine Kederschiene, miss die Kederbreite (gängig sind 5, 6 und 7 Millimeter). Ein Vorzelt muss zur vorhandenen Kederbreite passen oder ein passender Adapter muss verfügbar sein."
+      ]
+    },
+    {
+      "heading": "Schritt 2: Markisen-Grundtyp wählen (Kassette gegen Sack)",
+      "body": "Wenn du dich für eine Markise entscheidest, gibt es zwei Grundbauarten. Die Wahl hängt an Stabilität, Gewicht und daran, ob die Markise dauerhaft montiert sein soll.",
+      "items": [
+        "Kassettenmarkise: Das Tuch läuft in ein geschlossenes Gehäuse am Fahrzeug, dauerhaft montiert, robust und wetterfest verstaut. Stabiler und etwas schwerer, die verbreitete Lösung für dauerhafte Montage am Camper.",
+        "Sackmarkise: Wird bei Bedarf in eine Kederleiste eingezogen, leichter und günstiger, aber kein fest verbautes Gehäuse. Eher für Gelegenheitsnutzung.",
+        "Gewichts-Check: Kassette ist schwerer. Prüfe deine Dachlast bzw. zulässige Zuladung, bevor du eine große Kassette dauerhaft montierst.",
+        "Gelenkarm-Prinzip: Selbsttragende Markisen kommen ohne Stützfüße aus, verstärkte Gelenkarme spannen das Tuch. Bei viel Wind sind zusätzliche Stützfüße und Abspannung trotzdem sinnvoll."
+      ]
+    },
+    {
+      "heading": "Schritt 3: Länge und Ausfall festlegen (die Faustformeln)",
+      "body": "Hier werden die meisten Markisen falsch dimensioniert. Zwei einfache Faustformeln verhindern das. Ausfall meint, wie weit die Markise nach außen reicht (die Tiefe des beschatteten Bereichs).",
+      "items": [
+        "Länge: Orientiere dich an der nutzbaren geraden Montagefläche aus Schritt 1. Kürzer als die Dachkante ist problemlos, länger wird schwierig. Plane lieber etwas Reserve zu Tür und Fenster ein, als die Markise auf Kante zu setzen.",
+        "Ausfall: Je größer der Ausfall, desto mehr Schatten, aber desto windanfälliger. Für einen Sitzbereich mit Tisch und Stühlen brauchst du sichtbar mehr Ausfall als für reinen Türschatten. Im Zweifel mit Klappstuhl und Tisch am Fahrzeug die benötigte Tiefe real abstecken.",
+        "Höhe der Vorderkante: Plane die ausgefahrene Vorderkante so, dass man aufrecht darunter stehen kann, ohne dass Regen nach innen läuft. Eine leichte Neigung nach außen lässt Wasser ablaufen.",
+        "Wind-Regel als Prinzip: Markisen sind keine Dauerlösung bei Sturm. Bei aufkommendem Wind einfahren. Je größer Länge und Ausfall, desto früher. Kein Hersteller-Versprechen ersetzt das Einfahren bei Sturmwarnung."
+      ]
+    },
+    {
+      "heading": "Schritt 4: Befestigungsart bestimmen (was dein Fahrzeug hergibt)",
+      "body": "Die Befestigungsart ist keine freie Wahl, sondern folgt aus deiner Befestigungsbasis aus Schritt 1. Prüfe, welche Variante zu deinem Fahrzeug passt. Bei Bohren oder Kleben an tragenden Teilen oder im Dachbereich gilt: im Zweifel von einer Fachwerkstatt montieren lassen, eine falsch gesetzte Bohrung kann Undichtigkeit oder Schaden verursachen.",
+      "items": [
+        "Dachreling-Montage: Bei Bussen und Kastenwagen mit Reling oft die einfachste Lösung, geklemmt statt gebohrt. Prüfe die Traglast der Reling.",
+        "Wandmontage: Halterung wird auf die Außenwand geschraubt oder geklebt. Bei verblechten Fahrzeugen verbreitet, erfordert aber saubere, fachgerechte Befestigung.",
+        "Kederschienen-Montage: Wenn bereits eine Kederschiene vorhanden ist, lässt sich vieles werkzeugarm einziehen. Praktisch für Sackmarkisen und Anbauteile.",
+        "Adapter prüfen: Für viele gängige Fahrzeugmodelle gibt es fahrzeugspezifische Montagesätze. Suche gezielt nach deinem Modell, das spart Bastelei und Passungsprobleme.",
+        "Reversibilität bedenken: Geklemmt oder per Adapter ist rückbaubar, gebohrt nicht. Bei Leasing oder geplantem Wiederverkauf relevant."
+      ]
+    },
+    {
+      "heading": "Schritt 5: Freistehend gegen busgebunden (die Komfort-Grundsatzentscheidung)",
+      "body": "Das ist die wichtigste Entscheidung beim Vorzelt. Sie bestimmt, ob du am Standplatz mobil bleibst oder nicht. Beide Prinzipien haben einen klaren Kern.",
+      "items": [
+        "Busgebunden: Das Vorzelt hängt am Fahrzeug, meist eingezogen in den Keder der Markise. Wetterfester Abschluss, aber wenn du wegfährst, muss das Vorzelt mit oder wird abgekoppelt.",
+        "Freistehend: Das Vorzelt steht dank verschließbarer Rückwand auch ohne Fahrzeug. Großer Vorteil: Du fährst zum Einkaufen oder Ausflug und der Außenbereich bleibt auf dem Platz reserviert und aufgebaut.",
+        "Entscheidungsfrage: Fährst du tagsüber oft weg und stehst mehrere Tage am gleichen Platz? Dann freistehend. Ist das Fahrzeug meist dabei und du willst maximale Dichtigkeit am Übergang? Dann busgebunden.",
+        "Gestänge gegen Luft: Freistehende Vorzelte gibt es mit Gestänge oder als Luftvorzelt. Luft baut sehr schnell auf (eine Pumpe statt Stangenpuzzle) und ist im Wind elastisch, packt aber voluminöser und kostet meist mehr. Gestänge ist kompakter im Packmaß und günstiger, aber langsamer im Aufbau.",
+        "Kombi-Weg: Eine vorhandene Markise plus angepasstes Anbau-Vorzelt ist oft der günstigste Einstieg in mehr Raum, ohne ein komplett neues System zu kaufen."
+      ]
+    },
+    {
+      "heading": "Schritt 6: Kompatibilitäts- und Bestell-Check (vor dem Kauf abhaken)",
+      "body": "Bevor du auf Bestellen klickst, gehe diese Liste durch. Jeder Punkt verhindert einen typischen Fehlkauf. Wenn auch nur ein Haken fehlt, noch nicht bestellen.",
+      "items": [
+        "Anschlusshöhe des Vorzelts liegt im Bereich meiner gemessenen Fahrzeughöhe (kein Spalt, kein Stauchen).",
+        "Kederbreite des Vorzelts passt zu meiner vorhandenen Schiene, oder ein passender Adapter ist verfügbar.",
+        "Markisenlänge überschreitet meine nutzbare Montagefläche nicht und lässt Reserve zu Türen und Fenstern.",
+        "Befestigungsart passt nachweislich zu meiner Basis (Reling, Wand, Keder), idealerweise mit fahrzeugspezifischem Montagesatz.",
+        "Gewicht der gewählten Lösung liegt innerhalb meiner Zuladung bzw. Dachlast.",
+        "Packmaß passt in meinen verfügbaren Stauraum (besonders bei Luftvorzelten prüfen).",
+        "Freistehend gegen busgebunden ist bewusst entschieden, nicht zufällig mitgekauft.",
+        "Bei Montage mit Bohren oder Kleben: Selbstmontage realistisch oder Fachwerkstatt eingeplant."
+      ]
+    }
+  ],
+  "softCta": "Du hast jetzt deine vier Messwerte und deine sieben Entscheidungen beisammen. Den direkten Vergleich der Lösungstypen, also reine Markise gegen Anbau-Vorzelt gegen freistehendes Luftvorzelt, mit Vor- und Nachteilen Seite an Seite, findest du im passenden Ratgeber-Artikel im Bereich Außenbereich auf VanKompass. Nimm deine Messwerte mit, dann führt dich der Vergleich in wenigen Minuten zur engeren Auswahl.",
+  "brevoNote": "Auslieferung als PDF-Download nach Double-Opt-in über Brevo. Ablauf: Anmeldeformular im Außenbereich-Silo (Coverhook als Versprechen-Zeile) trägt den Kontakt in eine Brevo-Liste Außenbereich-Freebie ein und löst die DOI-Mail aus. Erst nach Klick auf den Bestätigungslink (DOI) startet eine automatisierte Brevo-Mail mit dem Download-Link zum PDF (gehostet auf VanKompass, stabile URL). Merge-Felder: CONTACT.VORNAME für die Anrede in der Auslieferungsmail (Fallback neutrale Anrede, falls leer), optionales Feld FAHRZEUGTYP nur wenn im Formular abgefragt, sonst weglassen. DOI-Pflicht aus DSGVO-Gründen, der Download-Link wird nie vor bestätigtem Opt-in versendet. In der Auslieferungsmail ein dezenter Hinweis zurück auf den Vergleichsartikel (Soft-CTA), kein weiterer Verkauf.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "aussenbereich"
+}

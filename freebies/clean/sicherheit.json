@@ -1,0 +1,87 @@
+{
+  "slug": "camper-sicherheits-checkliste",
+  "siloName": "Sicherheit / Diebstahlschutz",
+  "freebieTitle": "Die Camper-Sicherheits-Checkliste: Dein Diebstahlschutz in vier Ebenen",
+  "freebieType": "checkliste",
+  "coverHook": "In vier klaren Ebenen machst du deinen Camper unattraktiver für Diebe: vom mechanischen Schloss bis zum GPS-Tracker. Diese Checkliste zeigt dir, wo du anfängst und was wirklich zählt.",
+  "whyUseful": "Diebstahlschutz fühlt sich schnell wie ein Fass ohne Boden an: Schloss, Kralle, Alarm, Tracker, dazu Dutzende Marken und widersprüchliche Foren-Meinungen. Diese Checkliste ordnet das Chaos in vier Ebenen, die aufeinander aufbauen, und macht jede Kaufentscheidung zu einer bewussten: Was brauche ich wirklich, was wäre doppelt, wo fange ich an. Genau das ist der Moment, in dem der Leser im Sicherheits-Bereich zu konkreten Produkten greift, vom Zusatzschloss bis zum Tracker. Die Checkliste koppelt also direkt an die Kaufentscheidung des Bereichs, ohne etwas zu garantieren.",
+  "toolTie": "Falls der Sicherheits-Bereich einen Diebstahlschutz-Finder oder eine Produkt-Vergleichsübersicht als On-Site-Tool führt, verweist der weiche CTA dorthin. Andernfalls: kein Tool, Verlinkung auf den passenden Ratgeber-Artikel.",
+  "contentBlocks": [
+    {
+      "heading": "So nutzt du diese Checkliste: das Ebenen-Prinzip",
+      "body": "Es gibt keinen 100-prozentigen Diebstahlschutz, und niemand sollte dir das versprechen. Was funktioniert, ist ein anderes Ziel: deinen Camper unattraktiver machen als den daneben. Diebe arbeiten unter Zeitdruck. Jede Sekunde mehr und jedes zusätzliche Geräusch erhöht ihr Risiko, also auch deinen Schutz. Genau dafür gibt es die vier Ebenen. Du musst nicht alles auf einmal kaufen. Arbeite dich von oben nach unten durch, Ebene für Ebene, und hake ab, was bei dir schon sitzt.",
+      "items": [
+        "Ebene 1: Verhalten und Gewohnheiten, kostet nichts, wirkt sofort",
+        "Ebene 2: Mechanik, sichtbare Hürden, die abschrecken und Zeit kosten",
+        "Ebene 3: Elektronik, Alarm und Ortung, für den Fall der Fälle",
+        "Ebene 4: Wertsachen und Dokumente, Schadensbegrenzung, falls doch etwas passiert",
+        "Faustregel: Lieber zwei Ebenen sauber als eine perfekt. Diebe meiden Kombinationen, nicht Einzelmaßnahmen."
+      ]
+    },
+    {
+      "heading": "Ebene 1: Verhalten, das nichts kostet",
+      "body": "Die günstigste Sicherheit ist die, die du dir angewöhnst. Diese Punkte brauchen kein Zubehör, nur Konsequenz. Geh sie vor jeder Abfahrt und an jedem Stellplatz durch.",
+      "items": [
+        "Stellplatz bewusst wählen: belebt, beleuchtet, einsehbar schlägt einsam und dunkel",
+        "Fahrzeug nie unverschlossen lassen, auch nicht für den kurzen Gang zur Toilette",
+        "Wertsachen nie sichtbar liegen lassen, Laptop und Kamera aus dem Fensterblick räumen",
+        "Schlüssel niemals im oder am Fahrzeug deponieren, kein Magnetkasten unterm Radkasten",
+        "An fremden Plätzen erst ankommen, dann orientieren, nicht stundenlang Routine zeigen",
+        "Fenster und Dachluken vor dem Verlassen wirklich schließen, nicht nur anlehnen",
+        "Beim Verlassen kurz prüfen, ob jemand auffällig Interesse am Fahrzeug zeigt"
+      ]
+    },
+    {
+      "heading": "Ebene 2: Mechanik, die abschreckt und Zeit kostet",
+      "body": "Mechanische Hürden sind der sichtbare Teil deines Schutzes. Sie wirken doppelt: Sie kosten den Dieb Zeit und Werkzeug, und sie schrecken oft schon von außen ab, bevor er überhaupt anfängt. Wichtig: Einbau und Montage rund um Türen, Schlösser und Lenkung sind ein nüchternes Handwerksthema. Im Zweifel fachgerecht montieren oder montieren lassen, damit nichts klemmt und im Notfall alles schnell wieder offen ist.",
+      "items": [
+        "Zusatzschlösser für Fahrerhaus- und Aufbautüren, von außen sichtbar, erhöhen den Aufwand spürbar",
+        "Verriegelung gegen das Aufhebeln der Schiebe- und Hecktür, der häufigste schnelle Einbruchsweg",
+        "Lenkradkralle als sichtbares Signal, bekannt ist die Schwachstelle, dass das Lenkrad zersägt werden kann, daher eher Abschreckung als Endlösung",
+        "Mechanische Gangschaltungs- oder Wegfahrsperre, laut und zeitaufwändig zu überwinden, gilt als wirksame Hürde",
+        "OBD-Schutz, der den Diagnosestecker mechanisch blockiert, gegen das schnelle Auslesen und Klonen der Schlüsseldaten",
+        "Sicherung von Dachluken und ausstellbaren Fenstern, oft die unterschätzte offene Flanke",
+        "Faustregel: Sichtbar montieren. Was der Dieb von außen sieht, muss er gar nicht erst ausprobieren."
+      ]
+    },
+    {
+      "heading": "Ebene 3: Elektronik, Alarm und Ortung",
+      "body": "Elektronik ersetzt keine Mechanik, sie ergänzt sie. Der Alarm macht aus einem leisen Einbruch einen lauten und vertreibt damit Gelegenheitstäter. Der GPS-Tracker hilft nicht beim Verhindern, sondern beim Wiederfinden und liefert der Polizei eine Spur. Bei Tracker und Alarm gilt: nüchtern auswählen, nichts überversichern.",
+      "items": [
+        "Alarmanlage an Türen, Fenstern und Dachluken, idealerweise mit Bewegungsmelder im Innenraum",
+        "Alarm sollte hörbar sein und möglichst eine Meldung aufs Smartphone schicken",
+        "GPS-Tracker möglichst verdeckt verbauen, je kompakter das Gerät, desto unauffälliger das Versteck",
+        "Festeinbau mit Verbindung zur Bordbatterie ist wartungsfrei, mobile Tracker mit Akku brauchen regelmäßiges Laden",
+        "Auf aktuellen Mobilfunkstandard achten, 4G mit LTE-M oder NB-IoT statt auslaufendem 2G",
+        "Funktionen prüfen: Live-Ortung, Geofencing und Bewegungs- oder Sabotage-Alarm gehören dazu",
+        "Kostenmodell vorab klären: einmaliger Kauf oder Abo, versteckte SIM-Gebühren erfragen",
+        "Faustregel: Ein Tracker, den niemand findet und der zuverlässig sendet, ist mehr wert als drei Funktionen, die du nie nutzt."
+      ]
+    },
+    {
+      "heading": "Ebene 4: Wertsachen und Dokumente sichern",
+      "body": "Diese Ebene ist Schadensbegrenzung. Wenn doch jemand reinkommt, entscheidet sie darüber, ob du nur Geld oder auch Nerven und Identität verlierst. Sie kostet wenig und wird trotzdem oft vergessen.",
+      "items": [
+        "Kleiner Tresor, fest mit dem Chassis verschraubt, am besten mit Abreißschrauben gesichert",
+        "Bargeld und Wertsachen auf mehrere Verstecke verteilen, nicht alles an einem Ort",
+        "Fahrzeugschein und wichtige Dokumente nie im Fahrzeug lassen, am Körper oder digital als Kopie",
+        "Seriennummern von Elektronik, Fahrrädern und Kamera notieren und Fotos davon ablegen",
+        "Versicherungsunterlagen und Notfallnummern griffbereit, getrennt vom Fahrzeug speichern",
+        "Sichtbare Markierung von Wertgegenständen erschwert den Weiterverkauf und hilft bei der Zuordnung"
+      ]
+    },
+    {
+      "heading": "Dein Start in zehn Minuten",
+      "body": "Du musst nicht alles heute kaufen. Diese drei Schritte bringen dich sofort weiter und kosten erstmal nichts.",
+      "items": [
+        "Schritt 1: Geh Ebene 1 einmal komplett durch und mach die Verhaltenspunkte zur festen Gewohnheit",
+        "Schritt 2: Finde deine größte offene Flanke, meist die Schiebe- oder Hecktür, und plane dort die erste mechanische Hürde",
+        "Schritt 3: Entscheide bewusst, ob du in dieser Saison Mechanik oder Ortung zuerst angehst, und kauf gezielt eine Sache statt fünf halbe"
+      ]
+    }
+  ],
+  "softCta": "Welche Ebene du als Nächstes angehst, hängt von deinem Camper und deinem Reisestil ab. In unserem Sicherheits-Bereich findest du die passenden Produkttypen Ebene für Ebene erklärt, von Zusatzschlössern über Wegfahrsperren bis zu GPS-Trackern, damit du gezielt das Eine kaufst, das bei dir den größten Unterschied macht. Schau in Ruhe vorbei, wenn du bereit für den nächsten Schritt bist.",
+  "brevoNote": "Auslieferung als PDF-Download nach Double-Opt-in. Im Anmeldeformular wird der coverHook als Versprechen verwendet. Brevo-Workflow: Eintrag in die Liste Sicherheit-Diebstahlschutz, automatische DOI-Bestätigungsmail, nach Bestätigung Versand der Willkommensmail mit dem Download-Link auf das PDF (gehostet auf der eigenen Domain, nicht als Anhang, damit es trackbar und aktualisierbar bleibt). Merge-Felder: {{ contact.VORNAME }} für die persönliche Anrede in der Willkommensmail. Optional Tag freebie_sicherheits-checkliste für spätere Segmentierung und thematisch passende Folgemails aus dem Sicherheits-Bereich.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "sicherheit"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "camper-schlaf-checkliste",
+  "siloName": "Schlafen / Matratze",
+  "freebieTitle": "Die Camper-Schlaf-Checkliste: Gut schlafen, trocken bleiben, richtig messen",
+  "freebieType": "checkliste",
+  "coverHook": "Trockene Matratze, dunkler Schlafplatz, perfekte Passform: die Checkliste, mit der du im Camper richtig gut schläfst, bevor du Geld für die falsche Matratze ausgibst.",
+  "whyUseful": "Schlecht schlafen im Camper hat fast immer zwei Ursachen: die falsche Matratze und Feuchtigkeit von unten. Beides kostet Geld und Nerven, wenn man es erst nach dem Kauf merkt. Diese Checkliste bringt den Leser in die richtige Reihenfolge: erst messen und Aufbau prüfen, dann über Härtegrad und Topper entscheiden, dann Feuchtigkeit und Verdunkelung lösen. Genau die Vorarbeit, die vor jeder Matratzen- oder Topper-Kaufentscheidung steht, und die VanKompass mit den passenden Produktvergleichen weiterführt.",
+  "toolTie": "Falls auf VanKompass ein Matratzen- oder Härtegrad-Finder vorhanden ist, koppelt das Maß-Merkblatt direkt daran an. Sonst: kein Tool, der Leser wird auf den passenden Matratzen-Vergleichsartikel des Bereichs geführt.",
+  "contentBlocks": [
+    {
+      "heading": "1. Bevor du kaufst: Schlafplatz vermessen (Maß-Merkblatt)",
+      "body": "Die häufigste Fehlausgabe beim Camper-Schlafen ist eine Matratze, die nicht passt. Miss in Ruhe aus und notiere die Werte, bevor du irgendetwas bestellst. Bei Maßanfertigung fragen die meisten Hersteller genau diese Angaben ab. Zeichne dir die Liegefläche grob auf und trag die Maße ein.",
+      "items": [
+        "Länge und Breite an der schmalsten und an der breitesten Stelle messen (Radkästen, schräge Wände und Heckklappen verziehen die Form oft).",
+        "Bei unregelmäßiger Form: Pappschablone der echten Liegefläche anfertigen, das ist genauer als jede Skizze.",
+        "Gewünschte Matratzendicke festlegen und gegen die verfügbare Höhe prüfen (Sitzbank-Umbau, Aufstelldach, Bettkasten begrenzen die Höhe).",
+        "Bei zwei Teilen, die zusammengeschoben werden: Spalt-Position notieren, damit die Naht nicht unter der Hüfte liegt.",
+        "Ein- und Ausbaurichtung prüfen: Passt die fertige Matratze überhaupt durch Tür oder Heckklappe?",
+        "Alle Maße doppelt nehmen und aufschreiben, lieber einmal mehr als später umtauschen."
+      ]
+    },
+    {
+      "heading": "2. Die richtige Matratze: Material und Härtegrad",
+      "body": "Kaltschaum ist im Camper am weitesten verbreitet: leicht, punktelastisch und offenporig, sodass Feuchtigkeit gut abtransportiert wird und die Matratze auch bei Wärme angenehm bleibt. Der Härtegrad ist Geschmackssache, aber es gibt brauchbare Faustformeln als Startpunkt. Probeliegen schlägt jede Tabelle.",
+      "items": [
+        "Härtegrad als grobe Orientierung am Körpergewicht: H2 etwa bis 80 kg, H3 etwa bis 120 kg, H4 etwa bis 140 kg. Das ist ein Startwert, kein Gesetz.",
+        "Bei zwei Personen mit sehr unterschiedlichem Gewicht: zwei getrennte Matratzen oder unterschiedliche Härtegrade prüfen.",
+        "Material nach Priorität wählen: Kaltschaum für geringes Gewicht und gute Belüftung, höhere Raumgewichte für mehr Langlebigkeit.",
+        "Auf abnehmbaren, waschbaren Bezug achten, am besten mit atmungsaktiver, feuchtigkeitsregulierender Eigenschaft.",
+        "Mindestdicke realistisch wählen: zu dünn liegt man durch, die nutzbare Höhe im Camper begrenzt aber nach oben.",
+        "Wenn möglich vor dem Kauf probeliegen oder auf großzügiges Rückgaberecht achten."
+      ]
+    },
+    {
+      "heading": "3. Topper: wann er sich lohnt und wie dick",
+      "body": "Ein Topper ist die günstige Lösung, wenn die vorhandene Polster- oder Sitzbank-Matratze hart, unbequem oder uneben ist. Er gleicht Übergänge und Unebenheiten aus, etwa bei zusammengeschobenen Sitzbänken. Eine neue Matratze ersetzt er nicht, aber er rettet viele Schlafplätze.",
+      "items": [
+        "Topper sinnvoll bei: zu harter Originalmatratze, fühlbaren Übergangskanten zwischen Polstern, leicht durchgelegener Liegefläche.",
+        "Spürbare Verbesserung meist erst ab einer gewissen Dicke: zu dünne Topper bringen kaum etwas, dickere gleichen Unebenheiten besser aus.",
+        "Topper-Dicke gegen die verfügbare Höhe rechnen, damit Schlafplatz und Bettkasten weiter passen.",
+        "Bei zusammengeschobenen Betten: durchgehender Topper über die Naht verbessert das Liegegefühl deutlich.",
+        "Auch beim Topper auf waschbaren, feuchtigkeitsfreundlichen Bezug achten."
+      ]
+    },
+    {
+      "heading": "4. Feuchtigkeit und Schimmel unter der Matratze vermeiden",
+      "body": "Das größte Problem im Camper ist nicht die Matratze selbst, sondern die Nässe darunter. Liegt die Matratze direkt auf einer geschlossenen, kalten Fläche, kann der Körperschweiß nicht entweichen, kühlt unten ab und schlägt sich als Kondenswasser nieder. Es entsteht ein feucht-warmes Klima, das muffigen Geruch oder Schimmel begünstigt. Die Lösung ist fast immer Luft von unten.",
+      "items": [
+        "Für Belüftung unter der Matratze sorgen: Lattenrost oder eine Unterlage aus 3D-Mesh-Gewebe schafft einen Luftpuffer, sodass Feuchtigkeit nicht stehenbleibt.",
+        "Bei geschlossenen Holzplatten als Unterlage: nachträglich Belüftungsbohrungen oder Stegplatten ergänzen, damit Luft zirkulieren kann.",
+        "Matratze regelmäßig aufstellen und den Schlafplatz darunter durchlüften, besonders nach feuchten Nächten und beim Wintercamping.",
+        "Innenraumfeuchte im Blick behalten: als angenehmer Richtwert gelten oft etwa 40 bis 60 Prozent, ein kleines Hygrometer hilft beim Einschätzen.",
+        "Querlüften und Kochfeuchte abführen, damit sich Feuchtigkeit gar nicht erst sammelt.",
+        "Hinweis: Eingriffe in Aufbau, Dämmung oder Belüftung des Fahrzeugs im Zweifel mit Fachbetrieb abstimmen, das ersetzt keine fachliche Beratung."
+      ]
+    },
+    {
+      "heading": "5. Verdunkelung: dunkel schlafen, egal wo du stehst",
+      "body": "Wer im Camper früh von der Sonne geweckt wird, schläft schlechter, egal wie gut die Matratze ist. Verdunkelung gehört deshalb zur Schlafausstattung dazu. Die Lösung hängt von Fahrzeug und Fenstertyp ab.",
+      "items": [
+        "Fenstertypen prüfen: Aufstelldach, Heckklappen-Scheibe, Schiebefenster und Fahrerhaus brauchen jeweils eine eigene Lösung.",
+        "Lösungstypen abwägen: fahrzeugspezifische Verdunkelungssets, Magnet- oder Saugnapf-Matten, Thermomatten fürs Fahrerhaus, Vorhänge auf Schiene.",
+        "Thermomatten leisten doppelt: sie verdunkeln und reduzieren zugleich Wärmeeintrag und Kondensat an der Scheibe.",
+        "Auf saubere Kanten achten: Restlicht an den Rändern stört den Schlaf mehr, als man denkt.",
+        "Verstaubarkeit mitdenken: Verdunkelung, die im Weg liegt, wird nicht benutzt."
+      ]
+    }
+  ],
+  "softCta": "Wenn du deine Maße jetzt notiert hast, ist der nächste Schritt die passende Matratze oder der richtige Topper. Auf VanKompass findest du im Bereich Schlafen die ausführlichen Vergleiche zu Kaltschaum, Härtegraden und Topper-Lösungen, damit aus deinen Maßen die richtige Kaufentscheidung wird.",
+  "brevoNote": "Auslieferung als PDF-Download nach Double-Opt-in: Anmeldeformular auf der Schlafen-Seite mit Cover-Hook als Versprechen. Brevo-Workflow startet mit der DOI-Bestätigungsmail; erst nach bestätigtem Klick folgt die Willkommensmail mit dem Download-Link zum PDF (auf VanKompass gehostet, stabile URL). Optional Merge-Feld {{ contact.VORNAME }} für die Anrede in der Auslieferungsmail. Link am besten über ein Brevo-Trackable-Attribut oder eine eigene Download-Seite, damit Öffnung und Download messbar sind.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "schlafen"
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "standheizungs-spickzettel",
+  "siloName": "Heizung / Klima",
+  "freebieTitle": "Der Standheizungs-Spickzettel: kW richtig wählen, Verbrauch abschätzen, sicher einbauen lassen",
+  "freebieType": "entscheidungshilfe",
+  "coverHook": "In fünf Minuten weißt du, welche Heizleistung zu deinem Camper passt, was sie pro Nacht kostet und worauf du beim Einbau achten musst.",
+  "whyUseful": "Die Heizungswahl ist die teuerste und folgenreichste Einzelentscheidung im Innenausbau: zu klein gewählt frierst du, zu groß gewählt taktet die Heizung und verrußt. Der Spickzettel nimmt dem Camper genau diese Entscheidung ab, bevor er Geld ausgibt: er ordnet Heizleistung nach Fahrzeuggröße, klärt Diesel gegen Gas an realen Reisegewohnheiten und liefert eine nachvollziehbare Verbrauchs-Faustformel statt veraltbarer Einzelpreise. Damit koppelt er direkt an die Kaufentscheidung des Bereichs Heizung / Klima und macht den Leser sprachfähig gegenüber Händler und Einbaubetrieb.",
+  "toolTie": "kein Tool (falls VanKompass später einen Heizlast- oder Verbrauchsrechner anbietet, ersetzt dieser die Faustformel-Blöcke 3 und 4 als interaktive Variante)",
+  "contentBlocks": [
+    {
+      "heading": "1. Heizleistung nach Fahrzeuggröße: die schnelle Einordnung",
+      "body": "Die nötige Leistung hängt vor allem von Innenraumgröße und Dämmung ab, nicht von der Marke. Faustregel über das Luftvolumen: bei normaler Dämmung reicht für rund 16 Kubikmeter beheizten Innenraum meist eine 2-kW-Heizung. Größer, schlechter gedämmt oder für Winterreisen gedacht: eine Stufe höher wählen. Wichtig: eine zu groß dimensionierte Heizung ist kein Vorteil, sie läuft dann oft im untersten Lastbereich, taktet und neigt eher zur Verrußung. Lieber passend als zu groß.",
+      "items": [
+        "Ausgebauter Kastenwagen / kompakter Van, gut gedämmt, Drei-Jahreszeiten-Nutzung: etwa 2 kW reichen in der Regel",
+        "Größerer Kastenwagen oder Teilintegrierter, normale Dämmung: 2 bis 4 kW, je nach Reiseziel",
+        "Großes oder vollintegriertes Wohnmobil, oder echte Wintertauglichkeit gewünscht: eher 4 kW und mehr",
+        "Schlechte Dämmung, viel Glasfläche oder Reisen in den Frost verschieben die Empfehlung jeweils eine Stufe nach oben",
+        "Im Zweifel: nicht die größte Heizung kaufen, sondern eine mit weitem Regelbereich, die auch sauber niedrig laufen kann"
+      ]
+    },
+    {
+      "heading": "2. Diesel oder Gas: entscheide an deinen Reisegewohnheiten",
+      "body": "Es gibt nicht die eine richtige Antwort, sondern die richtige für dein Reiseprofil. Diesel-Luftheizungen haben sich im Vanausbau durchgesetzt, weil sie aus dem vorhandenen Fahrzeugtank ziehen, keinen separaten Brennstoff brauchen und sich kompakt einbauen lassen. Gas hat eigene Stärken, bringt aber die Logistik von Flaschen und Füllständen mit. Geh die folgenden Fragen ehrlich durch, die Mehrheit deiner Antworten zeigt die Richtung.",
+      "items": [
+        "Willst du nur einen Brennstoff für Fahren und Heizen? Spricht für Diesel (zieht aus dem Fahrzeugtank)",
+        "Reist du oft autark, lange abseits von Versorgung? Spricht für Diesel (kein Flaschenwechsel, ein Tank)",
+        "Kochst du ohnehin schon mit Gas an Bord? Eine Gasheizung kann die vorhandene Infrastruktur mitnutzen",
+        "Stört dich möglicher Abgasgeruch oder Geräusch am Stellplatz? Prüfe das früh, manche Campingplätze schränken Diesel-Standheizungen ein",
+        "Reist du viel im echten Winter und willst Reserven? Beide Systeme können das, entscheidend ist dann die Dimensionierung aus Block 1",
+        "Zähle die Treffer: überwiegt eine Seite klar, ist das deine Basisrichtung für das Händlergespräch"
+      ]
+    },
+    {
+      "heading": "3. Verbrauch abschätzen: die Faustformel für Diesel-Luftheizungen",
+      "body": "Statt fixer Zahlen, die schnell veralten, rechne mit Spannen. Hersteller wie Webasto oder Truma geben für Diesel-Luftheizungen grob 0,1 bis 0,6 Liter pro Stunde an, abhängig von Last. Eine kleine 2-kW-Heizung liegt in mittlerer Stufe oft im unteren Bereich, bei Volllast höher. Drei Faktoren treiben den Verbrauch: Außentemperatur, gewünschte Innentemperatur und Dämmung. So rechnest du eine Nacht überschlägig hoch:",
+      "items": [
+        "Schritt 1: nimm einen mittleren Stundenwert von rund 0,2 Liter pro Stunde als Ausgangspunkt für eine gut gedämmte 2-kW-Heizung",
+        "Schritt 2: die Heizung läuft nachts nicht durch, sondern taktet. Rechne grob mit der halben Laufzeit, also etwa 0,1 Liter pro Stunde im Schnitt über die Nacht",
+        "Schritt 3: multipliziere mit den Heizstunden, Beispiel 10 Stunden ergibt rund 1 Liter Diesel pro mild kalter Nacht",
+        "Schritt 4: bei strengem Frost, großem Fahrzeug oder schlechter Dämmung das Ergebnis verdoppeln bis verdreifachen",
+        "Merksatz: eine durchschnittliche Nacht kostet meist deutlich unter zwei Liter Diesel, der Brennstoff ist selten der teure Teil der Rechnung"
+      ]
+    },
+    {
+      "heading": "4. Strombedarf nicht vergessen: die zweite Verbrauchsseite",
+      "body": "Eine Diesel- oder Gas-Luftheizung verbrennt zwar Brennstoff für die Wärme, braucht aber Strom aus der Bordbatterie für Gebläse, Steuerung und besonders für den Startvorgang. Beim Hochfahren ist der Strombedarf am höchsten, im Dauerbetrieb deutlich geringer. Plane das in deine Energiebilanz ein, sonst steht die Heizung morgens vor einer leeren Batterie.",
+      "items": [
+        "Der Startvorgang zieht kurzzeitig spürbar mehr Strom als der laufende Betrieb, häufiges An und Aus kostet also doppelt",
+        "Stell die Heizung lieber auf eine niedrige Dauertemperatur, als sie ständig komplett aus und wieder anzuschalten",
+        "Prüfe vor dem Kauf, ob deine Bordbatterie eine kalte Nacht plus Startvorgänge schafft, im Zweifel Kapazität oder Ladequelle nachrüsten",
+        "Notiere dir die Strombedarfswerte aus dem Datenblatt deiner Wunschheizung und gleiche sie mit deiner Batteriekapazität ab"
+      ]
+    },
+    {
+      "heading": "5. Einbau und Sicherheit: was du nicht selbst entscheiden solltest",
+      "body": "Eine Standheizung verbrennt Kraftstoff an Bord und führt Abgase nach außen. Das ist der sicherheitskritische Teil und kein Ort für Halbwissen. Dieser Spickzettel ersetzt keine Fachberatung und keine Einbauanleitung. Die folgende Liste hilft dir, vorbereitet ins Gespräch mit einem qualifizierten Einbaubetrieb zu gehen, nicht den Einbau selbst zu beurteilen. Im Zweifel gilt: Einbau und Abnahme gehören in Fachhand.",
+      "items": [
+        "Abgasführung nach außen und dichte Trennung zum Wohnraum sind sicherheitsrelevant, das gehört fachgerecht ausgeführt und geprüft",
+        "Ein funktionierender Kohlenmonoxid-Melder im Wohnbereich ist sinnvoll, unabhängig vom Heizungstyp, ersetzt aber keinen korrekten Einbau",
+        "Kläre Frischluftzufuhr und Ansaugung mit dem Einbaubetrieb, eine Heizung braucht definierte Luftwege",
+        "Frag nach Gewährleistung, Dokumentation und ob für dein Fahrzeug eine Abnahme oder Eintragung nötig ist",
+        "Prüfe vorab die Regeln deiner häufigen Stellplätze, manche schränken den Betrieb von Diesel-Standheizungen ein",
+        "Halte dich an die Hersteller- und Einbauvorgaben, eigenmächtige Änderungen an Brennstoff- oder Abgasführung sind ein Sicherheitsrisiko"
+      ]
+    }
+  ],
+  "softCta": "Du weißt jetzt, welche Leistungsklasse zu deinem Camper passt und was sie ungefähr verbraucht. Den nächsten Schritt, also Diesel gegen Gas im Detail und worauf du beim konkreten Modell achtest, findest du im Bereich Heizung / Klima auf VanKompass. Schau dort vorbei, bevor du dich festlegst.",
+  "brevoNote": "Auslieferung als PDF-Download nach Double-Opt-in. Im Brevo-Anmeldeformular des Silos Heizung / Klima trägt sich der Interessent ein, bekommt die Bestätigungsmail (DOI), und erst nach Klick auf den Bestätigungslink wird die Willkommens- oder Lieferungs-Automation ausgelöst. Diese Mail enthält den Download-Link zum PDF, das auf VanKompass gehostet ist (kein Anhang, sondern Link, um Zustellbarkeit zu sichern). Personalisierung über Merge-Feld {{ contact.VORNAME }} in der Anrede, falls im Formular abgefragt, sonst neutrale Anrede. Liste oder Tag pro Silo setzen, damit spätere Mailings zum Thema Heizung / Klima sauber segmentiert werden können.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "heizung"
+}

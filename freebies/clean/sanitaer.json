@@ -1,0 +1,84 @@
+{
+  "slug": "trockentrenntoilette-entscheidungshilfe",
+  "siloName": "Toilette / Sanitär",
+  "freebieTitle": "Trockentrenntoilette oder nicht? Die Entscheidungshilfe für dein Camper-Klo",
+  "freebieType": "entscheidungshilfe",
+  "coverHook": "In 10 Minuten weißt du, ob Trenn-, Kassetten- oder Selbstbautoilette zu deinem Van passt: ohne Werbeversprechen, mit ehrlichem Platz- und Verbrauchscheck.",
+  "whyUseful": "Die Toilettenfrage ist im Camper eine der teuersten und am schwersten rückgängig zu machenden Entscheidungen: Ein fest eingebautes System prägt die Nasszelle auf Jahre. Wer hier falsch wählt, ärgert sich bei jeder Reise. Diese Entscheidungshilfe nimmt dem Leser genau die Recherche ab, die er sonst über Dutzende Foren und Shopseiten verstreut zusammensuchen müsste: Sie stellt die drei realistischen Wege (Komplett-Trenntoilette, Kassettentoilette, Selbstbau) nebeneinander, liefert eine ehrliche Pro/Contra-Matrix ohne Verkaufsschlagseite, macht den Platzbedarf mit einer Mess-Faustformel greifbar und beziffert Verbrauch und Leer-Rhythmus in Spannen statt in schnell veraltenden Einzelwerten. Damit koppelt das Freebie direkt an die Kaufentscheidung des Bereichs Toilette/Sanitär: Der Leser kommt vom diffusen Wunsch zur konkreten Systemwahl und damit zur Produktrecherche, die VanKompass begleitet.",
+  "toolTie": "Anbindung an den geplanten Platz- und Kapazitäts-Rechner des Sanitär-Bereichs: Die Mess-Faustformel und der Liter-pro-Person-Richtwert aus Block 3 und 5 sind so formuliert, dass sie direkt als Eingabewerte für ein On-Site-Rechentool dienen können. Falls noch kein Tool live ist: kein Tool, dann führt der Soft-CTA auf den Systemvergleichs-Artikel.",
+  "contentBlocks": [
+    {
+      "heading": "So nutzt du diese Entscheidungshilfe",
+      "body": "Es gibt nicht die eine beste Camper-Toilette, sondern die, die zu deinem Fahrzeug, deinem Reisestil und deiner Bereitschaft zum Entleeren passt. Arbeite die fünf Blöcke der Reihe nach durch. Am Ende hast du eine klare Tendenz zu einem von drei Wegen: fertige Trockentrenntoilette, klassische Kassettentoilette oder Selbstbau. Notiere dir bei jedem Block, wohin dich deine Antwort zieht.",
+      "items": [
+        "Block 1: die drei Wege in je zwei Sätzen verstehen",
+        "Block 2: ehrliche Pro- und Contra-Matrix gegen deine Prioritäten halten",
+        "Block 3: Platzbedarf im Fahrzeug mit der Mess-Faustformel prüfen",
+        "Block 4: Verbrauchsmaterial und Folgekosten realistisch einschätzen",
+        "Block 5: 8 Ja/Nein-Fragen beantworten und Tendenz ablesen"
+      ]
+    },
+    {
+      "heading": "Block 1: Die drei realistischen Wege",
+      "body": "Bevor du vergleichst, sortiere die Begriffe. Diese drei Optionen decken praktisch alle Camper-Fälle ab. Die Komposttoilette mit aktiver Verrottung lassen wir bewusst weg: Sie ist für das mobile Reisen selten praktikabel.",
+      "items": [
+        "Fertige Trockentrenntoilette: Urin und Feststoffe werden über einen Trenneinsatz in zwei getrennte Behälter geleitet. Kein Wasser, keine Chemie. Als Komplettsystem kaufbar, sofort einsatzbereit.",
+        "Kassettentoilette (Chemie- oder Spültoilette): Bewährter Standard in vielen Serienfahrzeugen. Spült mit Wasser in eine herausnehmbare Kassette, oft mit Zusatz gegen Geruch. Entsorgung an offiziellen Entsorgungsstationen.",
+        "Selbstbau-Trenntoilette: Gleiches Prinzip wie die fertige Trenntoilette, aber Trenneinsatz und Behälter werden in einer selbst gebauten Box verbaut. Maximale Anpassung an den eigenen Platz, mehr Eigenleistung."
+      ]
+    },
+    {
+      "heading": "Block 2: Ehrliche Pro- und Contra-Matrix",
+      "body": "Halte jede Zeile gegen deine persönliche Priorität. Es gibt keinen Gesamtsieger, nur einen Sieger für deinen Anwendungsfall. Die Anschaffungs-Spannen dienen nur der groben Einordnung und können sich ändern.",
+      "items": [
+        "Trenntoilette fertig, dafür: autark ohne Ver- und Entsorgungsstation, kein Wasser, kein Chemiezusatz, oft gute Geruchskontrolle, getrennte Entleerung wird als weniger ekelig empfunden.",
+        "Trenntoilette fertig, dagegen: höhere Anschaffung als ein einfaches Kassettenklo, Urinkanister muss häufig geleert werden, Umstieg braucht anfangs etwas Übung, fertige Maße passen nicht immer in eine vorhandene Nasszelle.",
+        "Kassettentoilette, dafür: niedrige Anschaffung, in vielen Fahrzeugen bereits eingebaut, vertraute Bedienung, Spülkomfort, Entsorgung an Stationen schnell erledigt.",
+        "Kassettentoilette, dagegen: braucht Frischwasser und meist Zusatzmittel, Entsorgung an offizielle Stationen gebunden, das Entleeren empfinden viele als unangenehmer, Folgekosten für Sanitärzusatz.",
+        "Selbstbau, dafür: günstigste Variante bei den Materialkosten, Maße exakt an den eigenen Stauraum anpassbar, Behälter frei wählbar, gut für kleine Vans.",
+        "Selbstbau, dagegen: erfordert handwerkliches Geschick und Zeit, keine Garantie und kein fertiger Service, Dichtigkeit und Geruchsdichte muss man selbst sauber lösen."
+      ]
+    },
+    {
+      "heading": "Block 3: Platzbedarf prüfen mit der Mess-Faustformel",
+      "body": "Der häufigste Fehlkauf entsteht, weil die Toilette auf dem Papier toll ist, aber im Fahrzeug nicht sitzt oder sich der Deckel nicht öffnen lässt. Miss zuerst, kauf dann. Als grobe Orientierung liegen kompakte Komplett-Trenntoiletten oft im Bereich von etwa 30 bis 48 cm in Breite, Tiefe und Höhe. Prüfe immer die Herstellermaße des konkreten Modells, die Werte variieren stark.",
+      "items": [
+        "Stellfläche messen: Breite und Tiefe des freien Bodens an der geplanten Position notieren, dann rundum mindestens 3 bis 5 cm Luft für Wand und Bewegung abziehen.",
+        "Sitzhöhe prüfen: bequeme Sitzhöhe liegt grob bei 40 bis 45 cm. Niedrige Boxen lassen sich mit Sitzerhöhung anpassen, hohe Modelle können unter niedrigen Betten anstoßen.",
+        "Deckel- und Klappweg testen: simuliere mit einem Karton in Originalmaßen, ob Deckel, Sitz und Behälter-Entnahme frei gehen, auch bei eingebauten Schubladen daneben.",
+        "Entnahme-Freiraum einplanen: Urin- und Feststoffbehälter müssen sich nach vorn oder oben herausnehmen lassen, ohne dass du erst Möbel ausbauen musst.",
+        "Faustformel Selbstbau: planbare Innenbox grob ab etwa 35 cm Breite, 40 cm Tiefe, 35 cm Höhe, je nach gewählten Behältergrößen. Behälter zuerst auswählen, dann die Box drumherum konstruieren."
+      ]
+    },
+    {
+      "heading": "Block 4: Verbrauchsmaterial und Leer-Rhythmus",
+      "body": "Die laufenden Kosten und der Aufwand entscheiden oft mehr über die Zufriedenheit als der Kaufpreis. Diese Richtwerte gelten für etwa 2 Personen bei normalem Reisegebrauch und sind Spannen, keine Garantien. Dein realer Verbrauch hängt von Personenzahl, Behältergröße und Nutzungshäufigkeit ab.",
+      "items": [
+        "Trenntoilette Einstreu: Sägespäne, Kokos- oder Hanffaser zum Abdecken der Feststoffe. Verbrauch ist gering, eine kleine Handvoll pro Sitzung reicht meist.",
+        "Trenntoilette Beutel: kompostierbarer Bio-Beutel oder Vlies als Auskleidung des Feststoffbehälters erleichtert die saubere Entnahme.",
+        "Urinkanister leeren: bei 2 Personen je nach Kanistergröße etwa alle 1 bis 3 Tage. Größere Kanister im Bereich um 10 Liter strecken den Rhythmus, brauchen aber mehr Platz und sind schwerer zu tragen.",
+        "Feststoffbehälter leeren: je nach Größe und Nutzung grob alle 1 bis mehrere Wochen, bei Dauernutzung häufiger. Behälter im Bereich von etwa 5 bis 20 Liter sind üblich.",
+        "Kassettentoilette Verbrauch: Frischwasser zum Spülen plus Sanitärzusatz für den Abwassertank. Kassette wird je nach Größe und Nutzung alle paar Tage an einer Entsorgungsstation geleert.",
+        "Selbstbau: gleicher Verbrauch wie fertige Trenntoilette, du wählst Kanister- und Behältergröße selbst und steuerst damit den Leer-Rhythmus."
+      ]
+    },
+    {
+      "heading": "Block 5: 8 Fragen, dann hast du deine Tendenz",
+      "body": "Beantworte jede Frage ehrlich mit Ja oder Nein und zähle, wohin dich die Antworten ziehen. Es ist eine Tendenz, keine starre Vorschrift. Bei Gleichstand gilt: Was nervt dich im Alltag weniger?",
+      "items": [
+        "Willst du frei stehen, oft fern von Ver- und Entsorgungsstationen? Ja zieht zur Trenntoilette.",
+        "Ist dir Wasser- und Chemiefreiheit wichtig? Ja zieht zur Trenntoilette.",
+        "Ist dein Budget knapp und du baust gern selbst? Ja zieht zum Selbstbau.",
+        "Hat dein Fahrzeug ungewöhnliche Maße oder sehr wenig Platz? Ja zieht zum Selbstbau.",
+        "Ist bereits eine funktionierende Kassettentoilette eingebaut, mit der du zufrieden bist? Ja zieht zum Behalten der Kassette.",
+        "Willst du maximalen Spülkomfort und vertraute Bedienung ohne Umgewöhnung? Ja zieht zur Kassettentoilette.",
+        "Reist ihr zu mehreren oder oft lange am Stück, sodass häufiges Entleeren nervt? Ja spricht eher gegen kleine Urinkanister, plane größere Behälter oder Kassette ein.",
+        "Bist du bereit, am Anfang etwas Übung in die Bedienung zu stecken? Ja öffnet dir den Weg zur Trenntoilette, Nein spricht für die vertraute Kassette."
+      ]
+    }
+  ],
+  "softCta": "Wenn deine Tendenz steht, schau dir auf VanKompass den ausführlichen Systemvergleich an: Dort gehen wir Modelltypen, Einbau und Entsorgung im Detail durch und du kannst deine Maße direkt gegen passende Lösungen halten.",
+  "brevoNote": "Auslieferung über Brevo nach Double-Opt-in: Der Leser trägt sich über das VanKompass-Anmeldeformular (Cover-Hook als Versprechen) in die Brevo-Liste Sanitär/Toilette ein. Brevo verschickt zunächst die DOI-Bestätigungsmail. Erst nach Klick auf den Bestätigungslink wird die Adresse aktiv und der Download-Workflow (Automation) ausgelöst: eine Willkommensmail mit dem Download-Link zum PDF (gehostet als statische Datei, Link über Brevo-Button). Merge-Feld {{ contact.VORNAME }} für die Anrede, sofern beim Eintrag abgefragt, sonst neutrale Anrede. Der Download-Link bleibt dauerhaft in der Mail abrufbar, kein zeitliches Ablaufdatum nötig. Optional Tag freebie_trenntoilette setzen, um spätere Sanitär-Mailstrecke daran zu knüpfen.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "sanitaer"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "wassersystem-planer",
+  "siloName": "Wasser / Wasserversorgung",
+  "freebieTitle": "Der VanKompass Wassersystem-Planer: Tank, Pumpe, Filter und Liter-Bedarf in einem Durchgang festlegen",
+  "freebieType": "rechen-worksheet",
+  "coverHook": "In 15 Minuten weißt du, wie groß dein Tank sein muss, welche Pumpe zu dir passt und welche Teile du wirklich brauchst, bevor du den ersten Euro ausgibst.",
+  "whyUseful": "Die Wasserversorgung ist eine der ersten großen Kaufentscheidungen beim Camper-Ausbau, und die teuerste Fehlentscheidung ist ein falsch dimensionierter Tank oder eine Pumpe, die nicht zum System passt. Wer erst den Liter-Bedarf rechnet und dann Komponenten wählt, kauft genau einmal richtig statt zweimal. Der Planer führt den Leser von der eigenen Verbrauchszahl über die Tankgröße und Pumpenwahl bis zur winterfesten Lagerung, also genau die Kette von Kaufentscheidungen, um die sich der ganze Bereich Wasser dreht. Er ersetzt Bauchgefühl durch eine nachvollziehbare Faustformel und macht den späteren Vergleich konkreter Produkte einfacher.",
+  "toolTie": "Knüpft an den geplanten On-Site Wasserbedarf-Rechner an: Das Worksheet rechnet von Hand vor, der Rechner auf der Seite spuckt dieselbe Zahl in Sekunden aus und schlägt passende Tankgrößen-Spannen vor.",
+  "contentBlocks": [
+    {
+      "heading": "Schritt 1: Deinen täglichen Wasserbedarf ausrechnen (Faustformel)",
+      "body": "Bevor du über Tankgrößen nachdenkst, brauchst du eine ehrliche Zahl: Wie viel Wasser verbrauchst du pro Tag wirklich? Rechne pro Person und Tag mit diesen groben Spannen, addiere die Posten, die auf dich zutreffen, und multipliziere am Ende mit der Anzahl Personen und der Anzahl Tage zwischen zwei Tankfüllungen. Trag deine Werte einfach daneben ein.",
+      "items": [
+        "Trinken und Kochen: rund 3 bis 5 Liter pro Person und Tag",
+        "Geschirr, Händewaschen, Zähneputzen: rund 5 bis 10 Liter pro Person und Tag",
+        "Duschen an Bord (falls vorhanden): rund 15 bis 30 Liter pro Duschgang, je nach Spararmatur und Disziplin",
+        "Faustformel ohne Bordusche: etwa 10 bis 20 Liter pro Person und Tag",
+        "Faustformel mit Bordusche: etwa 25 bis 40 Liter pro Person und Tag",
+        "Deine Rechnung: (Liter pro Person und Tag) x (Personen) x (Tage bis zur nächsten Füllung) = Mindest-Tankvolumen"
+      ]
+    },
+    {
+      "heading": "Schritt 2: Tankgröße und Gewicht abgleichen",
+      "body": "Frischwassertanks in Campern liegen üblicherweise irgendwo zwischen rund 50 und 200 Litern, je nach Platz, Fahrzeug und gewünschter Autarkie. Der häufigste Fehler ist, nur auf das Volumen zu schauen und das Gewicht zu vergessen. Wasser wiegt rund 1 Kilogramm pro Liter, ein voller 100-Liter-Tank sind also rund 100 Kilogramm, die auf deine Zuladung gehen. Geh diese Punkte durch, bevor du dich festlegst.",
+      "items": [
+        "Mindestvolumen aus Schritt 1 als Untergrenze nehmen, nicht als Wunschwert",
+        "Restliche Zuladung prüfen: passt das Tankgewicht plus voller Füllung noch ins zulässige Gesamtgewicht?",
+        "Einbauort festlegen: Innenraum (frostgeschützt, kostet Stauraum) oder Unterboden (mehr Platz, im Winter frostgefährdet)",
+        "Form und Revisionsöffnung beachten: ein Tank mit großer Einstiegsöffnung lässt sich von Hand reinigen",
+        "Material: lebensmittelechter Kunststoff ist Standard für Frischwasser",
+        "Lieber etwas mehr Reserve als zu knapp, aber jeder zusätzliche Liter ist ein zusätzliches Kilo unterwegs"
+      ]
+    },
+    {
+      "heading": "Schritt 3: Pumpentyp passend zum System wählen",
+      "body": "Es gibt zwei gängige Grundtypen, und die Wahl hängt davon ab, wie viel Komfort und Druck du willst. Entscheide anhand dieser Gegenüberstellung, dann passt die Pumpe später zum restlichen Leitungssystem.",
+      "items": [
+        "Tauchpumpe: sitzt im Tank, günstig, leise, einfach zu tauschen, liefert eher wenig Druck, gut für kleine Ausbauten mit ein bis zwei Zapfstellen",
+        "Druckwasserpumpe: sitzt in der Leitung, baut konstanten Druck auf, schaltet automatisch bei Wasserentnahme, komfortabler bei Dusche und mehreren Zapfstellen, etwas aufwendiger und lauter",
+        "Faustregel: nur Spüle und Waschbecken, kleines System, kleines Budget gleich Tauchpumpe",
+        "Faustregel: Dusche, mehrere Hähne, gleichmäßiger Wasserstrahl gewünscht gleich Druckwasserpumpe",
+        "Bei Druckwasserpumpe einen Druckspeicher (Ausgleichsbehälter) einplanen: er reduziert das Pulsieren und schont die Pumpe",
+        "Förderleistung und Druck der Pumpe zu Armaturen und Leitungsdurchmesser passend wählen, nicht wahllos die stärkste nehmen"
+      ]
+    },
+    {
+      "heading": "Schritt 4: Filter und Wasserhygiene entscheiden",
+      "body": "Ein Filter ist kein Pflichtteil, aber eine bewusste Entscheidung. Wichtig: Ein Filter macht aus unsicherem Wasser kein garantiert sicheres Trinkwasser. Befülle den Tank möglichst nur mit Trinkwasser aus geprüften Quellen und halte das System sauber. Diese Punkte helfen dir bei der Entscheidung, ohne dass du dich auf Wunder verlässt.",
+      "items": [
+        "Aktivkohlefilter: verbessert vor allem Geschmack und Geruch, kann Chlor reduzieren",
+        "Schwebstoff- oder Sedimentfilter: hält Partikel zurück, schont Pumpe und Armaturen",
+        "Weitergehende Keimreduktion: nur über dafür ausgewiesene Systeme, und auch dann bleibt saubere Befüllung die Basis",
+        "Tank und Leitungen regelmäßig reinigen, das ersetzt kein Filter",
+        "Filter nur einbauen, wenn du ihn auch wartest und Kartuschen nach Herstellerangabe tauschst, ein vergammelter Filter ist schlechter als keiner",
+        "Im Zweifel: separates Trinkwasser in Kanistern fürs Trinken, Tankwasser für Spülen und Waschen"
+      ]
+    },
+    {
+      "heading": "Schritt 5: Einkaufs-Checkliste für dein komplettes System",
+      "body": "Wenn die Entscheidungen aus Schritt 1 bis 4 stehen, sieht deine Materialliste in etwa so aus. Hak ab, was du schon hast, und nimm den Rest mit auf deine Vergleichsliste.",
+      "items": [
+        "Frischwassertank in der gewählten Größe, mit Revisionsöffnung",
+        "Pumpe (Tauch- oder Druckwasserpumpe) plus passende Verkabelung und Sicherung",
+        "Bei Druckwasserpumpe: Druckspeicher",
+        "Lebensmittelechte Schläuche und Verbinder im passenden Durchmesser",
+        "Armatur oder Wasserhahn, gegebenenfalls mit Mischbatterie",
+        "Optional: Filter samt Halterung und Ersatzkartuschen",
+        "Tankgeber oder Füllstandsanzeige, damit du nicht trocken läufst",
+        "Ablasshahn oder Ablassventil am tiefsten Punkt, das brauchst du für Schritt 6",
+        "Einfüllstutzen mit Deckel und gegebenenfalls Belüftung"
+      ]
+    },
+    {
+      "heading": "Schritt 6: Winterfest-Checkliste (Frostschäden vermeiden)",
+      "body": "Gefrierendes Wasser dehnt sich aus und kann Tank, Pumpe und Leitungen sprengen. Die sicherste Methode ist, das System vor dem ersten Frost vollständig zu entleeren. Wichtiger Hinweis: Normales Wohnmobil-Frostschutzmittel gehört nicht in den Frischwassertank, weil es nicht lebensmittelecht ist. Nutze für den Frischwasserbereich nur ausdrücklich für Trinkwasser zugelassene Produkte oder entleere vollständig. Geh diese Liste vor der Standzeit durch.",
+      "items": [
+        "Frischwassertank komplett entleeren, Ablasshahn am tiefsten Punkt öffnen",
+        "Pumpe kurz laufen lassen, bis kein Wasser mehr kommt, dann ausschalten",
+        "Alle Wasserhähne und Mischbatterien in Mittelstellung offen lassen, damit Warm- und Kaltleitung beide belüften",
+        "Boiler beziehungsweise Warmwasserspeicher separat entleeren (eigenes Ablassventil beachten)",
+        "Duschkopf abschrauben, ausschütteln, Restwasser aus dem Schlauch blasen",
+        "Revisionsöffnung öffnen, Tank auswischen, Deckel offen lassen, damit alles austrocknet und nicht muffelt",
+        "Restwasser an tiefen Stellen und Siphons nicht vergessen, dort sammelt sich gern der Rest",
+        "Wenn das Fahrzeug im Winter genutzt wird statt zu stehen: beheizten Einbauort, frostsichere Verlegung und gegebenenfalls Tankheizung von vornherein einplanen"
+      ]
+    }
+  ],
+  "softCta": "Du kennst jetzt deine Zahl und deine Komponenten. Den Liter-Bedarf musst du nicht von Hand rechnen: Auf VanKompass im Bereich Wasser findest du den Wasserbedarf-Rechner, der dir sofort eine Tankgrößen-Spanne vorschlägt, plus unsere Vergleiche zu Tanks, Pumpen und Filtern, wenn du an die konkrete Auswahl gehst. Schau vorbei, wenn du vom Plan in die Umsetzung willst.",
+  "brevoNote": "Auslieferung als PDF-Download nach Double-Opt-in: Anmeldung über das VanKompass-Formular mit Bestätigungsmail (DOI). Nach Klick auf den Bestätigungslink löst Brevo eine Automation aus, die die Willkommensmail mit dem Download-Link zum PDF (gehostet auf VanKompass oder im Brevo-Medienbereich) versendet. Personalisierung über Merge-Feld FIRSTNAME in der Anrede, sofern im Formular abgefragt; sonst neutrale Anrede. Der Download-Link bleibt dauerhaft in der Bestätigungsmail erreichbar, sodass der Lead jederzeit erneut zugreifen kann.",
+  "lengthEstimate": "2 Seiten",
+  "siloSlug": "wasser"
+}
