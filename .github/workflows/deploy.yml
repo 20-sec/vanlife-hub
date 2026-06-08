@@ -1,0 +1,47 @@
+name: Deploy via FTP (ALL-INKL)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: ./
+          server-dir: /vankompass.de/
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/.claude/**
+            **/node_modules/**
+            **/_brain/**
+            **/nischen-recherche/**
+            **/brevo-strecken/**
+            README.md
+            LIESMICH.md
+            VOR-LIVE-PRUEFEN.md
+            BREVO-KONVENTIONEN.md
+            .gitignore
+
+      - name: ALL-INKL Default index.htm entfernen
+        continue-on-error: true
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y lftp -qq
+          lftp -u "${{ secrets.FTP_USER }}","${{ secrets.FTP_PASS }}" "${{ secrets.FTP_HOST }}" <<'EOF'
+          set ftp:ssl-allow true
+          rm -f /vankompass.de/index.htm
+          bye
+          EOF

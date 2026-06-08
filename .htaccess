@@ -1,0 +1,12 @@
+# VanKompass: statische Seite, index.html hat Vorrang.
+DirectoryIndex index.html index.htm index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine Off
+</IfModule>
+
+# Kein Directory-Listing
+Options -Indexes
+
+# UTF-8 als Standard
+AddDefaultCharset UTF-8
