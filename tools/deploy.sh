@@ -37,7 +37,7 @@ BUILD="$(grep -o 'name="build" content="[^"]*"' "$SRC/index.html" | sed 's/.*con
 if [ -n "$WAIT" ]; then
   echo "warte auf https://vankompass.de/$WAIT (Build $BUILD) ..."
   for i in $(seq 1 60); do
-    if curl -s "https://vankompass.de/$WAIT" | grep -q "content=\"$BUILD\""; then
+    if curl -sL "https://vankompass.de/$WAIT" | grep -q "content=\"$BUILD\""; then
       echo "live: https://vankompass.de/$WAIT"; exit 0
     fi
     sleep 15
