@@ -18,6 +18,18 @@
 
 <section class="tight">
 <div class="wrap">
+  {{ m.reco(top, 'Unsere Empfehlung: das Produkt, das gerade am meisten überzeugt') }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  {{ m.freebie() }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
   <div class="sec-head"><h2 class="kicker">Alle Beitr&auml;ge</h2></div>
   <div class="kicker-line"></div>
   <div class="filter" id="filter">
@@ -32,7 +44,7 @@
 
 <section class="tight">
 <div class="wrap">
-  {{ m.freebie() }}
+  {{ m.freebie(compact=True) }}
 </div>
 </section>
 

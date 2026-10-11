@@ -14,7 +14,8 @@ os.chdir(ROOT)
 
 SITE = {
     "base": "https://vankompass.de/",
-    "css_v": "4",
+    "css_v": "5",
+    "top_bereich": "strom",
     "asset_v": "20261011",
     "kontakt": "redaktion@vankompass.de",
     "affiliate_hinweis": "Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du darüber ein, erhalten wir eine kleine Provision. Für dich ändert sich am Preis nichts. So können wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke für deine Unterstützung.",
@@ -176,6 +177,7 @@ def main():
     enrich(bereiche, camper)
 
     all_area_posts = [p for b in bereiche for p in b["beitraege"]]
+    env.globals["top"] = next(b for b in bereiche if b["slug"] == SITE["top_bereich"])["empfehlung"]
     for b in bereiche:
         b["flagship"] = flagship_of(b["beitraege"])
     for c in camper:
