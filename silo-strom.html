@@ -3,204 +3,497 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow"><!-- ENTWURF/Staging: nicht indexieren. Vor Live entfernen. -->
-<title>Camper Strom &amp; Batterie: Powerstation, Bordbatterie oder Ladebooster? (2026)</title>
-<meta name="description" content="Stromversorgung im Camper 2026: Powerstation, LiFePO4-Festeinbau oder Ladebooster. Lösungstypen, Kaufkriterien und die passende Wahl für deinen Camper.">
+<meta name="robots" content="noindex, nofollow">
+<title>Strom im Camper: Powerstation, Batterie, Laden | VanKompass</title>
+<meta name="description" content="Strom im Camper verständlich erklärt: Welche Powerstation passt, wie viel Wh du brauchst, LiFePO4 oder AGM, Laden über Solar und Lichtmaschine. Video-Tests, Ratgeber und Kaufempfehlung.">
 <link rel="canonical" href="https://vankompass.de/silo-strom.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Strom im Camper: Powerstation, Batterie, Laden | VanKompass">
+<meta property="og:description" content="Welche Powerstation passt, wie viel Wh du brauchst, LiFePO4 oder AGM, Laden über Solar und Lichtmaschine. Video-Tests, Ratgeber und Kaufempfehlung.">
+<meta property="og:url" content="https://vankompass.de/silo-strom.html">
+<meta property="og:image" content="https://vankompass.de/img/thumb-aferiy-p180-pro.svg">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="VanKompass">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Strom im Camper: Powerstation, Batterie, Laden | VanKompass">
+<meta name="twitter:description" content="Welche Powerstation passt, wie viel Wh du brauchst, LiFePO4 oder AGM, Laden über Solar und Lichtmaschine.">
 <link rel="stylesheet" href="vanlife-styles.css?v=3">
+<style>
+/* ---------- Portal: Grundlayout ---------- */
+.portal-hero { background: linear-gradient(160deg, var(--petrol), var(--petrol-2)); color: #fff; padding: 30px 0 28px; }
+.portal-hero .kicker-light { font-size: 12.5px; text-transform: uppercase; letter-spacing: 2px; color: var(--amber); font-weight: 700; margin: 0 0 8px; }
+.portal-hero h1 { font-size: clamp(28px, 4.6vw, 42px); margin: 0 0 8px; letter-spacing: -.6px; line-height: 1.1; }
+.portal-hero .lead { font-size: 17.5px; color: #cfe3df; max-width: 680px; margin: 0; line-height: 1.55; }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin: 0 0 4px; }
+.sec-head h2.kicker { margin: 0; }
+.sec-head .more { font-size: 14px; font-weight: 600; color: var(--amber-dark); text-decoration: none; }
+.sec-head .more:hover { text-decoration: underline; }
+
+/* ---------- Lies das zuerst (Featured) ---------- */
+.lead-article { background: #fff; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; display: grid; grid-template-columns: minmax(0, 46%) 1fr; box-shadow: var(--shadow); transition: transform .14s ease, box-shadow .14s ease; }
+.lead-article:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(15,61,62,.12), 0 16px 44px rgba(15,61,62,.10); }
+.lead-article > a { display: contents; color: inherit; text-decoration: none; }
+.lead-article .media { background: var(--petrol); display: grid; place-items: center; padding: 22px; min-height: 100%; }
+.lead-article .media img { width: 100%; height: auto; display: block; border-radius: 10px; }
+.lead-article .body { padding: 26px 28px 28px; display: flex; flex-direction: column; justify-content: center; }
+.lead-article .badge { display: inline-flex; align-items: center; gap: 8px; background: var(--amber); color: var(--petrol); font-size: 11.5px; font-weight: 800; padding: 5px 12px; border-radius: 999px; text-transform: uppercase; letter-spacing: .8px; width: fit-content; margin: 0 0 14px; }
+.lead-article .badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--petrol); }
+.lead-article h2 { margin: 0 0 10px; font-size: clamp(22px, 2.8vw, 30px); color: var(--petrol); line-height: 1.22; letter-spacing: -.4px; }
+.lead-article .meta { font-size: 13.5px; color: var(--muted); margin: 0 0 12px; }
+.lead-article p { margin: 0 0 18px; font-size: 16px; line-height: 1.6; }
+.lead-article .read { font-weight: 700; color: var(--amber-dark); font-size: 15.5px; }
+.lead-article .read::after { content: " \2192"; }
+@media (max-width: 760px) { .lead-article { grid-template-columns: 1fr; } .lead-article .body { padding: 20px; } }
+
+/* ---------- Unsere Empfehlung (Impulskauf) ---------- */
+.reco { background: #fff; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; display: grid; grid-template-columns: 300px 1fr 260px; box-shadow: var(--shadow); }
+.reco .img { background: linear-gradient(160deg, #f7efdf, #efe2c9); display: grid; place-items: center; padding: 22px; }
+.reco .img img { width: 100%; max-width: 260px; height: auto; display: block; }
+.reco .info { padding: 26px 26px 24px; border-right: 1px solid var(--line); }
+.reco .tag { display: inline-flex; align-items: center; gap: 8px; font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .8px; color: var(--amber-dark); margin: 0 0 10px; }
+.reco .tag::before { content: ""; width: 22px; height: 3px; background: var(--amber); border-radius: 2px; }
+.reco h2 { margin: 0 0 6px; font-size: clamp(22px, 2.6vw, 28px); color: var(--petrol); letter-spacing: -.4px; }
+.reco .one { font-size: 16.5px; line-height: 1.5; margin: 0 0 14px; color: var(--ink); }
+.reco .pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.reco .pill { background: var(--sand); border: 1px solid var(--line); color: var(--petrol); font-size: 13px; font-weight: 700; padding: 6px 12px; border-radius: 999px; }
+.reco .why { background: #eef5f1; border-left: 4px solid var(--petrol-2); border-radius: 8px; padding: 10px 14px; font-size: 14.5px; line-height: 1.55; margin: 0; }
+.reco .why b { color: var(--petrol); }
+.reco .buy { padding: 26px 24px; display: flex; flex-direction: column; justify-content: center; gap: 10px; background: #fbf8f1; }
+.reco .price { font-size: 13px; color: var(--muted); margin: 0; text-transform: uppercase; letter-spacing: .6px; font-weight: 600; }
+.reco .price b { display: block; font-size: 24px; color: var(--petrol); letter-spacing: -.5px; text-transform: none; margin-top: 2px; white-space: nowrap; }
+.reco .price small { display: block; font-size: 12px; text-transform: none; letter-spacing: 0; font-weight: 500; margin-top: 2px; }
+.reco .aff-btn.primary { text-align: center; align-items: center; font-size: 16px; padding: 13px 18px; box-shadow: 0 4px 14px rgba(224,138,43,.35); }
+.reco .aff-btn.primary:hover { box-shadow: 0 4px 14px rgba(196,117,28,.45); }
+.reco .alt { font-size: 13.5px; color: var(--petrol-2); text-decoration: none; font-weight: 600; text-align: center; }
+.reco .alt:hover { text-decoration: underline; }
+.reco .trust { font-size: 12px; color: var(--muted); margin: 4px 0 0; line-height: 1.5; text-align: center; }
+@media (max-width: 960px) { .reco { grid-template-columns: 240px 1fr; } .reco .buy { grid-column: 1 / -1; border-top: 1px solid var(--line); flex-direction: row; align-items: center; flex-wrap: wrap; } .reco .info { border-right: 0; } .reco .buy .price { flex: 1; } }
+@media (max-width: 600px) { .reco { grid-template-columns: 1fr; } .reco .img { padding: 18px; } .reco .img img { max-width: 200px; } .reco .info { padding: 20px; } .reco .buy { flex-direction: column; align-items: stretch; } }
+
+/* ---------- Freebie / Newsletter ---------- */
+.freebie { background: linear-gradient(135deg, var(--amber), var(--amber-dark)); color: #fff; border-radius: 18px; padding: 26px 28px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 24px; align-items: center; box-shadow: var(--shadow); }
+.freebie .kick { font-size: 12px; text-transform: uppercase; letter-spacing: 1.8px; font-weight: 800; opacity: .9; margin: 0 0 6px; }
+.freebie h2 { margin: 0 0 8px; color: #fff; font-size: clamp(21px, 2.6vw, 26px); letter-spacing: -.3px; line-height: 1.2; }
+.freebie p { margin: 0 0 12px; font-size: 15.5px; line-height: 1.55; }
+.freebie ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.freebie li { font-size: 14.5px; padding-left: 20px; position: relative; }
+.freebie li::before { content: ""; position: absolute; left: 0; top: 8px; width: 10px; height: 6px; border-left: 2.5px solid #fff; border-bottom: 2.5px solid #fff; transform: rotate(-45deg); }
+.nl-form { display: grid; gap: 10px; }
+.nl-form input[type="email"] { padding: 14px 16px; border-radius: 12px; border: none; font-size: 16px; font-family: inherit; width: 100%; }
+.nl-form input[type="email"]:focus { outline: 3px solid rgba(15,61,62,.35); }
+.nl-form button { background: var(--petrol); color: #fff; border: none; padding: 14px 20px; border-radius: 12px; font-weight: 800; font-size: 16px; cursor: pointer; font-family: inherit; }
+.nl-form button:hover { background: #0a2c2d; }
+.nl-form small { font-size: 12px; color: rgba(255,255,255,.88); line-height: 1.5; }
+.nl-form small a { color: #fff; }
+.nl-form .done { background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.4); border-radius: 12px; padding: 14px 16px; font-weight: 700; display: none; }
+.nl-form.sent .done { display: block; }
+.nl-form.sent input, .nl-form.sent button { display: none; }
+.freebie.compact { grid-template-columns: 1fr 1fr; padding: 22px 24px; }
+@media (max-width: 760px) { .freebie, .freebie.compact { grid-template-columns: 1fr; } }
+
+/* ---------- Aktuelle Beiträge (3x2) ---------- */
+.post-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+@media (max-width: 900px) { .post-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .post-grid { grid-template-columns: 1fr; } }
+.post { background: #fff; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; transition: transform .14s ease, box-shadow .14s ease; }
+.post:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--amber); }
+.post a { color: inherit; text-decoration: none; display: flex; flex-direction: column; height: 100%; }
+.post .thumb { background: var(--petrol); aspect-ratio: 17/10; overflow: hidden; }
+.post .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.post .pb { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.post .cat { font-size: 11.5px; text-transform: uppercase; letter-spacing: 1px; color: var(--amber-dark); font-weight: 800; }
+.post h3 { margin: 0; font-size: 17px; line-height: 1.32; color: var(--petrol); }
+.post p { margin: 0; font-size: 14.5px; line-height: 1.5; color: var(--ink); }
+.post .meta { margin-top: auto; padding-top: 8px; font-size: 12.5px; color: var(--muted); display: flex; justify-content: space-between; gap: 10px; }
+.post .soon { color: var(--muted); font-weight: 600; }
+
+/* ---------- FAQ ---------- */
+.faq-intro { font-size: 15.5px; color: var(--muted); margin: 0 0 14px; max-width: 760px; }
+.faq details { border-radius: 12px; }
+.faq summary { font-size: 16.5px; }
+.faq details p a { color: var(--amber-dark); font-weight: 600; text-decoration: none; }
+
+/* ---------- Weitere Bereiche (ohne Emojis) ---------- */
+.areas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+@media (max-width: 860px) { .areas { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .areas { grid-template-columns: 1fr; } }
+.area { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px 18px 18px 16px; display: flex; gap: 14px; align-items: flex-start; text-decoration: none; color: inherit; transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease; }
+.area:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--amber); }
+.area .ico { flex: 0 0 44px; width: 44px; height: 44px; border-radius: 12px; background: var(--sand); display: grid; place-items: center; color: var(--petrol); }
+.area .ico svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.area h3 { margin: 0 0 3px; font-size: 16.5px; color: var(--petrol); }
+.area p { margin: 0; font-size: 14px; color: var(--muted); line-height: 1.45; }
+.area .arrow { margin-left: auto; align-self: center; color: var(--line); font-size: 20px; transition: color .12s ease, transform .12s ease; }
+.area:hover .arrow { color: var(--amber-dark); transform: translateX(3px); }
+
+footer.site .legal .star { color: var(--amber); font-weight: 700; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://vankompass.de/" },
-      { "@type": "ListItem", "position": 2, "name": "Batterie & Strom", "item": "https://vankompass.de/strom/" }
-    ]},
-    { "@type": "CollectionPage", "name": "Camper Strom & Batterie", "url": "https://vankompass.de/strom/",
-      "about": "Stromversorgung im Camper: Powerstation, Bordbatterie, Ladebooster" },
-    { "@type": "ItemList", "name": "Stromlösungen für den Camper nach Modell", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Powerstations für den VW California T6.1", "url": "https://vankompass.de/strom/powerstation-vw-california-t6-1/" },
-      { "@type": "ListItem", "position": 2, "name": "Powerstations für den Ford Nugget", "url": "https://vankompass.de/strom/powerstation-ford-nugget/" },
-      { "@type": "ListItem", "position": 3, "name": "LiFePO4-Bordbatterie für den Kastenwagen-Ausbau", "url": "https://vankompass.de/strom/lifepo4-bordbatterie-kastenwagen/" }
-    ]},
-    { "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "Powerstation oder fest eingebaute Batterie im Camper?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Eine Powerstation lohnt sich, wenn du sie auch außerhalb des Campers nutzen willst und nicht verkabeln möchtest, typisch beim VW California oder Marco Polo. Ein LiFePO4-Festeinbau mit Ladebooster lohnt sich beim Kastenwagen-Selbstausbau, wenn du während der Fahrt laden und dauerhaft hohe Lasten betreiben willst." } },
-      { "@type": "Question", "name": "Wie viel Wattstunden brauche ich im Camper?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Für ein Wochenende mit Kühlbox, Handy und Licht reichen oft 300 bis 600 Wh. Wer mehrere Tage autark steht und einen Kompressor-Kühlschrank plus Laptop betreibt, ist mit 1000 bis 2000 Wh besser bedient. Der Autark-Check rechnet es aus deinen Verbrauchern aus." } }
-    ]}
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://vankompass.de/" },
+        { "@type": "ListItem", "position": 2, "name": "Strom im Camper", "item": "https://vankompass.de/silo-strom.html" }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://vankompass.de/silo-strom.html",
+      "name": "Strom im Camper: Powerstation, Batterie, Laden",
+      "description": "Portal-Seite zu Strom im Camper: Video-Tests, Ratgeber, Kaufempfehlung und die wichtigsten Fragen zu Powerstation, LiFePO4 und Laden unterwegs.",
+      "url": "https://vankompass.de/silo-strom.html",
+      "isPartOf": { "@id": "https://vankompass.de/#site" },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest", "url": "https://vankompass.de/magazin-strom-aferiy-p180-pro-ford-nugget.html" }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Welche Powerstation ist die beste für den Camper?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Das hängt von Platz, Verbrauch und Budget ab. Für kleine Campervans wie Ford Nugget oder VW California hat sich die 1-kWh-Klasse mit LiFePO4-Zellen und Reinsinus-Wechselrichter (1500 bis 2000 W) bewährt, weil sie unter Küche oder Sitz passt. Ein Beispiel aus dem Praxistest ist die AFERIY P180 PRO." } },
+        { "@type": "Question", "name": "Wie viel Wattstunden braucht man im Camper?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Für ein Wochenende mit Kühlbox, Handy und Licht reichen meist 300 bis 600 Wh. Wer mehrere Tage autark steht und Kompressor-Kühlbox plus Laptop betreibt, braucht eher 1000 bis 2000 Wh. Rechne pro Gerät Watt mal Stunden pro Tag und addiere eine Reserve von etwa 20 Prozent." } },
+        { "@type": "Question", "name": "Powerstation oder Zweitbatterie: Was ist besser im Camper?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Eine Powerstation braucht keinen Einbau, ist mobil und lässt sich auch außerhalb nutzen. Eine fest verbaute LiFePO4-Zweitbatterie liefert mehr Dauerleistung und lädt über die Lichtmaschine mit Ladebooster. Faustregel: Serien-Camper wie California oder Nugget: Powerstation. Selbstausbau: Festeinbau." } },
+        { "@type": "Question", "name": "Kann man eine Powerstation während der Fahrt laden?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ja. Über die 12-V-Bordsteckdose fließen meist nur 100 bis 120 W, das reicht für eine Teilladung auf längeren Strecken. Deutlich schneller geht es mit einem DC-DC-Ladebooster oder einem herstellereigenen Fahrzeug-Ladekabel, sofern die Powerstation das unterstützt." } },
+        { "@type": "Question", "name": "Wie lange läuft eine Kühlbox an einer Powerstation?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Eine Kompressor-Kühlbox verbraucht im Mittel 30 bis 50 Wh pro Stunde, abhängig von Außentemperatur und Öffnungshäufigkeit. An einer 1000-Wh-Powerstation sind das rechnerisch 20 bis 30 Stunden, real mit Wandlerverlusten eher 18 bis 25. Der 12-V-Anschluss ist effizienter als 230 V." } },
+        { "@type": "Question", "name": "Wie viel Ah LiFePO4-Batterie braucht man im Wohnmobil?",
+          "acceptedAnswer": { "@type": "Answer", "text": "100 Ah LiFePO4 entsprechen rund 1280 Wh und sind fast vollständig nutzbar. Für Wochenend-Camper reichen 100 Ah, für mehrere Tage Autarkie mit Kühlschrank und Laptop sind 200 Ah oder mehr sinnvoll. Umrechnung: Ah mal 12,8 V ergibt Wh." } },
+        { "@type": "Question", "name": "Darf eine Powerstation im heißen Camper bleiben?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Die meisten Hersteller geben 0 bis 40 Grad Betriebstemperatur an. Ein geparkter Camper erreicht im Sommer innen 50 bis 60 Grad. Deshalb: im Schatten lagern, nicht in die pralle Sonne stellen, bei längerer Pause mit 50 bis 80 Prozent Ladezustand abstellen oder die Powerstation mitnehmen." } }
+      ]
+    }
   ]
 }
 </script>
 </head>
 <body>
 
-<div class="proto-banner">ENTWURF / Prototyp &middot; Beispieldaten, vor Live verifizieren &middot; Affiliate-IDs noch Platzhalter</div>
+<div class="proto-banner">ENTWURF / Prototyp &middot; <strong>VanKompass</strong></div>
 
 <header class="site">
   <div class="wrap">
     <a class="brand" href="index.html"><span class="mark">V</span> VanKompass</a>
     <nav>
       <a href="magazin.html">Magazin</a>
-      <a href="silo-strom.html">Bereiche</a>
+      <a href="silo-strom.html" style="color:#fff; font-weight:600;">Bereiche</a>
       <a href="index.html#modelle">Camper</a>
-      <a href="index.html#tools">Rechner</a>
     </nav>
   </div>
 </header>
 
 <div class="wrap">
-  <div class="breadcrumb"><a href="index.html">Start</a> &rsaquo; <b>Batterie &amp; Strom</b></div>
+  <p class="breadcrumb"><a href="index.html">Start</a> &rsaquo; Strom im Camper</p>
 </div>
 
-<section class="tight">
-  <div class="wrap" style="max-width:820px;">
-    <h1 style="font-size:clamp(26px,4.5vw,38px);letter-spacing:-.5px;margin:6px 0 14px;">Strom im Camper: Powerstation, Bordbatterie oder Ladebooster?</h1>
-
-    <div class="answer-box">
-      <span class="tag">Kurz gesagt</span>
-      <p><strong>Powerstation</strong>, wenn du nicht verkabeln willst und den Speicher auch draußen nutzt (typisch VW California, Marco Polo, Nugget). <strong>LiFePO4-Festeinbau mit Ladebooster</strong>, wenn du im Kastenwagen-Ausbau während der Fahrt laden und dauerhaft hohe Lasten fahren willst. Fürs Wochenende reichen 300 bis 600 Wh, für mehrere Tage autark eher 1000 bis 2000 Wh.</p>
-    </div>
-    <div class="trust">
-      <b>VanKompass Redaktion</b> <span class="dot">&middot;</span> Aktualisiert Juni 2026 <span class="dot">&middot;</span> Auf Basis verifizierter Modell-Bordnetze <span class="dot">&middot;</span> enthält Werbelinks
-    </div>
-  </div>
-</section>
-
-<section class="tight">
-  <div class="wrap" style="max-width:820px;">
-    <h2 class="title">Die drei Lösungstypen</h2>
-    <div class="grid cols-3">
-      <div class="tile" style="cursor:default;"><div class="ic">&#128268;</div><h3>Powerstation</h3><p>Steckdosen-Akku zum Mitnehmen. Kein Einbau, sofort startklar, auch außerhalb nutzbar. Ideal für California &amp; Co.</p></div>
-      <div class="tile" style="cursor:default;"><div class="ic">&#128267;</div><h3>LiFePO4-Festeinbau</h3><p>Fest verbaute Bordbatterie. Höchste Dauerleistung, lädt über die Lichtmaschine. Für den Selbstausbau.</p></div>
-      <div class="tile" style="cursor:default;"><div class="ic">&#128260;</div><h3>Ladebooster (DC-DC)</h3><p>Lädt die Bordbatterie während der Fahrt sicher und schnell. Ergänzung, kein Speicher für sich.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="tight">
+<div class="portal-hero">
   <div class="wrap">
-    <div class="tool-card">
-      <div class="ic">&#9889;</div>
-      <div>
-        <h3>Erst rechnen: der Autark-Check</h3>
-        <p>Bevor du irgendetwas kaufst: Trag deine Verbraucher ein und sieh, wie viele Wattstunden du wirklich brauchst. Spart den teuersten Fehlkauf der Nische.</p>
-      </div>
-      <div class="spacer"></div>
-      <a class="btn" href="tools/autark-check.html">Zum Autark-Check</a>
-    </div>
+    <p class="kicker-light">Bereich</p>
+    <h1>Strom im Camper</h1>
+    <p class="lead">Welche Powerstation passt, wie viel Wh du wirklich brauchst, LiFePO4 oder AGM, Laden über Solar und Lichtmaschine. Video-Tests, Ratgeber und eine klare Kaufempfehlung.</p>
   </div>
+</div>
+
+<!-- ===== 1. LIES DAS ZUERST ===== -->
+<section>
+<div class="wrap">
+  <div class="sec-head">
+    <h2 class="kicker">Der wichtigste Beitrag</h2>
+  </div>
+  <div class="kicker-line"></div>
+
+  <article class="lead-article">
+    <a href="magazin-strom-aferiy-p180-pro-ford-nugget.html">
+      <div class="media">
+        <img src="img/thumb-aferiy-p180-pro.svg" alt="AFERIY P180 PRO Powerstation im Praxistest" width="680" height="400">
+      </div>
+      <div class="body">
+        <span class="badge">Lies das zuerst</span>
+        <h2>AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest</h2>
+        <div class="meta">Video von Die2Mays &middot; 21 Minuten &middot; Zusammengefasst von VanKompass</div>
+        <p>Wenn du wissen willst, ob eine 1-kWh-Powerstation in einen kleinen Campervan passt und was sie im Alltag wirklich leistet: Dieser Beitrag beantwortet es. 1024 Wh LiFePO4, 1800 W Reinsinus, USB-C mit 140 W, passt unter die Nugget-K&uuml;che, wiegt 11,6 kg. Mit Praxistests, Lade-Optionen und allen Fakten aus dem Video.</p>
+        <span class="read">Beitrag lesen</span>
+      </div>
+    </a>
+  </article>
+</div>
 </section>
 
+<!-- ===== 2. UNSERE EMPFEHLUNG ===== -->
 <section class="tight">
-  <div class="wrap" style="max-width:820px;">
-    <h2 class="title">Kaufkriterien: worauf es bei Camper-Strom ankommt</h2>
-    <p style="margin-top:-12px;">Noch unsicher, wie viel du überhaupt brauchst? &rarr; <a href="artikel-stromverbrauch-camper-guide.html" style="color:var(--amber-dark);font-weight:600;text-decoration:none;">Der ehrliche Verbrauchs-Guide rechnet es mit dir durch.</a></p>
-    <div class="faq">
-      <details open><summary>Wie viel Kapazität (Wattstunden) brauche ich?</summary><p>Rechne deine Hauptverbraucher zusammen: Kompressor-Kühlbox ca. 30 bis 50 Wh pro Stunde, Laptop 40 bis 70 Wh, LED-Licht wenig. Fürs Wochenende reichen oft 300 bis 600 Wh, für mehrere Tage autark eher 1000 bis 2000 Wh. Lieber etwas Reserve als knapp.</p></details>
-      <details><summary>Brauche ich einen Reinsinus-Wechselrichter?</summary><p>Ja, sobald empfindliche Geräte mit aktiver PFC im Spiel sind (CPAP-Atemgerät, manche Laptop-Netzteile, Kompressoren). Modifizierte Sinusform kann hier Störgeräusche oder Defekte verursachen. Alle hier empfohlenen Powerstations liefern Reinsinus.</p></details>
-      <details><summary>Wie lädt der Speicher wieder auf?</summary><p>Drei Wege: Landstrom (Campingplatz), Solar (Modul aufs Dach oder Solartasche) und während der Fahrt über die Lichtmaschine. Letzteres braucht bei Festeinbau einen DC-DC-Ladebooster, eine Powerstation lädt über den 12-Volt-Anschluss langsamer mit.</p></details>
-      <details><summary>LiFePO4 oder klassische Batterie?</summary><p>LiFePO4 (LFP) ist heute Standard im Camper: deutlich mehr Ladezyklen, voll entladbar, leichter. Der Aufpreis gegenüber AGM rechnet sich über die Lebensdauer fast immer.</p></details>
+<div class="wrap">
+  <div class="sec-head">
+    <h2 class="kicker">Unsere Empfehlung f&uuml;r Strom im Camper</h2>
+  </div>
+  <div class="kicker-line"></div>
+
+  <div class="reco">
+    <div class="img">
+      <img src="img/produkt-aferiy-p180-pro.svg" alt="AFERIY P180 PRO Powerstation" width="520" height="520">
+    </div>
+    <div class="info">
+      <p class="tag">Redaktions-Tipp</p>
+      <h2>AFERIY P180 PRO</h2>
+      <p class="one">Die 1-kWh-Powerstation, die unter die K&uuml;che kleiner Campervans passt und trotzdem Airfryer und Eierkocher stemmt.</p>
+      <div class="pills">
+        <span class="pill">1024 Wh LiFePO4</span>
+        <span class="pill">1800 W Reinsinus</span>
+        <span class="pill">USB-C 140 W</span>
+        <span class="pill">7 Jahre Garantie</span>
+      </div>
+      <p class="why"><b>Warum wir sie empfehlen:</b> Kompakt, leise, LiFePO4 f&uuml;r tausende Ladezyklen und ein Reinsinus-Wechselrichter f&uuml;r empfindliche Ger&auml;te. Im Praxistest von Die2Mays l&auml;uft sie unter der Nugget-K&uuml;che ohne Platzprobleme.</p>
+    </div>
+    <div class="buy">
+      <p class="price">Preis-Range<b>600 bis 800 &euro;</b><small>Stand Oktober 2026</small></p>
+      <a class="aff-btn primary" data-merchant="amazon" data-asin="B0EXAMPLE03" data-label="AFERIY P180 PRO bei Amazon">Bei Amazon ansehen<span class="ad">Affiliate-Link *</span></a>
+      <a class="alt" href="magazin-strom-aferiy-p180-pro-ford-nugget.html">Erst den Praxistest lesen</a>
+      <p class="trust">Garantie 7 Jahre nach Registrierung beim Hersteller. Preis bleibt f&uuml;r dich gleich.</p>
     </div>
   </div>
+</div>
 </section>
 
-<section class="tight">
-  <div class="wrap" style="max-width:820px;">
-    <h2 class="title">Die universellen Top-Empfehlungen</h2>
-    <p class="muted" style="margin-top:-12px;">Modellübergreifend. Die genaue Wahl für deinen Camper steht weiter unten je nach Fahrzeug.</p>
-
-    <div class="product">
-      <span class="rank">Allrounder</span> <span class="label">Beste Wahl ohne Verbau</span>
-      <h3>Anker Solix C300</h3>
-      <p class="verdict">Kompakt, leise, passt unter den California-Sitz, und liefert Reinsinus.</p>
-      <p class="price">Preis-Range: ca. 250 bis 320 Euro &middot; Stand Juni 2026</p>
-      <p>Die richtige Wahl, wenn du eine Powerstation suchst, die im Aufstelldach-Camper kaum Platz frisst und trotzdem Kühlbox, Laptop und Licht über ein langes Wochenende trägt. Wer mehr Reserve braucht, greift zur größeren EcoFlow.</p>
-      <div class="buybar">
-        <a class="aff-btn primary" data-merchant="anker-solix" data-target="https://www.anker.com/de/products/solix-c300" data-label="Anker Solix C300 bei Anker ansehen">Bei Anker ansehen</a>
-        <a class="aff-btn secondary" data-merchant="amazon" data-asin="B0EXAMPLE01" data-label="Anker Solix C300 bei Amazon">Bei Amazon</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <span class="rank">Mehr Reserve</span> <span class="label">Für laengere Autarkie</span>
-      <h3>EcoFlow Delta 3 Plus</h3>
-      <p class="verdict">Wenn ein Wochenende nicht reicht: größerer Speicher, sehr schnelles Nachladen.</p>
-      <p class="price">Preis-Range: ca. 600 bis 750 Euro &middot; Stand Juni 2026</p>
-      <p>Die richtige Wahl für mehrere Tage autark mit Kompressor-Kühlschrank und regelmäßigem Laptop-Betrieb. Lädt am Landstrom in unter einer Stunde spürbar nach. Für den reinen Wochenend-Camper ist sie überdimensioniert.</p>
-      <div class="buybar">
-        <a class="aff-btn primary" data-merchant="ecoflow" data-target="https://de.ecoflow.com/products/delta-3-plus" data-label="EcoFlow Delta 3 Plus bei EcoFlow ansehen">Bei EcoFlow ansehen</a>
-        <a class="aff-btn secondary" data-merchant="amazon" data-asin="B0EXAMPLE02" data-label="EcoFlow Delta 3 Plus bei Amazon">Bei Amazon</a>
-      </div>
-    </div>
-
-    <div class="product">
-      <span class="rank">Selbstausbau</span> <span class="label">Festeinbau</span>
-      <h3>Offgridtec LiFePO4 100Ah</h3>
-      <p class="verdict">Der Klassiker für den fest verbauten Bordstrom im Kastenwagen.</p>
-      <p class="price">Preis-Range: ca. ab 280 Euro (Standardvariante, Pro bis 550) &middot; Stand Juni 2026</p>
-      <p>Die richtige Wahl, wenn du im Sprinter- oder Ducato-Ausbau eine dauerhafte Bordbatterie willst, die über Lichtmaschine (per Ladebooster) und Solar geladen wird. Nichts für dich, wenn du nicht verkabeln willst, dann nimm eine Powerstation.</p>
-      <div class="buybar">
-        <a class="aff-btn primary" data-merchant="offgridtec" data-target="https://www.offgridtec.com/offgridtec-lifepo4-100ah" data-label="Offgridtec LiFePO4 100Ah ansehen">Bei Offgridtec ansehen</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section class="tight">
-  <div class="wrap" style="max-width:820px;">
-    <h2 class="title">Strom für deinen Camper</h2>
-    <p class="muted" style="margin-top:-12px;">Die genaue Passung hängt vom Modell ab. Wähle deinen Camper:</p>
-    <div class="crosslinks">
+<!-- ===== 3. FREEBIE / NEWSLETTER ===== -->
+<section class="tight" id="packliste">
+<div class="wrap">
+  <div class="freebie">
+    <div>
+      <p class="kick">Kostenlos als PDF</p>
+      <h2>Die VanKompass Camper-Packliste: 120 Punkte, nach Bereichen sortiert</h2>
+      <p>Strom, Schlafen, K&uuml;che, Sanit&auml;r, Sicherheit, Werkzeug. Zum Abhaken vor jeder Fahrt, damit du nie wieder ohne Ladekabel, Wasserschlauch oder Keil losf&auml;hrst.</p>
       <ul>
-        <li><a href="artikel-powerstation-vw-california-t61.html">Die besten Powerstations für den VW California T6.1 (ohne Verbau)</a></li>
-        <li><a href="artikel-powerstation-ford-nugget.html">Die besten Powerstations für den Ford Nugget</a> &nbsp;<span class="muted">neu</span></li>
-        <li><a href="artikel-lifepo4-bordbatterie-kastenwagen.html">LiFePO4-Bordbatterie für den Kastenwagen-Selbstausbau (Ducato/Sprinter/Crafter)</a> &nbsp;<span class="muted">neu</span></li>
-        <li><a href="#">Powerstations für den Mercedes Marco Polo</a></li>
-        <li><a href="#">DC-DC-Ladebooster fürs Laden während der Fahrt</a></li>
-        <li><a href="#">Batterie-Monitoring: Ladezustand richtig messen (Shunt)</a></li>
+        <li>Alle Bereiche auf einen Blick, auch die, an die niemand denkt</li>
+        <li>Extra-Spalte f&uuml;r dein eigenes Camper-Modell</li>
+        <li>Neue Video-Tests und Ratgeber direkt ins Postfach</li>
       </ul>
     </div>
+    <form class="nl-form" action="#" method="post" data-nl>
+      <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required autocomplete="email">
+      <button type="submit">Packliste holen</button>
+      <div class="done">Danke! Die Packliste ist unterwegs. Schau in dein Postfach.</div>
+      <small>Kostenlos, kein Spam, jederzeit abbestellbar. Wir nutzen deine Adresse nur f&uuml;r den Versand. <a href="datenschutz.html">Datenschutz</a></small>
+    </form>
   </div>
+</div>
 </section>
 
-<section class="tight">
-  <div class="wrap" style="max-width:820px;">
-    <div class="tool-card">
-      <div class="ic">&#9889;</div>
-      <div>
-        <h3>Brauchst du erst mal eine Größenordnung?</h3>
-        <p>Der Autark-Check rechnet aus deinen Verbrauchern in 60 Sekunden, wie viel Speicher du wirklich brauchst.</p>
-      </div>
-      <div class="spacer"></div>
-      <a class="btn" href="tools/autark-check.html">Zum Autark-Check</a>
-    </div>
+<!-- ===== 4. AKTUELLE BEITRÄGE ===== -->
+<section>
+<div class="wrap">
+  <div class="sec-head">
+    <h2 class="kicker">Aktuelle Beitr&auml;ge zu Strom im Camper</h2>
+    <a class="more" href="magazin-strom.html">Alle Beitr&auml;ge &rarr;</a>
   </div>
+  <div class="kicker-line"></div>
+
+  <div class="post-grid">
+
+    <article class="post">
+      <a href="magazin-strom-aferiy-p180-pro-ford-nugget.html">
+        <div class="thumb"><img src="img/thumb-aferiy-p180-pro.svg" alt="" width="680" height="400" loading="lazy"></div>
+        <div class="pb">
+          <span class="cat">Video-Test</span>
+          <h3>AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest</h3>
+          <p>Passt unter die Nugget-K&uuml;che, 1024 Wh LiFePO4, 1800 W Reinsinus. Alle Fakten aus dem Video von Die2Mays.</p>
+          <div class="meta"><span>Oktober 2026</span><span>21 Min. Video</span></div>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#">
+        <div class="thumb"><img src="img/thumb-strom-powerstation-laden.svg" alt="" width="680" height="400" loading="lazy"></div>
+        <div class="pb">
+          <span class="cat">Ratgeber</span>
+          <h3>Powerstation im Camper laden: 230 V, Solar oder w&auml;hrend der Fahrt?</h3>
+          <p>Welche Lade-Option wann sinnvoll ist, wie lange es dauert und was die 12-V-Steckdose wirklich schafft.</p>
+          <div class="meta"><span class="soon">In Vorbereitung</span></div>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#">
+        <div class="thumb"><img src="img/thumb-strom-lifepo4-vs-agm.svg" alt="" width="680" height="400" loading="lazy"></div>
+        <div class="pb">
+          <span class="cat">Vergleich</span>
+          <h3>LiFePO4 oder AGM: Welche Bordbatterie f&uuml;r den Kastenwagen?</h3>
+          <p>Zyklen, Gewicht, Entladetiefe und Preis pro nutzbarer Wattstunde. Wann sich der Aufpreis rechnet.</p>
+          <div class="meta"><span class="soon">In Vorbereitung</span></div>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#">
+        <div class="thumb"><img src="img/thumb-strom-kuehlbox-laufzeit.svg" alt="" width="680" height="400" loading="lazy"></div>
+        <div class="pb">
+          <span class="cat">Rechenbeispiel</span>
+          <h3>Wie lange l&auml;uft eine K&uuml;hlbox an der Powerstation?</h3>
+          <p>Realistische Laufzeiten bei 20, 30 und 35 Grad Au&szlig;entemperatur, mit und ohne Wechselrichter-Verluste.</p>
+          <div class="meta"><span class="soon">In Vorbereitung</span></div>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#">
+        <div class="thumb"><img src="img/thumb-strom-ladebooster.svg" alt="" width="680" height="400" loading="lazy"></div>
+        <div class="pb">
+          <span class="cat">Ratgeber</span>
+          <h3>Ladebooster erkl&auml;rt: Bordbatterie sicher &uuml;ber die Lichtmaschine laden</h3>
+          <p>Warum Euro-6-Fahrzeuge einen DC-DC-Lader brauchen, welche Amperezahl passt und was beim Einbau z&auml;hlt.</p>
+          <div class="meta"><span class="soon">In Vorbereitung</span></div>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#">
+        <div class="thumb"><img src="img/thumb-strom-powerstation-hitze.svg" alt="" width="680" height="400" loading="lazy"></div>
+        <div class="pb">
+          <span class="cat">Praxis</span>
+          <h3>Powerstation im Sommer: Hitze, Lagerung und Sicherheit im Camper</h3>
+          <p>Temperaturgrenzen der Hersteller, der richtige Ladezustand f&uuml;r Pausen und wo die Box im Van stehen sollte.</p>
+          <div class="meta"><span class="soon">In Vorbereitung</span></div>
+        </div>
+      </a>
+    </article>
+
+  </div>
+</div>
 </section>
 
+<!-- ===== 5. FAQ ===== -->
 <section class="tight">
-  <div class="wrap" style="max-width:820px;">
-    <div class="newsletter">
-      <h3>📥 Hol dir die Camper-Strom-Checkliste als PDF</h3>
-      <p>Alle typischen Camper-Verbraucher zum Ankreuzen und Zusammenrechnen, plus eine Faustformel für die richtige Speichergröße.</p>
-      <p style="margin-top:10px;"><a href="lp-camper-strom-checkliste.html" style="display:inline-block;background:var(--petrol);color:#fff;text-decoration:none;padding:11px 22px;border-radius:10px;font-weight:700;">Checkliste holen</a></p>
-    </div>
+<div class="wrap" style="max-width:860px;">
+  <div class="sec-head">
+    <h2 class="kicker">H&auml;ufige Fragen zu Strom im Camper</h2>
   </div>
+  <div class="kicker-line"></div>
+  <p class="faq-intro">Die Fragen, die uns am h&auml;ufigsten erreichen und die am meisten gesucht werden. Kurz beantwortet, mit Link zum passenden Beitrag.</p>
+
+  <div class="faq">
+    <details open>
+      <summary>Welche Powerstation ist die beste f&uuml;r den Camper?</summary>
+      <p>Das h&auml;ngt von Platz, Verbrauch und Budget ab. F&uuml;r kleine Campervans wie Ford Nugget oder VW California hat sich die 1-kWh-Klasse mit LiFePO4-Zellen und Reinsinus-Wechselrichter (1500 bis 2000 W) bew&auml;hrt, weil sie unter K&uuml;che oder Sitz passt. Ein Beispiel aus dem Praxistest: <a href="magazin-strom-aferiy-p180-pro-ford-nugget.html">die AFERIY P180 PRO</a>.</p>
+    </details>
+    <details>
+      <summary>Wie viel Wattstunden braucht man im Camper?</summary>
+      <p>F&uuml;r ein Wochenende mit K&uuml;hlbox, Handy und Licht reichen meist 300 bis 600 Wh. Wer mehrere Tage autark steht und Kompressor-K&uuml;hlbox plus Laptop betreibt, braucht eher 1000 bis 2000 Wh. Rechne pro Ger&auml;t Watt mal Stunden pro Tag und addiere eine Reserve von etwa 20 Prozent.</p>
+    </details>
+    <details>
+      <summary>Powerstation oder Zweitbatterie: Was ist besser im Camper?</summary>
+      <p>Eine Powerstation braucht keinen Einbau, ist mobil und l&auml;sst sich auch au&szlig;erhalb nutzen. Eine fest verbaute LiFePO4-Zweitbatterie liefert mehr Dauerleistung und l&auml;dt &uuml;ber die Lichtmaschine mit Ladebooster. Faustregel: Serien-Camper wie California oder Nugget: Powerstation. Selbstausbau: Festeinbau.</p>
+    </details>
+    <details>
+      <summary>Kann man eine Powerstation w&auml;hrend der Fahrt laden?</summary>
+      <p>Ja. &Uuml;ber die 12-V-Bordsteckdose flie&szlig;en meist nur 100 bis 120 W, das reicht f&uuml;r eine Teilladung auf l&auml;ngeren Strecken. Deutlich schneller geht es mit einem DC-DC-Ladebooster oder einem herstellereigenen Fahrzeug-Ladekabel, sofern die Powerstation das unterst&uuml;tzt.</p>
+    </details>
+    <details>
+      <summary>Wie lange l&auml;uft eine K&uuml;hlbox an einer Powerstation?</summary>
+      <p>Eine Kompressor-K&uuml;hlbox verbraucht im Mittel 30 bis 50 Wh pro Stunde, abh&auml;ngig von Au&szlig;entemperatur und &Ouml;ffnungsh&auml;ufigkeit. An einer 1000-Wh-Powerstation sind das rechnerisch 20 bis 30 Stunden, real mit Wandlerverlusten eher 18 bis 25. Der 12-V-Anschluss ist effizienter als 230 V.</p>
+    </details>
+    <details>
+      <summary>Wie viel Ah LiFePO4-Batterie braucht man im Wohnmobil?</summary>
+      <p>100 Ah LiFePO4 entsprechen rund 1280 Wh und sind fast vollst&auml;ndig nutzbar. F&uuml;r Wochenend-Camper reichen 100 Ah, f&uuml;r mehrere Tage Autarkie mit K&uuml;hlschrank und Laptop sind 200 Ah oder mehr sinnvoll. Umrechnung: Ah mal 12,8 V ergibt Wh.</p>
+    </details>
+    <details>
+      <summary>Darf eine Powerstation im hei&szlig;en Camper bleiben?</summary>
+      <p>Die meisten Hersteller geben 0 bis 40 Grad Betriebstemperatur an. Ein geparkter Camper erreicht im Sommer innen 50 bis 60 Grad. Deshalb: im Schatten lagern, nicht in die pralle Sonne stellen, bei l&auml;ngerer Pause mit 50 bis 80 Prozent Ladezustand abstellen oder die Powerstation mitnehmen.</p>
+    </details>
+  </div>
+</div>
+</section>
+
+<!-- ===== 6. NEWSLETTER (kompakt) ===== -->
+<section class="tight">
+<div class="wrap">
+  <div class="freebie compact">
+    <div>
+      <p class="kick">Noch nicht geholt?</p>
+      <h2>Die Camper-Packliste als PDF, kostenlos</h2>
+      <p>120 Punkte nach Bereichen sortiert. Dazu neue Video-Tests und Ratgeber, sobald sie online sind.</p>
+    </div>
+    <form class="nl-form" action="#" method="post" data-nl>
+      <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required autocomplete="email">
+      <button type="submit">Packliste holen</button>
+      <div class="done">Danke! Die Packliste ist unterwegs.</div>
+      <small>Kein Spam, jederzeit abbestellbar. <a href="datenschutz.html">Datenschutz</a></small>
+    </form>
+  </div>
+</div>
+</section>
+
+<!-- ===== 7. WEITERE BEREICHE ===== -->
+<section class="tight">
+<div class="wrap">
+  <div class="sec-head">
+    <h2 class="kicker">Weitere Bereiche entdecken</h2>
+  </div>
+  <div class="kicker-line"></div>
+
+  <div class="areas">
+    <a class="area" href="#">
+      <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span>
+      <span><h3>Solar</h3><p>Panels, Laderegler, Solartaschen.</p></span>
+      <span class="arrow">&rsaquo;</span>
+    </a>
+    <a class="area" href="#">
+      <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20v-9a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v9M2 16h20M6 9V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/></svg></span>
+      <span><h3>Schlafen &amp; Matratze</h3><p>Matratzen, Aufstelldach, Bettl&ouml;sungen.</p></span>
+      <span class="arrow">&rsaquo;</span>
+    </a>
+    <a class="area" href="#">
+      <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16v7a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-7zM2 10h20M9 7V5M12 7V4M15 7V5"/></svg></span>
+      <span><h3>K&uuml;che &amp; K&uuml;hlen</h3><p>K&uuml;hlboxen, Kocher, Sp&uuml;len auf kleinem Raum.</p></span>
+      <span class="arrow">&rsaquo;</span>
+    </a>
+    <a class="area" href="#">
+      <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></span>
+      <span><h3>Toilette &amp; Sanit&auml;r</h3><p>Trenntoilette, mobile Dusche, Hygiene.</p></span>
+      <span class="arrow">&rsaquo;</span>
+    </a>
+    <a class="area" href="#">
+      <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1.2 3.2 4.5 5.4 4.5 9.3A4.5 4.5 0 0 1 7.5 12.3c0-1.6.6-2.9 1.5-4 .3 1.4 1 2.3 1.9 2.8C11.6 9.2 11 6 12 3z"/></svg></span>
+      <span><h3>Heizung &amp; Klima</h3><p>Standheizung, Dieselheizung, L&uuml;ftung.</p></span>
+      <span class="arrow">&rsaquo;</span>
+    </a>
+    <a class="area" href="#">
+      <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 14c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 20c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg></span>
+      <span><h3>Wasser</h3><p>Frischwasser, Tanks, Filter, winterfest.</p></span>
+      <span class="arrow">&rsaquo;</span>
+    </a>
+  </div>
+</div>
 </section>
 
 <footer class="site">
   <div class="wrap">
     <div class="cols">
-      <div><strong style="color:#fff;">VanKompass</strong><br>Camper-Ausrüstung mit Plan.</div>
-      <div><a href="index.html">Start</a> &middot; <a href="#">Redaktion</a> &middot; <a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a></div>
+      <div><strong style="color:#fff;">VanKompass</strong><br>Camper-Ausr&uuml;stung mit Plan.</div>
+      <div><a href="magazin.html">Magazin</a> &middot; <a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a></div>
     </div>
     <div class="legal">
-      Transparenz: Diese Seite enthält Werbe-/Affiliate-Links (mit * gekennzeichnet). Kaufst du über einen dieser Links, erhalten wir eine Provision. Für dich bleibt der Preis gleich. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.
+      <span class="star">*</span> Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du dar&uuml;ber ein, erhalten wir eine kleine Provision. F&uuml;r dich &auml;ndert sich am Preis nichts. So k&ouml;nnen wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke f&uuml;r deine Unterst&uuml;tzung.
     </div>
   </div>
 </footer>
 
 <script src="vanlife-config-v2.js"></script>
+<script>
+document.querySelectorAll("form[data-nl]").forEach(function (f) {
+  f.addEventListener("submit", function (e) { e.preventDefault(); f.classList.add("sent"); });
+});
+</script>
 </body>
 </html>
