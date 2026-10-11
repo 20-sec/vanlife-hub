@@ -16,6 +16,7 @@ os.chdir(ROOT)
 SITE = {
     "base": "https://vankompass.de/",
     "css_v": "5",
+    "build_id": datetime.datetime.now().strftime("%Y%m%d-%H%M%S"),
     "top_bereich": "strom",
     "top_beitrag": "aferiy-p180-pro-ford-nugget",
     "indexnow_key": "757ee0c8954ba62d7df91e7af93af9ea",

@@ -33,10 +33,11 @@ git diff --cached --quiet || git commit -q -m "$MSG" -m "$TRAILER"
 git push -q origin main
 echo "prod: $(git log --oneline -1)"
 
+BUILD="$(grep -o 'name="build" content="[^"]*"' "$SRC/index.html" | sed 's/.*content="//;s/"$//')"
 if [ -n "$WAIT" ]; then
-  echo "warte auf https://vankompass.de/$WAIT ..."
-  for i in $(seq 1 40); do
-    if [ "$(curl -s -o /dev/null -w '%{http_code}' "https://vankompass.de/$WAIT")" = "200" ] && curl -s "https://vankompass.de/sitemap.xml" | grep -q "$WAIT"; then
+  echo "warte auf https://vankompass.de/$WAIT (Build $BUILD) ..."
+  for i in $(seq 1 60); do
+    if curl -s "https://vankompass.de/$WAIT" | grep -q "content=\"$BUILD\""; then
       echo "live: https://vankompass.de/$WAIT"; exit 0
     fi
     sleep 15
