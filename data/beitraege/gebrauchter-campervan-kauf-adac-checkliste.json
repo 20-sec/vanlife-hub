@@ -1,0 +1,156 @@
+{
+  "slug": "gebrauchter-campervan-kauf-adac-checkliste",
+  "out": "magazin-stauraum-gebrauchter-campervan-kauf-adac-checkliste.html",
+  "bereich": "stauraum",
+  "camper": [],
+  "kategorie": "Checkliste",
+  "top": false,
+  "title": "Gebrauchter Campervan kaufen: Prüfpunkte aus dem ADAC-Video",
+  "crumb": "Gebrauchter Campervan kaufen",
+  "meta_title": "Gebrauchten Campervan kaufen: Prüfpunkte aus dem ADAC-Video",
+  "meta_desc": "ADAC und PiNCAMP zeigen, worauf du beim Kauf eines gebrauchten Campervans achten musst: Papiere, Rost, Bremsen, Umbauten und Probefahrt.",
+  "teaser": "Papiere, Rost, Reifen, Umbauten und Probefahrt: die Prüfpunkte aus dem ADAC-Video, mit den Zahlen, die dort genannt werden.",
+  "lead_teaser": "Ein Campervan verspricht Freiheit, aber ein gebrauchter kann teuer werden. Im Video zeigen ADAC und PiNCAMP, worauf du beim Kauf achten musst: Fahrzeugpapiere, Motorraum, Reifen, Bremsen, Rost, Dach, Umbauten und Probefahrt. Dieser Beitrag fasst die Prüfpunkte zusammen, mit den Zahlen aus dem Video und dem Hinweis, was du dir vom Verkäufer zeigen lassen solltest.",
+  "datum": "2026-10-11",
+  "datum_text": "Oktober 2026",
+  "geaendert": "2026-10-11",
+  "thumb": "img/thumb-gebrauchter-campervan-kauf-adac-checkliste.svg",
+  "video": {
+    "id": "VhoLl2XZz04",
+    "title": "Gebrauchter Campervan: So vermeidet ihr Fehler beim Kauf | ADAC & PiNCAMP",
+    "beschreibung": "ADAC und PiNCAMP zeigen die wichtigsten Prüfpunkte beim Kauf eines gebrauchten Campervans: Papiere, Motorraum, Reifen, Bremsen, Rost, Umbauten, Innenausstattung und Probefahrt.",
+    "kanal": "ADAC",
+    "kanal_url": "https://www.youtube.com/@ADAC",
+    "kanal_kuerzel": "A",
+    "abonnenten": "310.000",
+    "upload": "2025-03-19",
+    "upload_text": "19. März 2025",
+    "dauer_iso": "PT9M43S",
+    "dauer_text": "9:43 Min.",
+    "aufrufe": "12.361",
+    "werbung": null
+  },
+  "answer": "Ein gebrauchter Campervan braucht vor dem Kauf einen systematischen Check. Laut ADAC gehören Fahrzeugpapiere und Fahrgestellnummer an den Anfang, danach Reifen mit <strong>mindestens 4 mm Profil im Winter</strong> und <strong>3 mm im Sommer</strong>, Rost am Unterboden und an den Türfalzen sowie Bremsscheiben ohne deutlichen Grat. Nicht originale Umbauten sollten durch Belege und Bedienungsanleitungen belegt sein.",
+  "sections": [
+    {
+      "id": "ueberblick",
+      "h2": "Was zeigt das Video?",
+      "html": "<p>Das Video von ADAC und PiNCAMP mit dem Titel „Gebrauchter Campervan: So vermeidet ihr Fehler beim Kauf“ dauert knapp zehn Minuten. Es geht Schritt für Schritt durch ein Fahrzeug: von den Papieren über Motor, Reifen und Bremsen bis zu Rost, Dach, Umbauten und Probefahrt. Die Sprecher sagen, dass man dafür kein Experte sein muss, sondern wache Augen und eine Taschenlampe oder das Handy reichen.</p>\n<p>Ein Hinweis aus dem Video: Viele Basisfahrzeuge wurden als Kurierfahrzeuge entwickelt, nicht für ein langes Autoleben. Die Korrosionsvorsorge sei deshalb nicht optimal, und ein Blick unter das Auto lohne sich immer.</p>"
+    },
+    {
+      "id": "papiere-motorraum",
+      "h2": "Papiere und Motorraum: die ersten Prüfpunkte",
+      "html": "<ul>\n<li><strong>Verkäufer:</strong> Lass dir den Personalausweis zeigen, denn der Verkäufer soll der Eigentümer sein.</li>\n<li><strong>Fahrgestellnummer:</strong> Fahrzeugbrief und Fahrgestellnummer werden mit der Nummer verglichen, die im Motorraum angeschlagen ist.</li>\n<li><strong>Nachweise:</strong> HU und AU müssen gültig sein, die Gasprüfung aktuell. Wird ein gepflegtes Checkheft behauptet, gehört es geprüft.</li>\n<li><strong>Motorraum:</strong> Schläuche, Schellen und Luftführung prüfen. Austretendes Öl oder Kühlflüssigkeit ist ein Warnsignal.</li>\n</ul>\n<p>Bei den Kilometern kommt es laut Video weniger auf die Zahl an als auf die Frage, wie sie zustande kamen und wie das Auto gepflegt wurde. Ein Fahrzeug mit 200.000 Kilometern und guter Pflege wäre für den Sprecher kein Problem.</p>"
+    },
+    {
+      "id": "reifen-bremsen-unterboden",
+      "h2": "Reifen, Bremsen und Unterboden: die Zahlen aus dem Video",
+      "specs": [
+        {
+          "label": "Gesetzliches Minimum",
+          "value": "1,6 mm Profil"
+        },
+        {
+          "label": "ADAC Winter",
+          "value": "4 mm Profil"
+        },
+        {
+          "label": "ADAC Sommer",
+          "value": "mind. 3 mm Profil"
+        },
+        {
+          "label": "Bremstest",
+          "value": "40 bis 50 km/h"
+        },
+        {
+          "label": "Gang für den Beschleunigungstest",
+          "value": "3. Gang"
+        },
+        {
+          "label": "Rost-Grenze",
+          "value": "kein Loch im Blech"
+        }
+      ],
+      "specs_note": "Angaben laut ADAC im Video vom 19. März 2025. Gesetzliches Minimum und ADAC-Empfehlung werden im Video gegenübergestellt.",
+      "html": "<p>Bei den Reifen gehören Lauffläche und Profil geprüft. Der Gesetzgeber verlangt mindestens 1,6 mm Profiltiefe. Der ADAC hält für gute Leistung auf Nässe und Schnee im Winter 4 mm und im Sommer mindestens 3 mm für nötig.</p>\n<p>Bei den Bremsen fährt man mit dem Finger am Rand der Bremsscheibe entlang. Wenn sich ein deutlicher Grat spüren lässt, ist die Scheibe laut Video oft am Lebensende. Das ist ein Argument bei der Preisverhandlung.</p>"
+    },
+    {
+      "id": "rost-tueren-dach",
+      "h2": "Rost, Türen, Schiebetür und Dach",
+      "html": "<p>Etwas Oberflächenrost ist laut Video kein Grund, das Auto sofort abzuschreiben. Kritisch wird es, wenn ein Loch im Blech ist oder sich das Blech beim Anfassen auseinanderreißen lässt. Beim Abklopfen soll das Metall nach Metall klingen, ohne Knirschen und ohne Rasseln.</p>\n<ul>\n<li><strong>Türfalze:</strong> Verstopfte Abflüsse lassen Wasser stehen, das dann von innen nach außen durch das Blech rostet.</li>\n<li><strong>Schiebetür:</strong> Sie muss hinten sauber arretieren. Etwas Spiel ist normal, ausgeschlagen darf sie nicht sein.</li>\n<li><strong>Hochdach:</strong> Die Dichtung rund um das nachgerüstete Dach muss vollständig sein und darf nicht spröde oder verwittert wirken.</li>\n<li><strong>Aufstelldach:</strong> Stoff, Scharniere und Gängigkeit prüfen und nach Rost schauen.</li>\n</ul>"
+    },
+    {
+      "id": "umbauten-selbstausbau",
+      "h2": "Umbauten und Selbstausbau: Belege verlangen",
+      "html": "<p>An kaum einem Fahrzeug wird so viel gebastelt wie an Campervans. Das Video rät, alle An- und Umbauten zu prüfen, die nicht original sind, denn bezahlt wird auch für das, was funktionieren muss.</p>\n<p>Bei Selbstausbauten soll der Verkäufer erklären, warum und wie etwas gebaut wurde. Ideal ist ein Ordner mit allen Rechnungen für die verbauten Teile.</p>\n<div class=\"praxis\">\n<h4>Tipp aus dem Video</h4>\n<p>Frag nach den Bedienungsanleitungen der einzelnen Bauteile. Ohne sie ist schwer nachzuvollziehen, was wie funktioniert.</p>\n</div>"
+    },
+    {
+      "id": "innenausstattung",
+      "h2": "Küche, Dusche, Strom und Bett im Check",
+      "html": "<ul>\n<li><strong>Küche:</strong> Den Wasserhahn herausziehen und laufen lassen. Alle Gasflammen müssen zünden.</li>\n<li><strong>Dusche:</strong> Die Brause in die Hand nehmen und Wasser prüfen. Die Duschtasse muss sauber ablaufen und darf am Rand nichts durchlassen.</li>\n<li><strong>USB-Anschlüsse:</strong> Mit dem eigenen Ladekabel und dem Smartphone testen, ob sie wirklich Strom führen.</li>\n<li><strong>Bett:</strong> Lass dir den Umbau zeigen und prüfe, ob unter der Matratze ein Lattenrost liegt. Er sorgt für Unterlüftung, damit die Matratze nicht stockt.</li>\n</ul>"
+    },
+    {
+      "id": "probefahrt",
+      "h2": "Probefahrt: so testest du Motor, Getriebe und Bremsen",
+      "html": "<p>Die Probefahrt beginnt schon beim Start: Springt der Motor sauber an, oder dauert es ewig, bis er zu sich kommt? Bei Auffälligkeiten gleich beim Verkäufer nachfragen.</p>\n<ul>\n<li><strong>Antrieb:</strong> Im dritten Gang bei niedriger Drehzahl beschleunigen, einmal mit Vollgas und einmal mit Teilgas. Der Motor soll sauber hochziehen.</li>\n<li><strong>Schaltung:</strong> Die Gänge müssen sauber greifen und dürfen sich nicht knochig anfühlen.</li>\n<li><strong>Lenkung:</strong> Leicht von links nach rechts lenken. Das Lenkrad muss links und rechts gleich zügig in die Mitte zurückkehren.</li>\n<li><strong>Bremsen:</strong> Bei 40 bis 50 km/h den Gang herausnehmen und kräftig bremsen, wenn niemand hinter dir fährt. Das Lenkrad darf nicht wegziehen.</li>\n</ul>"
+    },
+    {
+      "id": "fazit-video",
+      "h2": "Fazit aus dem Video",
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Einschätzung aus dem Video</h2>\n<p>Der Check ist auch für Laien machbar, wenn man alles anfasst und ausprobiert. Wer ganz sicher gehen will, kann laut Video einen Gutachter des Caravaning Gutachter Fachverbands buchen, der das Fahrzeug auf Herz und Nieren prüft.</p>\n<p style=\"margin-bottom:0;\">Für den Kauf von Privat empfiehlt der ADAC seinen Musterkaufvertrag. Nach dem Kauf rät das Video, zuerst einen kurzen Trip über ein langes Wochenende zu machen und nicht gleich in die Bretagne zu fahren.</p>\n</div>"
+    }
+  ],
+  "faq_thema": "zum gebrauchten Campervan",
+  "faq": [
+    {
+      "q": "Worauf muss ich beim Kauf eines gebrauchten Campervans zuerst achten?",
+      "a": [
+        "Zuerst auf die Papiere. Das Video empfiehlt, den Personalausweis des Verkäufers zu prüfen, Fahrzeugbrief und Fahrgestellnummer mit dem Motorraum zu vergleichen und HU, AU sowie Gasprüfung zu kontrollieren.",
+        "Danach kommen Motor, Reifen, Bremsen und Unterboden. Laut ADAC sind viele Basisfahrzeuge als Kurierfahrzeuge gebaut, die Korrosionsvorsorge ist deshalb oft nicht optimal. Darum lohnt sich der Blick von unten immer."
+      ]
+    },
+    {
+      "q": "Wie viel Profiltiefe brauchen Reifen beim Campervan?",
+      "a": [
+        "Der Gesetzgeber verlangt laut Video mindestens 1,6 mm Profiltiefe. Der ADAC empfiehlt im Winter 4 mm und im Sommer mindestens 3 mm, damit die Reifen vor allem auf Nässe und Schnee ordentlich performen.",
+        "Zusätzlich schaut man auf die Lauffläche, ob Beschädigungen zu sehen sind, etwa ein steckender Nagel. Zum Thema Reifen verweist das Video auf weiterführende Informationen in der Beschreibung."
+      ]
+    },
+    {
+      "q": "Wo rostet ein Campervan typischerweise?",
+      "a": [
+        "Im Video werden die Türkanten genannt. Verstopfte Abflüsse lassen Wasser im Türfalz stehen, und das Blech rostet dann von innen nach außen durch. Deshalb werden die Falze aller Türen angesehen.",
+        "Etwas Oberflächenrost ist laut Video nicht schlimm. Kritisch wird es bei Löchern oder wenn sich das Blech beim Anfassen auseinanderreißen lässt. Beim Abklopfen darf das Metall nicht knirschen oder rasseln."
+      ]
+    },
+    {
+      "q": "Wie teste ich bei der Probefahrt Motor und Bremsen richtig?",
+      "a": [
+        "Schon beim Start zeigt sich, ob der Motor sauber anspringt oder ewig braucht. Danach im dritten Gang bei niedriger Drehzahl mit Vollgas und Teilgas beschleunigen und prüfen, ob der Motor sauber hochzieht. Die Schaltung soll ohne knochiges Greifen funktionieren.",
+        "Für die Bremsen empfiehlt das Video etwa 40 bis 50 km/h, wenn niemand hinter dir fährt. Gang raus und kräftig bremsen. Das Lenkrad darf dabei nicht in eine Richtung wegziehen."
+      ]
+    },
+    {
+      "q": "Worauf achte ich bei selbst ausgebauten Campervans?",
+      "a": [
+        "Der Verkäufer sollte erklären, warum und wie etwas gebaut wurde. Belege sind ideal, etwa ein Ordner mit allen Rechnungen für die verbauten Teile und die Bedienungsanleitungen der einzelnen Bauteile.",
+        "Das Video rät außerdem, Küche, Dusche, USB-Anschlüsse und Bett praktisch zu testen. Dazu gehört auch, ob unter der Matratze ein Lattenrost liegt, der für Unterlüftung sorgt."
+      ]
+    },
+    {
+      "q": "Brauche ich einen Kaufvertrag für einen gebrauchten Campervan?",
+      "a": [
+        "Das Video empfiehlt einen Kaufvertrag, besonders beim Kauf von privat. Der ADAC stellt dafür einen Musterkaufvertrag bereit, der von den Juristen des Clubs erstellt und regelmäßig aktualisiert wird.",
+        "Wer es ganz genau haben will, kann laut Video einen Gutachter des Caravaning Gutachter Fachverbands buchen, der das Fahrzeug auf Herz und Nieren prüft."
+      ]
+    },
+    {
+      "q": "Was sollte ich nach dem Kauf eines Campervans zuerst tun?",
+      "a": [
+        "Nicht gleich in die Bretagne fahren. Das Video rät zu einem kurzen Trip über ein langes Wochenende, damit du das Fahrzeug kennenlernst und merkst, was du für deine Reisen tatsächlich brauchst.",
+        "So lernst du das Fahrzeug besser kennen, bevor du lange unterwegs bist."
+      ]
+    }
+  ],
+  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal ADAC und entstand gemeinsam mit PiNCAMP. In der Beschreibung verweist der Kanal auf eigene Angebote, etwa die ADAC-Mitgliedschaft, den Musterkaufvertrag und weiterführende Links zu PiNCAMP. Laut den Video-Daten ist es kein werblich gekennzeichneter Beitrag. VanKompass hat die Prüfpunkte nicht selbst erprobt. Alle Angaben basieren auf dem Video. Dieser Beitrag enthält keine Affiliate- oder Partnerlinks."
+}
