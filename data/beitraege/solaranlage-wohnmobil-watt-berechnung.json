@@ -1,0 +1,149 @@
+{
+  "slug": "solaranlage-wohnmobil-watt-berechnung",
+  "out": "magazin-solar-solaranlage-wohnmobil-watt-berechnung.html",
+  "bereich": "solar",
+  "camper": [],
+  "kategorie": "Ratgeber",
+  "top": true,
+  "title": "Solaranlage im Wohnmobil: So berechnest du Watt und Batterie",
+  "crumb": "Solaranlage im Wohnmobil",
+  "meta_title": "Solaranlage Wohnmobil: Watt und Batterie richtig berechnen",
+  "meta_desc": "Das Video zeigt, wie du Tagesverbrauch, Sonnenstunden und Batteriegröße für dein Wohnmobil berechnest. Rechenweg und Nutzertypen.",
+  "teaser": "Tagesverbrauch in Ah, Sonnenstunden und Verluste: der Rechenweg für deine Solaranlage, laut Video erklärt.",
+  "lead_teaser": "Du willst wissen, wie viel Solar und Batterie dein Wohnmobil braucht, ohne teure Fehlinvestitionen? Im Video wird der Rechenweg Schritt für Schritt gezeigt: vom Tagesverbrauch in Amperestunden über die Sonnenstunden bis zur Batteriegröße. Dazu gibt es vier Nutzertypen mit Empfehlungen und die Praxiserfahrungen der Tester.",
+  "datum": "2026-10-11",
+  "datum_text": "Oktober 2026",
+  "geaendert": "2026-10-11",
+  "thumb": "img/thumb-solaranlage-wohnmobil-watt-berechnung.svg",
+  "video": {
+    "id": "oC6MNvUqWoc",
+    "title": "Solaranlage Wohnmobil - Wie viel Watt brauchst DU wirklich?",
+    "beschreibung": "Wie viel Solaranlage benötigst du auf deinem Wohnmobil? Die Tester berechnen Stromverbrauch, Sonnenstunden und Batteriegröße und geben Empfehlungen für vier Nutzertypen.",
+    "kanal": "Pössl Center Frankfurt",
+    "kanal_url": "https://www.youtube.com/@poesslcenterfrankfurt",
+    "kanal_kuerzel": "PSC",
+    "abonnenten": "27.800",
+    "upload": "2021-04-25",
+    "upload_text": "25. April 2021",
+    "dauer_iso": "PT13M2S",
+    "dauer_text": "13:02 Min.",
+    "aufrufe": "348.989",
+    "werbung": null
+  },
+  "answer": "Wie groß die Solaranlage sein muss, hängt vom Tagesverbrauch ab. Im Video rechnen die Tester <strong>75 Ah pro Tag</strong> bei 12 Volt um auf <strong>900 Wh</strong>. Teilt man das durch <strong>4,3 Sonnenstunden</strong> und rechnet rund 30 Prozent Verluste ein, ergeben sich etwa <strong>272 Wp</strong>. Die Tester legen aufgerundet <strong>300 Wp</strong> aus. Die Batterie sollte für drei Tage ohne Sonne reichen.",
+  "sections": [
+    {
+      "id": "ueberblick",
+      "h2": "Was zeigt das Video?",
+      "html": "<p>Das Video erklärt, warum ein Wohnmobil eine Solaranlage braucht: Die Bordbatterie versorgt Kühlschrank, Heizung und elektrische Verbraucher, und die Solaranlage lädt sie wieder auf, ohne dass man Strom von außen braucht. Die Tester zeigen, wie man den eigenen Verbrauch ermittelt und daraus Solarleistung und Batteriegröße ableitet.</p>\n<p>Das Video ist vom 25. April 2021. Die Rechenbeispiele beruhen auf dem Verbrauch der Tester von 75 Ah pro Tag. Den eigenen Wert sollte man vor dem Kauf selbst ermitteln.</p>"
+    },
+    {
+      "id": "rechenweg",
+      "h2": "Rechenweg: Von Amperestunden zu Watt-Peak",
+      "specs": [
+        {
+          "label": "Tagesverbrauch",
+          "value": "75 Ah"
+        },
+        {
+          "label": "Bordspannung",
+          "value": "12 V"
+        },
+        {
+          "label": "Tagesenergie",
+          "value": "900 Wh"
+        },
+        {
+          "label": "Sonnenstunden",
+          "value": "4,3 h pro Tag"
+        },
+        {
+          "label": "Leistung ohne Verluste",
+          "value": "ca. 209 W"
+        },
+        {
+          "label": "Verluste",
+          "value": "ca. 30 %"
+        },
+        {
+          "label": "Ergebnis",
+          "value": "rund 272 Wp (im Video auf 300 Wp aufgerundet)"
+        }
+      ],
+      "specs_note": "Rechenbeispiel der Tester im Video vom 25. April 2021. Sonnenstunden als Durchschnittswert für Deutschland laut Video. Keine Herstellerangaben.",
+      "html": "<p>Der Verbrauch in Amperestunden wird mit der Bordspannung von 12 Volt multipliziert: 75 Ah ergeben 900 Wattstunden pro Tag. Diese Energie teilt man durch die durchschnittlichen Sonnenstunden. Die Tester nehmen dafür 4,3 Stunden an, woraus rund 209 Watt werden.</p>\n<p>Solarmodule erreichen ihre Nennleistung (Wp) im Labor, nicht auf dem Dach. Laut Video sind Verluste etwa durch den Laderegler, durch Wärme und durch abweichende Sonneneinstrahlung einzurechnen, hier rund 30 Prozent. Die Rechnung ergibt damit rund 272 Wp. Die Tester legen 300 Wp aus und sagen, das habe ihnen gereicht. Zusätzlich nennt das Video eine Reserve für Herbst und Winter, weil die Sonne dann flacher steht und weniger Ertrag bringt. Wie groß sie sein soll, rechnet das Video nicht vor.</p>"
+    },
+    {
+      "id": "batterie",
+      "h2": "Batterie: Faustformel und Akkutyp",
+      "html": "<p>Als Faustformel nennt das Video: Die Batterie sollte so groß sein, dass man drei Tage ohne Sonne auskommt. Bei 75 Ah Tagesverbrauch sind das <strong>225 Ah nutzbare Kapazität</strong>.</p>\n<p>Bei AGM-Batterien darf man laut Video nur etwa 60 Prozent entladen, damit keine Langzeitschäden entstehen. Die Batterie muss deshalb deutlich größer ausfallen, als die nutzbare Zahl vermuten lässt.</p>\n<p>Lithium-Batterien sparen laut Video deutlich Größe und Gewicht. Die Tester hatten sich damals aus Kostengründen für AGM entschieden, weil ihnen Lithium zu teuer war.</p>"
+    },
+    {
+      "id": "nutzertypen",
+      "h2": "Vier Nutzertypen: Empfehlungen aus dem Video",
+      "html": "<ul>\n<li><strong>Standard- oder Wenignutzer</strong> (warme Monate, täglich neue Ziele, kleine Verbraucher wie Handy, Tablet und Notebook, eventuell ein Kompressorkühlschrank): laut Video eine AGM-Batterie mit 90 bis 95 Ah und 100 Wp auf dem Dach.</li>\n<li><strong>Mehrnutzer</strong> (häufiger Stand auf Campingplätzen oder Stellplätzen, mehr Tage ohne Fahrt): 100 Wp reichen laut Video, dazu eine zweite AGM-Batterie. Die gibt es laut Video ab Werk schon für etwa 300 Euro.</li>\n<li><strong>Vielnutzer</strong> (Fahrzeug steht oft, dazu E-Bike, Kamera, Kaffeemaschine oder Föhn): laut Video 200 Wp auf dem Dach und eine Lithium-Batterie mit 100 Ah.</li>\n<li><strong>Individueller Nutzer</strong> (Wohnmobil als mobiles Büro): hier gibt das Video keine feste Empfehlung. Wer beruflich auf Strom angewiesen ist, soll zuerst festlegen, welche Geräte er betreiben will, und den Verbrauch messen.</li>\n</ul>"
+    },
+    {
+      "id": "praxis-tester",
+      "h2": "Praxis: Was die Tester selbst erlebt haben",
+      "html": "<p>In einer Wohnkabine waren die Tester acht Monate lang Vollzeit unterwegs, mit 200 Wp Solar und zwei Batterien mit je 60 Ah. Das reichte laut Video gut aus. Im eigenen Wohnmobil hatten sie später 300 Wp und zwei AGM-Batterien mit je 95 Ah. Auch das reichte laut Video, bis es zweimal vorkam, dass die Batterien leer waren.</p>\n<div class=\"praxis\">\n<h4>Tipp aus dem Video</h4>\n<p>Wenn die Batterie leer ist, hilft laut Tester, den Motor kurz laufen zu lassen oder einen Stellplatz mit Strom anzufahren. Das kostet laut Video etwa fünf Euro und ist deutlich günstiger, als für eine überdimensionierte Anlage mehrere tausend Euro auszugeben.</p>\n</div>\n<div class=\"nope\">\n<h4>Häufige Fehler, auf die das Video hinweist</h4>\n<ul>\n<li>Das Dach ohne Rechnung vollzubauen. Das kostet laut Video viel und ist oft nicht nötig.</li>\n<li>Wp und Ah zu verwechseln. Wp ist die Spitzenleistung des Moduls, Ah steht für Verbrauch und Batteriekapazität.</li>\n<li>Die AGM-Batterie nach ihrer Nennkapazität zu planen. Nutzbar sind laut Video nur etwa 60 Prozent.</li>\n</ul>\n</div>"
+    },
+    {
+      "id": "fazit-video",
+      "h2": "Fazit aus dem Video",
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Einschätzung der Tester</h2>\n<p>Laut Video ist die Berechnung kein Hexenwerk: Man ermittelt den Tagesverbrauch in Ah, kennt die Sonnenstunden am Einsatzort und dimensioniert danach Solar und Batterie. So lassen sich teure Fehlinvestitionen vermeiden. Wie viel Reserve man einplant, muss laut Tester jeder selbst entscheiden.</p>\n<p style=\"margin-bottom:0;\">Die Videobeschreibung verlinkt einen Blogartikel des Kanals und einen Amazon-Shop.</p>\n</div>"
+    }
+  ],
+  "faq_thema": "zur Solaranlage im Wohnmobil",
+  "faq": [
+    {
+      "q": "Wie viel Watt Solar braucht ein Wohnmobil?",
+      "a": [
+        "Das hängt vom Tagesverbrauch ab. Laut Video rechnen die Tester mit 75 Ah am Tag, das sind bei 12 Volt rund 900 Wh. Bei 4,3 Sonnenstunden und etwa 30 Prozent Verlusten landet man bei rund 272 Wp. Die Tester legen 300 Wp aus.",
+        "Für Standard- und Wenignutzer nennt das Video 100 Wp auf dem Dach, für Vielnutzer 200 Wp. Eine Anlage mit 300 Wp hat den Testern im eigenen Fahrzeug laut Video gereicht.",
+        "Praxis: Ermittle zuerst deinen eigenen Verbrauch. Die Empfehlungen für andere Nutzertypen sind ein Ausgangspunkt, kein Ersatz für die eigene Rechnung."
+      ]
+    },
+    {
+      "q": "Wie groß sollte die Batterie im Wohnmobil sein?",
+      "a": [
+        "Als Faustformel nennt das Video drei Tage ohne Sonne. Bei 75 Ah Tagesverbrauch bedeutet das 225 Ah nutzbare Kapazität.",
+        "Bei AGM-Batterien dürfen laut Video nur etwa 60 Prozent entladen werden, deshalb muss die Batterie größer ausfallen. Ein Standard- oder Wenignutzer kommt laut Video mit einer AGM-Batterie mit 90 bis 95 Ah aus.",
+        "Lithium spart laut Video Größe und Gewicht. Die Tester hatten sich damals aus Kostengründen für AGM entschieden."
+      ]
+    },
+    {
+      "q": "Reicht eine Solaranlage mit 100 Watt für ein Wohnmobil?",
+      "a": [
+        "Laut Video reicht 100 Wp für Standard- und Wenignutzer, die oft unterwegs sind und kleine Verbraucher haben. Dazu passt eine AGM-Batterie mit 90 bis 95 Ah.",
+        "Wer häufiger auf Campingplätzen oder Stellplätzen steht, kommt laut Video ebenfalls mit 100 Wp aus, sollte aber eine zweite Batterie einplanen. Vielnutzer sollten laut Video eher 200 Wp und eine 100-Ah-Lithium-Batterie einplanen.",
+        "Praxis: Ob 100 Wp genügen, zeigt der eigene Verbrauch. Ein Blick auf die Geräte, die du tatsächlich nutzt, ist deshalb der erste Schritt."
+      ]
+    },
+    {
+      "q": "Wie viel Strom verbraucht ein Wohnmobil am Tag?",
+      "a": [
+        "Im Video nennen die Tester 75 Amperestunden pro Tag. Das entspricht bei 12 Volt rund 900 Wattstunden. Den eigenen Wert sollte man laut Video kennen, bevor man Solar plant.",
+        "Der Verbrauch hängt stark von Gerät und Nutzung ab. Im Video werden Handy, Tablet, Notebook, Kompressorkühlschrank und Heizung als Beispiele genannt. Die Jahreszeit beeinflusst laut Video vor allem den Solarertrag.",
+        "Praxis: Notiere einige Tage lang, wie viele Ah du tatsächlich verbrauchst, und rechne damit den Rechenweg aus dem Video durch."
+      ]
+    },
+    {
+      "q": "Brauche ich eine Solaranlage, wenn ich meist auf Campingplätzen stehe?",
+      "a": [
+        "Laut Video ist eine Solaranlage vor allem für Wohnmobile gedacht, die ohne externe Stromversorgung unterwegs sind. Die Batterie soll dann allein über die Sonne geladen werden.",
+        "Wer hauptsächlich auf Campingplätzen oder Stellplätzen steht, braucht laut Video weniger Solarleistung als jemand, der oft frei steht. Die Tester empfehlen dann eine zweite Batterie.",
+        "Praxis: Wer nur selten frei steht, kann laut Video auch den Motor kurz laufen lassen oder einen Stellplatz mit Strom aufsuchen."
+      ]
+    },
+    {
+      "q": "Kann ich die Solaranlage fürs Wohnmobil selbst berechnen?",
+      "a": [
+        "Ja, laut Video ist das kein Hexenwerk. Man ermittelt den Tagesverbrauch in Amperestunden, kennt die Sonnenstunden am Einsatzort und dimensioniert danach Solar und Batterie.",
+        "Der Rechenweg im Video: Ah mal 12 Volt ergibt Wattstunden, geteilt durch 4,3 Sonnenstunden ergibt rund 209 W. Dazu kommen laut Video etwa 30 Prozent Verluste, sodass rund 272 Wp herauskommen. Hinzu kommt eine Reserve, weil die Sonne im Herbst und Winter flacher steht.",
+        "Praxis: Die Rechnung hängt stark am eigenen Verbrauch. Deshalb sollte man den Wert zuerst messen, bevor man Module kauft."
+      ]
+    }
+  ],
+  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video ist vom 25. April 2021 und steht laut YouTube-Metadaten auf dem Kanal Pössl Center Frankfurt. Die Videobeschreibung nennt als Macher Grit und Basti vom Blog 321off und erklärt, alle gezeigten Produkte seien selbst gekauft, es bestehe keine Kooperation. Die Beschreibung enthält mit Sternchen markierte Amazon-Affiliate- bzw. Werbelinks. Laut YouTube-Metadaten ist das Video nicht als Werbung gekennzeichnet. VanKompass hat die Berechnung nicht selbst nachgeprüft. Alle Angaben basieren auf dem Video. Links zu Produkten können Affiliate-Links enthalten."
+}
