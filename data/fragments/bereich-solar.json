@@ -1,0 +1,153 @@
+{
+  "typ": "bereich",
+  "slug": "solar",
+  "name": "Solar",
+  "kurzname": "Solar",
+  "kurz": "Faltpanels, Dachmodule, Laderegler, Ertrag, Montage.",
+  "h1": "Solar auf dem Camper",
+  "lead": "Wie viel Watt dein Camper wirklich braucht, Faltpanel oder festes Dachmodul, MPPT-Laderegler, Montage ohne Bohren und realistische Erträge im Jahresverlauf. Ratgeber, Rechenbeispiele und eine Empfehlung für Powerstation-Nutzer.",
+  "meta_title": "Solar auf dem Camper: Watt, Module, Laderegler | VanKompass",
+  "meta_desc": "Solar auf dem Camper erklärt: Wie viel Watt du brauchst, Dachmodul oder Faltpanel, MPPT-Laderegler, Montage ohne Bohren und realistische Erträge im Jahr.",
+  "empfehlung": {
+    "name": "EcoFlow 220 W bifaziales Solarpanel",
+    "one": "Das faltbare 220-Watt-Panel, das sich zur Sonne ausrichten lässt und mit Adapter an fast jede Powerstation passt.",
+    "pills": ["220 W faltbar", "Bifazial", "MC4-Anschluss", "ca. 9 kg"],
+    "why": "Viel Leistung in einem Paket, das in den Heckstauraum passt und ohne Montage auskommt. Mit MC4-Stecker und passendem Adapter läuft es an Powerstations verschiedener Hersteller, nicht nur an EcoFlow.",
+    "preis": "ca. 300 bis 500 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-solar.svg",
+    "trust": "Preis bleibt für dich gleich. Noch kein eigener Test, Empfehlung nach Datenlage und Erfahrungsberichten.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "solar-wie-viel-watt",
+      "title": "Wie viel Watt Solar braucht ein Camper? Rechenweg mit drei Beispielen",
+      "teaser": "Vom Tagesverbrauch zur Modulgröße: realistische Erträge je Jahreszeit, Verluste und drei Beispielrechnungen.",
+      "lead_teaser": "Wenn du wissen willst, ob 100, 200 oder 300 Watt auf dein Dach gehören, bekommst du hier den Rechenweg. Du ermittelst deinen Tagesverbrauch, siehst realistische Erträge für Sommer, Übergangszeit und Winter und rechnest drei typische Setups durch: Wochenendcamper mit Kühlbox, Langzeitreisende mit Laptop und Standheizung sowie Vollzeit-Van mit Kühlschrank und Homeoffice. Dazu die Verluste, die im Datenblatt nie stehen.",
+      "kategorie": "Rechenbeispiel",
+      "thumb_l1": "Wie viel Watt Solar",
+      "thumb_l2": "braucht ein Camper?",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "solar-faltpanel-vs-dachmodul",
+      "title": "Faltpanel oder Dachmodul: Welche Solaranlage passt zu deinem Camper?",
+      "teaser": "Ertrag, Aufwand, Diebstahl, Fahrzeugwechsel: Was für Serien-Camper spricht und wann das feste Dachmodul gewinnt.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Faltpanel oder",
+      "thumb_l2": "Dachmodul?",
+      "camper": ["vw-california", "ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "solar-mppt-vs-pwm",
+      "title": "MPPT oder PWM: Welcher Laderegler holt mehr aus dem Solarmodul?",
+      "teaser": "Wie beide Regler arbeiten, wann der Mehrertrag 30 Prozent erreicht und worauf du bei LiFePO4 achten musst.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "MPPT oder PWM:",
+      "thumb_l2": "Laderegler im Vergleich",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "solar-montage-ohne-bohren",
+      "title": "Solarmodul auf dem Camperdach montieren: Kleben, Schienen oder Bohren?",
+      "teaser": "Schritt für Schritt von der Dachreinigung bis zur Kabeldurchführung, mit den Fehlern, die später Wasser ins Auto lassen.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Solarmodul montieren:",
+      "thumb_l2": "Kleben oder Bohren?",
+      "camper": ["poessl-ducato", "sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "solar-powerstation-anschliessen",
+      "title": "Solarpanel an die Powerstation anschließen: Stecker, Spannung, Fehler",
+      "teaser": "MC4, XT60, Leerlaufspannung und Reihenschaltung verständlich erklärt, damit der Solareingang nicht abschaltet.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Solarpanel an die",
+      "thumb_l2": "Powerstation anschließen",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "solar-ertrag-winter",
+      "title": "Solarertrag im Winter: Was dein Camperdach von November bis Februar liefert",
+      "teaser": "Reale Messwerte aus Mitteleuropa, warum der Ertrag auf ein Fünftel fällt und was im Winter mehr bringt als Solar.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Solarertrag",
+      "thumb_l2": "im Winter",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viel Watt Solar braucht ein Camper?",
+      "a": [
+        "Für Wochenend-Camper mit Kühlbox, Licht und Handys reichen 100 bis 150 Watt Solar. Wer mehrere Tage autark steht und Laptop oder Standheizung dazunimmt, liegt bei 200 bis 300 Watt. Dauerhaft autark mit Kühlschrank und Homeoffice landet bei 300 bis 400 Watt plus einer Batterie mit 200 Ah.",
+        "Der Rechenweg: Tagesverbrauch in Wattstunden ermitteln, dann durch den realen Tagesertrag teilen. Ein 100-Watt-Modul liefert in Deutschland im Sommer 300 bis 500 Wh am Tag, im Frühjahr und Herbst 150 bis 300 Wh, im Winter oft unter 100 Wh. Flach montierte Dachmodule verlieren gegenüber dem Datenblatt 20 bis 30 Prozent, dazu kommen Verluste im Laderegler und in den Kabeln. Wer 600 Wh am Tag braucht, ist im Sommer mit 150 bis 200 Watt gut bedient, im Herbst eher mit 300 Watt.",
+        "Häufig vergessen: Schatten von Dachbox, Markise oder einem einzelnen Ast drückt den Ertrag eines Moduls massiv, weil die Zellen in Reihe geschaltet sind. Lieber zwei kleinere Module mit getrennten Reglern als ein großes. Und die Batterie muss den Ertrag auch aufnehmen können, sonst verpufft der Mittag ungenutzt."
+      ],
+      "link": "#",
+      "link_text": "Zum Rechenweg mit drei Beispielen"
+    },
+    {
+      "q": "Was bringt ein 100-Watt-Solarmodul am Tag wirklich?",
+      "a": [
+        "Ein 100-Watt-Modul auf dem Camperdach liefert in Mitteleuropa an einem sonnigen Sommertag 300 bis 500 Wattstunden. Im Frühjahr und Herbst sind 150 bis 300 Wh realistisch, im Winter bei tiefstehender Sonne und Wolken oft nur 30 bis 100 Wh. Die 100 Watt vom Datenblatt erreichst du im Alltag praktisch nie.",
+        "Der Grund liegt in den Testbedingungen: Hersteller messen bei 1000 W pro Quadratmeter Einstrahlung, 25 Grad Zelltemperatur und senkrechtem Lichteinfall. Auf dem flachen Dach trifft das Licht schräg auf, das Modul wird im Sommer 60 Grad heiß und verliert dadurch 10 bis 15 Prozent Leistung. Hinzu kommen Verluste im Laderegler, in den Kabeln und beim Laden der Batterie. Unterm Strich bleiben an einem guten Tag 4 bis 5 Volllaststunden, an einem trüben Tag eine halbe.",
+        "Für die Praxis heißt das: 100 Watt decken im Sommer eine Kompressor-Kühlbox plus Handys und Licht, mehr nicht. Wer den Ertrag messen will, braucht einen Laderegler mit Bluetooth oder Display. Ein faltbares Modul, das du zur Sonne ausrichtest, bringt bei gleicher Nennleistung 20 bis 40 Prozent mehr."
+      ]
+    },
+    {
+      "q": "Kann man ein Solarpanel direkt an eine Powerstation anschließen?",
+      "a": [
+        "Ja, fast alle Powerstations haben einen Solareingang mit integriertem MPPT-Laderegler. Du brauchst nur ein Modul mit passendem Stecker, meist MC4 auf XT60 oder auf den herstellereigenen Anschluss, und musst die zulässige Eingangsspannung einhalten. Typisch sind 12 bis 60 Volt und 200 bis 500 Watt Eingangsleistung.",
+        "Entscheidend ist die Leerlaufspannung des Moduls, im Datenblatt als Voc angegeben. Sie muss unter dem Maximum des Powerstation-Eingangs liegen, und zwar auch bei Kälte, weil die Spannung bei Minusgraden um 10 bis 15 Prozent steigt. Zwei Module in Reihe verdoppeln die Spannung, parallel geschaltet verdoppeln sie den Strom. Welche Variante passt, hängt vom Eingang ab: Viele Powerstations akzeptieren lieber höhere Spannung als hohen Strom. Die Wattzahl darf das Maximum übersteigen, der Regler begrenzt dann einfach.",
+        "Typische Fehler: Polung vertauscht, billige Adapterkabel mit zu dünnem Querschnitt oder ein Balkonkraftwerk-Modul mit Mikrowechselrichter, das für Powerstations ungeeignet ist. Achte auf reine Gleichstrom-Module. Und stelle das Faltpanel so, dass kein Schatten des Fahrzeugs darauf fällt."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Solarpanel und Powerstation"
+    },
+    {
+      "q": "Faltbares Solarpanel oder festes Dachmodul: Was ist besser?",
+      "a": [
+        "Für Serien-Camper mit Powerstation ist ein faltbares Panel mit 100 bis 220 Watt meist die bessere Wahl: kein Eingriff ins Dach, zur Sonne ausrichtbar, beim Fahrzeugwechsel mitnehmbar. Für den Selbstausbau oder dauerhafte Autarkie gewinnt das feste Dachmodul, weil es auch während der Fahrt und auf dem Supermarktparkplatz lädt.",
+        "Das Faltpanel bringt bei gleicher Nennleistung 20 bis 40 Prozent mehr Ertrag, weil du es schräg zur Sonne stellen kannst, während das Dachmodul flach liegt. Dafür musst du es aufbauen, bewachen und bei Regen einpacken; auf einem engen Stellplatz steht es im Weg. Das Dachmodul arbeitet unbeaufsichtigt, kostet aber Montage, Kabeldurchführung und je nach Fahrzeug ein Stück Dachlast. Beim VW California mit Aufstelldach ist die nutzbare Fläche klein, beim Ducato oder Sprinter passen 300 bis 400 Watt aufs Dach.",
+        "Viele kombinieren: 100 bis 200 Watt fest auf dem Dach für die Grundlast, ein Faltpanel für Standtage im Schatten. Häufiger Fehler ist, das Faltpanel ohne Diebstahlsicherung über Nacht draußen zu lassen. Ein Stahlseil mit Schloss kostet wenig."
+      ]
+    },
+    {
+      "q": "Brauche ich einen MPPT-Laderegler oder reicht PWM?",
+      "a": [
+        "Ab 100 Watt Modulleistung lohnt sich ein MPPT-Laderegler fast immer: Er holt je nach Bedingungen 10 bis 30 Prozent mehr aus dem Modul als ein PWM-Regler, bei Kälte und schwachem Licht noch mehr. PWM reicht nur für kleine Erhaltungsladung unter 50 Watt.",
+        "Der Unterschied liegt in der Arbeitsweise. Ein PWM-Regler verbindet Modul und Batterie direkt und zieht die Modulspannung auf Batterieniveau herunter; die Differenz geht verloren. Ein MPPT-Regler sucht den Punkt maximaler Leistung des Moduls und wandelt die höhere Spannung in mehr Strom um. Das macht sich besonders bei 36-Zellen-Modulen mit 18 Volt und erst recht bei 60-Zellen-Hausmodulen mit 30 bis 40 Volt bemerkbar. MPPT-Regler kosten ca. 60 bis 200 €, PWM-Regler ca. 15 bis 40 €, Stand Oktober 2026.",
+        "Beim Kauf auf das Batterieprofil achten: Der Regler muss eine LiFePO4-Ladekurve kennen, sonst wird die Batterie nie voll oder altert früher. Praktisch ist Bluetooth zum Ablesen des Ertrags per App. Und der Regler gehört so nah wie möglich an die Batterie, nicht ans Modul."
+      ]
+    },
+    {
+      "q": "Wie befestigt man ein Solarmodul auf dem Camperdach ohne zu bohren?",
+      "a": [
+        "Die gängigste Lösung ohne Bohren sind geklebte Halterungen: Kunststoff-Spoiler oder Alu-Winkel, die mit Karosseriekleber wie Sikaflex oder Dekalin auf das gereinigte Dach geklebt werden. Richtig ausgeführt hält das dauerhaft und ist bei Kastenwagen wie Ducato, Sprinter und Crafter Standard.",
+        "Entscheidend ist die Vorbereitung: Dach mit Reiniger entfetten, Primer nach Herstellerangabe auftragen, Kleber nicht unter 10 Grad verarbeiten und 24 bis 48 Stunden aushärten lassen, bevor du fährst. Die Klebefläche pro Halter sollte großzügig sein, weil auf der Autobahn Sog- und Druckkräfte auf das Modul wirken. Bei Fahrzeugen mit Dachreling oder C-Schienen, etwa beim Ford Nugget oder vielen Kastenwagen mit Nachrüst-Trägern, lassen sich Module auch geschraubt auf dem Träger befestigen, ohne das Blech anzutasten.",
+        "Oft vergessen: die Kabeldurchführung. Wer das Dach nicht bohren will, führt das Kabel durch eine vorhandene Dachhaube, einen Lüfter oder die Dichtung der Hecktür. Flexible Module direkt aufs Blech zu kleben ist riskant: Sie werden sehr heiß, altern schnell und lassen sich kaum rückstandsfrei entfernen."
+      ],
+      "link": "#",
+      "link_text": "Zur Montage-Anleitung"
+    },
+    {
+      "q": "Was kostet eine Solaranlage für den Camper?",
+      "a": [
+        "Eine einfache Anlage mit 100 bis 200 Watt Dachmodul, MPPT-Regler, Halterung und Kabeln kostet im Selbsteinbau ca. 300 bis 600 €. Mit Einbau in der Werkstatt kommen ca. 300 bis 800 € dazu. Ein faltbares Panel mit 100 bis 220 Watt für die Powerstation liegt bei ca. 150 bis 500 €, Stand Oktober 2026.",
+        "Die Posten im Einzelnen: Ein starres Modul mit 100 bis 200 Watt kostet ca. 80 bis 250 €, ein MPPT-Regler mit Bluetooth ca. 60 bis 200 €, Halterungen und Kleber ca. 40 bis 100 €, Kabel, Sicherungen und Dachdurchführung ca. 40 bis 100 €. Teurer wird es, wenn die Batterie oder das Ladegerät mitgetauscht werden müssen: Eine LiFePO4 mit 100 Ah schlägt mit ca. 300 bis 600 € zu Buche. Komplettsets vom Händler sind oft günstiger als Einzelteile, enthalten aber manchmal zu dünne Kabel.",
+        "Spare nicht am Regler und an den Kabeln, dort entscheidet sich der Ertrag. Spare gern am Modul: Markenzellen bringen bei gleicher Wattzahl kaum mehr als solide No-Name-Module. Und rechne nach, ob bei deinem Nutzungsprofil ein zweiter Akku nicht sinnvoller ist als mehr Solar."
+      ]
+    }
+  ]
+}

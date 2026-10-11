@@ -1,0 +1,117 @@
+{
+  "typ": "camper",
+  "slug": "ford-nugget",
+  "name": "Ford Nugget",
+  "sub": "Westfalia",
+  "kurz": "Aufstelldach, Heckküche, Strom, Verdunkelung, Stauraum.",
+  "h1": "Ford Nugget: Ausrüstung, Tipps und Tests",
+  "lead": "Alles für Besitzer des Ford Nugget von Westfalia: welche Powerstation unter die Heckküche passt, wie das Dachbett bequemer wird, welche Thermomatten auf den Transit Custom passen und wo im Nugget noch Stauraum steckt.",
+  "meta_title": "Ford Nugget: Ausrüstung, Tipps und Tests | VanKompass",
+  "meta_desc": "Ford Nugget Zubehör und Praxis: Powerstation statt Zweitbatterie, Dachbett verbessern, Thermomatten für Transit Custom, Stauraum, Wasser. Tipps und Empfehlung.",
+  "empfehlung": {
+    "name": "AFERIY P180 PRO",
+    "one": "Die 1-kWh-Powerstation, die unter die Heckküche des Nugget passt und Kaffeemaschine, Airfryer und Laptop ohne Einbau versorgt.",
+    "pills": ["1024 Wh LiFePO4", "1800 W Reinsinus", "USB-C 140 W", "Passt unter die Nugget-Küche"],
+    "why": "Der Nugget hat ab Werk nur eine kleine AGM-Zweitbatterie und keinen Wechselrichter, viele Besitzer wollen trotzdem 230-V-Geräte betreiben. Die P180 PRO ist kompakt genug für den Stauraum unter der Küche und wurde genau dort im Praxistest von Die2Mays betrieben.",
+    "preis": "ca. 600 bis 800 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-ford-nugget.svg",
+    "trust": "Garantieverlängerung nach Registrierung beim Hersteller. Preis bleibt für dich gleich.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "ford-nugget-dachbett-matratze",
+      "title": "Ford Nugget Dachbett: Matratze, Topper und Lattenrost im Aufstelldach",
+      "teaser": "Warum das Westfalia-Dachbett vielen zu hart ist, welche Topper passen und wie du die Belüftung von unten verbesserst.",
+      "lead_teaser": "Das Dachbett im Ford Nugget ist mit rund zwei Metern Länge großzügig, die Serienmatratze aber dünn und direkt auf der Dachplatte. Dieser Beitrag zeigt dir, welche Topper und Auflagen auf das Maß des Nugget-Dachbetts passen, wie du mit einem Unterbett oder Tellerfedern Kondenswasser unter der Matratze verhinderst und was beim Schließen des Dachs mit zusätzlicher Auflage zu beachten ist.",
+      "kategorie": "Ratgeber",
+      "bereich": "schlafen",
+      "thumb_l1": "Nugget Dachbett:",
+      "thumb_l2": "Matratze und Topper",
+      "camper": ["ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "ford-nugget-thermomatten",
+      "title": "Thermomatten für den Ford Nugget: Transit Custom innen oder außen abdecken",
+      "teaser": "Welche Matten auf das Fahrerhaus des Transit Custom passen, was der Dachbalg braucht und wie du Kondenswasser vermeidest.",
+      "kategorie": "Vergleich",
+      "bereich": "verdunkelung",
+      "thumb_l1": "Thermomatten für",
+      "thumb_l2": "den Ford Nugget",
+      "camper": ["ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "ford-nugget-stauraum",
+      "title": "Stauraum im Ford Nugget: Heckküche, Dachschränke und Sitzbank clever nutzen",
+      "teaser": "Wo im Nugget noch Platz steckt, welche Boxen in die Fächer passen und wie du Küche und Kleidung sauber trennst.",
+      "kategorie": "Praxis",
+      "bereich": "stauraum",
+      "thumb_l1": "Stauraum im",
+      "thumb_l2": "Ford Nugget",
+      "camper": ["ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "ford-nugget-wasser",
+      "title": "Wasser im Ford Nugget: Tank befüllen, reinigen und winterfest machen",
+      "teaser": "Wie lange der Frischwassertank des Nugget zu zweit reicht, wie du ihn sauber hältst und was vor dem Frost zu tun ist.",
+      "kategorie": "Ratgeber",
+      "bereich": "wasser",
+      "thumb_l1": "Wasser im",
+      "thumb_l2": "Ford Nugget",
+      "camper": ["ford-nugget"],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ford Nugget: Zweitbatterie nachrüsten oder Powerstation?",
+      "a": [
+        "Für die meisten Nugget-Besitzer ist eine Powerstation die bessere Wahl: Sie passt unter die Heckküche oder in den Stauraum unter der Sitzbank, braucht keinen Eingriff ins Bordnetz und liefert 230 V, was die Serien-Zweitbatterie des Nugget nicht kann. Eine größere Einbaubatterie lohnt sich erst, wenn du dauerhaft Kühlschrank und Standheizung über viele Tage ohne Fahrt betreiben willst.",
+        "Der Nugget hat ab Werk eine AGM-Zweitbatterie, die Kühlschrank, Licht, Wasserpumpe und Standheizung versorgt, aber keinen Wechselrichter. Wer sie gegen LiFePO4 tauscht, muss das Lademanagement des Fahrzeugs beachten, bei Euro-6-Transits mit intelligentem Generator ist ein Ladebooster nötig, und Garantiefragen mit Ford und Westfalia sind zu klären. Eine 1-kWh-Powerstation kostet ca. 600 bis 1000 €, lässt sich an der 12-V-Dose während der Fahrt und am Landstrom laden und bleibt beim Fahrzeugwechsel bei dir.",
+        "Praxis-Tipp: Die Powerstation so platzieren, dass der Lüfter frei bleibt und du sie zum Laden nicht ausbauen musst. Unter der Küche sitzt sie nah an der Küchenzeile für Kaffeemaschine oder Airfryer. Im Hochsommer nicht im geschlossenen Fahrzeug in der Sonne lassen."
+      ]
+    },
+    {
+      "q": "Ford Nugget Aufstelldach Matratze zu hart: Was hilft?",
+      "a": [
+        "Ein Topper mit 4 bis 6 cm Höhe aus Kaltschaum oder Viscoschaum, zugeschnitten auf das Dachbettmaß des Nugget, löst das Problem für die meisten. Darunter gehört eine Unterlage aus Abstandsgewirk oder Tellerfedern, damit Feuchtigkeit abziehen kann. Zusammen ca. 150 bis 350 €.",
+        "Die Serienmatratze im Nugget-Aufstelldach ist dünn, weil das Dach beim Schließen flach bleiben muss. Sie liegt direkt auf der Dachplatte, die nachts kalt wird, sodass sich Kondenswasser zwischen Matratze und Platte sammelt. Ein Topper bringt Komfort, ein belüftetes Unterbett verhindert Schimmel. Viele Besitzer nutzen einen zweiteiligen Topper, der sich beim Schließen des Dachs einklappen lässt und oben bleiben kann. Prüfe vor dem Kauf, wie viel Höhe das geschlossene Dach erlaubt, sonst drückt der Topper auf den Balg oder das Dach schließt nicht sauber.",
+        "Typischer Fehler: Topper mit zu weichem Schaum, in den du einsinkst, dann fehlt Platz zum Umdrehen. Und das Dach morgens mit noch feuchtem Topper schließen. Nach kalten Nächten das Bett erst lüften, Topper hochklappen, dann schließen. Bei Dauerregen lieber unten schlafen."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Nugget Dachbett"
+    },
+    {
+      "q": "Ford Nugget Hochdach oder Aufstelldach: Was ist besser?",
+      "a": [
+        "Das Aufstelldach ist die Wahl für alle, die den Nugget als Alltagsauto nutzen und in Tiefgaragen müssen, das Hochdach für Ganzjahrescamper und Familien, die oben dauerhaft Stauraum und ein festes Bett wollen. Preislich liegt das Hochdach meist etwas über dem Aufstelldach.",
+        "Mit Aufstelldach bleibt der Nugget unter zwei Metern hoch und fährt sparsamer und leiser, das Dachbett ist aber nur im aufgestellten Zustand nutzbar und der Stoffbalg isoliert im Winter schlecht. Das Hochdach bringt ein festes, isoliertes Dachbett, das tagsüber als Stauraum dient, Stehhöhe über die ganze Länge und deutlich bessere Wintertauglichkeit, kostet aber Windanfälligkeit, Verbrauch und die Tiefgarage. Beim Nugget Plus mit längerem Radstand kommt ein Bad mit Toilette hinzu, dort ist das Hochdach besonders verbreitet.",
+        "Entscheidungshilfe: Wer vor allem im Sommer zu zweit reist und das Fahrzeug täglich bewegt, ist mit dem Aufstelldach gut bedient. Wer mit Kindern oder im Winter unterwegs ist, oft länger steht und Platz für Bettzeug braucht, nimmt das Hochdach. Gebraucht sind Aufstelldach-Nuggets häufiger und oft günstiger."
+      ]
+    },
+    {
+      "q": "Ford Nugget Standheizung: Was ist verbaut und wie viel verbraucht sie?",
+      "a": [
+        "Der Nugget wird mit einer Diesel-Luftstandheizung ausgeliefert, die aus dem Fahrzeugtank gespeist wird und den Wohnraum über Luftauslässe beheizt. Der Verbrauch liegt in einer kühlen Nacht bei etwa 1 bis 2 Litern Diesel, der Strombedarf bei 100 bis 300 Wh aus der Zweitbatterie.",
+        "Die Heizung lässt sich am Bedienteil oder je nach Baujahr per Timer programmieren. Im Aufstelldach kommt die Warmluft nur bedingt oben an, weil die Auslässe unten im Wohnraum sitzen und der Balg die Wärme schnell abgibt. Eine Isolierung für den Dachbalg und eine Umlenkung der Warmluft nach oben verbessern das deutlich. Für Winterurlaube in den Bergen ist zu prüfen, ob die verbaute Heizung eine Höhenanpassung hat, sonst rußt sie ab etwa 1500 Metern. Bei leerer Zweitbatterie schaltet die Heizung ab, daher vor kalten Nächten den Ladezustand prüfen oder die Standheizung über eine Powerstation puffern.",
+        "Oft vergessen: Die Heizung einmal im Monat auch im Sommer 20 Minuten laufen lassen, damit Pumpe und Brenner nicht verharzen. Und den Abgasauslass unter dem Fahrzeug frei halten, im Schnee oder auf hohem Gras setzt sich die Heizung sonst auf Störung."
+      ]
+    },
+    {
+      "q": "Ford Nugget Mückenschutz für Schiebetür und Heckklappe?",
+      "a": [
+        "Für die Schiebetür des Nugget gibt es passende Mückennetze mit Magnet- oder Reißverschluss, die mit Klettband am Türrahmen befestigt werden, Preis ca. 60 bis 150 €. Für die Heckklappe sind Netze seltener, weil die offene Klappe mit Heckküche darunter ohnehin selten als Durchgang dient.",
+        "Das Aufstelldach des Nugget hat ab Werk Netze in den Balgfenstern, die Schiebetür nicht. Weil der Nugget abends meist mit offener Schiebetür steht, ist das Netz dort die wichtigste Nachrüstung. Netze mit umlaufendem Klett schließen dicht, lassen sich aber nicht spurlos entfernen, Netze mit Magnetleisten halten am Blech des Türrahmens und sind schneller montiert. Beim Nugget Plus mit Bad ist der Türausschnitt identisch mit dem kurzen Nugget. Für die Fahrerhausfenster gibt es Netzüberzüge, die über die geöffnete Tür gezogen werden und nachts Durchzug ohne Mücken erlauben.",
+        "Typischer Fehler: Netz kaufen, das für den Transit Custom als Transporter gedacht ist, aber nicht an der Innenverkleidung des Nugget vorbeiläuft. Auf die Westfalia-Ausstattung achten. Und das Netz vor dem Schließen der Schiebetür komplett wegklappen, sonst klemmt es in der Dichtung und reißt."
+      ]
+    }
+  ]
+}

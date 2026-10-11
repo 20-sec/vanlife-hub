@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow"><!-- ENTWURF/Staging: nicht indexieren. Vor Live entfernen. -->
 <title>VanKompass: Camper-Ausrüstung nach Bereich und nach deinem Modell</title>
-<meta name="description" content="Camper-Ausrüstung nach Bereich und nach deinem Camper-Modell. Ehrliche Kaufberatung mit Rechnern statt Bauchgefühl: Strom, Schlafen, Küche, Sanitär und mehr.">
+<meta name="description" content="Camper-Ausrüstung nach Bereich und nach deinem Camper-Modell. Ehrliche Kaufberatung aus Video-Tests und Praxis statt Bauchgefühl: Strom, Schlafen, Küche, Sanitär und mehr.">
 <link rel="stylesheet" href="vanlife-styles.css?v=3">
+<link rel="stylesheet" href="portal.css?v=1">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -17,12 +18,12 @@
       { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://vankompass.de/" }
     ]},
     { "@type": "ItemList", "name": "Camper-Ausrüstung nach Bereich", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Batterie & Strom", "url": "https://vankompass.de/strom/" },
-      { "@type": "ListItem", "position": 2, "name": "Solar", "url": "https://vankompass.de/solar/" },
-      { "@type": "ListItem", "position": 3, "name": "Schlafen & Matratze", "url": "https://vankompass.de/schlafen/" },
-      { "@type": "ListItem", "position": 4, "name": "Toilette & Sanitär", "url": "https://vankompass.de/sanitär/" },
-      { "@type": "ListItem", "position": 5, "name": "Küche & Kühlen", "url": "https://vankompass.de/küche/" },
-      { "@type": "ListItem", "position": 6, "name": "Heizung & Klima", "url": "https://vankompass.de/heizung/" }
+      { "@type": "ListItem", "position": 1, "name": "Batterie & Strom", "url": "https://vankompass.de/strom.html" },
+      { "@type": "ListItem", "position": 2, "name": "Solar", "url": "https://vankompass.de/solar.html" },
+      { "@type": "ListItem", "position": 3, "name": "Schlafen & Matratze", "url": "https://vankompass.de/schlafen.html" },
+      { "@type": "ListItem", "position": 4, "name": "Toilette & Sanitär", "url": "https://vankompass.de/sanitaer.html" },
+      { "@type": "ListItem", "position": 5, "name": "Küche & Kühlen", "url": "https://vankompass.de/kueche.html" },
+      { "@type": "ListItem", "position": 6, "name": "Heizung & Klima", "url": "https://vankompass.de/heizung.html" }
     ]}
   ]
 }
@@ -37,9 +38,8 @@
     <a class="brand" href="index.html"><span class="mark">V</span> VanKompass</a>
     <nav>
       <a href="magazin.html">Magazin</a>
-      <a href="silo-strom.html">Bereiche</a>
-      <a href="#modelle">Camper</a>
-      <a href="#tools">Rechner</a>
+      <a href="bereiche.html">Bereiche</a>
+      <a href="camper.html">Camper</a>
     </nav>
   </div>
 </header>
@@ -47,13 +47,13 @@
 <div class="hero">
   <div class="wrap">
     <h1>Camper-Ausrüstung nach Bereich. Und nach deinem Modell.</h1>
-    <p class="lead">Ehrliche Kaufberatung mit Rechnern statt Bauchgefühl. Sag uns, worum du dich kümmern willst, oder wähle direkt deinen Camper.</p>
+    <p class="lead">Ehrliche Kaufberatung aus Video-Tests und Praxis statt Bauchgefühl. Sag uns, worum du dich kümmern willst, oder wähle direkt deinen Camper.</p>
     <div class="chips" aria-label="Schnellfilter nach Camper-Modell">
       <span class="chip">Mein Camper:</span>
-      <a class="chip">VW California</a>
-      <a class="chip">Ford Nugget</a>
-      <a class="chip">Marco Polo</a>
-      <a class="chip">Kastenwagen-Ausbau</a>
+      <a class="chip" href="camper-vw-california.html">VW California</a>
+      <a class="chip" href="camper-ford-nugget.html">Ford Nugget</a>
+      <a class="chip" href="camper-marco-polo.html">Marco Polo</a>
+      <a class="chip" href="camper-sprinter-ausbau.html">Kastenwagen-Ausbau</a>
     </div>
   </div>
 </div>
@@ -62,24 +62,136 @@
   <div class="wrap">
     <h2 class="kicker">Worum willst du dich kümmern?</h2>
     <div class="kicker-line"></div>
-    <div class="grid cols-4">
-      <a class="tile" href="silo-strom.html"><div class="ic">&#128267;</div><h3>Batterie &amp; Strom</h3><p>Genug Saft für Kühlbox, Laptop und drei Tage autark.</p></a>
-      <a class="tile" href="#"><div class="ic">&#9728;&#65039;</div><h3>Solar</h3><p>Strom nachladen, wo keine Steckdose ist.</p></a>
-      <a class="tile" href="#"><div class="ic">&#128719;</div><h3>Schlafen &amp; Matratze</h3><p>Endlich erholsam schlafen im Aufstelldach.</p></a>
-      <a class="tile" href="#"><div class="ic">&#128701;</div><h3>Toilette &amp; Sanitär</h3><p>Trenntoilette und Dusche für unterwegs.</p></a>
-      <a class="tile" href="#"><div class="ic">&#127859;</div><h3>Küche &amp; Kühlen</h3><p>Kühlen, kochen, spülen auf kleinem Raum.</p></a>
-      <a class="tile" href="#"><div class="ic">&#128167;</div><h3>Wasser</h3><p>Frischwasser an Bord, sauber und winterfest.</p></a>
-      <a class="tile" href="#"><div class="ic">&#128293;</div><h3>Heizung &amp; Klima</h3><p>Warm bleiben ohne zu frieren oder zu russen.</p></a>
-      <a class="tile" href="#"><div class="ic">&#127761;</div><h3>Verdunkelung &amp; Mucken</h3><p>Dunkel schlafen, insektenfrei lüften.</p></a>
-      <a class="tile" href="#"><div class="ic">&#129520;</div><h3>Cockpit</h3><p>Ablage, Halter und Ordnung im Fahrerhaus.</p></a>
-      <a class="tile" href="#"><div class="ic">&#128230;</div><h3>Stauraum</h3><p>Aus jedem Liter Platz das Maximum holen.</p></a>
-      <a class="tile" href="#"><div class="ic">&#9978;</div><h3>Außenbereich</h3><p>Markise, Vorzelt und der Platz vor der Tür.</p></a>
-      <a class="tile" href="#"><div class="ic">&#128274;</div><h3>Sicherheit</h3><p>Dein Camper und dein Hab und Gut geschützt.</p></a>
-      <a class="tile" href="#"><div class="ic">&#128225;</div><h3>Internet</h3><p>Online bleiben, auch im Funkloch.</p></a>
-      <a class="tile" href="#"><div class="ic">&#128241;</div><h3>Camper-Apps</h3><p>Die Apps, die unterwegs wirklich helfen.</p></a>
-      <a class="tile" href="#"><div class="ic">&#129681;</div><h3>Sitze &amp; Drehkonsole</h3><p>Aus dem Fahrersitz wird der Wohnzimmer-Sessel.</p></a>
-      <a class="tile" href="#"><div class="ic">&#127925;</div><h3>Sound</h3><p>Musik und Unterhaltung im Camper.</p></a>
-    </div>
+    <div class="areas cols-4"><!-- BEREICHE:START -->
+<a class="area" href="strom.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg></span>
+  <span class="txt">
+    <h3>Batterie &amp; Strom</h3>
+    <p>Powerstations, Bordbatterien, Ladebooster, Verbrauch.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="solar.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span>
+  <span class="txt">
+    <h3>Solar</h3>
+    <p>Faltpanels, Dachmodule, Laderegler, Ertrag, Montage.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="schlafen.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20v-9a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v9M2 16h20M6 9V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/></svg></span>
+  <span class="txt">
+    <h3>Schlafen &amp; Matratze</h3>
+    <p>Matratzen, Topper, Froli, Aufstelldach, Kälte von unten.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="sanitaer.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></span>
+  <span class="txt">
+    <h3>Toilette &amp; Sanitär</h3>
+    <p>Campingtoilette, Trenntoilette, Dusche, Entsorgung, Hygiene.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="kueche.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16v7a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-7zM2 10h20M9 7V5M12 7V4M15 7V5"/></svg></span>
+  <span class="txt">
+    <h3>Küche &amp; Kühlen</h3>
+    <p>Kühlbox, Kocher, Induktion, Geschirr, Stromverbrauch.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="wasser.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 14c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 20c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg></span>
+  <span class="txt">
+    <h3>Wasser</h3>
+    <p>Frischwasser, Tankhygiene, Filter, Pumpen, Winterfest.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="heizung.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1.2 3.2 4.5 5.4 4.5 9.3A4.5 4.5 0 0 1 7.5 12.3c0-1.6.6-2.9 1.5-4 .3 1.4 1 2.3 1.9 2.8C11.6 9.2 11 6 12 3z"/></svg></span>
+  <span class="txt">
+    <h3>Heizung &amp; Klima</h3>
+    <p>Standheizung, Diesel oder Gas, Verbrauch, Klimaanlage, Wintercamping.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="verdunkelung.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></svg></span>
+  <span class="txt">
+    <h3>Verdunkelung &amp; Mücken</h3>
+    <p>Thermomatten, Vorhänge, Mückennetze, Kondenswasser, Hitzeschutz.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="cockpit.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M3.3 10.5h5.9M14.8 10.5h5.9M12 15v6"/></svg></span>
+  <span class="txt">
+    <h3>Cockpit</h3>
+    <p>Camper-Navi, Handyhalterung, Dashcam, Rückfahrkamera, Laden unterwegs.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="stauraum.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l9-5 9 5v9l-9 5-9-5V8zM3 8l9 5 9-5M12 13v9"/></svg></span>
+  <span class="txt">
+    <h3>Stauraum</h3>
+    <p>Heckauszug, Boxen, Organizer, Dachbox, Packsystem.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="aussenbereich.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20L12 4l10 16H2zM12 20v-8"/></svg></span>
+  <span class="txt">
+    <h3>Außenbereich</h3>
+    <p>Markise, Stühle, Tisch, Vorzelt, Außendusche, Licht.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="sicherheit.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></svg></span>
+  <span class="txt">
+    <h3>Sicherheit</h3>
+    <p>Gasmelder, CO-Melder, Einbruchschutz, Feuerlöscher, Alarm.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="internet.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5.5 12.5a10 10 0 0 1 13 0M9 16a5 5 0 0 1 6 0"/><circle cx="12" cy="19.5" r="1"/></svg></span>
+  <span class="txt">
+    <h3>Internet</h3>
+    <p>LTE-Router, 5G, Antennen, Starlink, Tarife, Homeoffice.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="camper-apps.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+  <span class="txt">
+    <h3>Camper-Apps</h3>
+    <p>Stellplatz-Apps, Navigation, Wetter, Offline-Karten, Maut.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="sitze.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l-1 10H8L7 3zM5 13h14l1 7H4l1-7zM8 20v2M16 20v2"/></svg></span>
+  <span class="txt">
+    <h3>Sitze &amp; Drehkonsole</h3>
+    <p>Drehkonsolen, Sitzbezüge, Schlafsitzbank, Kindersitz, Komfort.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="sound.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="14" r="4"/><circle cx="12" cy="7" r="1.5"/></svg></span>
+  <span class="txt">
+    <h3>Sound</h3>
+    <p>Bluetooth-Boxen, Lautsprecher, Radio, Dämmung, Subwoofer.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<!-- BEREICHE:END --></div>
   </div>
 </section>
 
@@ -87,32 +199,65 @@
   <div class="wrap">
     <h2 class="kicker">Oder direkt nach deinem Camper</h2>
     <div class="kicker-line"></div>
-    <div class="grid cols-4">
-      <a class="tile model" href="#"><div class="ic">&#128656;</div><h3>VW California</h3><p>T5 bis T7</p></a>
-      <a class="tile model" href="#"><div class="ic">&#128656;</div><h3>VW Grand California</h3><p>600 / 680</p></a>
-      <a class="tile model" href="#"><div class="ic">&#128656;</div><h3>Ford Nugget</h3><p>Westfalia</p></a>
-      <a class="tile model" href="#"><div class="ic">&#128656;</div><h3>Mercedes Marco Polo</h3><p>V-Klasse</p></a>
-      <a class="tile model" href="#"><div class="ic">&#128656;</div><h3>Poessl &amp; Ducato</h3><p>Kastenwagen</p></a>
-      <a class="tile model" href="#"><div class="ic">&#128656;</div><h3>Knaus</h3><p>Boxstar / Boxlife</p></a>
-      <a class="tile model" href="#"><div class="ic">&#128736;&#65039;</div><h3>Sprinter-Ausbau</h3><p>Selbstausbau</p></a>
-      <a class="tile model" href="#"><div class="ic">&#10133;</div><h3>Dein Modell fehlt?</h3><p>Sag es uns</p></a>
-    </div>
-  </div>
-</section>
-
-<section id="tools">
-  <div class="wrap">
-    <h2 class="kicker">Rechnen statt raten</h2>
-    <div class="kicker-line"></div>
-    <div class="tool-card">
-      <div class="ic">&#9889;</div>
-      <div>
-        <h3>Autark-Check: Wie viel Strom brauchst du wirklich?</h3>
-        <p>Trag deine Verbraucher ein (Kühlbox, Laptop, Licht) und sieh, welche Powerstation oder Bordbatterie reicht. In 60 Sekunden, ohne Datenblatt-Studium.</p>
-      </div>
-      <div class="spacer"></div>
-      <a class="btn" href="tools/autark-check.html">Zum Autark-Check</a>
-    </div>
+    <div class="areas cols-4"><!-- CAMPER:START -->
+<a class="area" href="camper-vw-california.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V9a2 2 0 0 1 2-2h8l5 4h1a2 2 0 0 1 2 2v3M3 16h18"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+  <span class="txt">
+    <h3>VW California</h3>
+    <p>T5 bis T7</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="camper-vw-grand-california.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V9a2 2 0 0 1 2-2h8l5 4h1a2 2 0 0 1 2 2v3M3 16h18"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+  <span class="txt">
+    <h3>VW Grand California</h3>
+    <p>600 / 680</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="camper-ford-nugget.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V9a2 2 0 0 1 2-2h8l5 4h1a2 2 0 0 1 2 2v3M3 16h18"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+  <span class="txt">
+    <h3>Ford Nugget</h3>
+    <p>Westfalia</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="camper-marco-polo.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V9a2 2 0 0 1 2-2h8l5 4h1a2 2 0 0 1 2 2v3M3 16h18"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+  <span class="txt">
+    <h3>Mercedes Marco Polo</h3>
+    <p>V-Klasse</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="camper-poessl-ducato.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V9a2 2 0 0 1 2-2h8l5 4h1a2 2 0 0 1 2 2v3M3 16h18"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+  <span class="txt">
+    <h3>Pössl &amp; Ducato</h3>
+    <p>Kastenwagen</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="camper-knaus.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V9a2 2 0 0 1 2-2h8l5 4h1a2 2 0 0 1 2 2v3M3 16h18"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+  <span class="txt">
+    <h3>Knaus</h3>
+    <p>Boxstar / Boxlife</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area" href="camper-sprinter-ausbau.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V9a2 2 0 0 1 2-2h8l5 4h1a2 2 0 0 1 2 2v3M3 16h18"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+  <span class="txt">
+    <h3>Sprinter-Ausbau</h3>
+    <p>Selbstausbau</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+<a class="area cta" href="mailto:redaktion@vankompass.de?subject=Mein%20Camper%20fehlt"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span><span class="txt"><h3>Dein Modell fehlt?</h3><p>Sag es uns.</p></span><span class="arrow">&rsaquo;</span></a>
+<!-- CAMPER:END --></div>
   </div>
 </section>
 

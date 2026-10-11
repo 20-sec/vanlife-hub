@@ -1,0 +1,159 @@
+{
+  "typ": "bereich",
+  "slug": "aussenbereich",
+  "name": "Außenbereich",
+  "kurzname": "Außen",
+  "kurz": "Markise, Stühle, Tisch, Vorzelt, Außendusche, Licht.",
+  "h1": "Außenbereich am Camper",
+  "lead": "Markise oder Sonnensegel, welche Stühle und Tische wirklich ins Fach passen, Vorzelt, Außendusche und Licht für den Abend. Ratgeber, Vergleiche und eine Kaufempfehlung für Platz vor der Schiebetür.",
+  "meta_title": "Außenbereich am Camper: Markise, Stuhl, Vorzelt | VanKompass",
+  "meta_desc": "Außenbereich am Camper ausstatten: Markise oder Sonnensegel, leichte Stühle und Tische, Vorzelt, Außendusche und Licht. Ratgeber, Vergleiche, Kaufempfehlung.",
+  "empfehlung": {
+    "name": "Helinox Chair One",
+    "one": "Der Campingstuhl, der zusammengefaltet in jedes Fach passt und trotzdem einen Abend lang bequem bleibt.",
+    "pills": ["ca. 1 kg", "Packmaß wie eine Trinkflasche", "Aluminium-Gestell", "Belastbar bis ca. 145 kg"],
+    "why": "In Vans mit knappem Stauraum entscheidet das Packmaß, und hier passen zwei Stühle in eine Schublade. Das Gestell steckt sich in einer Minute zusammen, der Stuhl trägt auch schwere Personen und steht auf Rasen stabil genug.",
+    "preis": "ca. 90 bis 130 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-aussenbereich.svg",
+    "trust": "Preis bleibt für dich gleich.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "aussenbereich-markise-oder-sonnensegel",
+      "title": "Markise oder Sonnensegel am Camper: Was passt zu welchem Fahrzeug?",
+      "teaser": "Kassettenmarkise, Sackmarkise oder Tarp: Gewicht, Preis, Aufbauzeit und Windfestigkeit im direkten Vergleich.",
+      "lead_teaser": "Schatten vor der Schiebetür ist der Unterschied zwischen Mittagspause im Freien und Hitze im Van. Dieser Beitrag vergleicht Kassettenmarkise, Sackmarkise und Sonnensegel nach Gewicht, Preis, Aufbauzeit und Windverhalten. Du erfährst, welche Lösung an Aufstelldach, Hochdach und Kastenwagen montierbar ist, was Händler für den Anbau nehmen und wann ein Tarp für 100 Euro die bessere Wahl ist.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Markise oder",
+      "thumb_l2": "Sonnensegel?",
+      "camper": ["vw-california", "ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "aussenbereich-campingstuehle-vergleich",
+      "title": "Campingstühle für den Van: Leicht, klein und trotzdem bequem sitzen",
+      "teaser": "Faltstuhl, Regiestuhl oder Hochlehner: Welche Stühle in Schublade und Heckgarage passen und was sie wiegen.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Campingstühle:",
+      "thumb_l2": "Leicht und bequem",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "aussenbereich-campingtisch",
+      "title": "Campingtisch für den Camper: Höhe, Größe und Packmaß richtig wählen",
+      "teaser": "Welcher Tisch zu Stühlen und Kochstelle passt, wie er im Fach verschwindet und was Rolltische wirklich taugen.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Campingtisch:",
+      "thumb_l2": "Höhe, Größe, Packmaß",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "aussenbereich-vorzelt-bus",
+      "title": "Vorzelt für Bus und Kastenwagen: Freistehend, Anbau oder Heckzelt?",
+      "teaser": "Welches Zelt zu Schiebetür, Heckklappe und Aufstelldach passt, wie lange der Aufbau dauert und was es kostet.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Vorzelt für Bus",
+      "thumb_l2": "und Kastenwagen",
+      "camper": ["vw-california", "marco-polo"],
+      "status": "geplant"
+    },
+    {
+      "slug": "aussenbereich-aussendusche",
+      "title": "Außendusche am Camper: Druckdusche, Solardusche oder Anschluss?",
+      "teaser": "Wie du nach Strand und Wanderung duschst, ohne den Innenraum zu fluten. Varianten, Wasserbedarf, Kosten.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Außendusche:",
+      "thumb_l2": "Druck, Solar, Anschluss",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "aussenbereich-licht-abend",
+      "title": "Licht am Camper für den Abend: Lichterkette, Laterne und Markisenlicht",
+      "teaser": "Welche Leuchten wenig Strom ziehen, keine Mücken anlocken und sich ohne Bohren an Markise oder Tür befestigen lassen.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Licht am Camper",
+      "thumb_l2": "für den Abend",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welche Markise passt an den VW California?",
+      "a": [
+        "An den VW California passen Kassettenmarkisen mit etwa 3 Meter Länge, die an der Dachreling oder mit Adaptern an der Fahrzeugseite befestigt werden. Ab Werk oder vom Händler gibt es passende Markisen von Thule oder Fiamma, Aufstelldach und Markise schließen sich dabei nicht aus.",
+        "Bei T5 bis T7 sitzt die Markise unterhalb der Aufstelldach-Kante, damit das Dach frei öffnen kann. Modelle mit 2,6 bis 3 Meter Länge und 2 bis 2,5 Meter Auszug kosten ca. 500 bis 1000 Euro, dazu kommen Adapter und Montage. Das Gewicht liegt bei 15 bis 25 Kilogramm, was bei der Zuladung zählt. Wichtig ist der Ausfall nach unten: Vor der Schiebetür brauchst du genug Höhe, um aufrecht ein- und auszusteigen.",
+        "Praxistipp: Markisen sind keine Regenschutzdächer. Bei Wind einfahren, auch wenn es gerade nicht so aussieht, denn Böen reißen Stangen aus dem Rasen. Wer selten länger steht, ist mit einem Sonnensegel an Dachreling oder Schiebetür für ca. 80 bis 200 Euro oft besser bedient."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich Markise oder Sonnensegel"
+    },
+    {
+      "q": "Welche Campingstühle passen in einen Van?",
+      "a": [
+        "In einen Van passen am besten Faltstühle mit Steckgestell und einem Packmaß unter 40 Zentimetern, die unter einem Kilogramm bis etwa 1,5 Kilogramm wiegen. Klassische Regiestühle und Hochlehner sind bequemer, brauchen aber Platz in Heckgarage oder hinter den Sitzen.",
+        "Die Unterschiede: Steckgestell-Stühle wie Helinox oder vergleichbare Modelle kosten ca. 40 bis 130 Euro, sitzen tief und sind für den Abend am Feuer gemacht. Regiestühle mit Armlehnen und Rückenhöhe ab 90 Zentimetern wiegen 3 bis 5 Kilogramm und kosten ca. 50 bis 150 Euro. Hochlehner mit Verstellung sind für lange Standzeiten gedacht, wiegen 4 bis 7 Kilogramm und passen nur in Kastenwagen mit Heckgarage.",
+        "Oft übersehen: die Sitzhöhe im Verhältnis zum Tisch. Tiefe Stühle plus hoher Tisch bedeutet Essen auf Brusthöhe. Vor dem Kauf einmal probesitzen und darauf achten, dass die Füße auf weichem Boden nicht einsinken. Bodenplatten oder Tennisbälle lösen das bei Steckgestellen."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich Campingstühle für den Van"
+    },
+    {
+      "q": "Was kostet eine Markise für den Camper?",
+      "a": [
+        "Eine Markise für den Camper kostet je nach Bauart ca. 300 bis 1500 Euro: Sackmarkisen ab ca. 300 Euro, Kassettenmarkisen mit 3 bis 4 Meter Länge ca. 600 bis 1500 Euro. Dazu kommen Adapter für das jeweilige Fahrzeug und bei Werkstattmontage ein bis drei Arbeitsstunden.",
+        "Der Preis hängt von Länge, Material des Gehäuses und Mechanik ab. Kurbelmarkisen sind günstiger als elektrische. Adapter für Dachreling, Hochdach oder Kastenwagen kosten ca. 50 bis 200 Euro extra. Bei Kastenwagen auf Ducato-Basis gibt es Wandadapter, bei Aufstelldach-Vans Reling- oder Dachkantenhalter. Bei vielen Serien-Campern ist die Markise ab Werk als Option erhältlich, meist für ca. 800 bis 1500 Euro.",
+        "Typische Fehler: Markise ohne Rücksicht auf die Dachlast oder die Höhe des Aufstelldachs kaufen. Vor dem Kauf prüfen, ob das Fahrzeug Befestigungspunkte hat und ob das Dach noch frei öffnet. Gebrauchte Markisen sind oft günstig, aber Stoffe altern und die Federn ermüden, deshalb vor Ort ausfahren lassen."
+      ]
+    },
+    {
+      "q": "Lohnt sich ein Vorzelt für den Campingbus?",
+      "a": [
+        "Ein Vorzelt lohnt sich, wenn du mehrere Tage am gleichen Platz stehst, mit Kindern reist oder im Regen einen trockenen Raum vor der Schiebetür brauchst. Für Reisende, die alle ein bis zwei Tage weiterfahren, ist der Aufbau meist zu aufwendig.",
+        "Freistehende Busvorzelte lassen sich mit einem Tunnel ans Fahrzeug anschließen und bleiben stehen, wenn du mit dem Bus einkaufen fährst. Sie wiegen 10 bis 20 Kilogramm und kosten ca. 300 bis 900 Euro. Aufblasbare Modelle bauen schneller auf, sind aber schwerer und teurer. Heckzelte an der Heckklappe sind leichter und günstiger, bieten aber nur Platz für Dusche oder Toilette. Der Aufbau dauert je nach Modell 15 bis 45 Minuten, zu zweit geht es deutlich schneller.",
+        "Vorher prüfen: Die Anschlusshöhe des Tunnels muss zur Dachhöhe passen, bei Aufstelldach-Vans sind das meist 180 bis 210 Zentimeter, bei Hochdach-Kastenwagen deutlich mehr. Und Vorzelte brauchen Stauraum im Fahrzeug, oft genau den der Heckgarage."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Vorzelt für Bus und Kastenwagen"
+    },
+    {
+      "q": "Wie dusche ich am Camper draußen?",
+      "a": [
+        "Draußen duschen geht mit drei Varianten: Druckdusche mit Pumpflasche oder Gartenspritze, Solardusche als schwarzer Sack an Tür oder Heckklappe, oder ein fester Außenduschanschluss am Fahrzeug, den viele Kastenwagen und der Grand California ab Werk mitbringen.",
+        "Für eine kurze Dusche nach dem Strand reichen 5 bis 10 Liter Wasser, mit Sparbrause auch weniger. Druckduschen kosten ca. 20 bis 60 Euro und liefern 5 bis 11 Liter mit kräftigem Strahl. Solarduschen mit 20 Litern kosten ca. 10 bis 30 Euro, brauchen aber Sonne und einen Haltepunkt. Fester Außenanschluss nutzt den Frischwassertank und oft auch den Boiler, dafür geht der Vorrat schneller zur Neige. Als Sichtschutz dienen Heckklappe, ein Duschzelt oder ein Vorhang an der Markise.",
+        "Praxis: Mit Biodusche und Seife nie direkt am Gewässer duschen, sondern mindestens einige Meter entfernt auf saugfähigem Boden. Ein Lochbrett oder eine Gummimatte verhindert Sand an den Füßen. Und das Handtuch vorher griffbereit hängen."
+      ],
+      "link": "#",
+      "link_text": "Zum Praxisbeitrag Außendusche am Camper"
+    },
+    {
+      "q": "Welches Licht am Camper lockt keine Mücken an?",
+      "a": [
+        "Warmweißes Licht mit 2000 bis 3000 Kelvin lockt deutlich weniger Insekten an als kaltweißes oder bläuliches Licht. Gelbe oder bernsteinfarbene LEDs sind noch besser. Hell und kaltweiß ist der sicherste Weg, Mücken und Nachtfalter an den Tisch zu holen.",
+        "Insekten orientieren sich stark an UV- und Blauanteilen. Je wärmer die Lichtfarbe, desto geringer der Anteil. Eine LED-Lichterkette an der Markise zieht 2 bis 10 Watt, eine Laterne mit Akku hält je nach Stufe 10 bis 100 Stunden. Beides läuft problemlos an USB oder einer kleinen Powerstation. Dimmbares Licht hilft doppelt: weniger Insekten, weniger Blendung für Nachbarn auf dem Platz.",
+        "Tipp: Die hellste Lampe nicht am Tisch aufstellen, sondern einige Meter entfernt. Insekten sammeln sich dort, der Tisch bleibt ruhiger. Lichterketten mit Klebehaken oder Clips an der Markisenschiene befestigen, nicht am Lack. Und vor der Abfahrt alles abnehmen, sonst flattert es bei 100 km/h davon."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Licht am Camper"
+    },
+    {
+      "q": "Welcher Campingtisch passt zum Van?",
+      "a": [
+        "Zum Van passt ein Tisch mit 60 bis 70 Zentimetern Höhe für normale Stühle oder 40 bis 50 Zentimetern für tiefe Faltstühle, mit einer Platte um 60 mal 80 Zentimeter für zwei Personen. Entscheidend ist das Packmaß: flach genug für Schublade, Bettkasten oder Heckgarage.",
+        "Rolltische aus Aluminium-Lamellen wiegen 2 bis 4 Kilogramm, kosten ca. 40 bis 100 Euro und passen zusammengerollt in eine Tasche. Sie sind praktisch, aber die Platte gibt bei schweren Töpfen nach. Klapptische mit fester Platte sind stabiler, aber mindestens so groß wie die Platte selbst. Viele Serien-Camper wie California und Nugget haben einen Außentisch in der Schiebetür, der für Frühstück reicht, für Kochen draußen aber zu klein ist.",
+        "Häufiger Fehler: Tisch und Stühle getrennt kaufen und erst am Platz merken, dass die Höhen nicht passen. Erst Stühle wählen, dann den Tisch dazu. Und ein Tisch mit verstellbaren Beinen gleicht unebenen Boden aus, was auf Wiesen und Kies den Unterschied macht."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Campingtisch für den Camper"
+    }
+  ]
+}

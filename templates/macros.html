@@ -1,0 +1,124 @@
+{% macro icon(slug) -%}
+<svg viewBox="0 0 24 24" aria-hidden="true">{{ icons[slug]|safe }}</svg>
+{%- endmacro %}
+
+{% macro post_card(p, show_area=False) -%}
+<article class="post" data-bereich="{{ p.bereich }}">
+  {% if p.status == 'live' %}<a href="{{ p.url }}">{% else %}<div class="nolink">{% endif %}
+    <div class="thumb"><img src="{{ p.thumb }}" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">{{ p.kategorie }}{% if show_area %} <span class="areaname">&middot; {{ p.bereich_name }}</span>{% endif %}</span>
+      <h3>{{ p.title }}</h3>
+      <p>{{ p.teaser }}</p>
+      <div class="meta">
+        {% if p.status == 'live' %}<span>{{ p.datum_text }}</span>{% if p.extra %}<span>{{ p.extra }}</span>{% endif %}
+        {% else %}<span class="soon">In Vorbereitung</span>{% endif %}
+      </div>
+    </div>
+  {% if p.status == 'live' %}</a>{% else %}</div>{% endif %}
+</article>
+{%- endmacro %}
+
+{% macro lead_article(p, kicker) -%}
+<div class="sec-head"><h2 class="kicker">{{ kicker }}</h2></div>
+<div class="kicker-line"></div>
+<article class="lead-article{% if p.status == 'live' %} is-link{% endif %}">
+  {% if p.status == 'live' %}<a href="{{ p.url }}">{% endif %}
+    <div class="media"><img src="{{ p.thumb }}" alt="{{ p.title }}" width="680" height="400"></div>
+    <div class="body">
+      {% if p.status == 'live' %}<span class="badge">Lies das zuerst</span>{% else %}<span class="badge soon">Erster Beitrag in Vorbereitung</span>{% endif %}
+      <h2>{{ p.title }}</h2>
+      <div class="meta">{% if p.status == 'live' %}{{ p.quelle }} &middot; {{ p.extra }} &middot; Zusammengefasst von VanKompass{% else %}{{ p.kategorie }} &middot; VanKompass Redaktion{% endif %}</div>
+      <p>{{ p.lead_teaser or p.teaser }}</p>
+      {% if p.status == 'live' %}<span class="read">Beitrag lesen</span>{% else %}<span class="read soon">Erscheint in K&uuml;rze</span>{% endif %}
+    </div>
+  {% if p.status == 'live' %}</a>{% endif %}
+</article>
+{%- endmacro %}
+
+{% macro reco(e, kicker) -%}
+<div class="sec-head"><h2 class="kicker">{{ kicker }}</h2></div>
+<div class="kicker-line"></div>
+<div class="reco">
+  <div class="img"><img src="{{ e.img }}" alt="{{ e.name }}" width="520" height="520"></div>
+  <div class="info">
+    <p class="tag">Redaktions-Tipp</p>
+    <h2>{{ e.name }}</h2>
+    <p class="one">{{ e.one }}</p>
+    <div class="pills">{% for pill in e.pills %}<span class="pill">{{ pill }}</span>{% endfor %}</div>
+    <p class="why"><b>Warum wir es empfehlen:</b> {{ e.why }}</p>
+  </div>
+  <div class="buy">
+    <p class="price">Preis-Range<b>{{ e.preis }}</b><small>{{ e.stand }}</small></p>
+    <a class="aff-btn primary" data-merchant="{{ e.merchant }}" data-asin="{{ e.asin }}" data-label="{{ e.name }} bei Amazon">Bei Amazon ansehen<span class="ad">Affiliate-Link *</span></a>
+    {% if e.alt_link %}<a class="alt" href="{{ e.alt_link }}">{{ e.alt_text }}</a>{% endif %}
+    <p class="trust">{{ e.trust }}</p>
+    {% if e.platzhalter %}<p class="ph">Platzhalter: Produkt gemeinsam festlegen</p>{% endif %}
+  </div>
+</div>
+{%- endmacro %}
+
+{% macro freebie(compact=False) -%}
+<div class="freebie{% if compact %} compact{% endif %}">
+  <div>
+    {% if compact %}
+    <p class="kick">Noch nicht geholt?</p>
+    <h2>{{ site.freebie.titel_kurz }}</h2>
+    <p>{{ site.freebie.text_kurz }}</p>
+    {% else %}
+    <p class="kick">Kostenlos als PDF</p>
+    <h2>{{ site.freebie.titel }}</h2>
+    <p>{{ site.freebie.text }}</p>
+    <ul>{% for b in site.freebie.benefits %}<li>{{ b }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+  <form class="nl-form" action="#" method="post" data-nl>
+    <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required autocomplete="email">
+    <button type="submit">{{ site.freebie.button }}</button>
+    <div class="done">Danke! Die Packliste ist unterwegs. Schau in dein Postfach.</div>
+    <small>{% if compact %}Kein Spam, jederzeit abbestellbar.{% else %}Kostenlos, kein Spam, jederzeit abbestellbar. Wir nutzen deine Adresse nur f&uuml;r den Versand.{% endif %} <a href="datenschutz.html">Datenschutz</a></small>
+  </form>
+</div>
+{%- endmacro %}
+
+{% macro faq(items, kicker, intro) -%}
+<div class="sec-head"><h2 class="kicker">{{ kicker }}</h2></div>
+<div class="kicker-line"></div>
+<p class="faq-intro">{{ intro }}</p>
+<div class="faq">
+  {% for f in items %}
+  <details{% if loop.first %} open{% endif %}>
+    <summary>{{ f.q }}</summary>
+    {% for a in f.a %}<p>{{ a }}{% if loop.last and f.link %} <a href="{{ f.link }}">{{ f.link_text }}</a>{% endif %}</p>{% endfor %}
+  </details>
+  {% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro area_card(b, show_latest=False, big=False) -%}
+<a class="area{% if big %} big{% endif %}" href="{{ b.out }}">
+  <span class="ico">{{ icon(b.slug) }}</span>
+  <span class="txt">
+    <h3>{{ b.name }}</h3>
+    <p>{{ b.kurz }}</p>
+    {% if show_latest and b.flagship %}
+    <span class="latest"><span>{% if b.flagship.status == 'live' %}Neuester Beitrag{% else %}Erster Beitrag, in Vorbereitung{% endif %}</span>{{ b.flagship.title }}</span>
+    {% endif %}
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+{%- endmacro %}
+
+{% macro camper_card(c, show_latest=False, big=False) -%}
+<a class="area{% if big %} big{% endif %}" href="{{ c.out }}">
+  <span class="ico">{{ icon('camper') }}</span>
+  <span class="txt">
+    <h3>{{ c.name }}</h3>
+    <p>{{ c.sub }}</p>
+    {% if show_latest and c.flagship %}
+    <span class="latest"><span>{% if c.flagship.status == 'live' %}Neuester Beitrag{% else %}Erster Beitrag, in Vorbereitung{% endif %}</span>{{ c.flagship.title }}</span>
+    {% endif %}
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a>
+{%- endmacro %}

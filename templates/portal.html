@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% import "macros.html" as m with context %}
+{% block body %}
+
+<div class="portal-hero">
+  <div class="wrap">
+    <p class="kicker-light">{% if d.typ == 'bereich' %}Bereich{% else %}Camper &middot; {{ d.sub }}{% endif %}</p>
+    <h1>{{ d.h1 }}</h1>
+    <p class="lead">{{ d.lead }}</p>
+  </div>
+</div>
+
+<section>
+<div class="wrap">
+  {{ m.lead_article(flagship, 'Der wichtigste Beitrag') }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  {{ m.reco(d.empfehlung, 'Unsere Empfehlung für ' ~ (d.h1 if d.typ == 'bereich' else 'den ' ~ d.name)) }}
+</div>
+</section>
+
+<section class="tight" id="packliste">
+<div class="wrap">
+  {{ m.freebie() }}
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="sec-head">
+    <h2 class="kicker">Aktuelle Beitr&auml;ge {% if d.typ == 'bereich' %}zu {{ d.h1 }}{% else %}zum {{ d.name }}{% endif %}</h2>
+    <a class="more" href="magazin.html{% if d.typ == 'bereich' %}#{{ d.slug }}{% endif %}">Alle Beitr&auml;ge &rarr;</a>
+  </div>
+  <div class="kicker-line"></div>
+  <div class="post-grid">
+    {% for p in posts %}{{ m.post_card(p, show_area=(d.typ == 'camper')) }}{% endfor %}
+  </div>
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap" style="max-width:860px;">
+  {{ m.faq(d.faq, 'Häufige Fragen ' ~ ('zu ' ~ d.h1 if d.typ == 'bereich' else 'zum ' ~ d.name), 'Die Fragen, die am häufigsten gesucht werden. Ausführlich beantwortet, mit Zahlen, Rechenwegen und den Fehlern, die du dir sparen kannst.') }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  {{ m.freebie(compact=True) }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  {% if d.typ == 'bereich' %}
+  <div class="sec-head"><h2 class="kicker">Weitere Bereiche entdecken</h2><a class="more" href="bereiche.html">Alle Bereiche &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="areas">{% for b in related %}{{ m.area_card(b) }}{% endfor %}</div>
+  {% else %}
+  <div class="sec-head"><h2 class="kicker">Weitere Camper</h2><a class="more" href="camper.html">Alle Camper &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="areas">{% for c in related %}{{ m.camper_card(c) }}{% endfor %}</div>
+  {% endif %}
+</div>
+</section>
+
+{% endblock %}

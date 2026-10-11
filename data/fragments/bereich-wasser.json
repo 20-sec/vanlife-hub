@@ -1,0 +1,157 @@
+{
+  "typ": "bereich",
+  "slug": "wasser",
+  "name": "Wasser",
+  "kurzname": "Wasser",
+  "kurz": "Frischwasser, Tankhygiene, Filter, Pumpen, Winterfest.",
+  "h1": "Wasser im Camper",
+  "lead": "Wie du Frischwasser im Camper sauber hältst, welcher Filter sich lohnt, wie viel Liter du pro Tag wirklich brauchst und wie Tank und Leitungen den Winter überstehen. Ratgeber, Vergleiche und eine klare Empfehlung.",
+  "meta_title": "Wasser im Camper: Tank, Filter, Hygiene | VanKompass",
+  "meta_desc": "Wasser im Camper erklärt: Tank sauber halten, Filter auswählen, Verbrauch pro Tag berechnen, Pumpen und Winterfestmachung. Ratgeber, Vergleiche, Empfehlung.",
+  "empfehlung": {
+    "name": "Alb Filter Mobil Travel",
+    "one": "Der Edelstahl-Wasserfilter, der beim Tanken zwischen Schlauch und Einfüllstutzen hängt und Chlorgeschmack, Partikel und Keime draußen hält.",
+    "pills": ["Edelstahlgehäuse", "Wechselkartuschen", "Anschluss am Schlauch", "Hersteller aus Deutschland"],
+    "why": "Er braucht keinen Einbau, passt an jeden Gardena-Schlauch und filtert das Wasser, bevor es in den Tank kommt. So bleibt der Tank länger sauber, und du musst nicht mehr jede Quelle hinterfragen.",
+    "preis": "ca. 150 bis 250 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-wasser.svg",
+    "trust": "Kartuschen müssen je nach Nutzung regelmäßig gewechselt werden. Preis bleibt für dich gleich.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "wasser-frischwasser-sauber-halten",
+      "title": "Frischwasser im Camper sauber halten: Tank, Leitungen, Kanister",
+      "teaser": "Warum Tankwasser kippt, wie oft du spülen solltest und welche Mittel wirklich gegen Biofilm helfen.",
+      "lead_teaser": "Wenn das Wasser aus dem Hahn muffig riecht, ist der Tank meist nicht das Problem, sondern der Biofilm in den Leitungen. Dieser Beitrag zeigt dir, wie du Tank, Pumpe und Schläuche sauber hältst: Spülrhythmus, geeignete Reinigungsmittel, Silberionen und Chlordioxid im Vergleich, und was du beim Befüllen an fremden Zapfstellen beachten solltest. Mit Checkliste für den Saisonstart.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Frischwasser im Camper",
+      "thumb_l2": "sauber halten",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "wasser-wasserfilter-vergleich",
+      "title": "Wasserfilter für den Camper: Einfüllfilter, Inline oder Untertisch?",
+      "teaser": "Drei Filterkonzepte im Vergleich: was sie herausholen, was sie kosten und welcher zu deinem Fahrzeug passt.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Wasserfilter im Camper:",
+      "thumb_l2": "drei Konzepte",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "wasser-tank-reinigen",
+      "title": "Frischwassertank reinigen: Anleitung für Kastenwagen und Campervan",
+      "teaser": "Schritt für Schritt vom Entleeren bis zum Nachspülen, mit Dosierungen und Einwirkzeiten für gängige Reiniger.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Frischwassertank",
+      "thumb_l2": "richtig reinigen",
+      "camper": ["poessl-ducato", "knaus"],
+      "status": "geplant"
+    },
+    {
+      "slug": "wasser-verbrauch-pro-tag",
+      "title": "Wie viel Wasser braucht man im Camper? Rechenbeispiel für 2 Personen",
+      "teaser": "Trinken, Kochen, Spülen, Katzenwäsche: so kommst du auf deinen Tagesbedarf und wie lange ein kleiner Tank reicht.",
+      "kategorie": "Rechenbeispiel",
+      "thumb_l1": "Wasserverbrauch",
+      "thumb_l2": "pro Tag im Camper",
+      "camper": ["vw-california", "ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "wasser-druckpumpe-tauchpumpe",
+      "title": "Druckpumpe oder Tauchpumpe: Welche Wasserpumpe für den Selbstausbau?",
+      "teaser": "Förderleistung, Lautstärke, Stromaufnahme und Einbau im Vergleich. Plus: warum ein Ausdehnungsgefäß Nerven spart.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Druckpumpe oder",
+      "thumb_l2": "Tauchpumpe?",
+      "camper": ["sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "wasser-winterfest-machen",
+      "title": "Wasseranlage im Camper winterfest machen: Checkliste gegen Frostschäden",
+      "teaser": "Entleeren, ausblasen, Pumpe schützen, Boiler nicht vergessen. Die Reihenfolge, die wirklich vor Rissen schützt.",
+      "kategorie": "Checkliste",
+      "thumb_l1": "Wasseranlage",
+      "thumb_l2": "winterfest machen",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kann man das Wasser aus dem Camper-Tank trinken?",
+      "a": [
+        "Grundsätzlich ja, wenn du mit Trinkwasser befüllst, den Tank regelmäßig reinigst und das Wasser nicht länger als drei bis fünf Tage stehen lässt. Die meisten Camper trinken trotzdem lieber aus Kanistern oder Flaschen und nutzen Tankwasser zum Kochen, Spülen und Waschen.",
+        "Der Grund ist nicht das Wasser selbst, sondern der Weg dorthin: Schlauch an der Zapfstelle, Einfüllstutzen, Tank, Pumpe, Leitungen und Hahn. An jeder dieser Stellen kann sich bei Wärme ein Biofilm bilden, der Geschmack und Keimzahl verändert. Abgekochtes Wasser ist in jedem Fall unkritisch. Wer regelmäßig direkt aus dem Hahn trinken will, kombiniert einen Einfüllfilter mit einer Konservierung durch Silberionen oder Chlordioxid und spült die Anlage nach jeder Tour durch.",
+        "Typische Fehler: Der eigene Schlauch liegt wochenlang feucht im Staukasten, der Tank wird nie ganz geleert, und das Restwasser steht über den Winter in den Leitungen. Wer den Schlauch trocken lagert, vor der Fahrt kurz durchspült und nach der Tour entleert, hat die meisten Probleme schon gelöst."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber: Frischwasser sauber halten"
+    },
+    {
+      "q": "Wie viel Wasser braucht man im Camper pro Tag?",
+      "a": [
+        "Rechne mit 10 bis 20 Litern pro Person und Tag, wenn du sparsam spülst und auf dem Campingplatz duschst. Mit Bordbad und täglicher Dusche sind es 30 bis 50 Liter pro Person. Ein Tank mit 30 bis 45 Litern, wie ihn kompakte Campervans haben, reicht zu zweit also für ein bis zwei Tage.",
+        "Die Rechnung im Detail: Trinken und Kochen liegen bei 3 bis 5 Litern pro Person, Zähneputzen und Katzenwäsche bei 2 bis 4 Litern, Abwasch für zwei Personen bei 5 bis 10 Litern pro Tag. Eine Camperdusche verbraucht je nach Brausekopf 15 bis 30 Liter pro Durchgang. Die Spülung einer Kassettentoilette schlägt mit 0,5 bis 1 Liter pro Nutzung zu Buche, bei Trockentrenntoiletten entfällt sie ganz.",
+        "Sparen lässt sich am einfachsten beim Abwasch: Zwei Schüsseln statt fließendes Wasser, erst grob mit Küchenpapier auswischen. Ein Sparbrausekopf und ein Wasserhahn mit Luftsprudler halbieren den Verbrauch oft, ohne dass du es merkst. Und ein zusätzlicher 10-Liter-Kanister entspannt jede Tour, bei der die nächste Zapfstelle unsicher ist."
+      ],
+      "link": "#",
+      "link_text": "Zum Rechenbeispiel Wasserverbrauch"
+    },
+    {
+      "q": "Wie reinigt man den Frischwassertank im Wohnmobil?",
+      "a": [
+        "Zweimal pro Saison gründlich: Tank entleeren, mit einem Tankreiniger auf Basis von Zitronensäure oder Chlordioxid befüllen, je nach Mittel einige Stunden bis über Nacht einwirken lassen, dabei alle Hähne einmal öffnen, damit die Lösung auch in den Leitungen steht. Danach komplett entleeren und zweimal mit Frischwasser nachspülen.",
+        "Warum beides nötig ist: Kalk und Biofilm sind unterschiedliche Gegner. Zitronensäure löst Kalk und nimmt dem Biofilm die Grundlage, desinfiziert aber nur schwach. Chlordioxid oder Wasserstoffperoxid töten Keime zuverlässig, lösen aber keinen Kalk. In Regionen mit hartem Wasser bietet sich deshalb zuerst eine Entkalkung an, dann die Desinfektion. Hausmittel wie Essig greifen Dichtungen und Pumpenmembranen an und gehören nicht in die Anlage.",
+        "Oft vergessen werden der Boiler, der Einfüllstutzen mit seinem Deckel, der Tankgeber und der eigene Füllschlauch. Wer eine Reinigungsöffnung am Tank hat, wischt die Wände zusätzlich mit einem Schwamm aus. Nach der Reinigung den Tank nicht wieder randvoll machen und stehen lassen, sondern erst vor der nächsten Fahrt befüllen."
+      ],
+      "link": "#",
+      "link_text": "Zur Anleitung: Frischwassertank reinigen"
+    },
+    {
+      "q": "Welcher Wasserfilter ist sinnvoll für den Camper?",
+      "a": [
+        "Für die meisten Camper ist ein Einfüllfilter die beste Wahl: Er sitzt beim Befüllen zwischen Schlauch und Tankstutzen, hält Partikel, Chlor und je nach Kartusche auch Bakterien zurück und braucht keinen Einbau. Preis ca. 100 bis 250 €, Kartuschen je nach Hersteller 20 bis 60 € für eine Saison.",
+        "Die Alternativen: Ein Inline-Filter wird fest in die Leitung vor dem Wasserhahn gesetzt und filtert jedes Mal, wenn du zapfst. Vorteil: auch Keime, die sich im Tank bilden, kommen nicht mehr an den Hahn. Nachteil: Einbau, Platz, geringerer Durchfluss. Ein reiner Aktivkohlefilter verbessert nur Geschmack und Geruch, hält aber keine Bakterien zurück. Membran- oder Hohlfaserfilter mit 0,1 bis 0,2 Mikrometer Porenweite filtern Bakterien, aber keine Viren. Für Länder mit unsicherem Leitungswasser ist eine zusätzliche Konservierung oder Abkochen sinnvoll.",
+        "Typischer Irrtum: Ein Filter ersetzt nicht die Tankreinigung. Wer ungefiltertes Wasser monatelang im Tank hatte, bekommt auch mit neuem Einfüllfilter keinen sauberen Hahn. Erst reinigen, dann filtern. Und Kartuschen trocken und kühl lagern, sonst wachsen die Keime direkt im Filter."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich der Filterkonzepte"
+    },
+    {
+      "q": "Wie lange hält Frischwasser im Camper-Tank?",
+      "a": [
+        "Ohne Zusatz solltest du Tankwasser im Sommer nach drei bis fünf Tagen tauschen, bei kühlem Wetter nach einer Woche. Mit einer Konservierung durch Silberionen bleibt es je nach Mittel bis zu sechs Monate haltbar, mit Chlordioxid einige Wochen.",
+        "Entscheidend sind Temperatur, Licht und die Keimzahl beim Befüllen. Ein Tank unter der Sitzbank oder im Doppelboden erwärmt sich im Sommer auf 25 bis 30 Grad, und bei diesen Temperaturen verdoppelt sich die Bakterienzahl in wenigen Stunden. Chlor aus dem Leitungsnetz verflüchtigt sich innerhalb eines Tages, danach ist das Wasser ungeschützt. Silberionen wirken langsam und verhindern vor allem Neuwachstum, Chlordioxid wirkt schnell und tötet auch vorhandene Keime, verändert aber in hoher Dosierung den Geschmack.",
+        "Praxis-Tipp: Lieber häufiger wenig tanken als selten viel. Wer nur mit einem halben Tank fährt, spart zudem Gewicht und hat frischeres Wasser. Vor längeren Standzeiten den Tank leeren, nicht konservieren und stehen lassen. Und nach dem Nachfüllen an einer unbekannten Quelle einmal die Hähne kurz laufen lassen, bis das neue Wasser ankommt."
+      ]
+    },
+    {
+      "q": "Wie verhindere ich, dass der Wassertank im Camper einfriert?",
+      "a": [
+        "Zwei Wege: entweder die Anlage vollständig entleeren und ausblasen, oder den Innenraum dauerhaft über null Grad halten und Tank, Pumpe und Leitungen im beheizten Bereich belassen. Außen liegende Abwassertanks und Leitungen brauchen zusätzlich eine Tankheizung oder bleiben leer.",
+        "Wasser dehnt sich beim Gefrieren um rund 9 Prozent aus und sprengt dabei Pumpengehäuse, Boiler und Ventile. Besonders gefährdet sind Pumpe und Boiler, weil dort immer Restwasser steht, selbst wenn der Tank leer ist. Zum Entleeren: Alle Hähne öffnen, Ablassventile des Boilers ziehen, Pumpe kurz trocken laufen lassen, danach die Leitungen mit Druckluft bei niedrigem Druck ausblasen. Wer im Winter unterwegs ist, hält die Standheizung durchgehend auf kleiner Stufe und öffnet Klappen zu Staufächern, in denen Leitungen laufen.",
+        "Was oft vergessen wird: der Außenduschanschluss, die Toilettenspülung mit eigenem Tank, der Abwasserhahn und die Wasserfilterkartusche, die bei Frost reißt. Bei kompakten Campervans mit Tank unter der Sitzbank reicht meist die Heizung im Innenraum, beim Kastenwagen mit Tanks unterflur nicht."
+      ],
+      "link": "#",
+      "link_text": "Zur Checkliste: Wasseranlage winterfest"
+    },
+    {
+      "q": "Welcher Schlauch zum Befüllen vom Wassertank im Wohnmobil?",
+      "a": [
+        "Nimm einen als trinkwassergeeignet gekennzeichneten Schlauch mit 10 bis 15 Metern Länge und einem Standard-Klicksystem, dazu einen Satz Adapter für die gängigen Zapfhähne. Ein normaler Gartenschlauch ist nicht geeignet: Er gibt Weichmacher ab und schmeckt nach Plastik.",
+        "Trinkwasserschläuche sind innen glatt und mit lebensmittelechtem Material ausgekleidet, oft als Flachschlauch, der sich platzsparend aufrollt. Achte auf die Kennzeichnung nach den geltenden Trinkwassernormen und auf Durchmesser und Anschlüsse, die zu deinem Einfüllstutzen passen. Bei vielen Campingplätzen in Südeuropa ist die Zapfstelle ein blanker Hahn ohne Gewinde, dort hilft ein Universal-Gummiadapter zum Aufstecken. Eine Gießkanne mit 10 Litern ist der Notnagel, wenn der Schlauch nicht reicht oder das Fahrzeug nicht nah genug an die Zapfstelle kommt.",
+        "Pflege entscheidet über Hygiene: Nach dem Gebrauch leerlaufen lassen, Enden zusammenstecken, damit nichts hineinkrabbelt, und trocken lagern. Ein eigener Schlauch nur für Frischwasser, nie derselbe für Abwasser oder Toilettenspülung. Einmal pro Saison mit der Tankreinigung mitspülen."
+      ]
+    }
+  ]
+}

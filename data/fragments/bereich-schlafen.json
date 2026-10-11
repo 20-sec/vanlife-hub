@@ -1,0 +1,155 @@
+{
+  "typ": "bereich",
+  "slug": "schlafen",
+  "name": "Schlafen & Matratze",
+  "kurzname": "Schlafen",
+  "kurz": "Matratzen, Topper, Froli, Aufstelldach, Kälte von unten.",
+  "h1": "Schlafen im Camper",
+  "lead": "Warum die Serienmatratze drückt, welcher Topper wirklich hilft, Froli oder Lattenrost gegen Feuchtigkeit und was gegen Kälte von unten wirkt. Ratgeber, Vergleiche und eine Empfehlung, die in fast jedes Camperbett passt.",
+  "meta_title": "Schlafen im Camper: Matratze, Topper, Lüftung | VanKompass",
+  "meta_desc": "Besser schlafen im Camper: Welcher Topper auf das Serienpolster passt, Froli gegen Schimmel, Kälte von unten, Aufstelldach-Bett und Bettzeug für wenig Stauraum.",
+  "empfehlung": {
+    "name": "Froli Star Mobil",
+    "one": "Das Federsystem unter der Matratze, das Feuchtigkeit abführt und harte Serienpolster spürbar weicher macht.",
+    "pills": ["Steckbare Federteller", "Zuschneidbar auf jede Form", "Belüftet die Matratze", "Härte zonenweise anpassbar"],
+    "why": "Passt unter jede Camper-Matratze, egal ob Querbett im Ducato oder Heckbett im Nugget, weil du die Elemente zuschneidest. Löst zwei Probleme auf einmal: zu harte Polster und Kondenswasser unter der Matratze.",
+    "preis": "ca. 150 bis 350 € je nach Bettgröße",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-schlafen.svg",
+    "trust": "Preis bleibt für dich gleich. Empfehlung nach Erfahrungsberichten, kein eigener Langzeittest.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "schlafen-topper-camper",
+      "title": "Topper für den Camper: Welche Auflage Serienmatratzen wirklich rettet",
+      "teaser": "Kaltschaum, Visco oder Gel, welche Höhe noch unter das Aufstelldach passt und warum Topper allein nicht immer reichen.",
+      "lead_teaser": "Die Serienmatratze im Camper ist fast immer ein Kompromiss aus Gewicht, Klappmechanik und Preis. Dieser Beitrag zeigt, welcher Topper welches Problem löst: zu hart, zu dünn, Fugen zwischen Polstern, Kälte von unten. Du erfährst, welche Materialien sich rollen und verstauen lassen, welche Höhe noch unter das Aufstelldach passt und wann ein Topper nicht reicht und du besser die Matratze tauschst.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Topper für den Camper:",
+      "thumb_l2": "Was wirklich hilft",
+      "camper": ["vw-california", "ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "schlafen-froli-vs-lattenrost",
+      "title": "Froli oder Lattenrost: Was gegen Schimmel unter der Camper-Matratze hilft",
+      "teaser": "Warum sich unter jeder Matratze Kondenswasser bildet, wie viel Luft darunter nötig ist und was die Systeme kosten.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Froli oder Lattenrost?",
+      "thumb_l2": "Schimmel verhindern",
+      "camper": ["poessl-ducato", "sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "schlafen-aufstelldach-matratze",
+      "title": "Matratze im Aufstelldach: Was bei California, Nugget und Marco Polo hilft",
+      "teaser": "Faltbare Auflagen, Kälte durch den Zeltbalg und die Frage, ob sich das Dachbett im Winter überhaupt lohnt.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Matratze im",
+      "thumb_l2": "Aufstelldach",
+      "camper": ["vw-california", "marco-polo"],
+      "status": "geplant"
+    },
+    {
+      "slug": "schlafen-kaelte-von-unten",
+      "title": "Kälte von unten im Camperbett: Ursachen und fünf Lösungen, die wirken",
+      "teaser": "Warum der Rücken friert, obwohl die Decke warm ist, und was Isomatte, Heizdecke und Froli dagegen ausrichten.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Kälte von unten:",
+      "thumb_l2": "fünf Lösungen",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "schlafen-bettzeug-stauraum",
+      "title": "Bettdecke, Kissen, Schlafsack: Bettzeug für wenig Stauraum im Camper",
+      "teaser": "Packmaß, Waschbarkeit, Wärmestufen: Was sich im Kastenwagen bewährt und was nach einer Woche nervt.",
+      "kategorie": "Checkliste",
+      "thumb_l1": "Bettzeug für",
+      "thumb_l2": "wenig Stauraum",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "schlafen-matratze-nach-mass",
+      "title": "Camper-Matratze nach Maß: Zuschneiden lassen oder selbst anpassen?",
+      "teaser": "Welche Schäume sich schneiden lassen, was Online-Konfektionäre kosten und wie du die Schablone für Rundungen baust.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Matratze nach Maß:",
+      "thumb_l2": "zuschneiden",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welche Matratze ist die beste für den Camper?",
+      "a": [
+        "Für die meisten Camper ist ein Kaltschaum-Topper mit 4 bis 6 cm auf der Serienmatratze die beste Lösung: günstig, rollbar, passt unter das Aufstelldach. Wer dauerhaft im Van lebt oder Rückenprobleme hat, tauscht die Matratze gegen Kaltschaum nach Maß mit 10 bis 14 cm Höhe und einem Raumgewicht ab RG 40.",
+        "Serienmatratzen in California, Nugget oder Ducato-Kastenwagen sind 6 bis 10 cm dünn, weil sie klappen, falten und leicht sein müssen. Beim Schlafen drückt deshalb der Unterbau durch. Ein Topper verteilt den Druck, ändert aber nichts an Fugen zwischen Polsterteilen; dort hilft nur ein durchgehender Topper über die ganze Fläche. Visco-Schaum liegt weich, wird bei Kälte aber hart und speichert Wärme, Kaltschaum bleibt bei allen Temperaturen gleich. Gel-Schaum liegt dazwischen.",
+        "Oft übersehen: Jede zusätzliche Lage kostet Höhe. Im Aufstelldach bleiben oft nur 3 bis 5 cm, bevor das Dach nicht mehr schließt. Miss nach, bevor du bestellst. Und sorge für Luft unter der Matratze, sonst tauschst du in zwei Jahren wegen Schimmel wieder."
+      ],
+      "link": "#",
+      "link_text": "Zum Topper-Ratgeber"
+    },
+    {
+      "q": "Warum wird die Matratze im Camper von unten feucht?",
+      "a": [
+        "Weil warme, feuchte Luft aus deinem Körper durch die Matratze nach unten wandert und an der kalten Unterlage kondensiert. Pro Nacht gibt ein Mensch bis zu einem halben Liter Wasser ab. Liegt die Matratze direkt auf Holz, Blech oder Kunststoff ohne Luftspalt, bleibt die Feuchtigkeit darunter und Schimmel folgt.",
+        "Der Effekt ist im Camper stärker als zu Hause, weil die Unterlage nachts stark auskühlt, besonders bei Heckbetten über dem ungedämmten Fahrzeugboden oder im Aufstelldach. Dazu kommt, dass die Matratze tagsüber oft nicht gelüftet wird, weil sie zum Sitz oder zur Ladefläche umgebaut wird. Abhilfe schaffen Abstandsgewirke wie 3D-Mesh-Matten mit 1 bis 2 cm Höhe, Federsysteme wie Froli oder ein Lattenrost mit mindestens 3 cm Luft darunter.",
+        "Morgens die Matratze hochklappen und für zehn Minuten Durchzug sorgen hilft mehr als jedes Produkt. Prüfe nach feuchten Nächten die Unterseite mit der Hand. Und wenn du doch Schimmel findest: Matratze ersetzen, nicht nur abwischen, der Pilz sitzt im Schaum."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich Froli oder Lattenrost"
+    },
+    {
+      "q": "Wie schläft man im Aufstelldach ohne zu frieren?",
+      "a": [
+        "Mit einer isolierenden Unterlage unter der Matratze, einem Winterschlafsack oder einer Decke mit Komforttemperatur unter 5 Grad und einer Thermohaube oder Innenisolierung für den Zeltbalg. Damit ist das Dachbett bis etwa minus 5 Grad nutzbar, darunter wird es trotz Standheizung ungemütlich.",
+        "Das Problem ist dreifach: Der Zeltstoff isoliert praktisch nicht, warme Luft der Standheizung steigt zwar nach oben, entweicht aber durch den Balg sofort wieder, und die dünne Dachmatratze liegt auf einer kalten Platte. Thermohauben für den Balg von außen bringen je nach Modell 5 bis 10 Grad, Innenisolierungen aus Thermomatten etwas weniger, sind aber schneller montiert. Eine Isomatte oder Froli-Elemente unter der Dachmatratze unterbrechen die Kälte von unten.",
+        "Häufiger Fehler: alle Lüftungsöffnungen dicht machen. Dann sammelt sich die Atemfeuchte am Zelt und tropft morgens. Lass einen Spalt offen und lege die Decke so, dass sie nicht am Stoff anliegt. Und schlaf im Winter besser unten, wenn der Camper es zulässt."
+      ]
+    },
+    {
+      "q": "Welche Höhe darf ein Topper im Camper haben?",
+      "a": [
+        "Im Aufstelldach von California, Nugget oder Marco Polo passen meist nur 3 bis 5 cm zusätzliche Höhe, sonst schließt das Dach nicht oder drückt auf den Stoff. Im Heckbett eines Kastenwagens sind 6 bis 8 cm unkritisch, solange Kopffreiheit und Klappmechanik mitspielen.",
+        "Prüfe drei Stellen: erstens den Abstand zwischen Matratzenoberkante und Dachkante im geschlossenen Zustand, zweitens, ob die Matratze beim Zusammenklappen noch in ihre Mulde passt, drittens, ob Bettkästen oder Schubladen weiterhin aufgehen. Beim California T6 und T6.1 muss die Dachmatratze beim Schließen flach in einer Wanne liegen, deshalb empfehlen viele Besitzer faltbare Auflagen mit maximal 4 cm. Ein zu dicker Topper kann hier den Dachmechanismus belasten und den Stoff scheuern.",
+        "Tipp: Erst mit einer gefalteten Decke die gewünschte Höhe simulieren und das Dach probeweise schließen. Topper mit Reißverschluss-Bezug lassen sich bei Bedarf teilen. Und bedenke, dass Kaltschaum bei Kälte etwas steifer wird und dann mehr Platz beansprucht."
+      ]
+    },
+    {
+      "q": "Was tun gegen Kälte von unten im Camperbett?",
+      "a": [
+        "Eine Isolierschicht zwischen Matratze und Unterbau: eine selbstaufblasende Isomatte, eine 3D-Mesh-Matte mit Alubeschichtung oder eine Rettungsdecke unter dem Topper. Das stoppt den Wärmeverlust nach unten sofort und kostet ca. 20 bis 80 €. Eine beheizbare Unterdecke mit 12 V ist die Komfortlösung für kalte Nächte.",
+        "Der Körper verliert nachts den größten Teil der Wärme über die Auflagefläche, weil die Matratze dort zusammengedrückt ist und kaum noch isoliert. Darunter liegt im Camper oft eine kalte Holzplatte über einem ungedämmten Boden oder ein Bettkasten mit Außenluft. Eine Decke oben hilft dann nicht, denn die Kälte kommt von unten. Isomatten mit R-Wert über 3 reichen für Frost, dünne Alufolien bringen vor allem bei Kühle bis 10 Grad etwas.",
+        "Vergiss die Belüftung nicht: Eine dampfdichte Folie direkt unter der Matratze erzeugt Kondenswasser. Lege die Isolation deshalb unter ein Abstandsgewirke oder Froli-System, nicht direkt unter den Schaum. Heizdecken nur mit Abschaltautomatik nutzen und nicht auf Schaumstoff knicken."
+      ],
+      "link": "#",
+      "link_text": "Zu den fünf Lösungen gegen Kälte von unten"
+    },
+    {
+      "q": "Welche Bettdecke eignet sich für den Camper?",
+      "a": [
+        "Für Frühjahr bis Herbst eine leichte Daunen- oder Kunstfaserdecke mit kleinem Packmaß, für den Winter ein Deckenschlafsack mit Komforttemperatur um 0 Grad oder eine Winterdecke mit Baumwollbezug. Einzeldecken sind im Camper praktischer als eine Doppeldecke, weil sie weniger Zug erzeugen und einfacher zu verstauen sind.",
+        "Daunen packen am kleinsten und wärmen am besten pro Gramm, vertragen aber Feuchtigkeit schlecht; in einem Camper mit Kondenswasser am Fenster klumpen sie mit der Zeit. Kunstfaser ist unempfindlicher, waschbar bei 60 Grad und günstiger, braucht aber 30 bis 50 Prozent mehr Platz. Deckenschlafsäcke lassen sich komplett öffnen und als Decke nutzen, schließen bei Kälte aber dicht ab und ersparen dir das Spannbetttuch nicht.",
+        "Praxis-Tipp: Decken tagsüber in Kompressionssäcke stopfen und in den Heckstauraum legen, Kissen als Rückenlehne nutzen. Ein zweites Spannbetttuch macht den Wäschewechsel unterwegs leichter. Und wer im Dach schläft, nimmt eine dunkle Decke, auf der Kondenstropfen nicht sofort Flecken machen."
+      ]
+    },
+    {
+      "q": "Kann man die Matratze im Camper selbst zuschneiden?",
+      "a": [
+        "Ja, Kaltschaum und Komfortschaum lassen sich mit einem Elektromesser oder einer langen Brotsäge sauber schneiden. Online-Konfektionäre liefern Zuschnitte nach Skizze für ca. 150 bis 400 € je nach Größe und Raumgewicht, Stand Oktober 2026. Für Rundungen und Radkästen lohnt die Schablone aus Pappe.",
+        "So gehst du vor: Die alte Matratze oder das Bettbrett als Vorlage nehmen, Kontur auf Pappe oder Malerfolie übertragen, Radkästen und Ecken großzügig anzeichnen und erst dann schneiden. Schnitte immer senkrecht und in einem Zug führen, sonst entstehen Wellen, die später drücken. Federkern-Matratzen sind nicht schneidbar, Visco nur mit sehr scharfem Werkzeug. Bezüge gibt es als Maßanfertigung, oder du nähst einen Jersey-Bezug mit Reißverschluss um.",
+        "Häufiger Fehler: zu knapp messen. Schaum wird mit Bezug 1 bis 2 cm breiter und sollte leicht unter Spannung sitzen, damit nichts rutscht. Teile die Matratze an den Stellen, wo das Bett klappt, sonst bricht der Schaum an der Knickkante. Und kaufe ein Raumgewicht ab RG 40, dünnere Schäume sind nach einer Saison durchgelegen."
+      ],
+      "link": "#",
+      "link_text": "Zur Anleitung Matratze nach Maß"
+    }
+  ]
+}

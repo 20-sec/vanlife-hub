@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% import "macros.html" as m with context %}
+{% block body %}
+
+<div class="portal-hero">
+  <div class="wrap">
+    <p class="kicker-light">Camper</p>
+    <h1>Ausr&uuml;stung f&uuml;r dein Modell</h1>
+    <p class="lead">Jeder Camper hat eigene Ma&szlig;e, Stauf&auml;cher und Schw&auml;chen. Hier findest du f&uuml;r dein Modell die passenden Tests, Tipps und Produkte, quer durch alle Bereiche.</p>
+  </div>
+</div>
+
+<section>
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Alle Camper</h2></div>
+  <div class="kicker-line"></div>
+  <div class="areas cols-4">
+    {% for c in camper %}{{ m.camper_card(c, show_latest=True, big=True) }}{% endfor %}
+    <a class="area big cta" href="mailto:{{ site.kontakt }}?subject=Mein%20Camper%20fehlt%20auf%20VanKompass">
+      <span class="ico">{{ m.icon('plus') }}</span>
+      <span class="txt"><h3>Dein Modell fehlt?</h3><p>Sag uns, welchen Camper du f&auml;hrst. Die meistgenannten Modelle bauen wir als N&auml;chstes aus.</p></span>
+    </a>
+  </div>
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  {{ m.freebie() }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Oder nach Bereich</h2><a class="more" href="bereiche.html">Alle Bereiche &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="areas cols-4">{% for b in bereiche[:8] %}{{ m.area_card(b) }}{% endfor %}</div>
+</div>
+</section>
+
+{% endblock %}

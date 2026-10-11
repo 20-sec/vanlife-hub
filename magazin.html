@@ -4,33 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>VanKompass Magazin: Vanlife-Wissen aus YouTube-Videos</title>
-<meta name="description" content="Das VanKompass Magazin: Vanlife-Wissen, Produkttests und Praxistipps aus kuratierten YouTube-Videos. Sortiert nach Bereichen, neutral aufbereitet, mit Nutzwert.">
+<title>VanKompass Magazin: Camper-Wissen aus Video-Tests und Ratgebern</title>
+<meta name="description" content="Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife: Strom, Schlafen, Küche, Sanitär, Heizung und mehr. Neutral zusammengefasst mit allen Fakten.">
 <link rel="canonical" href="https://vankompass.de/magazin.html">
 <meta property="og:type" content="website">
-<meta property="og:title" content="VanKompass Magazin: Vanlife-Wissen aus YouTube-Videos">
-<meta property="og:description" content="Vanlife-Wissen, Produkttests und Praxistipps aus kuratierten YouTube-Videos. Sortiert nach Bereichen, neutral aufbereitet.">
+<meta property="og:title" content="VanKompass Magazin: Camper-Wissen aus Video-Tests und Ratgebern">
+<meta property="og:description" content="Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife: Strom, Schlafen, Küche, Sanitär, Heizung und mehr. Neutral zusammengefasst mit allen Fakten.">
 <meta property="og:url" content="https://vankompass.de/magazin.html">
 <meta property="og:image" content="https://vankompass.de/img/thumb-aferiy-p180-pro.svg">
 <meta property="og:locale" content="de_DE">
 <meta property="og:site_name" content="VanKompass">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="VanKompass Magazin: Vanlife-Wissen aus YouTube-Videos">
-<meta name="twitter:description" content="Vanlife-Wissen, Produkttests und Praxistipps aus kuratierten YouTube-Videos. Sortiert nach Bereichen.">
+<meta name="twitter:title" content="VanKompass Magazin: Camper-Wissen aus Video-Tests und Ratgebern">
+<meta name="twitter:description" content="Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife: Strom, Schlafen, Küche, Sanitär, Heizung und mehr. Neutral zusammengefasst mit allen Fakten.">
 <link rel="stylesheet" href="vanlife-styles.css?v=3">
-<style>
-.bereich-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; transition: transform .12s ease, box-shadow .12s ease; text-decoration: none; color: inherit; display: block; }
-.bereich-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--amber); }
-.bereich-card .ic { font-size: 28px; }
-.bereich-card h3 { margin: 8px 0 4px; font-size: 18px; color: var(--petrol); }
-.bereich-card p { margin: 0 0 6px; font-size: 14.5px; color: var(--muted); line-height: 1.5; }
-.bereich-card .count { font-size: 13px; font-weight: 600; color: var(--amber-dark); }
-.latest-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; margin: 12px 0; }
-.latest-card a { text-decoration: none; color: inherit; display: block; }
-.latest-card h3 { margin: 0 0 4px; font-size: 17px; color: var(--petrol); }
-.latest-card .meta { font-size: 13px; color: var(--muted); }
-.latest-card p { margin: 6px 0 0; font-size: 15px; line-height: 1.5; }
-</style>
+<link rel="stylesheet" href="portal.css?v=2">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,15 +26,115 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://vankompass.de/" },
-        { "@type": "ListItem", "position": 2, "name": "Magazin", "item": "https://vankompass.de/magazin.html" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Start",
+          "item": "https://vankompass.de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Magazin",
+          "item": "https://vankompass.de/magazin.html"
+        }
       ]
     },
     {
       "@type": "CollectionPage",
+      "@id": "https://vankompass.de/magazin.html",
       "name": "VanKompass Magazin",
-      "description": "Vanlife-Wissen aus kuratierten YouTube-Videos: Produkttests, Praxistipps und Kaufberatung, sortiert nach Bereichen.",
-      "url": "https://vankompass.de/magazin.html"
+      "description": "Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife.",
+      "url": "https://vankompass.de/magazin.html",
+      "isPartOf": {
+        "@id": "https://vankompass.de/#site"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest",
+            "url": "https://vankompass.de/magazin-strom-aferiy-p180-pro-ford-nugget.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Wie viel Watt Solar braucht ein Camper? Rechenweg mit drei Beispielen"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Topper für den Camper: Welche Auflage Serienmatratzen wirklich rettet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Chemietoilette oder Trenntoilette: Was im Camper wirklich praktischer ist"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Kompressor, Absorber oder Thermoelektrik: Welche Kühlbox für den Camper?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Frischwasser im Camper sauber halten: Tank, Leitungen, Kanister"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Standheizung im Camper nachrüsten: Kosten, Einbau, Diesel oder Gas"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Thermomatten für den Camper im Vergleich: innen, außen, Magnet, Saugnapf"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Camper-Navi im Vergleich: Garmin, TomTom oder Smartphone-App?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Packsystem für den Camper: Boxen, Taschen und feste Plätze für alles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Markise oder Sonnensegel am Camper: Was passt zu welchem Fahrzeug?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "name": "Gasmelder, CO-Melder, Rauchmelder: Welche Melder in jeden Camper gehören"
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "name": "Internet im Camper: Handy-Hotspot, LTE-Router oder Starlink?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "name": "Stellplatz-Apps im Vergleich: park4night, Campercontact und Co."
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "name": "Drehkonsole nachrüsten: Einbau, Eintragung und Kosten im Kastenwagen"
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "name": "Bluetooth-Box für den Camper: Worauf es unterwegs wirklich ankommt"
+          }
+        ]
+      }
     }
   ]
 }
@@ -54,120 +142,372 @@
 </head>
 <body>
 
-<div class="proto-banner">ENTWURF / Prototyp &middot; <strong>VanKompass</strong> Magazin</div>
+<div class="proto-banner">ENTWURF / Prototyp &middot; <strong>VanKompass</strong></div>
 
 <header class="site">
   <div class="wrap">
     <a class="brand" href="index.html"><span class="mark">V</span> VanKompass</a>
     <nav>
-      <a href="magazin.html" style="color:#fff; font-weight:600;">Magazin</a>
-      <a href="silo-strom.html">Bereiche</a>
-      <a href="index.html#modelle">Camper</a>
-      <a href="index.html#tools">Rechner</a>
+      <a href="magazin.html" class="active">Magazin</a>
+      <a href="bereiche.html">Bereiche</a>
+      <a href="camper.html">Camper</a>
     </nav>
   </div>
 </header>
 
 <div class="wrap">
-  <p class="breadcrumb"><a href="index.html">Start</a> &rsaquo; Magazin</p>
+  <p class="breadcrumb"><a href="">Start</a> &rsaquo; Magazin</p>
 </div>
 
-<div class="hero" style="padding:36px 0 32px;">
+
+<div class="portal-hero">
   <div class="wrap">
-    <h1 style="font-size:clamp(26px,5vw,40px); margin:0 0 10px;">VanKompass Magazin</h1>
-    <p class="lead" style="font-size:18px;">Vanlife-Wissen aus YouTube-Videos: neutral aufbereitet, nach Bereichen sortiert, mit echtem Nutzwert. Jeder Beitrag fasst ein Video zusammen, zeigt die Fakten und verlinkt zum Original.</p>
+    <p class="kicker-light">Magazin</p>
+    <h1>VanKompass Magazin</h1>
+    <p class="lead">Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife. Neutral zusammengefasst, mit allen Fakten und Link zum Original.</p>
   </div>
 </div>
 
 <section>
 <div class="wrap">
-
-<h2 class="kicker">Bereiche</h2>
+  <div class="sec-head"><h2 class="kicker">Der wichtigste Beitrag</h2></div>
 <div class="kicker-line"></div>
-
-<div class="grid cols-3">
-  <a class="bereich-card" href="magazin-strom.html">
-    <div class="ic">&#128267;</div>
-    <h3>Batterie &amp; Strom</h3>
-    <p>Powerstations, LiFePO4, Ladebooster, Solar, Stromverbrauch im Camper.</p>
-    <div class="count">1 Beitrag</div>
-  </a>
-  <div class="bereich-card" style="opacity:.5; cursor:default;">
-    <div class="ic">&#9728;&#65039;</div>
-    <h3>Solar</h3>
-    <p>Solarpanels, Laderegler, mobile Solaranlagen.</p>
-    <div class="count">Bald verfügbar</div>
-  </div>
-  <div class="bereich-card" style="opacity:.5; cursor:default;">
-    <div class="ic">&#128719;</div>
-    <h3>Schlafen &amp; Matratze</h3>
-    <p>Matratzen, Aufstelldach, Bettlösungen.</p>
-    <div class="count">Bald verfügbar</div>
-  </div>
-  <div class="bereich-card" style="opacity:.5; cursor:default;">
-    <div class="ic">&#128701;</div>
-    <h3>Toilette &amp; Sanitär</h3>
-    <p>Trenntoilette, mobile Dusche, Hygiene unterwegs.</p>
-    <div class="count">Bald verfügbar</div>
-  </div>
-  <div class="bereich-card" style="opacity:.5; cursor:default;">
-    <div class="ic">&#127859;</div>
-    <h3>Küche &amp; Kühlen</h3>
-    <p>Kühlen, kochen, spülen auf kleinem Raum.</p>
-    <div class="count">Bald verfügbar</div>
-  </div>
-  <div class="bereich-card" style="opacity:.5; cursor:default;">
-    <div class="ic">&#128293;</div>
-    <h3>Heizung &amp; Klima</h3>
-    <p>Standheizung, Dieselheizung, Lüftung.</p>
-    <div class="count">Bald verfügbar</div>
-  </div>
-</div>
-
+<article class="lead-article is-link">
+<a href="magazin-strom-aferiy-p180-pro-ford-nugget.html">    <div class="media"><img src="img/thumb-aferiy-p180-pro.svg" alt="AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest" width="680" height="400"></div>
+    <div class="body">
+<span class="badge">Lies das zuerst</span>      <h2>AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest</h2>
+      <div class="meta">Video von Die2Mays &middot; 21 Min. Video &middot; Zusammengefasst von VanKompass</div>
+      <p>Wenn du wissen willst, ob eine 1-kWh-Powerstation in einen kleinen Campervan passt und was sie im Alltag wirklich leistet: Dieser Beitrag beantwortet es. 1024 Wh LiFePO4, 1800 W Reinsinus, USB-C mit 140 W, passt unter die Nugget-Küche, wiegt 11,6 kg. Mit Praxistests, Lade-Optionen und allen Fakten aus dem Video.</p>
+<span class="read">Beitrag lesen</span>    </div>
+</a></article>
 </div>
 </section>
 
 <section class="tight">
 <div class="wrap">
-
-<h2 class="kicker">Neueste Beiträge</h2>
-<div class="kicker-line"></div>
-
-<div class="latest-card">
-  <a href="magazin-strom-aferiy-p180-pro-ford-nugget.html">
-    <h3>AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest</h3>
-    <div class="meta">Batterie &amp; Strom &middot; Video von Die2Mays &middot; Oktober 2026</div>
-    <p>1024 Wh LiFePO4-Powerstation, die unter die Küche des Ford Nugget passt. Alle technischen Daten, Praxistests und Lade-Optionen aus dem Video zusammengefasst.</p>
-  </a>
-</div>
-
-</div>
-</section>
-
-<section class="tight">
-<div class="wrap">
-  <div class="author">
-    <div class="av">RED</div>
-    <div class="meta">
-      <b>So funktioniert das Magazin.</b> Wir fassen YouTube-Videos rund um Vanlife und Camper-Ausrüstung zusammen. Neutral, mit allen Fakten, ohne eigene Bewertung. Jeder Beitrag verlinkt zum Original-Video und nennt den Kanal. Werbe-Kennzeichnungen übernehmen wir vom Original.
+  <div class="sec-head"><h2 class="kicker">Alle Beitr&auml;ge</h2></div>
+  <div class="kicker-line"></div>
+  <div class="filter" id="filter">
+    <button type="button" data-f="alle" class="active">Alle <span class="n">16</span></button>
+<button type="button" data-f="strom">Strom <span class="n">1</span></button><button type="button" data-f="solar">Solar <span class="n">1</span></button><button type="button" data-f="schlafen">Schlafen <span class="n">1</span></button><button type="button" data-f="sanitaer">Sanitär <span class="n">1</span></button><button type="button" data-f="kueche">Küche <span class="n">1</span></button><button type="button" data-f="wasser">Wasser <span class="n">1</span></button><button type="button" data-f="heizung">Heizung <span class="n">1</span></button><button type="button" data-f="verdunkelung">Verdunkelung <span class="n">1</span></button><button type="button" data-f="cockpit">Cockpit <span class="n">1</span></button><button type="button" data-f="stauraum">Stauraum <span class="n">1</span></button><button type="button" data-f="aussenbereich">Außen <span class="n">1</span></button><button type="button" data-f="sicherheit">Sicherheit <span class="n">1</span></button><button type="button" data-f="internet">Internet <span class="n">1</span></button><button type="button" data-f="camper-apps">Apps <span class="n">1</span></button><button type="button" data-f="sitze">Sitze <span class="n">1</span></button><button type="button" data-f="sound">Sound <span class="n">1</span></button>  </div>
+  <div class="post-grid" id="grid">
+<article class="post" data-bereich="strom">
+<a href="magazin-strom-aferiy-p180-pro-ford-nugget.html">    <div class="thumb"><img src="img/thumb-aferiy-p180-pro.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Video-Test <span class="areaname">&middot; Batterie &amp; Strom</span></span>
+      <h3>AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest</h3>
+      <p>Passt unter die Nugget-Küche, 1024 Wh LiFePO4, 1800 W Reinsinus. Alle Fakten aus dem Video von Die2Mays.</p>
+      <div class="meta">
+<span>Oktober 2026</span><span>21 Min. Video</span>      </div>
     </div>
-  </div>
+</a></article><article class="post" data-bereich="solar">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-solar-wie-viel-watt.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Rechenbeispiel <span class="areaname">&middot; Solar</span></span>
+      <h3>Wie viel Watt Solar braucht ein Camper? Rechenweg mit drei Beispielen</h3>
+      <p>Vom Tagesverbrauch zur Modulgröße: realistische Erträge je Jahreszeit, Verluste und drei Beispielrechnungen.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="schlafen">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-schlafen-topper-camper.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Ratgeber <span class="areaname">&middot; Schlafen &amp; Matratze</span></span>
+      <h3>Topper für den Camper: Welche Auflage Serienmatratzen wirklich rettet</h3>
+      <p>Kaltschaum, Visco oder Gel, welche Höhe noch unter das Aufstelldach passt und warum Topper allein nicht immer reichen.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="sanitaer">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-sanitaer-chemie-vs-trenntoilette.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Vergleich <span class="areaname">&middot; Toilette &amp; Sanitär</span></span>
+      <h3>Chemietoilette oder Trenntoilette: Was im Camper wirklich praktischer ist</h3>
+      <p>Geruch, Entsorgung, Platz und laufende Kosten im ehrlichen Vergleich, mit Empfehlung je nach Reisestil und Fahrzeug.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="kueche">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-kueche-kompressor-vs-absorber.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Vergleich <span class="areaname">&middot; Küche &amp; Kühlen</span></span>
+      <h3>Kompressor, Absorber oder Thermoelektrik: Welche Kühlbox für den Camper?</h3>
+      <p>Stromverbrauch, Kühlleistung bei Hitze, Lautstärke und Preis der drei Systeme, mit klarer Empfehlung je Stromquelle.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="wasser">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-wasser-frischwasser-sauber-halten.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Ratgeber <span class="areaname">&middot; Wasser</span></span>
+      <h3>Frischwasser im Camper sauber halten: Tank, Leitungen, Kanister</h3>
+      <p>Warum Tankwasser kippt, wie oft du spülen solltest und welche Mittel wirklich gegen Biofilm helfen.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="heizung">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-heizung-standheizung-nachruesten.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Ratgeber <span class="areaname">&middot; Heizung &amp; Klima</span></span>
+      <h3>Standheizung im Camper nachrüsten: Kosten, Einbau, Diesel oder Gas</h3>
+      <p>Was Gerät, Einbausatz und Werkstatt kosten, wo die Heizung sitzen sollte und welche Fehler beim Selbsteinbau teuer werden.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="verdunkelung">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-verdunkelung-thermomatten-vergleich.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Vergleich <span class="areaname">&middot; Verdunkelung &amp; Mücken</span></span>
+      <h3>Thermomatten für den Camper im Vergleich: innen, außen, Magnet, Saugnapf</h3>
+      <p>Was die Konzepte bei Kälte, Hitze und Kondenswasser bringen, wie schnell sie montiert sind und was sie kosten.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="cockpit">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-cockpit-camper-navi-vergleich.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Vergleich <span class="areaname">&middot; Cockpit</span></span>
+      <h3>Camper-Navi im Vergleich: Garmin, TomTom oder Smartphone-App?</h3>
+      <p>Fahrzeugprofile, Offline-Karten, Stellplatz-Daten und Bedienung im Vergleich. Wann sich ein eigenes Gerät lohnt.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="stauraum">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-stauraum-packsystem-camper.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Ratgeber <span class="areaname">&middot; Stauraum</span></span>
+      <h3>Packsystem für den Camper: Boxen, Taschen und feste Plätze für alles</h3>
+      <p>Wie du mit wenigen Boxen und klaren Zonen Ordnung hältst, die auch nach drei Wochen Reise noch funktioniert.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="aussenbereich">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-aussenbereich-markise-oder-sonnensegel.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Vergleich <span class="areaname">&middot; Außenbereich</span></span>
+      <h3>Markise oder Sonnensegel am Camper: Was passt zu welchem Fahrzeug?</h3>
+      <p>Kassettenmarkise, Sackmarkise oder Tarp: Gewicht, Preis, Aufbauzeit und Windfestigkeit im direkten Vergleich.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="sicherheit">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-sicherheit-melder-camper.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Ratgeber <span class="areaname">&middot; Sicherheit</span></span>
+      <h3>Gasmelder, CO-Melder, Rauchmelder: Welche Melder in jeden Camper gehören</h3>
+      <p>Was die drei Melder unterscheidet, wo sie hängen müssen und warum ein Kombigerät oft an der falschen Stelle sitzt.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="internet">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-internet-hotspot-oder-router.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Vergleich <span class="areaname">&middot; Internet</span></span>
+      <h3>Internet im Camper: Handy-Hotspot, LTE-Router oder Starlink?</h3>
+      <p>Was die drei Wege kosten, wann der Hotspot reicht und ab wann sich Router, Außenantenne oder Satellit lohnen.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="camper-apps">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-camper-apps-stellplatz-apps-vergleich.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Vergleich <span class="areaname">&middot; Camper-Apps</span></span>
+      <h3>Stellplatz-Apps im Vergleich: park4night, Campercontact und Co.</h3>
+      <p>Welche App die meisten Plätze kennt, wo Bewertungen taugen und welche Pro-Version sich für dich lohnt.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="sitze">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-sitze-drehkonsole-nachruesten.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Ratgeber <span class="areaname">&middot; Sitze &amp; Drehkonsole</span></span>
+      <h3>Drehkonsole nachrüsten: Einbau, Eintragung und Kosten im Kastenwagen</h3>
+      <p>Welche Konsole zu deinem Fahrzeug passt, wie der Einbau abläuft, was der Prüfer sehen will und was alles zusammen kostet.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article><article class="post" data-bereich="sound">
+<div class="nolink">    <div class="thumb"><img src="img/thumb-sound-bluetooth-box-camper.svg" alt="" width="680" height="400" loading="lazy"></div>
+    <div class="pb">
+      <span class="cat">Vergleich <span class="areaname">&middot; Sound</span></span>
+      <h3>Bluetooth-Box für den Camper: Worauf es unterwegs wirklich ankommt</h3>
+      <p>Wasserdicht, Laufzeit, Lautstärke am Lagerfeuer, Laden über USB-C: Welche Box zum Van passt und welche nur zur Küche.</p>
+      <div class="meta">
+<span class="soon">In Vorbereitung</span>      </div>
+    </div>
+</div></article>  </div>
 </div>
 </section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="freebie">
+  <div>
+    <p class="kick">Kostenlos als PDF</p>
+    <h2>Die VanKompass Camper-Packliste: 120 Punkte, nach Bereichen sortiert</h2>
+    <p>Strom, Schlafen, Küche, Sanitär, Sicherheit, Werkzeug. Zum Abhaken vor jeder Fahrt, damit du nie wieder ohne Ladekabel, Wasserschlauch oder Keil losfährst.</p>
+    <ul><li>Alle Bereiche auf einen Blick, auch die, an die niemand denkt</li><li>Extra-Spalte für dein eigenes Camper-Modell</li><li>Neue Video-Tests und Ratgeber direkt ins Postfach</li></ul>
+  </div>
+  <form class="nl-form" action="#" method="post" data-nl>
+    <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required autocomplete="email">
+    <button type="submit">Packliste holen</button>
+    <div class="done">Danke! Die Packliste ist unterwegs. Schau in dein Postfach.</div>
+    <small>Kostenlos, kein Spam, jederzeit abbestellbar. Wir nutzen deine Adresse nur f&uuml;r den Versand. <a href="datenschutz.html">Datenschutz</a></small>
+  </form>
+</div>
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Nach Bereich st&ouml;bern</h2><a class="more" href="bereiche.html">Alle Bereiche &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="areas cols-4"><a class="area" href="strom.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg></span>
+  <span class="txt">
+    <h3>Batterie &amp; Strom</h3>
+    <p>Powerstations, Bordbatterien, Ladebooster, Verbrauch.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="solar.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span>
+  <span class="txt">
+    <h3>Solar</h3>
+    <p>Faltpanels, Dachmodule, Laderegler, Ertrag, Montage.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="schlafen.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20v-9a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v9M2 16h20M6 9V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/></svg></span>
+  <span class="txt">
+    <h3>Schlafen &amp; Matratze</h3>
+    <p>Matratzen, Topper, Froli, Aufstelldach, Kälte von unten.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="sanitaer.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></span>
+  <span class="txt">
+    <h3>Toilette &amp; Sanitär</h3>
+    <p>Campingtoilette, Trenntoilette, Dusche, Entsorgung, Hygiene.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="kueche.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16v7a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-7zM2 10h20M9 7V5M12 7V4M15 7V5"/></svg></span>
+  <span class="txt">
+    <h3>Küche &amp; Kühlen</h3>
+    <p>Kühlbox, Kocher, Induktion, Geschirr, Stromverbrauch.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="wasser.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 14c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 20c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg></span>
+  <span class="txt">
+    <h3>Wasser</h3>
+    <p>Frischwasser, Tankhygiene, Filter, Pumpen, Winterfest.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="heizung.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1.2 3.2 4.5 5.4 4.5 9.3A4.5 4.5 0 0 1 7.5 12.3c0-1.6.6-2.9 1.5-4 .3 1.4 1 2.3 1.9 2.8C11.6 9.2 11 6 12 3z"/></svg></span>
+  <span class="txt">
+    <h3>Heizung &amp; Klima</h3>
+    <p>Standheizung, Diesel oder Gas, Verbrauch, Klimaanlage, Wintercamping.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="verdunkelung.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></svg></span>
+  <span class="txt">
+    <h3>Verdunkelung &amp; Mücken</h3>
+    <p>Thermomatten, Vorhänge, Mückennetze, Kondenswasser, Hitzeschutz.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="cockpit.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M3.3 10.5h5.9M14.8 10.5h5.9M12 15v6"/></svg></span>
+  <span class="txt">
+    <h3>Cockpit</h3>
+    <p>Camper-Navi, Handyhalterung, Dashcam, Rückfahrkamera, Laden unterwegs.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="stauraum.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l9-5 9 5v9l-9 5-9-5V8zM3 8l9 5 9-5M12 13v9"/></svg></span>
+  <span class="txt">
+    <h3>Stauraum</h3>
+    <p>Heckauszug, Boxen, Organizer, Dachbox, Packsystem.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="aussenbereich.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20L12 4l10 16H2zM12 20v-8"/></svg></span>
+  <span class="txt">
+    <h3>Außenbereich</h3>
+    <p>Markise, Stühle, Tisch, Vorzelt, Außendusche, Licht.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="sicherheit.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></svg></span>
+  <span class="txt">
+    <h3>Sicherheit</h3>
+    <p>Gasmelder, CO-Melder, Einbruchschutz, Feuerlöscher, Alarm.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="internet.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5.5 12.5a10 10 0 0 1 13 0M9 16a5 5 0 0 1 6 0"/><circle cx="12" cy="19.5" r="1"/></svg></span>
+  <span class="txt">
+    <h3>Internet</h3>
+    <p>LTE-Router, 5G, Antennen, Starlink, Tarife, Homeoffice.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="camper-apps.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+  <span class="txt">
+    <h3>Camper-Apps</h3>
+    <p>Stellplatz-Apps, Navigation, Wetter, Offline-Karten, Maut.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="sitze.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l-1 10H8L7 3zM5 13h14l1 7H4l1-7zM8 20v2M16 20v2"/></svg></span>
+  <span class="txt">
+    <h3>Sitze &amp; Drehkonsole</h3>
+    <p>Drehkonsolen, Sitzbezüge, Schlafsitzbank, Kindersitz, Komfort.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a><a class="area" href="sound.html">
+  <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="14" r="4"/><circle cx="12" cy="7" r="1.5"/></svg></span>
+  <span class="txt">
+    <h3>Sound</h3>
+    <p>Bluetooth-Boxen, Lautsprecher, Radio, Dämmung, Subwoofer.</p>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</a></div>
+</div>
+</section>
+
 
 <footer class="site">
   <div class="wrap">
     <div class="cols">
-      <div><strong style="color:#fff;">VanKompass</strong><br>Camper-Ausrüstung mit Plan.</div>
-      <div><a href="magazin.html">Magazin</a> &middot; <a href="#">Redaktion</a> &middot; <a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a></div>
+      <div><strong style="color:#fff;">VanKompass</strong><br>Camper-Ausr&uuml;stung mit Plan.</div>
+      <div><a href="magazin.html">Magazin</a> &middot; <a href="bereiche.html">Bereiche</a> &middot; <a href="camper.html">Camper</a> &middot; <a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a></div>
     </div>
     <div class="legal">
-      Transparenz: Diese Seite enthält Werbe-/Affiliate-Links. Kaufst du über einen dieser Links, erhalten wir eine Provision. Für dich bleibt der Preis gleich.<br>
-      Entwurf / Prototyp &middot; Träger später: rc:com UG.
+      <span class="star">*</span> Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du darüber ein, erhalten wir eine kleine Provision. Für dich ändert sich am Preis nichts. So können wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke für deine Unterstützung.
     </div>
   </div>
 </footer>
 
 <script src="vanlife-config-v2.js"></script>
+<script>
+document.querySelectorAll("form[data-nl]").forEach(function (f) {
+  f.addEventListener("submit", function (e) { e.preventDefault(); f.classList.add("sent"); });
+});
+</script>
+<script>
+(function(){
+  var btns = document.querySelectorAll("#filter button"), cards = document.querySelectorAll("#grid .post");
+  function apply(f){
+    btns.forEach(function(b){ b.classList.toggle("active", b.dataset.f === f); });
+    cards.forEach(function(c){ c.classList.toggle("hidden", f !== "alle" && c.dataset.bereich !== f); });
+  }
+  btns.forEach(function(b){ b.addEventListener("click", function(){ apply(b.dataset.f); history.replaceState(null, "", b.dataset.f === "alle" ? "magazin.html" : "#" + b.dataset.f); }); });
+  var h = location.hash.replace("#", "");
+  if (h && document.querySelector('#filter button[data-f="' + h + '"]')) apply(h);
+})();
+</script>
 </body>
 </html>

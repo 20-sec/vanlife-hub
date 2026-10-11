@@ -1,0 +1,155 @@
+{
+  "typ": "bereich",
+  "slug": "kueche",
+  "name": "Küche & Kühlen",
+  "kurzname": "Küche",
+  "kurz": "Kühlbox, Kocher, Induktion, Geschirr, Stromverbrauch.",
+  "h1": "Küche und Kühlen im Camper",
+  "lead": "Kompressor-Kühlbox oder Absorber, Gas oder Induktion, welches Geschirr nicht klappert und wie du mit wenig Strom kochst. Ratgeber, Vergleiche, Rechenbeispiele und eine Kühlbox-Empfehlung für viele Camper.",
+  "meta_title": "Camper-Küche: Kühlbox, Kocher, Geschirr | VanKompass",
+  "meta_desc": "Küche und Kühlen im Camper: Kompressor-Kühlbox oder Absorber, Gas oder Induktion, Stromverbrauch beim Kochen, Geschirr und Stauraum. Mit Kühlbox-Empfehlung.",
+  "empfehlung": {
+    "name": "Dometic CFX3 35",
+    "one": "Die Kompressor-Kühlbox in der Größe, die zwischen Sitzen und Küche vieler Campervans passt und an 12 V sparsam läuft.",
+    "pills": ["Kompressor", "ca. 36 l Inhalt", "12/24 V und 230 V", "App-Steuerung"],
+    "why": "Kühlt bis in den Tiefkühlbereich, läuft an Bordbatterie und Powerstation und lässt sich mit Isolierhauben und Befestigungsschienen des Herstellers kombinieren. Die Größe reicht für zwei Personen und ein verlängertes Wochenende.",
+    "preis": "ca. 700 bis 950 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-kueche.svg",
+    "trust": "Preis bleibt für dich gleich. Empfehlung nach Verbreitung und Erfahrungsberichten, kein eigener Test.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "kueche-kompressor-vs-absorber",
+      "title": "Kompressor, Absorber oder Thermoelektrik: Welche Kühlbox für den Camper?",
+      "teaser": "Stromverbrauch, Kühlleistung bei Hitze, Lautstärke und Preis der drei Systeme, mit klarer Empfehlung je Stromquelle.",
+      "lead_teaser": "Die Kühlbox ist im Camper der größte Dauerverbraucher und oft der erste Fehlkauf. Dieser Beitrag erklärt, wie Kompressor, Absorber und Thermoelektrik kühlen, was sie bei 20 und bei 35 Grad Außentemperatur an Strom ziehen, wie laut sie nachts sind und welche Größe für zwei Personen reicht. Mit Rechenbeispielen für Powerstation und Bordbatterie und einer Empfehlung für jede Reiseart.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Welche Kühlbox",
+      "thumb_l2": "für den Camper?",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "kueche-gas-vs-induktion",
+      "title": "Gas, Induktion oder Spiritus: Womit du im Camper am besten kochst",
+      "teaser": "Energiebedarf, Sicherheit, Winter und Gasprüfung: Was für welche Kochart spricht und was eine Induktionsplatte an Wh frisst.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Gas oder Induktion:",
+      "thumb_l2": "Kochen im Camper",
+      "camper": ["sprinter-ausbau", "poessl-ducato"],
+      "status": "geplant"
+    },
+    {
+      "slug": "kueche-induktion-powerstation",
+      "title": "Kochen mit Induktion an der Powerstation: Wie viel Wh eine Mahlzeit kostet",
+      "teaser": "Nudeln, Kaffee, Pfannengericht: gemessene Verbräuche, Wechselrichter-Verluste und was von 1000 Wh übrig bleibt.",
+      "kategorie": "Rechenbeispiel",
+      "thumb_l1": "Induktion an der",
+      "thumb_l2": "Powerstation",
+      "camper": ["ford-nugget", "vw-california"],
+      "status": "geplant"
+    },
+    {
+      "slug": "kueche-geschirr-camper",
+      "title": "Camping-Geschirr, das nicht klappert: Material, Stapelmaß, Gewicht",
+      "teaser": "Emaille, Melamin, Edelstahl oder Bambus: Was im Schrank hält, in die Spüle passt und nach einem Jahr noch gut aussieht.",
+      "kategorie": "Checkliste",
+      "thumb_l1": "Geschirr, das",
+      "thumb_l2": "nicht klappert",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "kueche-kuehlbox-stromverbrauch",
+      "title": "Stromverbrauch der Kühlbox senken: Zehn Maßnahmen, die messbar wirken",
+      "teaser": "Isolierhaube, Vorkühlen, Standort, Temperaturwahl: Was wie viel Prozent bringt und was nur gut klingt.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Kühlbox: Strom",
+      "thumb_l2": "sparen",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "kueche-kochen-ohne-gas",
+      "title": "Camper ohne Gas: Kochen, Kühlen und Warmwasser rein elektrisch",
+      "teaser": "Welche Batterie und welcher Wechselrichter nötig sind, wo Grenzen liegen und für wen der gasfreie Ausbau sinnvoll ist.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Camper ohne Gas:",
+      "thumb_l2": "rein elektrisch",
+      "camper": ["sprinter-ausbau"],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welche Kühlbox ist die beste für den Camper?",
+      "a": [
+        "Für fast alle Camper ist eine Kompressor-Kühlbox mit 30 bis 45 Litern die richtige Wahl: Sie kühlt unabhängig von der Außentemperatur, zieht an 12 V im Mittel 15 bis 35 Watt und läuft an Bordbatterie und Powerstation. Absorber und thermoelektrische Boxen sind nur in Sonderfällen sinnvoll.",
+        "Der Kompressor arbeitet wie ein Kühlschrank zu Hause und erreicht auch bei 35 Grad noch Minusgrade im Innenraum. Er läuft getaktet, deshalb liegt der Tagesverbrauch bei 300 bis 700 Wh. Absorber kühlen lautlos mit Gas oder 230 V, schaffen aber nur 25 bis 30 Grad unter Außentemperatur und sind an 12 V Stromfresser. Thermoelektrische Boxen für ca. 50 bis 100 € ziehen dauerhaft 40 bis 60 Watt und kühlen im Sommer kaum. Gute Kompressorboxen kosten ca. 400 bis 1000 €, Stand Oktober 2026.",
+        "Beim Kauf auf das Maß achten: Zwischen den Sitzen oder unter der Küche entscheiden oft zwei Zentimeter. Prüfe die Lautstärke im Nachtbetrieb, einige Modelle haben einen Flüstermodus. Und ein Deckel, der sich nach beiden Seiten öffnen lässt, spart im engen Van viel Ärger."
+      ],
+      "link": "#",
+      "link_text": "Zum Kühlbox-Vergleich"
+    },
+    {
+      "q": "Wie viel Strom verbraucht eine Kompressor-Kühlbox pro Tag?",
+      "a": [
+        "Eine Kompressor-Kühlbox mit 30 bis 45 Litern verbraucht bei 20 bis 25 Grad Außentemperatur etwa 300 bis 500 Wh pro Tag, bei 30 bis 35 Grad 500 bis 800 Wh. An einer 1000-Wh-Powerstation läuft sie damit 1,5 bis 3 Tage, an einer 100-Ah-LiFePO4 ähnlich lang.",
+        "Die Aufnahme liegt bei 35 bis 60 Watt, wenn der Kompressor läuft, aber er läuft nur, bis die Zieltemperatur erreicht ist, und pausiert dann. Die Einschaltdauer hängt von Außentemperatur, Isolierung, Füllstand und Öffnungshäufigkeit ab und liegt zwischen 30 und 60 Prozent. Beim Erstkühlen warmer Getränke läuft der Kompressor stundenlang durch, das kann allein 200 bis 300 Wh kosten. Betrieb über 230 V am Wechselrichter addiert 10 bis 15 Prozent Verlust, deshalb immer 12 V nutzen, wenn vorhanden.",
+        "Zum Sparen: Lebensmittel vorgekühlt einfüllen, Box voll packen, in den Schatten stellen, Temperatur auf 4 bis 6 Grad statt 2, Isolierhaube drüber. Und die Batterieschutzstufe am Gerät richtig einstellen, sonst schaltet die Box bei LiFePO4 zu früh ab oder bei AGM zu spät."
+      ],
+      "link": "#",
+      "link_text": "Zu den zehn Sparmaßnahmen"
+    },
+    {
+      "q": "Kann man im Camper mit Induktion kochen?",
+      "a": [
+        "Ja, aber nur mit ausreichend Strom: Eine Induktionsplatte zieht 1200 bis 2000 Watt. Du brauchst einen Reinsinus-Wechselrichter mit mindestens 2000 Watt oder eine Powerstation dieser Klasse und eine Batterie mit 200 Ah oder mehr, wenn du täglich damit kochen willst. Für Nudeln oder Kaffee an der 1-kWh-Powerstation reicht es, für Dauerbetrieb nicht.",
+        "Rechenbeispiel: Einen Liter Wasser kochen kostet an der Induktion etwa 100 bis 130 Wh, ein Pfannengericht mit 15 Minuten auf mittlerer Stufe 200 bis 350 Wh, ein Eintopf mit langem Köcheln 400 bis 600 Wh. Eine 1000-Wh-Powerstation schafft damit eine warme Mahlzeit plus Kaffee am Tag, dann ist sie leer. Mit 300 Watt Solar und einer 200-Ah-LiFePO4 geht rein elektrisches Kochen im Sommer gut, im Winter kaum. Dazu kommt der Wechselrichter-Verlust von 10 bis 15 Prozent.",
+        "Oft vergessen: Die Platte zieht beim Anlaufen kurz mehr als die Nennleistung, manche Powerstations schalten dann ab. Wähle Platten mit stufenloser Regelung statt Taktbetrieb, das schont Batterie und Nerven. Und nimm Töpfe mit flachem, magnetischem Boden, sonst geht Leistung verloren."
+      ],
+      "link": "#",
+      "link_text": "Zum Rechenbeispiel Induktion"
+    },
+    {
+      "q": "Gaskocher im Camper: Was ist erlaubt und was muss geprüft werden?",
+      "a": [
+        "Fest eingebaute Gasanlagen in Wohnmobilen und Kastenwagen müssen alle zwei Jahre nach G 607 geprüft werden, in Deutschland ist das Pflicht. Mobile Kartuschenkocher dürfen im Camper benutzt werden, wenn du für ausreichende Belüftung sorgst und sie nicht während der Fahrt oder im Schlaf laufen.",
+        "Fest verbaute Anlagen mit 5- oder 11-kg-Flaschen im belüfteten Gaskasten gehören bei Ducato-Kastenwagen oder Grand California zum Standard; die Prüfung kostet ca. 40 bis 80 € und wird von Sachkundigen oder Prüforganisationen gemacht. Im VW California und im Nugget arbeitet die Küche mit kleineren Flaschen oder Kartuschen, dort gelten die Herstellerangaben. Kartuschenkocher mit Schraubkartuschen haben eine Überdrucksicherung, billige Stechkartuschen oft nicht. Kohlenmonoxid ist das eigentliche Risiko: Ein CO-Melder kostet ca. 20 bis 40 € und gehört in jeden Camper mit Gas.",
+        "Prüfe die Schläuche auf das aufgedruckte Datum, nach zehn Jahren werden sie ersetzt. Lagere Kartuschen nicht in der Sonne und nie lose im Fahrzeug. Und im Ausland brauchst du Adapter für die Flaschen, deutsche Flaschen bekommst du in Frankreich oder Spanien nicht getauscht."
+      ]
+    },
+    {
+      "q": "Wie groß sollte die Kühlbox für zwei Personen sein?",
+      "a": [
+        "Für zwei Personen und ein verlängertes Wochenende reichen 30 bis 40 Liter, für ein bis zwei Wochen Reise ohne täglichen Einkauf sind 40 bis 50 Liter sinnvoll. Größer wird im Campervan schnell zum Platzproblem, weil das Gehäuse etwa doppelt so viel Raum einnimmt wie der Nutzinhalt.",
+        "Als Faustregel pro Person und Tag 5 bis 8 Liter Kühlgut, wenn du Getränke mitkühlst, deutlich weniger ohne. Eine 35-Liter-Box fasst zum Beispiel sechs Flaschen stehend, Butter, Käse, Aufschnitt, Joghurt und etwas Gemüse. Wer Flaschen stehend kühlen will, braucht eine Innenhöhe von mindestens 30 Zentimetern. Zwei-Zonen-Boxen mit Tiefkühlfach beginnen bei 50 Litern und wiegen 20 bis 25 Kilo. Für einen Nugget oder California, wo die Box zwischen den Sitzen oder im Heck steht, sind 35 bis 40 Liter das praktische Maximum.",
+        "Tipp: Miss den Stellplatz inklusive Deckelöffnung, viele Boxen brauchen nach oben 40 Zentimeter mehr. Und kühle Getränke lieber in einem zweiten, passiven Kühlbehälter mit Eis aus der Kompressorbox vor. Das hält die teure Box voll und den Verbrauch niedrig."
+      ]
+    },
+    {
+      "q": "Welches Geschirr eignet sich für den Camper?",
+      "a": [
+        "Bewährt haben sich Melamin-Sets für Teller und Schüsseln, Edelstahl für Töpfe und Becher sowie Silikon-Falttöpfe für enge Schränke. Porzellan ist zu schwer und bruchgefährdet, Bambus-Geschirr quillt bei Dauerfeuchte auf. Ein Set für zwei bis vier Personen kostet ca. 30 bis 100 €, Stand Oktober 2026.",
+        "Melamin ist leicht, bruchfest und spülmaschinenfest, verträgt aber keine Mikrowelle und verkratzt über die Jahre. Edelstahl ist unverwüstlich, leitet aber Hitze an den Griff und klappert im Schrank. Emaille sieht gut aus, platzt an Kanten ab und rostet dann. Entscheidend ist das Stapelmaß: Teller, die ineinander passen, Becher, die sich stapeln lassen, Töpfe mit abnehmbarem Griff. Prüfe, ob der große Teller in deine Camper-Spüle passt; viele Spülen in California oder Nugget sind nur 25 bis 30 Zentimeter breit.",
+        "Gegen Klappern: Filz- oder Silikonzwischenlagen zwischen Tellern, Töpfe in ein Geschirrtuch wickeln, Becher in Netztaschen. Nimm lieber zwei tiefe Teller als flache plus Schüssel, das spart Platz. Und ein Schneidebrett, das auf das Spülbecken passt, verdoppelt deine Arbeitsfläche."
+      ],
+      "link": "#",
+      "link_text": "Zur Geschirr-Checkliste"
+    },
+    {
+      "q": "Kühlbox oder Kühlschrank im Camper: Was ist besser?",
+      "a": [
+        "Für Serien-Camper mit vorhandenem Einbaukühlschrank bleibt der Kühlschrank, für Selbstausbauten und Fahrzeuge ohne feste Küche ist die Kompressor-Kühlbox flexibler und oft sparsamer. Eine Box lässt sich rausnehmen, zum Picknick mitnehmen und beim Fahrzeugwechsel behalten; der Einbaukühlschrank gewinnt bei Volumen und Bedienkomfort.",
+        "Einbaukühlschränke mit 40 bis 90 Litern sitzen in der Küchenzeile, öffnen nach vorn und lassen sich mit Türfächern übersichtlich einräumen. Dafür entweicht beim Öffnen die kalte Luft, was den Verbrauch um 10 bis 20 Prozent erhöht. Boxen öffnen nach oben, die Kälte bleibt drin, aber du gräbst nach dem Joghurt ganz unten. Beim Preis liegen Kompressor-Einbaukühlschränke bei ca. 500 bis 1200 €, Boxen gleicher Qualität bei ca. 400 bis 1000 €, Stand Oktober 2026. Schubladenkühlschränke verbinden beide Vorteile, kosten aber mehr Platz in der Tiefe.",
+        "Beim Ausbau zählt das Gewicht an der richtigen Stelle: Eine 20-Kilo-Box im Heck plus Wasser plus Fahrräder bringt die Hinterachse schnell ans Limit. Und wer die Box als Sitz nutzen will, braucht ein Modell mit stabilem Deckel, nicht jede ist dafür freigegeben."
+      ]
+    }
+  ]
+}

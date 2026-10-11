@@ -1,0 +1,151 @@
+{
+  "typ": "bereich",
+  "slug": "sitze",
+  "name": "Sitze & Drehkonsole",
+  "kurzname": "Sitze",
+  "kurz": "Drehkonsolen, Sitzbezüge, Schlafsitzbank, Kindersitz, Komfort.",
+  "h1": "Sitze und Drehkonsole im Camper",
+  "lead": "Drehkonsole nachrüsten, eingetragene Sitzplätze, Schlafsitzbank, Kindersitz und Sitzbezüge: Hier findest du, was beim Sitzen im Camper zählt. Mit Einbau-Tipps, Kosten, Zulassungsfragen und einer klaren Empfehlung.",
+  "meta_title": "Sitze & Drehkonsole im Camper: Einbau, Kosten | VanKompass",
+  "meta_desc": "Drehkonsole nachrüsten, Eintragung und Kosten, Schlafsitzbank mit Zulassung, Kindersitz und Sitzbezüge im Camper. Ratgeber, Vergleiche und Empfehlung.",
+  "empfehlung": {
+    "name": "Sportscraft Drehkonsole",
+    "one": "Die Drehkonsole, mit der Fahrer- und Beifahrersitz im Kastenwagen zum Wohnraum werden, mit Gutachten für die Eintragung.",
+    "pills": ["Für Ducato, Sprinter, Transit", "Stahl, pulverbeschichtet", "Mit Teilegutachten", "Fahrer- oder Beifahrerseite"],
+    "why": "Sportscraft fertigt Drehkonsolen seit Jahrzehnten für die gängigen Basisfahrzeuge, passend zu den Originalsitzen und mit Gutachten, das die Eintragung bei der Prüfstelle ermöglicht. Für Selbstausbauer und Kastenwagen-Besitzer ohne Werksdrehsitze ist das der verbreitetste Weg, zwei vollwertige Sitzplätze im Wohnbereich zu gewinnen.",
+    "preis": "250 bis 450 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-sitze.svg",
+    "trust": "Preis bleibt für dich gleich. Die passende Variante hängt von Fahrzeug, Baujahr und Sitzseite ab.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "sitze-drehkonsole-nachruesten",
+      "title": "Drehkonsole nachrüsten: Einbau, Eintragung und Kosten im Kastenwagen",
+      "teaser": "Welche Konsole zu deinem Fahrzeug passt, wie der Einbau abläuft, was der Prüfer sehen will und was alles zusammen kostet.",
+      "lead_teaser": "Wenn du im Kastenwagen am Tisch sitzen willst, ohne auf die Rückbank zu klettern: Dieser Beitrag zeigt Schritt für Schritt, wie eine Drehkonsole nachgerüstet wird. Von der Auswahl nach Fahrzeug, Baujahr und Sitzseite über Handbremse, Sitzhöhe und Gurtschloss bis zur Eintragung mit Teilegutachten. Mit realistischer Kostenaufstellung für Teile, Werkstatt und Prüfstelle.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Drehkonsole",
+      "thumb_l2": "nachrüsten",
+      "camper": ["poessl-ducato", "sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sitze-drehkonsolen-vergleich",
+      "title": "Drehkonsolen im Vergleich: Sportscraft, FASP und Scopema im Kastenwagen",
+      "teaser": "Aufbauhöhe, Drehrichtung, Handbremse, Gutachten: Worin sich die Konsolen unterscheiden und welche zu deinem Fahrzeug passt.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Drehkonsolen",
+      "thumb_l2": "im Vergleich",
+      "camper": ["poessl-ducato"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sitze-sitzbezuege",
+      "title": "Sitzbezüge für den Camper: Maßanfertigung, Universalbezug oder Schonbezug?",
+      "teaser": "Was bei Seitenairbags erlaubt ist, welche Stoffe Hundehaare und Sonnencreme aushalten und wo Maßbezüge sich lohnen.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Sitzbezüge:",
+      "thumb_l2": "Maß oder Universal?",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "sitze-schlafsitzbank-zulassung",
+      "title": "Schlafsitzbank im Selbstausbau: Zulassung, Gurtpunkte und Prüfung",
+      "teaser": "Warum eine selbstgebaute Bank keine Sitzplätze bringt, was geprüfte Systeme kosten und wie der Bodeneinbau abläuft.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Schlafsitzbank:",
+      "thumb_l2": "Zulassung und Gurte",
+      "camper": ["sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sitze-kindersitz-camper",
+      "title": "Kindersitz im Camper: Isofix, Drehsitze und Rückbank richtig nutzen",
+      "teaser": "Wo Isofix im California und Nugget sitzt, warum Kindersitze nicht auf gedrehte Sitze gehören und was bei drei Kindern geht.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Kindersitz",
+      "thumb_l2": "im Camper",
+      "camper": ["vw-california", "ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sitze-langstrecke-komfort",
+      "title": "Sitzkomfort auf Langstrecke: Sitzheizung, Lordose und Armlehnen nachrüsten",
+      "teaser": "Was sich nachrüsten lässt, was es kostet und welche Lösungen auf 800 Kilometern Autobahn den Unterschied machen.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Sitzkomfort auf",
+      "thumb_l2": "Langstrecke",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was kostet eine Drehkonsole fürs Wohnmobil?",
+      "a": [
+        "Eine Drehkonsole kostet je nach Fahrzeug und Hersteller ca. 250 bis 450 Euro pro Sitz, Stand Oktober 2026. Dazu kommen der Einbau in der Werkstatt mit etwa ein bis zwei Stunden Arbeit pro Sitz und die Eintragung bei der Prüfstelle, zusammen meist weitere 100 bis 250 Euro.",
+        "Der Preis hängt vom Basisfahrzeug ab: Konsolen für Fiat Ducato, Mercedes Sprinter und Ford Transit sind Massenware und günstiger, Varianten für ältere Baujahre, Sitze mit Sitzheizung oder Schwingsitze teurer. Wer beide Vordersitze drehbar macht, zahlt den Betrag doppelt. Manche Konsolen sind nur für die Beifahrerseite gedacht, weil die Handbremse auf der Fahrerseite im Weg ist und einen Umbau oder eine abklappbare Handbremse erfordert.",
+        "Oft vergessen: Die Konsole erhöht die Sitzposition um einige Zentimeter, große Fahrer prüfen vorher die Kopffreiheit. Beim Gebrauchtkauf lohnt der Blick auf das Gutachten, denn ohne passendes Dokument wird die Eintragung schwierig. Und wer den Sitz dreht, braucht Platz: Lenkrad, Türverkleidung und Mittelkonsole begrenzen den Schwenkbereich."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Drehkonsole nachrüsten"
+    },
+    {
+      "q": "Muss eine Drehkonsole eingetragen werden?",
+      "a": [
+        "Ja, in Deutschland ist eine nachgerüstete Drehkonsole eintragungspflichtig, weil sie die Sitzbefestigung und damit die Betriebserlaubnis betrifft. Mit Teilegutachten des Herstellers erfolgt die Abnahme nach Paragraf 19 Absatz 3 StVZO bei einer Prüfstelle wie TÜV, DEKRA oder GTÜ, anschließend wird der Eintrag in die Zulassungsbescheinigung übernommen.",
+        "Das Gutachten legt fest, für welches Fahrzeug, welchen Sitz und welche Seite die Konsole zugelassen ist und welche Auflagen gelten, zum Beispiel ein verriegelter Sitz in Fahrtrichtung während der Fahrt. Konsolen ohne Gutachten lassen sich nur mit Einzelabnahme nach Paragraf 21 StVZO eintragen, was teurer ist und keinen sicheren Ausgang hat. Im Ausland gekaufte Konsolen haben oft kein deutsches Gutachten.",
+        "Ohne Eintragung erlischt im Schadensfall unter Umständen der Versicherungsschutz und bei der Hauptuntersuchung gibt es einen erheblichen Mangel. Nimm zur Abnahme das Gutachten, die Einbauanleitung und das Fahrzeug mit montierter Konsole mit. Viele Werkstätten, die Konsolen einbauen, organisieren die Abnahme gleich mit."
+      ]
+    },
+    {
+      "q": "Kann man beim VW California die Vordersitze drehen?",
+      "a": [
+        "Ja, beim VW California Beach, Coast und Ocean sind Fahrer- und Beifahrersitz ab Werk drehbar, ebenso beim Ford Nugget und beim Mercedes Marco Polo. Bei Multivan, Transporter-Umbauten und vielen Kastenwagen ohne Camper-Ausstattung müssen Drehkonsolen dagegen nachgerüstet werden.",
+        "Die Werksdrehsitze sind in die Zulassung integriert und dürfen nur im Stand gedreht werden; zur Fahrt müssen sie in Fahrtrichtung verriegelt sein. Beim California sitzt die Entriegelung am Sitz, der Sitz muss meist ganz nach vorn geschoben und die Lehne aufgerichtet werden, bevor er frei schwenkt. Zwischen Lenkrad und Sitz bleibt es trotzdem eng, auf der Fahrerseite hilft es, das Lenkrad hochzustellen.",
+        "Typische Probleme: Der Sitz hakt an der Handbremse oder am Gurtschloss, oder Gegenstände im Fußraum blockieren den Schwenk. Wer die Sitze täglich dreht, sollte die Gleitflächen gelegentlich reinigen. Für Modelle ohne Werksdrehsitze bieten Hersteller wie Sportscraft oder Scopema passende Konsolen mit Gutachten an."
+      ]
+    },
+    {
+      "q": "Welche Drehkonsole passt zum Fiat Ducato?",
+      "a": [
+        "Für den Fiat Ducato ab Baujahr 2006 gibt es Drehkonsolen von Sportscraft, FASP und Scopema, jeweils getrennt für Fahrer- und Beifahrerseite. Baugleich passen sie in der Regel auch in Citroën Jumper und Peugeot Boxer, bei neueren Modellen oft auch in den Opel Movano auf Ducato-Basis.",
+        "Unterschiede liegen in Aufbauhöhe, Drehrichtung und Ausstattung. Auf der Fahrerseite ist die Handbremse das Nadelöhr: Manche Konsolen setzen eine abklappbare Handbremse voraus oder sind so geformt, dass der Sitz daran vorbeischwenkt. Bei Fahrzeugen mit elektrischer Parkbremse entfällt das Problem. Achte außerdem darauf, ob dein Sitz ein Originalsitz von Fiat oder ein Sitz des Aufbauherstellers mit anderem Lochbild ist.",
+        "Vor dem Kauf Fahrgestellnummer, Baujahr und Sitztyp notieren und beim Händler abgleichen, weil es innerhalb einer Baureihe Änderungen gab. Pössl, Knaus und andere Hersteller liefern ihre Kastenwagen meist bereits mit Drehsitzen aus; eine Nachrüstung betrifft also vor allem Transporter aus dem Nutzfahrzeugbereich und Selbstausbauten."
+      ]
+    },
+    {
+      "q": "Darf man im Camper während der Fahrt auf der Schlafsitzbank sitzen?",
+      "a": [
+        "Nur, wenn die Sitzplätze in der Zulassungsbescheinigung eingetragen sind und die Bank mit geprüften Gurtpunkten verbaut wurde. Eine selbstgebaute Holzbank ohne Prüfung ist kein Sitzplatz, auch wenn sie stabil wirkt. Bei Serien-Campern wie California, Nugget oder Pössl sind die Rückbänke dagegen eingetragen.",
+        "Hintergrund ist die Crashsicherheit: Sitzbank, Gurte und Verankerung im Boden müssen den Kräften eines Aufpralls standhalten, was durch Prüfungen nach den geltenden Normen nachgewiesen wird. Für Selbstausbauer gibt es geprüfte Schlafsitzbänke von Herstellern wie Aguti, Reimo oder Sportscraft mit Gutachten für bestimmte Basisfahrzeuge. Die Kosten liegen je nach Breite und Ausführung grob bei 1500 bis 3500 Euro ohne Einbau, Stand Oktober 2026.",
+        "Der Einbau erfordert eine Bodenplatte oder Befestigungsschienen nach Vorgabe des Gutachtens, oft mit Verstärkungen unter dem Fahrzeugboden. Danach folgt die Abnahme bei der Prüfstelle und die Eintragung der zusätzlichen Sitzplätze. Wer das überspringt, riskiert bei einer Kontrolle ein Bußgeld und im Unfall den Versicherungsschutz."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Schlafsitzbank und Zulassung"
+    },
+    {
+      "q": "Darf ein Kindersitz auf einen drehbaren Sitz?",
+      "a": [
+        "Ein Kindersitz darf auf einem drehbaren Vordersitz nur genutzt werden, wenn der Sitz in Fahrtrichtung verriegelt ist, ein Dreipunktgurt vorhanden ist und bei rückwärtsgerichteten Sitzen der Beifahrerairbag deaktiviert wurde. Isofix gibt es auf Vordersitzen fast nie, im California und Nugget sitzt es auf der Rückbank.",
+        "Rechtlich zählt der Vordersitz mit Dreipunktgurt als zugelassener Platz, die Drehfunktion ändert daran nichts, solange der Sitz verriegelt ist. Sicherer ist dennoch die Rückbank, weil dort Isofix und Top-Tether Montagefehler minimieren und der Abstand zum Airbag entfällt. Beim VW California haben die beiden äußeren Plätze der Rückbank Isofix, beim Ford Nugget ebenfalls, beim Marco Polo je nach Ausführung.",
+        "Oft vergessen: Nach dem Drehen den Sitz hörbar einrasten lassen und den Gurt neu einstellen, weil die Position wandert. Schlafsitzbänke lassen sich mit montiertem Kindersitz nur umbauen, wenn der Sitz jedes Mal abgenommen wird, was im Alltag nervt. Mit drei Kindern wird es in fast jedem Campervan eng; dann hilft nur ein Modell mit fünf eingetragenen Plätzen."
+      ]
+    },
+    {
+      "q": "Wie reinigt man Camper-Sitze aus Stoff?",
+      "a": [
+        "Stoffsitze im Camper reinigst du am besten mit Staubsauger, einem Polsterreiniger auf Schaumbasis und einem Mikrofasertuch, bei starken Flecken mit einem Waschsauger. Für Ledersitze gilt: milder Lederreiniger und anschließend Pflegemittel, keine Universalreiniger.",
+        "Camper-Sitze leiden anders als Pkw-Sitze: Sonnencreme, Sand, Hundehaare, Kaffee und Kondensfeuchte im Winter. Schaum-Polsterreiniger lösen Fett und Schweiß, ohne den Schaumstoff zu durchnässen. Ein Waschsauger holt Reinigungslösung und Schmutz wieder heraus und verhindert, dass der Sitz tagelang feucht bleibt und müffelt. Bei Alcantara oder Mikrofaser nur weiche Bürsten verwenden und in eine Richtung arbeiten.",
+        "Teste jedes Mittel an einer verdeckten Stelle, zum Beispiel unter dem Sitz. Nach der Reinigung Türen auf und trocknen lassen, sonst entsteht Schimmel im Polster. Wer regelmäßig mit Hund oder Kindern fährt, spart sich viel Arbeit mit passgenauen Sitzbezügen, die in die Waschmaschine dürfen und die Seitenairbags freilassen."
+      ]
+    }
+  ]
+}

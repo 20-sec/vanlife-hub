@@ -1,0 +1,123 @@
+{
+  "typ": "camper",
+  "slug": "poessl-ducato",
+  "name": "Pössl & Ducato",
+  "sub": "Kastenwagen",
+  "kurz": "Kastenwagen auf Fiat Ducato: Strom, Bett, Isolierung, Einbruchschutz.",
+  "h1": "Pössl und Ducato-Kastenwagen: Ausrüstung, Tipps und Tests",
+  "lead": "Alles für Kastenwagen auf Fiat-Ducato-Basis, vom Pössl über Globecar bis zum Selbstausbau: Bordbatterie, Querbett, Fahrerhaus-Isolierung, Einbruchschutz und Stauraum in der Heckgarage. Ratgeber, Vergleiche und eine Kaufempfehlung.",
+  "meta_title": "Pössl & Ducato-Kastenwagen: Ausrüstung, Tipps | VanKompass",
+  "meta_desc": "Pössl und Ducato-Kastenwagen ausstatten: Bordbatterie und Solar, Querbett verlängern, Fahrerhaus isolieren, Türen sichern, Heckgarage packen. Kaufempfehlung.",
+  "empfehlung": {
+    "name": "HEOSafe Zusatzverriegelung für Fiat Ducato",
+    "one": "Die mechanische Zusatzverriegelung für die Fahrerhaustüren des Ducato, die bekannte Schwachstelle jedes Kastenwagens auf dieser Basis.",
+    "pills": ["Für Fiat Ducato ab Baujahr 2006", "Mechanisch, ohne Strom", "Von innen und außen bedienbar", "Set für beide Fahrerhaustüren"],
+    "why": "Die Serienschlösser des Ducato gelten als leicht zu überwinden, und genau dort setzt die Verriegelung an. Sie passt an Pössl, Globecar, Knaus und alle anderen Aufbauten auf X250 und X290, weil das Fahrerhaus identisch ist.",
+    "preis": "ca. 100 bis 200 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-poessl-ducato.svg",
+    "trust": "Einbau mit Grundwerkzeug machbar, Anleitung vorher lesen. Preis bleibt für dich gleich.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "poessl-ducato-bordbatterie-lifepo4",
+      "title": "Pössl auf LiFePO4 umrüsten: Bordbatterie, Ladebooster und Solar im Ducato",
+      "teaser": "Was der Umstieg von AGM auf Lithium im Kastenwagen kostet, welche Teile zusammenpassen und wo die Batterie sitzt.",
+      "lead_teaser": "Die serienmäßige AGM-Batterie unter dem Sitz ist bei vielen Pössl und Globecar der erste Engpass beim Freistehen. Dieser Beitrag zeigt, wie du im Ducato auf LiFePO4 umrüstest: welche Kapazität zu deinem Verbrauch passt, warum der Ladebooster bei Euro-6-Motoren Pflicht ist, wie Solar auf dem Hochdach dazukommt und was Material und Werkstatt realistisch kosten.",
+      "kategorie": "Ratgeber",
+      "bereich": "strom",
+      "thumb_l1": "Pössl auf LiFePO4:",
+      "thumb_l2": "Batterie, Booster, Solar",
+      "camper": ["poessl-ducato"],
+      "status": "geplant"
+    },
+    {
+      "slug": "poessl-ducato-querbett-matratze",
+      "title": "Querbett im Ducato-Kastenwagen: Matratze, Topper und Verbreiterung",
+      "teaser": "Warum das Querbett für große Menschen knapp wird, welche Topper passen und wie Verbreiterungen an den Hecktüren funktionieren.",
+      "kategorie": "Ratgeber",
+      "bereich": "schlafen",
+      "thumb_l1": "Querbett im Ducato:",
+      "thumb_l2": "Matratze und Topper",
+      "camper": ["poessl-ducato"],
+      "status": "geplant"
+    },
+    {
+      "slug": "poessl-ducato-fahrerhaus-isolieren",
+      "title": "Ducato-Fahrerhaus isolieren: Thermomatten innen oder außen im Vergleich",
+      "teaser": "Welche Matten gegen Kälte, Hitze und Kondenswasser helfen, was sie kosten und warum außen meist besser ist.",
+      "kategorie": "Vergleich",
+      "bereich": "verdunkelung",
+      "thumb_l1": "Ducato-Fahrerhaus",
+      "thumb_l2": "isolieren: innen, außen",
+      "camper": ["poessl-ducato"],
+      "status": "geplant"
+    },
+    {
+      "slug": "poessl-ducato-heckgarage-packen",
+      "title": "Heckgarage im Pössl richtig packen: Boxen, Fahrräder, Gewicht",
+      "teaser": "Wie du die Garage unter dem Querbett nutzt, ohne Zuladung und Hinterachse zu überlasten. Mit Maßen und Beispielen.",
+      "kategorie": "Praxis",
+      "bereich": "stauraum",
+      "thumb_l1": "Heckgarage im Pössl:",
+      "thumb_l2": "Boxen, Räder, Gewicht",
+      "camper": ["poessl-ducato"],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welche Zweitbatterie passt in den Pössl?",
+      "a": [
+        "In den Pössl passt als Zweitbatterie eine LiFePO4 mit 100 bis 200 Ah, die den Platz der serienmäßigen AGM-Batterie unter dem Beifahrersitz oder im Sitzkasten der Sitzbank nutzt. Vorher die Maße des Fachs messen, denn nicht jede 200-Ah-Batterie passt in den Sitzkasten.",
+        "Die Serienbatterie ist meist eine AGM mit 80 bis 95 Ah, von der nur rund die Hälfte nutzbar ist. Eine 100-Ah-LiFePO4 verdoppelt die nutzbare Kapazität bei halbem Gewicht und kostet ca. 300 bis 600 Euro. Dazu kommt bei Euro-6-Ducato ein Ladebooster mit 20 bis 40 Ampere für ca. 150 bis 350 Euro, weil die Lichtmaschine mit variabler Spannung arbeitet und Lithium sonst nicht sauber lädt. Das Elektroblock-Ladegerät vieler Pössl kennt eine Lithium-Einstellung oder braucht ein Update, das prüfst du im Handbuch.",
+        "Oft vergessen: Der Batteriesensor und das Bedienpanel zeigen nach dem Umbau falsche Werte, wenn sie weiter auf AGM eingestellt sind. Ein eigener Batteriemonitor mit Shunt löst das. Und Lithium im Winter nur mit integrierter Heizung oder Temperatursensor laden."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Pössl auf LiFePO4 umrüsten"
+    },
+    {
+      "q": "Wie lang ist das Querbett im Pössl und reicht es für große Menschen?",
+      "a": [
+        "Das Querbett im Pössl und anderen Ducato-Kastenwagen misst je nach Modell etwa 190 bis 200 Zentimeter in der Länge, weil es zwischen den Seitenwänden liegt. Für Menschen bis etwa 185 Zentimeter reicht das, darüber wird es eng, vor allem wenn beide auf der gleichen Höhe liegen.",
+        "Die Breite des Ducato zwischen den Wänden begrenzt das Querbett. Viele Hersteller gewinnen Länge, indem sie die Seitenwände im Bettbereich ausklinken oder Polster bis in die Fensternischen führen. Verbreiterungen an den Hecktüren bringen weitere 10 bis 20 Zentimeter, kosten ca. 150 bis 400 Euro und werden zum Fahren hochgeklappt. Alternativ nutzen Paare die Diagonale oder schlafen Kopf an Fuß. Längsbetten lösen das Problem, kosten aber Wohnraum und sind vor allem in den längeren Grundrissen mit 6,36 Meter oder mehr verbreitet.",
+        "Tipp: Beim Händler mit Schuhen aus probeliegen, zu zweit und in der Schlafposition, die du wirklich nutzt. Ein Topper mit 4 bis 6 Zentimetern gleicht Fugen zwischen den Polstern aus und macht das Bett spürbar bequemer."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Querbett im Ducato-Kastenwagen"
+    },
+    {
+      "q": "Wie sichere ich die Türen am Ducato gegen Einbruch?",
+      "a": [
+        "Die Türen am Ducato sicherst du mit mechanischen Zusatzverriegelungen an beiden Fahrerhaustüren, einem Riegel oder Bügelschloss an der Schiebetür und einer Sicherung an den Hecktüren. Die Fahrerhaustüren sind die bekannte Schwachstelle und sollten zuerst nachgerüstet werden.",
+        "Zusatzverriegelungen für das Fahrerhaus kosten ca. 100 bis 250 Euro für beide Türen und werden innen am Türblatt montiert. Varianten, die sich von außen mit Schlüssel bedienen lassen, sind praktischer, wenn du das Fahrzeug verlässt. Für die Schiebetür gibt es innen liegende Riegel ab ca. 30 Euro und außen anbringbare Bügelschlösser ab ca. 50 Euro, die auch abschrecken. Hecktüren lassen sich mit einem zusätzlichen Riegel oder einem Schloss an den Scharnieren sichern. Der Einbau dauert je nach Geschick ein bis drei Stunden.",
+        "Oft vergessen: Die Zentralverriegelung des Ducato schließt die Türen nur, verriegelt sie aber nicht zusätzlich gegen Aufhebeln. Fenster im Fahrerhaus einen Spalt offen zu lassen ist eine Einladung. Und Wertsachen gehören in einen verschraubten Tresor, nicht ins Handschuhfach."
+      ]
+    },
+    {
+      "q": "Wie isoliere ich das Fahrerhaus im Ducato gegen Kälte?",
+      "a": [
+        "Das Fahrerhaus im Ducato isolierst du am wirksamsten mit einer mehrlagigen Außen-Thermomatte für Front- und Seitenscheiben für ca. 150 bis 300 Euro, ergänzt durch einen Trennvorhang zum Wohnraum. Innenmatten sind günstiger und schneller angebracht, lassen aber mehr Kondenswasser an den Scheiben zu.",
+        "Die Scheiben sind die größte Kältebrücke im Kastenwagen, über sie geht ein großer Teil der Wärme verloren. Außenmatten halten die Scheibe selbst warm, dadurch beschlägt sie innen nicht und die Heizung läuft weniger. Innenmatten mit Saugnäpfen oder Magneten kosten ca. 50 bis 150 Euro, sitzen aber nicht luftdicht, sodass sich Feuchtigkeit zwischen Matte und Glas sammelt. Ein Trennvorhang für ca. 40 bis 150 Euro hält die Wärme im Wohnraum und schützt vor Blicken. Zusätzlich helfen Matten im Fußraum und an den Türen.",
+        "Praxis: Außenmatten vor dem Anbringen die Scheibe abwischen, im Winter einfrieren sie fest, dann nicht abreißen, sondern antauen lassen. Und Türen mit der Matte schließen, sonst flattert sie im Wind."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich Ducato-Fahrerhaus isolieren"
+    },
+    {
+      "q": "Wie viel Zuladung hat ein Pössl mit 3,5 Tonnen?",
+      "a": [
+        "Ein Pössl mit 3,5 Tonnen zulässigem Gesamtgewicht hat je nach Grundriss und Ausstattung etwa 400 bis 700 Kilogramm Zuladung. Davon gehen Fahrer, Mitreisende, Frischwasser, Gas und Zubehör wie Markise und Fahrradträger ab, sodass für Gepäck oft nur 150 bis 300 Kilogramm bleiben.",
+        "Die Herstellerangabe zur Masse in fahrbereitem Zustand enthält meist nur eine Standardausstattung, einen Fahrer mit 75 Kilogramm und teilweise gefüllte Tanks. Jedes Extra wie Klimaanlage, Solaranlage, größere Batterie, Markise oder Fahrradträger wiegt 10 bis 40 Kilogramm. Zwei Erwachsene, 100 Liter Wasser, zwei Gasflaschen und zwei E-Bikes erreichen zusammen schnell 350 Kilogramm. Lange Grundrisse mit 6,36 oder 6,99 Metern haben oft weniger Reserve als die kurzen 5,99-Meter-Modelle.",
+        "Der sicherste Weg ist die Fahrzeugwaage, möglichst mit beladenem Fahrzeug und voller Besatzung. Wer regelmäßig knapp liegt, prüft eine Auflastung auf 3,65 oder 4 Tonnen, was beim Ducato oft über Hersteller oder Umrüster möglich ist, aber Fahrerlaubnis und Maut betreffen kann."
+      ],
+      "link": "#",
+      "link_text": "Zum Praxisbeitrag Heckgarage im Pössl packen"
+    }
+  ]
+}

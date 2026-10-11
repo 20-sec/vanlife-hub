@@ -1,0 +1,151 @@
+{
+  "typ": "bereich",
+  "slug": "sound",
+  "name": "Sound",
+  "kurzname": "Sound",
+  "kurz": "Bluetooth-Boxen, Lautsprecher, Radio, Dämmung, Subwoofer.",
+  "h1": "Sound im Camper",
+  "lead": "Welche Bluetooth-Box am Lagerfeuer taugt, wie du Lautsprecher und Radio im Kastenwagen tauschst, was Dämmung gegen Dröhnen bringt und wie Musik in den Wohnbereich kommt. Mit Vergleichen, Einbau-Praxis und einer klaren Empfehlung.",
+  "meta_title": "Sound im Camper: Boxen, Lautsprecher, Radio | VanKompass",
+  "meta_desc": "Sound im Camper: Bluetooth-Box für Van und Lagerfeuer, Lautsprecher und Radio tauschen, Dämmung gegen Dröhnen, Musik im Wohnbereich. Vergleiche und Tipps.",
+  "empfehlung": {
+    "name": "JBL Flip 6",
+    "one": "Die kompakte Bluetooth-Box, die im Camper-Alltag Regen, Sand und Stürze wegsteckt und trotzdem voll klingt.",
+    "pills": ["Bluetooth", "Wasserdicht nach IP67", "ca. 12 Std. laut Hersteller", "Laden per USB-C"],
+    "why": "Klein genug für die Türablage, robust genug für Strand und Regen, und mit einer Laufzeit, die einen Abend am Lagerfeuer sicher übersteht. Zwei Boxen lassen sich zu Stereo koppeln, eine für den Wohnbereich, eine draußen.",
+    "preis": "90 bis 130 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-sound.svg",
+    "trust": "Preis bleibt für dich gleich. Die Laufzeit hängt stark von der Lautstärke ab.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "sound-bluetooth-box-camper",
+      "title": "Bluetooth-Box für den Camper: Worauf es unterwegs wirklich ankommt",
+      "teaser": "Wasserdicht, Laufzeit, Lautstärke am Lagerfeuer, Laden über USB-C: Welche Box zum Van passt und welche nur zur Küche.",
+      "lead_teaser": "Wenn du eine Box suchst, die im Camper mehr aushält als im Wohnzimmer: Dieser Beitrag erklärt, welche Schutzklasse am Strand reicht, wie viel Laufzeit du für ein Wochenende brauchst, wann die Stereo-Kopplung zweier Boxen sinnvoll ist und warum USB-C-Laden an der Powerstation zählt. Mit Vergleich gängiger Modelle nach Größe, Gewicht und Klang im Freien.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Bluetooth-Box",
+      "thumb_l2": "für den Camper",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "sound-lautsprecher-tauschen-kastenwagen",
+      "title": "Lautsprecher im Kastenwagen tauschen: Ducato, Sprinter und Transit",
+      "teaser": "Welche Einbaugrößen vorn passen, warum Dämmung der Tür mehr bringt als teure Chassis und was der Tausch kostet.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Lautsprecher",
+      "thumb_l2": "tauschen",
+      "camper": ["poessl-ducato", "sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sound-radio-carplay-nachruesten",
+      "title": "Autoradio mit CarPlay und Android Auto nachrüsten: Doppel-DIN im Camper",
+      "teaser": "Welche Radios in die Konsole passen, wie Lenkradtasten und Rückfahrkamera erhalten bleiben und was der Einbau kostet.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Radio mit CarPlay",
+      "thumb_l2": "nachrüsten",
+      "camper": ["poessl-ducato"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sound-musik-wohnbereich",
+      "title": "Musik im Wohnbereich: 12-V-Verstärker, Bluetooth-Box oder Soundbar?",
+      "teaser": "Drei Wege, Musik in den Wohnbereich zu bringen: Stromverbrauch, Einbauaufwand und Klang im direkten Vergleich.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Musik im",
+      "thumb_l2": "Wohnbereich",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "sound-daemmung-droehnen",
+      "title": "Dämmung gegen Dröhnen: Türen, Radkästen und Blechflächen im Van beruhigen",
+      "teaser": "Wie Butyl- oder Bitumenmatten Blech beruhigen, wie viel Material du brauchst und wo sich der Aufwand am meisten lohnt.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Dämmung gegen",
+      "thumb_l2": "Dröhnen",
+      "camper": ["sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sound-subwoofer-untersitz",
+      "title": "Untersitz-Subwoofer im Camper: Mehr Bass, ohne Stauraum zu verlieren",
+      "teaser": "Welche Aktiv-Subwoofer unter California- und Marco-Polo-Sitze passen, was sie an Strom ziehen und wie der Anschluss gelingt.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Subwoofer",
+      "thumb_l2": "unter dem Sitz",
+      "camper": ["vw-california", "marco-polo"],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welche Bluetooth-Box ist am besten für Camping?",
+      "a": [
+        "Für Camping eignet sich eine Box der Kompaktklasse mit Schutzart IP67, 10 bis 20 Stunden Laufzeit und USB-C-Ladung, etwa JBL Flip oder Charge, Bose SoundLink Flex oder Ultimate Ears Boom. Größere Partyboxen klingen voller, sind aber im Camper schwer unterzubringen und brauchen mehr Strom.",
+        "IP67 bedeutet staubdicht und zeitweise untertauchbar, das deckt Regen am Tisch, Sand am Strand und Spritzwasser beim Abwasch ab. Die Laufzeitangaben der Hersteller gelten für mittlere Lautstärke; wer draußen laut hört, halbiert sie. Boxen mit 20 bis 40 Wattstunden Akku lassen sich an jeder Powerbank oder Powerstation nachladen, ohne das Strombudget zu belasten. Zwei gleiche Boxen koppeln viele Hersteller zu Stereo, eine drinnen, eine im Vorzelt.",
+        "Achte auf eine Trageschlaufe oder Öse zum Aufhängen, ein Mikrofon für Freisprechen ist im Camper selten nötig. Und bedenke die Nachbarn: Auf dem Platz ist eine Box, die bei 30 Prozent Lautstärke sauber klingt, wertvoller als eine, die laut kann."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich der Bluetooth-Boxen"
+    },
+    {
+      "q": "Kann man das Autoradio im Camper ohne Zündung nutzen?",
+      "a": [
+        "Ja, aber nur begrenzt: Im Zubehörmodus oder bei Radios mit Dauerplus läuft das Radio ohne Motor, zieht dann aber 0,5 bis 2 Ampere aus der Starterbatterie. Ein Abend Musik ist unkritisch, ein ganzes Wochenende kann die Starterbatterie leeren. Sauberer ist der Betrieb über die Bordbatterie oder eine Bluetooth-Box.",
+        "Viele Serien-Camper lösen das ab Werk: Beim VW California und Ford Nugget läuft das Radio über die Camper-Steuerung eine begrenzte Zeit nach oder lässt sich auf die Zweitbatterie legen. In Kastenwagen von Pössl oder Knaus hängt das Radio meist an der Starterbatterie, ein Umklemmen auf die Aufbaubatterie ist möglich, aber Werkstattarbeit. Moderne Radios mit großem Display brauchen deutlich mehr Strom als ältere Geräte.",
+        "Fehler, der oft passiert: Radio an, Zündung auf Stufe eins, Standlicht und Lüftung laufen mit. Dann sind es schnell fünf Ampere. Wer regelmäßig im Stand hört, lässt ein geschaltetes Dauerplus von der Bordbatterie legen oder nutzt eine Box, die sich über USB von der Powerstation versorgt."
+      ]
+    },
+    {
+      "q": "Wie bekomme ich Musik in den Wohnbereich des Campers?",
+      "a": [
+        "Drei Wege funktionieren: eine Bluetooth-Box, die du einfach nach hinten stellst, ein kleiner 12-V-Bluetooth-Verstärker mit zwei Einbaulautsprechern im Wohnbereich, oder ein Autoradio mit Rear-Ausgang und zusätzlichen Lautsprechern in Hecktüren oder Schränken. Für die meisten Camper ist die Box die einfachste Lösung, der Verstärker die eleganteste.",
+        "Ein 12-V-Verstärker mit Bluetooth kostet ca. 30 bis 100 Euro, Stand Oktober 2026, braucht nur Plus und Minus von der Bordbatterie und treibt zwei Koaxiallautsprecher mit 10 oder 13 Zentimetern an. Im Leerlauf zieht er wenig Strom, bei Zimmerlautstärke bleibt der Verbrauch im einstelligen Wattbereich. Die Lautsprecher lassen sich in Schrankfronten, Deckenpaneele oder die Heckklappenverkleidung setzen.",
+        "Oft unterschätzt: das Gehäusevolumen. Ein Lautsprecher in einer offenen Schrankrückwand klingt dünn; ein kleines geschlossenes Volumen oder Dämmwolle dahinter hilft. Verlege die Kabel vor der Wandverkleidung und sichere die Leitung mit einer eigenen Sicherung ab. Wer nachts hört, setzt einen Schalter in Bettnähe."
+      ]
+    },
+    {
+      "q": "Welche Lautsprecher passen in den Fiat Ducato?",
+      "a": [
+        "In die vorderen Türen des Fiat Ducato ab 2006 passen in der Regel 16,5-Zentimeter-Lautsprecher, oft mit fahrzeugspezifischem Adapterring, im Armaturenbrett kleinere Hochtöner oder Koaxiale. Welche Größe genau, hängt vom Baujahr und davon ab, ob ab Werk ein Soundsystem verbaut war; die Einbau-Datenbanken der Lautsprecherhersteller geben Auskunft.",
+        "Der Tausch bringt vor allem dann etwas, wenn die Werkslautsprecher Papiermembranen mit kleinen Magneten sind. Komponentensysteme mit getrenntem Hochtöner klingen besser als Koaxiale, brauchen aber Platz für den Hochtöner. Entscheidend ist die Tür als Gehäuse: Ohne Dämmmatten auf dem Außenblech und abgedichtetem Innenblech verpufft ein Teil der Verbesserung. Rechne mit ca. 80 bis 250 Euro für ein Lautsprecherpaar und 30 bis 60 Euro Dämmmaterial pro Tür, Stand Oktober 2026.",
+        "Prüfe vor dem Kauf die Einbautiefe, weil Fensterheber und Türgriffmechanik im Weg sein können. Steckeradapter sparen Lötarbeit und erhalten die Rückrüstbarkeit. Und wer im Ducato ein Werksradio mit niedriger Leistung behält, sollte Lautsprecher mit hohem Wirkungsgrad wählen, statt auf Watt zu schauen."
+      ],
+      "link": "#",
+      "link_text": "Zur Anleitung Lautsprecher tauschen"
+    },
+    {
+      "q": "Lohnt sich eine Dämmung gegen Dröhnen im Kastenwagen?",
+      "a": [
+        "Ja, bei leeren oder dünn ausgebauten Kastenwagen ist Antidröhn-Dämmung eine der wirksamsten Maßnahmen für Fahrkomfort und Klang. Butyl- oder Bitumenmatten auf 25 bis 40 Prozent der großen Blechflächen beruhigen Türen, Radkästen und Seitenwände spürbar; vollflächiges Bekleben bringt wenig zusätzlich.",
+        "Dröhnen entsteht, weil große Bleche wie eine Membran mitschwingen. Schwere Matten verschieben die Resonanz und dämpfen die Schwingung, Schaumstoff oder Armaflex allein tun das nicht, sie dämmen Wärme und Luftschall. Pro Quadratmeter Matte rechnest du mit 1,5 bis 3 Kilogramm Zusatzgewicht; ein mittlerer Kastenwagen braucht für die wichtigsten Flächen etwa 4 bis 8 Quadratmeter. Die Kombination mit einer anschließenden Wärmedämmung ist der Standard im Selbstausbau.",
+        "Arbeite bei über 15 Grad, reinige das Blech mit Bremsenreiniger und drücke die Matten mit einer Andrückrolle fest an. Vor dem Kleben mit dem Finger klopfen: Wo es scheppert, gehört Matte hin, wo es dumpf klingt, nicht. Türen und Radkästen zuerst, da zahlt sich der Aufwand am meisten aus."
+      ]
+    },
+    {
+      "q": "Wie laut darf Musik auf dem Campingplatz sein?",
+      "a": [
+        "Auf Campingplätzen gilt in der Regel Nachtruhe von 22 bis 7 Uhr und auf vielen Plätzen zusätzlich eine Mittagsruhe zwischen 13 und 15 Uhr; außerhalb dieser Zeiten darf Musik in Zimmerlautstärke laufen, also so, dass sie an der Parzellengrenze kaum mehr hörbar ist. Die genauen Zeiten stehen in der Platzordnung.",
+        "Die Platzordnung ist Vertragsbestandteil, Verstöße können zum Platzverweis führen. Hinzu kommen kommunale Lärmschutzregeln und das Landesrecht zum Immissionsschutz, die auch auf freien Stellplätzen gelten. In Südeuropa sind Mittagsruhen oft länger und werden ernster genommen als in Deutschland. Im Freien tragen Bässe weit; was am Tisch leise wirkt, ist drei Parzellen weiter noch zu hören.",
+        "Praktisch: Box auf den Boden und zur eigenen Sitzgruppe richten, nicht auf den Tisch, von dem der Schall in alle Richtungen geht. Bass am Gerät absenken. Nach 22 Uhr Kopfhörer oder aus. Und wer tagsüber Gesellschaft hat, fragt die Nachbarn kurz, das löst mehr als jede Regel."
+      ]
+    },
+    {
+      "q": "Wie lange hält der Akku einer Bluetooth-Box beim Camping?",
+      "a": [
+        "Kompakte Bluetooth-Boxen halten laut Herstellern 10 bis 20 Stunden, in der Praxis bei Außenlautstärke eher 6 bis 12 Stunden. Für ein Wochenende ohne Nachladen reicht das meist, für längere Touren lädst du über USB-C an Powerbank, Powerstation oder dem USB-Anschluss im Camper nach.",
+        "Die Herstellerangabe gilt für etwa 50 Prozent Lautstärke bei Zimmerklang. Draußen ohne Wände drehen die meisten auf 70 bis 80 Prozent, der Verstärker braucht dann ein Vielfaches an Strom, vor allem bei bassbetonter Musik. Kälte verkürzt die Laufzeit zusätzlich, bei Minusgraden deutlich. Eine Box mit 20 bis 40 Wattstunden Akku kostet an einer 1000-Wh-Powerstation pro Ladung also nur zwei bis vier Prozent der Kapazität.",
+        "Typische Fehler: die Box über Nacht an der Starterbatterie laden, in der Sonne liegen lassen oder leer wochenlang im Fach vergessen, was dem Akku schadet. Wer die Box ohnehin am Lagerfeuer nutzt, legt ein USB-C-Kabel fest zur Powerstation und lädt tagsüber während der Fahrt."
+      ]
+    }
+  ]
+}

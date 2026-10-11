@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% import "macros.html" as m with context %}
+{% block body %}
+
+<div class="portal-hero">
+  <div class="wrap">
+    <p class="kicker-light">Magazin</p>
+    <h1>VanKompass Magazin</h1>
+    <p class="lead">Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife. Neutral zusammengefasst, mit allen Fakten und Link zum Original.</p>
+  </div>
+</div>
+
+<section>
+<div class="wrap">
+  {{ m.lead_article(flagship, 'Der wichtigste Beitrag') }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Alle Beitr&auml;ge</h2></div>
+  <div class="kicker-line"></div>
+  <div class="filter" id="filter">
+    <button type="button" data-f="alle" class="active">Alle <span class="n">{{ posts|length }}</span></button>
+    {% for b in bereiche_mit_posts %}<button type="button" data-f="{{ b.slug }}">{{ b.name }} <span class="n">{{ b.count }}</span></button>{% endfor %}
+  </div>
+  <div class="post-grid" id="grid">
+    {% for p in posts %}{{ m.post_card(p, show_area=True) }}{% endfor %}
+  </div>
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  {{ m.freebie() }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Nach Bereich st&ouml;bern</h2><a class="more" href="bereiche.html">Alle Bereiche &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="areas cols-4">{% for b in bereiche %}{{ m.area_card(b) }}{% endfor %}</div>
+</div>
+</section>
+
+{% endblock %}
+{% block script %}
+<script>
+(function(){
+  var btns = document.querySelectorAll("#filter button"), cards = document.querySelectorAll("#grid .post");
+  function apply(f){
+    btns.forEach(function(b){ b.classList.toggle("active", b.dataset.f === f); });
+    cards.forEach(function(c){ c.classList.toggle("hidden", f !== "alle" && c.dataset.bereich !== f); });
+  }
+  btns.forEach(function(b){ b.addEventListener("click", function(){ apply(b.dataset.f); history.replaceState(null, "", b.dataset.f === "alle" ? "magazin.html" : "#" + b.dataset.f); }); });
+  var h = location.hash.replace("#", "");
+  if (h && document.querySelector('#filter button[data-f="' + h + '"]')) apply(h);
+})();
+</script>
+{% endblock %}

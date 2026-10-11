@@ -1,0 +1,155 @@
+{
+  "typ": "bereich",
+  "slug": "verdunkelung",
+  "name": "Verdunkelung & Mücken",
+  "kurzname": "Verdunkelung",
+  "kurz": "Thermomatten, Vorhänge, Mückennetze, Kondenswasser, Hitzeschutz.",
+  "h1": "Verdunkelung und Mückenschutz im Camper",
+  "lead": "Thermomatten innen oder außen, Magnetvorhänge für den Selbstausbau, Mückennetze für Schiebetür und Heckklappe und was wirklich gegen Kondenswasser hilft. Vergleiche, Praxis und eine klare Empfehlung.",
+  "meta_title": "Verdunkelung im Camper: Thermomatten, Mücken | VanKompass",
+  "meta_desc": "Verdunkelung und Mückenschutz im Camper: Thermomatten innen oder außen, Vorhänge, Netze für Schiebetür und Heck, Hilfe gegen Kondenswasser. Mit Empfehlung.",
+  "empfehlung": {
+    "name": "Hindermann Lux Duo",
+    "one": "Die außen aufgelegte Fahrerhaus-Thermomatte, die Frontscheibe und Seitenscheiben komplett abdeckt und im Winter wie im Sommer am meisten bringt.",
+    "pills": ["Außen-Thermomatte", "Fahrerhaus komplett", "Passgenau je Fahrzeug", "Deutscher Hersteller"],
+    "why": "Außenmatten halten Kälte und Hitze schon vor der Scheibe ab, dadurch bleibt das Glas innen trocken und das Cockpit wird nicht zur Kältebrücke. Es gibt sie passgenau für Ducato, Sprinter, Crafter, Transit Custom, T5 bis T6.1 und V-Klasse.",
+    "preis": "ca. 150 bis 300 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-verdunkelung.svg",
+    "trust": "Achte beim Kauf auf das exakte Baujahr deines Fahrzeugs. Preis bleibt für dich gleich.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "verdunkelung-thermomatten-vergleich",
+      "title": "Thermomatten für den Camper im Vergleich: innen, außen, Magnet, Saugnapf",
+      "teaser": "Was die Konzepte bei Kälte, Hitze und Kondenswasser bringen, wie schnell sie montiert sind und was sie kosten.",
+      "lead_teaser": "Thermomatten sind das Zubehör mit dem besten Verhältnis von Preis zu Wirkung im Camper: Sie verdunkeln, isolieren und schützen vor Blicken. Dieser Beitrag vergleicht Innen- und Außenmatten, Befestigung per Saugnapf, Magnet oder Türfalz, Materialstärken und Passformen für die gängigen Campervans und Kastenwagen. Dazu: Was bei Kondenswasser hilft, worauf du im Sommer achten solltest und welche Lösung für welches Fahrzeug Sinn ergibt.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Thermomatten",
+      "thumb_l2": "im Vergleich",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "verdunkelung-innen-oder-aussen",
+      "title": "Thermomatten innen oder außen: Was ist besser für Winter und Sommer?",
+      "teaser": "Wärmeverlust, Kondenswasser, Handhabung bei Regen und Diebstahlrisiko im direkten Vergleich. Mit klarer Empfehlung.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Thermomatten",
+      "thumb_l2": "innen oder außen?",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "verdunkelung-mueckennetz-schiebetuer",
+      "title": "Mückennetz für Schiebetür und Heck: Magnet, Reißverschluss oder Rahmen?",
+      "teaser": "Welche Netze bei offener Tür wirklich dicht halten, wie du sie befestigst und was bei Aufstelldach-Campern dazukommt.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Mückennetz für",
+      "thumb_l2": "Schiebetür und Heck",
+      "camper": ["vw-california", "ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "verdunkelung-magnetvorhaenge-selbstausbau",
+      "title": "Vorhänge im Selbstausbau: Magnetvorhänge, Schienen oder Plissees?",
+      "teaser": "Drei Systeme für den Kastenwagen, mit Stoffwahl, Verdunkelungsgrad, Kosten und dem häufigsten Montagefehler.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Vorhänge im",
+      "thumb_l2": "Selbstausbau",
+      "camper": ["sprinter-ausbau", "poessl-ducato"],
+      "status": "geplant"
+    },
+    {
+      "slug": "verdunkelung-kondenswasser",
+      "title": "Kondenswasser im Camper: Warum die Scheiben nass sind und was hilft",
+      "teaser": "Lüften, heizen, isolieren: die Reihenfolge, die funktioniert. Plus Entfeuchter, Dachlüfter und Thermomatten im Check.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Kondenswasser",
+      "thumb_l2": "im Camper",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "verdunkelung-hitzeschutz-sommer",
+      "title": "Hitzeschutz im Camper: Checkliste für Stellplatz, Scheiben und Dach",
+      "teaser": "Was den Innenraum im Sommer wirklich kühl hält, von der Parkrichtung über Außenmatten bis zum Dachlüfter.",
+      "kategorie": "Checkliste",
+      "thumb_l1": "Hitzeschutz im",
+      "thumb_l2": "Camper: Checkliste",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Thermomatten innen oder außen: Was ist besser?",
+      "a": [
+        "Außen montierte Thermomatten isolieren besser und verhindern Kondenswasser an der Scheibe, Innenmatten sind schneller angebracht und bleiben trocken und sauber. Für Wintercamping und heiße Sommer sind Außenmatten die wirksamere Lösung, für Kurztrips und häufiges Umstellen die Innenmatte.",
+        "Der Unterschied liegt in der Scheibe: Bei einer Innenmatte bleibt das Glas kalt, feuchte Innenluft kondensiert an der Scheibe hinter der Matte, morgens tropft es aufs Armaturenbrett. Die Außenmatte hält die Kälte vor dem Glas ab, die Scheibe bleibt näher an der Innentemperatur und trocken. Im Sommer gilt dasselbe umgekehrt: Außenmatten reflektieren die Sonne, bevor sie das Glas aufheizt, Innenmatten lassen das Glas und die Luft davor heiß werden. Außenmatten kosten ca. 150 bis 300 €, Innenmatten je nach Qualität ca. 80 bis 250 €.",
+        "Nachteile der Außenmatte, die oft unterschätzt werden: Bei Regen oder Schnee nimmst du sie nass ab und musst sie im Fahrzeug trocknen, bei Wind brauchen sie eine Sicherung über die Türen, und auf engen Stellplätzen stehst du beim Anbringen auf der Straße. Viele Camper fahren mit beiden Lösungen, je nach Jahreszeit."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber: innen oder außen"
+    },
+    {
+      "q": "Welche Thermomatten für den VW California?",
+      "a": [
+        "Für den VW California T5, T6 und T6.1 gibt es passgenaue Innenmatten mit Saugnäpfen für die drei Fahrerhausscheiben sowie Außenmatten, die über Front- und Seitenscheiben gelegt und in den Türen eingeklemmt werden. Für den Wohnraum sind ab Werk Rollos oder Vorhänge verbaut, zusätzliche Matten brauchst du dort meist nicht.",
+        "Worauf es ankommt: Der California hat je nach Baujahr unterschiedliche Spiegelfüße und Scheibenformen, deshalb sind Universalmatten dort selten dicht. Die Innenmatten mit mehrlagigem Aufbau und Alu-Außenseite isolieren merklich besser als dünne Reflexfolien aus dem Baumarkt. Beim T7 California mit größerer Frontscheibe und anderen Sensoren hinter der Scheibe ist das Angebot noch kleiner, hier lohnt der Blick auf das genaue Baujahr. Zusätzlich sinnvoll ist eine Isolierung für den Aufstelldachbalg, die nachts oben Wärme hält und Lärm dämpft.",
+        "Typischer Fehler: Matten nach Modellbezeichnung kaufen, nicht nach Baujahr. Zwischen T6 und T6.1 änderten sich Spiegel und Armaturenbrett, und manche Matten lassen sich dann nicht mehr sauber einklemmen. Saugnäpfe halten bei Kälte schlechter, einmal mit warmem Wasser anfeuchten hilft."
+      ]
+    },
+    {
+      "q": "Wie halte ich Mücken aus dem Camper?",
+      "a": [
+        "Mit Mückennetzen an allen Öffnungen, die du nachts aufmachst: Schiebetür, Heckklappe, Dachfenster und Aufstelldach. Für Schiebetür und Heck gibt es Netze mit Magnetverschluss oder Reißverschluss, die mit Klett, Magneten oder Klemmleisten befestigt werden, Preis ca. 40 bis 150 € pro Öffnung.",
+        "Entscheidend ist die Dichtigkeit am Rand: Ein Netz, das nur an der Oberkante hängt, lässt an den Seiten Mücken durch. Rahmenlose Netze mit umlaufendem Klettband oder Magnetstreifen schließen sauber, brauchen aber eine ebene Fläche. Fertig-Camper wie California, Nugget und Marco Polo haben ab Werk Netze im Aufstelldach, nicht aber an der Schiebetür. Dachfenster von Dometic oder MPK bringen Plissee-Mückennetze mit. Zusätzlich hilft, abends das Licht im Fahrzeug aus- und außen anzulassen, weil Mücken zum Licht fliegen. Rotes oder warmweißes Licht zieht weniger Insekten an als kaltweißes.",
+        "Oft übersehen: Lüftungsgitter in den Fenstern und offene Entwässerungslöcher der Schiebetür. Ein Stück feines Netz mit Klett davor erledigt das. Wer in Skandinavien oder an Seen unterwegs ist, nimmt zusätzlich ein Moskitonetz für das Bett mit, falls doch eine Mücke drin ist."
+      ],
+      "link": "#",
+      "link_text": "Zur Praxis: Mückennetz für Schiebetür und Heck"
+    },
+    {
+      "q": "Was hilft gegen Kondenswasser an den Scheiben im Camper?",
+      "a": [
+        "Lüften, heizen, isolieren, in dieser Reihenfolge. Ein Dachfenster oder Seitenfenster einen Spalt öffnen, damit die feuchte Atemluft abzieht, die Standheizung auf kleiner Stufe laufen lassen und die Fahrerhausscheiben mit Außenmatten abdecken. Dann bleiben die Scheiben morgens weitgehend trocken.",
+        "Zwei Personen geben in einer Nacht rund einen halben bis einen Liter Wasser an die Luft ab, dazu kommt Kochen und nasse Kleidung. Diese Feuchtigkeit schlägt sich an der kältesten Fläche nieder, und das ist im Camper die Scheibe. Wärmere Scheiben durch Außenmatten und bewegte Luft durch Lüftung verhindern das. Wer Fenster komplett schließt und ohne Heizung schläft, hat garantiert nasse Scheiben. Chemische Entfeuchter mit Granulat ziehen in einer Nacht nur wenige Milliliter und helfen daher kaum. Ein 12-V-Dachlüfter, der nachts auf kleinster Stufe abluftseitig läuft, ist die wirksamste Nachrüstung im Selbstausbau.",
+        "Praktische Fehler: Nasse Handtücher über Nacht im Fahrzeug trocknen, Wasser in offenen Töpfen stehen lassen, oder Innenmatten so dicht an die Scheibe pressen, dass dahinter ein feuchter Hohlraum entsteht. Morgens die Scheiben einmal mit einem Mikrofasertuch abwischen und die Türen ein paar Minuten öffnen."
+      ],
+      "link": "#",
+      "link_text": "Zur Praxis: Kondenswasser im Camper"
+    },
+    {
+      "q": "Wie verdunkelt man ein Aufstelldach?",
+      "a": [
+        "Mit einer Innenisolierung für den Dachbalg: einem passgenauen, mehrlagigen Stoffeinsatz, der innen am Balg mit Klett oder Druckknöpfen befestigt wird und Fenster abdeckt. Er verdunkelt, isoliert gegen Kälte und dämpft Geräusche. Preis je nach Fahrzeug ca. 200 bis 400 €.",
+        "Der Balg selbst besteht aus dünnem Stoff, der Licht und Schall fast ungehindert durchlässt. Ab fünf Uhr morgens im Sommer ist es oben hell, und jeder Campingplatz-Nachbar ist zu hören. Die Isolierungen gibt es für VW California T5 bis T6.1, Mercedes Marco Polo, Ford Nugget und für viele Nachrüstdächer von SCA oder Reimo. Sie lassen sich im aufgestellten Zustand in wenigen Minuten einhängen und bleiben beim Schließen des Dachs oft sogar drin, wenn sie sauber gefaltet werden. Günstigere Alternative sind einzelne Fensterabdeckungen mit Klett, die nur verdunkeln, aber nicht isolieren.",
+        "Typischer Fehler: Die Isolierung bei nassem Balg einbauen oder das Dach damit schließen, wenn der Stoff noch feucht ist. Dann schimmelt es zwischen den Lagen. Nach Regen das Dach erst offen trocknen lassen. Und im Hochsommer eher die Fenster öffnen als abdecken, sonst staut sich oben die Wärme."
+      ]
+    },
+    {
+      "q": "Darf man mit Thermomatten an der Windschutzscheibe fahren?",
+      "a": [
+        "Nein. Während der Fahrt müssen Frontscheibe und vordere Seitenscheiben frei sein, Thermomatten innen wie außen sind dann verboten. Im Stand darfst du sie überall anbringen, auch beim Übernachten auf öffentlichen Parkplätzen.",
+        "Rechtlich geht es um die ausreichende Sicht nach vorn und zur Seite, die die Straßenverkehrsordnung verlangt. Das betrifft auch Außenmatten, die nur die untere Scheibenhälfte abdecken, oder Innenmatten, die am Beifahrerfenster hängen bleiben. In manchen Ländern gelten für Innenverdunkelung zusätzliche Regeln, etwa in Spanien und Italien, wo das Abstellen mit vollständig verdunkelten Scheiben auf öffentlichen Flächen gelegentlich als Campen gewertet wird. Dort ist eine Außenmatte unauffälliger als geschlossene Vorhänge. Für die Scheiben hinter der B-Säule gelten diese Sichtvorgaben nicht, dort dürfen Vorhänge und Folien auch während der Fahrt bleiben.",
+        "Praxis-Tipp: Außenmatten vor dem Losfahren immer komplett abnehmen, auch die Teile an den Spiegeln. Viele Außenmatten haben Spiegelkappen, die beim schnellen Aufbruch gern vergessen werden. Und Innenmatten für das Fahrerhaus so verstauen, dass sie beim Bremsen nicht durch den Innenraum fliegen."
+      ]
+    },
+    {
+      "q": "Wie viel bringen Thermomatten im Sommer gegen Hitze?",
+      "a": [
+        "Spürbar, aber nicht genug allein: Außenmatten senken die Innentemperatur eines in der Sonne geparkten Campers je nach Fahrzeug um 5 bis 10 Grad, Innenmatten um 3 bis 6 Grad. Für erträgliche Nächte brauchst du zusätzlich Schatten, Durchzug und einen Lüfter.",
+        "Die Fahrerhausscheiben sind die größte Glasfläche im Fahrzeug und wirken wie ein Gewächshaus. Außenmatten mit heller oder reflektierender Oberfläche halten die Strahlung draußen, bevor sie das Glas und das Armaturenbrett aufheizt. Innenmatten lassen die Strahlung durch das Glas, der Raum zwischen Scheibe und Matte wird heiß und gibt die Wärme nach innen ab. Dachflächen heizen ebenfalls stark auf, besonders dunkle Fahrzeuge und Aufstelldächer mit geschlossener Dachschale. Ein 12-V-Dachlüfter, der heiße Luft oben abzieht, bringt mehr als jeder Ventilator im Innenraum.",
+        "Was oft vergessen wird: Die Parkrichtung. Mit dem Heck nach Süden und offener Schiebetür im Schatten steht sich der Camper am besten. Vorhänge und Rollos im Wohnraum tagsüber schließen, nachts öffnen. Und die Powerstation sowie Lebensmittel nicht ins Fahrerhaus legen, dort wird es am heißesten."
+      ],
+      "link": "#",
+      "link_text": "Zur Checkliste Hitzeschutz im Camper"
+    }
+  ]
+}

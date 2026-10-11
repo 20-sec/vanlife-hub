@@ -1,0 +1,149 @@
+{
+  "typ": "bereich",
+  "slug": "camper-apps",
+  "name": "Camper-Apps",
+  "kurzname": "Apps",
+  "kurz": "Stellplatz-Apps, Navigation, Wetter, Offline-Karten, Maut.",
+  "h1": "Camper-Apps für unterwegs",
+  "lead": "Welche Apps Stellplätze finden, Höhe und Gewicht beim Navigieren berücksichtigen, Wetter und Wind zuverlässig melden und auch ohne Netz funktionieren. Vergleiche, Praxis-Tipps und eine Empfehlung für die passende Halterung im Cockpit.",
+  "meta_title": "Camper-Apps: Stellplätze, Navigation, Wetter | VanKompass",
+  "meta_desc": "Camper-Apps im Überblick: Stellplätze finden, mit Höhe und Gewicht navigieren, Wetter und Wind prüfen, offline unterwegs. Vergleiche, Tipps und Empfehlung.",
+  "empfehlung": {
+    "name": "Quad Lock Autohalterung",
+    "one": "Die Handyhalterung, die auf Schotterpisten hält und das Smartphone als Camper-Navi im Blick lässt.",
+    "pills": ["Twist-Lock-Verriegelung", "Lüftung oder Saugnapf", "Wireless Charging optional", "Vibrationsdämpfer erhältlich"],
+    "why": "Apps selbst lassen sich nicht wie ein Produkt empfehlen und verlinken, die Halterung dafür schon: Ohne festen Platz fürs Smartphone ist jede Navi- und Stellplatz-App im Cockpit nutzlos. Quad Lock sitzt auch bei Vibrationen fest, ist in Sekunden gelöst und für fast alle Smartphones mit Hülle oder Universaladapter verfügbar.",
+    "preis": "40 bis 90 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-camper-apps.svg",
+    "trust": "Preis bleibt für dich gleich. Hülle oder Adapter kommen je nach Smartphone dazu.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "camper-apps-stellplatz-apps-vergleich",
+      "title": "Stellplatz-Apps im Vergleich: park4night, Campercontact und Co.",
+      "teaser": "Welche App die meisten Plätze kennt, wo Bewertungen taugen und welche Pro-Version sich für dich lohnt.",
+      "lead_teaser": "Wenn du abends nicht mehr lange suchen willst: Dieser Beitrag vergleicht die großen Stellplatz-Apps nach Datenbasis, Filtern, Offline-Funktion und Preis der Pro-Version. Du erfährst, wo Bewertungen verlässlich sind, wie du mit Filtern nach Ver- und Entsorgung suchst und warum zwei Apps parallel oft die beste Kombination sind. Mit konkreten Einstellungen für Deutschland, Frankreich und Skandinavien.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Stellplatz-Apps",
+      "thumb_l2": "im Vergleich",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "camper-apps-navigation-hoehe-gewicht",
+      "title": "Camper-Navigation: Welche App Höhe, Breite und Gewicht beachtet",
+      "teaser": "Warum normale Navis dich unter zu niedrige Brücken schicken und welche Apps das Fahrzeugprofil wirklich nutzen.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Navi-Apps mit",
+      "thumb_l2": "Höhe und Gewicht",
+      "camper": ["vw-grand-california", "sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "camper-apps-offline-karten",
+      "title": "Offline-Karten für Camper: Navigieren ohne Netz in Skandinavien und Alpen",
+      "teaser": "Welche Apps Karten komplett speichern, wie viel Speicher das braucht und was du vor der Abfahrt herunterladen solltest.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Offline-Karten:",
+      "thumb_l2": "Navigieren ohne Netz",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "camper-apps-wetter-wind",
+      "title": "Wetter-Apps für Camper: Wind, Gewitter und Sturmwarnungen richtig lesen",
+      "teaser": "Welche App Böen zuverlässig vorhersagt, wann du die Markise einfährst und warum Regenradar wichtiger ist als Symbole.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Wetter-Apps:",
+      "thumb_l2": "Wind und Gewitter",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "camper-apps-hersteller-apps",
+      "title": "Hersteller-Apps im Camper: Was VW California App und Mercedes me können",
+      "teaser": "Standheizung vom Bett aus starten, Füllstände prüfen, Dach überwachen: Was die Apps wirklich leisten und wo sie haken.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Hersteller-Apps:",
+      "thumb_l2": "California, Marco Polo",
+      "camper": ["vw-california", "marco-polo"],
+      "status": "geplant"
+    },
+    {
+      "slug": "camper-apps-maut-faehren",
+      "title": "Maut, Vignetten und Fähren per App: Checkliste für die Camper-Reise",
+      "teaser": "Welche Apps du vor Österreich, Schweiz, Italien und Norwegen installierst und wo Wohnmobile über 3,5 t extra zahlen.",
+      "kategorie": "Checkliste",
+      "thumb_l1": "Maut und Fähren",
+      "thumb_l2": "per App buchen",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welche App ist die beste für Stellplätze mit dem Camper?",
+      "a": [
+        "Für die meisten Camper ist park4night die erste Wahl, weil die Datenbasis in Europa am größten ist und Nutzer täglich neue Plätze und Bewertungen eintragen. Campercontact und der Stellplatz-Radar von promobil ergänzen sie gut, vor allem bei offiziellen Wohnmobilstellplätzen mit Ver- und Entsorgung.",
+        "Der Unterschied liegt in der Herkunft der Daten. park4night lebt von Community-Einträgen, darunter viele freie Plätze, Parkplätze und Naturspots, deren Qualität schwankt. Campercontact ist stärker redaktionell geprüft und listet überwiegend offizielle Stellplätze mit Preisen und Ausstattung. Die Pro-Versionen kosten jeweils einen niedrigen zweistelligen Betrag pro Jahr und bringen Offline-Karten, zusätzliche Filter und Werbefreiheit.",
+        "In der Praxis fährt man am besten zweigleisig: park4night zum Entdecken, Campercontact oder Stellplatz-Radar zum Absichern. Lies bei Bewertungen immer das Datum, denn viele Plätze werden nach Beschwerden gesperrt. Und prüfe vor Ort die Beschilderung, weil keine App eine Rechtsgrundlage ersetzt."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich der Stellplatz-Apps"
+    },
+    {
+      "q": "Welche Navi-App berücksichtigt Höhe und Gewicht beim Wohnmobil?",
+      "a": [
+        "Google Maps und Apple Karten kennen kein Fahrzeugprofil und schicken dich im Zweifel unter eine zu niedrige Brücke. Für Camper eignen sich Apps mit Lkw- oder Wohnmobil-Modus wie Sygic Truck & Caravan, CoPilot oder TomTom GO mit Camper-Profil, in die du Höhe, Breite, Länge und Gewicht einträgst.",
+        "Diese Apps arbeiten mit Kartendaten, die Durchfahrtshöhen, Gewichtsbeschränkungen und schmale Straßen enthalten. Bei einem VW California mit rund zwei Metern Höhe ist das selten ein Thema, bei Grand California, Kastenwagen und Sprinter-Ausbauten mit 2,80 bis 3,10 Metern dagegen regelmäßig. Auch 3,5-Tonnen-Beschränkungen auf Landstraßen und in Ortsdurchfahrten werden berücksichtigt, sofern das Gewicht korrekt eingetragen ist.",
+        "Typische Fehler: das Profil nach Dachträger oder Satellitenschüssel nicht aktualisieren, die App nur im Ausland nutzen oder der Route in Altstädten blind vertrauen. Faustregel: Ein Zettel mit der tatsächlichen Fahrzeughöhe inklusive Aufbauten gehört ans Armaturenbrett, ganz unabhängig von der App."
+      ]
+    },
+    {
+      "q": "Welche Camper-Apps funktionieren offline ohne Internet?",
+      "a": [
+        "Offline funktionieren vor allem Karten-Apps mit herunterladbaren Regionen: Google Maps mit Offline-Gebieten, Organic Maps und OsmAnd auf Basis von OpenStreetMap sowie die Pro-Versionen von park4night und Campercontact mit gespeicherten Stellplatzdaten. Wetter- und Buchungs-Apps brauchen dagegen immer Netz.",
+        "Der Speicherbedarf liegt je nach Land und App zwischen einigen hundert Megabyte und mehreren Gigabyte; Norwegen oder ganz Frankreich sind größer als die Alpenregion. Organic Maps und OsmAnd speichern komplette Länder inklusive Wanderwegen und Höhenlinien, Google Maps lädt nur rechteckige Ausschnitte und hat offline keine Verkehrsdaten. Stellplatz-Apps speichern Texte und Positionen, Fotos meist nicht.",
+        "Lade alles im WLAN zu Hause, nicht erst am Fährterminal. Prüfe, ob die Offline-Karten noch aktuell sind, denn manche Apps löschen sie nach einigen Wochen automatisch. Und speichere wichtige Ziele wie Entsorgungsstationen oder Werkstätten zusätzlich als Favoriten, damit du sie ohne Suchfunktion wiederfindest."
+      ]
+    },
+    {
+      "q": "Welche Wetter-App ist für Camper am besten?",
+      "a": [
+        "Für Camper zählen Wind, Böen und Gewitter mehr als Sonnensymbole. Bewährt haben sich Windy für Windvorhersagen mit mehreren Modellen, die WarnWetter-App des Deutschen Wetterdienstes für amtliche Unwetterwarnungen und ein Regenradar für die nächsten Stunden. Eine App allein reicht selten.",
+        "Der Grund: Normale Wetter-Apps zeigen das Ergebnis eines einzigen Modells als Symbol. Windy lässt dich mehrere Modelle vergleichen und zeigt Böen in Kilometern pro Stunde, was für Markise, Aufstelldach und Dachzelt entscheidend ist. Ab etwa 40 bis 50 km/h Böen fahren viele Camper die Markise ein, ab 60 bis 70 km/h wird ein Aufstelldach unruhig. Amtliche Warn-Apps liefern Push-Meldungen bei Sturm und Starkregen, auch nachts.",
+        "Im Ausland lohnt die jeweilige nationale Warn-App, in Österreich die Warnungen der GeoSphere Austria, in der Schweiz die App von MeteoSchweiz. Und schau abends auf das Radar statt auf das Symbol für morgen: Eine Gewitterzelle am Horizont erkennst du dort eine Stunde vorher."
+      ]
+    },
+    {
+      "q": "Wie finde ich Entsorgungsstationen für Wohnmobile per App?",
+      "a": [
+        "Entsorgungsstationen findest du über die Filter der Stellplatz-Apps: In park4night, Campercontact und dem Stellplatz-Radar lässt sich nach Grauwasser-, Kassetten- und Frischwasserversorgung filtern, oft auch nach Stationen, die ohne Übernachtung nutzbar sind. Zusätzlich bieten viele Campingplätze ihre Entsorgung für Durchreisende gegen Gebühr an.",
+        "Die Datenlage unterscheidet sich je nach Land. In Deutschland, Frankreich und Italien sind offizielle Stationen gut erfasst, in Skandinavien findest du sie häufig an Tankstellen und Raststätten, die in den Apps unter eigenen Kategorien stehen. Gebühren liegen typischerweise zwischen null und wenigen Euro, Frischwasser wird oft über Münzautomaten abgegeben. Die Pro-Versionen zeigen die Filter auch offline.",
+        "Häufige Fehler: nur nach Stellplätzen suchen und die Entsorgung als Zusatzfilter vergessen, oder sich auf eine Station verlassen, die im Winter abgestellt ist. Lies die letzten Kommentare, bevor du einen Umweg fährst. Und plane die Entsorgung vor dem Wochenende, weil viele Stationen an Rasthöfen dann belegt sind."
+      ]
+    },
+    {
+      "q": "Welche Handyhalterung ist für den Camper geeignet?",
+      "a": [
+        "Für Camper eignen sich Halterungen, die auch auf Schotter und Kopfsteinpflaster halten: mechanische Systeme mit Verriegelung wie Quad Lock, stabile Magnethalterungen mit großer Platte oder Klemmhalter mit Saugnapf an der Scheibe. Reine Lüftungsgitter-Clips geben in schweren Fahrzeugen oft nach.",
+        "Entscheidend ist die Masse, die bewegt wird: Ein großes Smartphone mit Hülle wiegt 250 bis 300 Gramm, bei jeder Bodenwelle wirkt ein Vielfaches davon. Verriegelte Systeme halten das sicher, Magnete brauchen genug Fläche und dürfen nicht zwischen Hülle und Gerät verrutschen. Bei Fahrzeugen mit hart gefederter Vorderachse, etwa leeren Kastenwagen, lohnt ein Vibrationsdämpfer, weil Dauervibrationen die Kamerastabilisierung des Smartphones beschädigen können.",
+        "Positioniere die Halterung so, dass sie weder Sicht noch Airbag behindert und du die App ohne Blick nach unten lesen kannst. Ein kurzes Ladekabel oder eine Halterung mit kabellosem Laden hält die Powerbank vom Fahrersitz fern. Im Sommer das Handy aus der direkten Sonne nehmen, sonst drosselt es die Helligkeit."
+      ]
+    },
+    {
+      "q": "Kann man Campingplätze per App buchen?",
+      "a": [
+        "Ja, viele Campingplätze lassen sich inzwischen per App oder mobiler Website buchen, etwa über Plattformen wie ACSI, Pincamp oder camping.info sowie direkt bei den Betreibern. Für freie Stellplätze und viele kommunale Wohnmobilstellplätze gilt dagegen weiter: Wer zuerst kommt, steht zuerst.",
+        "Buchungsplattformen bündeln Verfügbarkeit, Preise und Bewertungen, nehmen dafür aber manchmal Gebühren oder bieten nicht alle Parzellen an. Direkt beim Platz ist es oft günstiger, besonders in der Nebensaison. Rabattsysteme wie die ACSI CampingCard gelten nur außerhalb der Hauptsaison und müssen vor Ort vorgezeigt werden, die App ersetzt dabei zunehmend die gedruckte Karte.",
+        "In der Hochsaison an Küsten und Seen ist Vorbuchung Pflicht, im Hinterland selten nötig. Prüfe die Stornobedingungen, weil Wetterumschwünge beim Camping häufiger zu Planänderungen führen als im Hotel. Und lies die Platzordnung: Manche Plätze nehmen keine Kastenwagen über sieben Meter oder keine Hunde."
+      ]
+    }
+  ]
+}

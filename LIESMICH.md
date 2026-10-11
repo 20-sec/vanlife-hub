@@ -12,6 +12,19 @@ Erster baufertiger Entwurf der Vanlife-Hub-Seite (MS Phantom, Affiliate-Nischens
 | `vanlife-config.js` | Zentrale Affiliate-Konfig | DIE EINE PFLEGESTELLE fuer alle Affiliate-IDs und die Link-Logik. |
 | `vanlife-styles.css` | Layout-System | Eingefroren, mobile-first. |
 
+## Portalseiten werden generiert (Stand 2026-10-11)
+
+Magazin, Bereiche, Camper sowie alle 16 Bereichs- und 7 Camper-Portale entstehen aus **einer Datenquelle**:
+
+- `data/fragments/bereich-<slug>.json` und `camper-<slug>.json`: Inhalte (Empfehlung, Beiträge, FAQ, Meta). Ein neuer Beitrag wird hier **einmal** eingetragen und erscheint automatisch im Magazin-Hub, im Bereichs-Portal, auf der Bereiche-Übersicht und in den Camper-Portalen, die er im Feld `camper` nennt.
+- `templates/*.html`: Jinja2-Templates (base, macros, portal, magazin, bereiche, camper, redirect).
+- `portal.css`: Styles der Portalseiten, ergänzt `vanlife-styles.css`.
+- `build.py`: `python3 build.py` erzeugt alle Seiten plus fehlende Thumbnails (`img/thumb-*.svg`) und Produkt-Platzhalter (`img/produkt-*.svg`). Mit `python3 build.py index.html` wird zusätzlich die Startseite gepatcht (Navigation, Icon-Karten). Für das Deploy-Repo: `python3 build.py /pfad/zum/deploy/index.html`.
+
+**Generierte Dateien nicht von Hand editieren**, sie werden beim nächsten Build überschrieben: `magazin.html`, `bereiche.html`, `camper.html`, `<bereichsslug>.html`, `camper-<slug>.html`, `silo-strom.html`, `magazin-strom.html` (die letzten beiden sind Weiterleitungen).
+
+Freebie (Camper-Packliste), Affiliate-Hinweis und Kontaktadresse stehen zentral in `SITE` in `build.py`. Newsletter-Formulare sind Mock-ups (JS zeigt nur "Danke"), Brevo kommt später dahinter.
+
 ## Aufmachen
 
 Doppelklick auf `index.html` (laeuft per `file://`, kein Server noetig). Von dort durchklicken: Strom-Kachel fuehrt zur Silo-Seite, der Verteiler-Block dort zum Money-Artikel.

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>{{ meta_title }}</title>
+<meta name="description" content="{{ meta_desc }}">
+<link rel="canonical" href="{{ site.base }}{{ out }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ meta_title }}">
+<meta property="og:description" content="{{ meta_desc }}">
+<meta property="og:url" content="{{ site.base }}{{ out }}">
+<meta property="og:image" content="{{ site.base }}{{ og_image }}">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="VanKompass">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ meta_title }}">
+<meta name="twitter:description" content="{{ meta_desc }}">
+<link rel="stylesheet" href="vanlife-styles.css?v=3">
+<link rel="stylesheet" href="portal.css?v={{ site.css_v }}">
+<script type="application/ld+json">
+{{ jsonld|safe }}
+</script>
+</head>
+<body>
+
+<div class="proto-banner">ENTWURF / Prototyp &middot; <strong>VanKompass</strong></div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark">V</span> VanKompass</a>
+    <nav>
+      <a href="magazin.html"{% if nav == 'magazin' %} class="active"{% endif %}>Magazin</a>
+      <a href="bereiche.html"{% if nav == 'bereiche' %} class="active"{% endif %}>Bereiche</a>
+      <a href="camper.html"{% if nav == 'camper' %} class="active"{% endif %}>Camper</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="breadcrumb">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> &rsaquo; {% else %}{{ c.name }}{% endif %}{% endfor %}</p>
+</div>
+
+{% block body %}{% endblock %}
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div><strong style="color:#fff;">VanKompass</strong><br>Camper-Ausr&uuml;stung mit Plan.</div>
+      <div><a href="magazin.html">Magazin</a> &middot; <a href="bereiche.html">Bereiche</a> &middot; <a href="camper.html">Camper</a> &middot; <a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a></div>
+    </div>
+    <div class="legal">
+      <span class="star">*</span> {{ site.affiliate_hinweis }}
+    </div>
+  </div>
+</footer>
+
+<script src="vanlife-config-v2.js"></script>
+<script>
+document.querySelectorAll("form[data-nl]").forEach(function (f) {
+  f.addEventListener("submit", function (e) { e.preventDefault(); f.classList.add("sent"); });
+});
+</script>
+{% block script %}{% endblock %}
+</body>
+</html>

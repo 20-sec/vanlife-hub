@@ -1,0 +1,155 @@
+{
+  "typ": "bereich",
+  "slug": "sanitaer",
+  "name": "Toilette & Sanitär",
+  "kurzname": "Sanitär",
+  "kurz": "Campingtoilette, Trenntoilette, Dusche, Entsorgung, Hygiene.",
+  "h1": "Toilette und Sanitär im Camper",
+  "lead": "Chemietoilette oder Trenntoilette, wo du entleerst, wie du im Van duschst und was gegen Gerüche hilft. Ratgeber, Vergleiche und eine Empfehlung, die in fast jeden Camper passt.",
+  "meta_title": "Camper-Toilette: Chemie, Trenntoilette, Dusche | VanKompass",
+  "meta_desc": "Toilette und Sanitär im Camper: Chemietoilette oder Trenntoilette, Entsorgung unterwegs, Duschen im Van, Gerüche vermeiden und was die Lösungen kosten.",
+  "empfehlung": {
+    "name": "Thetford Porta Potti 365",
+    "one": "Die Klassiker-Campingtoilette, die unter die Sitzbank oder in den Heckstauraum passt und seit Jahrzehnten einfach funktioniert.",
+    "pills": ["Fäkalientank ca. 21 l", "Spülwassertank ca. 15 l", "Manuelle Spülpumpe", "Füllstandsanzeige"],
+    "why": "Kompakt genug für VW California, Nugget und Kastenwagen ohne festes Bad, mit einem Tank, der für zwei Personen mehrere Tage reicht. Ersatzteile und Zusätze gibt es in jedem Campingladen.",
+    "preis": "ca. 90 bis 150 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-sanitaer.svg",
+    "trust": "Preis bleibt für dich gleich. Empfehlung nach langjähriger Verbreitung, kein eigener Test.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "sanitaer-chemie-vs-trenntoilette",
+      "title": "Chemietoilette oder Trenntoilette: Was im Camper wirklich praktischer ist",
+      "teaser": "Geruch, Entsorgung, Platz und laufende Kosten im ehrlichen Vergleich, mit Empfehlung je nach Reisestil und Fahrzeug.",
+      "lead_teaser": "Die Toilettenfrage entscheidet im Camper über Freiheit beim Stehen und über Gerüche im Wohnraum. Dieser Beitrag vergleicht Chemietoilette und Trenntoilette in den Punkten, die unterwegs zählen: Wie oft musst du entleeren, wo geht das, was riecht wann, wie viel Platz braucht das System und was kostet es über eine Saison. Am Ende weißt du, welche Lösung zu deinem Fahrzeug und deiner Reiseart passt.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Chemie oder",
+      "thumb_l2": "Trenntoilette?",
+      "camper": ["vw-california", "poessl-ducato"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sanitaer-entsorgung-unterwegs",
+      "title": "Campingtoilette entleeren: Wo das unterwegs erlaubt ist und wo nicht",
+      "teaser": "Entsorgungsstationen, Apps, Rechtslage in Deutschland und Nachbarländern und was mit Trenntoiletten-Feststoffen passiert.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Toilette entleeren:",
+      "thumb_l2": "wo erlaubt?",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "sanitaer-duschen-im-van",
+      "title": "Duschen im Camper ohne Bad: Außendusche, Solardusche, Duschzelt",
+      "teaser": "Wie viel Wasser eine Dusche braucht, welche Lösungen für Kastenwagen und Bus passen und was im Winter bleibt.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Duschen im Camper",
+      "thumb_l2": "ohne Bad",
+      "camper": ["vw-california", "ford-nugget"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sanitaer-geruch-vermeiden",
+      "title": "Toilette stinkt im Camper: Ursachen und was wirklich dagegen hilft",
+      "teaser": "Dichtungen, Zusätze, Lüftung und die typischen Fehler bei Chemie- und Trenntoilette, die Gerüche erst erzeugen.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Toilette stinkt:",
+      "thumb_l2": "was hilft?",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "sanitaer-trenntoilette-selbstbau",
+      "title": "Trenntoilette selbst bauen: Material, Trenneinsatz, Kosten und Fehler",
+      "teaser": "Vom Holzkasten bis zum Lüfter: Was ein Eigenbau kostet, wo er dem Fertigprodukt unterliegt und worauf es ankommt.",
+      "kategorie": "Praxis",
+      "thumb_l1": "Trenntoilette",
+      "thumb_l2": "selbst bauen",
+      "camper": ["sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "sanitaer-hygiene-checkliste",
+      "title": "Hygiene im Camper: Checkliste für Toilette, Wasser und Abwasser",
+      "teaser": "Reinigungsintervalle, Mittel, die Dichtungen nicht angreifen, und was vor der Winterpause erledigt sein muss.",
+      "kategorie": "Checkliste",
+      "thumb_l1": "Hygiene im Camper:",
+      "thumb_l2": "Checkliste",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Chemietoilette oder Trenntoilette: Was ist besser im Camper?",
+      "a": [
+        "Für längeres freies Stehen und Fahrzeuge ohne Bad ist die Trenntoilette meist praktischer: Sie braucht keine Chemie, riecht bei richtiger Nutzung kaum und die Feststoffe halten ein bis drei Wochen. Die Chemietoilette gewinnt, wenn du vor allem Campingplätze mit Entsorgungsstation nutzt, wenig Platz hast und ein günstiges, bewährtes System willst.",
+        "Der Unterschied liegt in der Trennung: Bei der Trenntoilette gehen Urin und Feststoffe in getrennte Behälter, dadurch entsteht keine Gärung und kein Fäulnisgeruch. Urin musst du alle ein bis zwei Tage entsorgen, Feststoffe mit Streu oder Kokosfaser bedecken. Die Chemietoilette sammelt alles in einem Tank mit Zusatz, der nach drei bis fünf Tagen voll ist und nur an Entsorgungsstationen geleert werden darf. Preislich liegen einfache Chemietoiletten bei ca. 80 bis 150 €, Trenntoiletten bei ca. 250 bis 900 €, Stand Oktober 2026.",
+        "Oft unterschätzt: Die Trenntoilette braucht einen festen Platz mit Lüftung, meist über einen kleinen 12-V-Lüfter nach außen. Im VW California mit Klapp-Sitzbank ist das schwer umzusetzen, dort bleibt die kompakte Chemietoilette ohne Lüfter praktischer."
+      ],
+      "link": "#",
+      "link_text": "Zum ausführlichen Vergleich"
+    },
+    {
+      "q": "Wo darf man eine Campingtoilette entleeren?",
+      "a": [
+        "Chemietoiletten dürfen nur an ausgewiesenen Entsorgungsstationen geleert werden: auf Campingplätzen, Stellplätzen, manchen Autobahnraststätten und kommunalen Stationen. Nicht erlaubt sind Gullys, Wald, Flüsse oder öffentliche Toiletten, wenn Chemiezusatz im Tank ist. Urin aus Trenntoiletten darf stark verdünnt in jede Toilette, Feststoffe gehören in verschlossenen Beuteln in den Restmüll.",
+        "Chemische Zusätze stören die Bakterien in Kläranlagen, deshalb ist die Entsorgung in normale Toiletten vielerorts untersagt und mit Bußgeld belegt. Entsorgungsstationen findest du über Apps wie park4night, Camper Contact oder die Stellplatz-Apps der Reiseländer; viele sind rund um die Uhr zugänglich und kosten nichts oder ein bis zwei Euro. In Skandinavien und den Niederlanden ist das Netz dicht, in Südeuropa abseits der Küsten dünner. Mit biologischen Zusätzen auf Enzymbasis ist die Entsorgung in Campingplatz-WCs oft erlaubt, frag trotzdem nach.",
+        "Praktisch: Trage Handschuhe, spüle den Tank nach dem Leeren mit klarem Wasser nach und fülle die Spülung nicht am Trinkwasserhahn der Station. Für Trenntoiletten einen eigenen, dicht schließenden Urinkanister mitführen, dann bist du von Stationen weitgehend unabhängig."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Entsorgung unterwegs"
+    },
+    {
+      "q": "Wie duscht man im Camper ohne Bad?",
+      "a": [
+        "Mit einer Außendusche am Heck, einer Solardusche oder einem Duschzelt mit Pumpdusche. Für eine kurze Dusche reichen 5 bis 10 Liter warmes Wasser, mit Sparbrause und Stopptaste auch weniger. Serien-Camper wie California und Nugget haben je nach Ausstattung schon einen Anschluss für eine Außendusche an Bord.",
+        "Die einfachste Variante ist ein Sack mit 10 bis 20 Litern, der in der Sonne liegt und sich im Sommer in zwei bis drei Stunden auf 30 bis 40 Grad erwärmt. Komfortabler sind 12-V-Tauchpumpen mit Brause, die aus einem Kanister ziehen, oder Druckduschen mit Handpumpe. Warmwasser kommt aus dem Wasserkocher, aus einer Standheizung mit Boiler oder einem Gas-Durchlauferhitzer für den Außenbereich. Ein Duschzelt mit einem Meter Kantenlänge bietet Sichtschutz und wiegt 2 bis 4 Kilo.",
+        "Was oft fehlt: ein Abfluss. Auf dem Stellplatz darf Duschwasser mit Seife nicht einfach im Boden versickern. Nutze einen Duschteller mit Ablauf in einen Eimer oder dusche auf Campingplätzen. Im Winter bleibt realistisch nur Waschlappen, Schwimmbad oder die Dusche am Platz."
+      ],
+      "link": "#",
+      "link_text": "Zur Praxis Duschen ohne Bad"
+    },
+    {
+      "q": "Warum stinkt die Campingtoilette und was hilft?",
+      "a": [
+        "Bei Chemietoiletten riecht es meist, weil der Zusatz zu knapp dosiert ist, der Tank zu lange voll bleibt oder die Dichtung am Schieber porös wird. Bei Trenntoiletten ist der Grund fast immer Urin in der Feststoffkammer oder ein fehlender Lüfter. In beiden Fällen hilft kein Duftspray, sondern nur die Ursache zu beseitigen.",
+        "Chemietoilette: Zusatz nach Herstellerangabe dosieren, Tank spätestens nach drei bis vier Tagen leeren, auch wenn er nicht voll ist, und den Schieber jedes Mal schließen. Dichtungen einmal im Jahr mit Silikonfett pflegen und bei Rissen tauschen, das Teil kostet wenig. Bei Hitze fermentiert der Inhalt schneller, dann die Intervalle halbieren. Trenntoilette: Sitzen statt stehen, Feststoffe sofort mit Streu bedecken, Lüfter mit 12 V dauerhaft laufen lassen und den Urinbehälter täglich leeren und mit Essigwasser spülen.",
+        "Häufig vergessen wird die Belüftung des Stauraums, in dem die Toilette steht. Ein geschlossener Kasten unter der Sitzbank speichert Gerüche. Ein kleines Lüftungsgitter oder ein Spalt reichen. Und: nie Haushaltsreiniger mit Chlor in die Chemietoilette, das greift Dichtungen und Kunststoff an."
+      ]
+    },
+    {
+      "q": "Wie oft muss man eine Trenntoilette leeren?",
+      "a": [
+        "Den Urinbehälter alle ein bis zwei Tage, bei zwei Personen und 5 bis 10 Litern Volumen oft täglich. Den Feststoffbehälter je nach Größe und Nutzung alle ein bis drei Wochen. Bei Dauernutzung durch zwei Personen sind sieben bis zehn Tage realistisch.",
+        "Ein Mensch gibt pro Tag etwa 1 bis 1,5 Liter Urin ab, ein 10-Liter-Kanister ist für zwei Personen also nach drei bis vier Tagen voll; viele leeren ihn trotzdem täglich, weil stehender Urin nach zwei Tagen Ammoniak bildet und riecht. Feststoffe trocknen mit Streu und Lüfter ein und verlieren Volumen, deshalb hält ein Behälter mit 10 bis 15 Litern überraschend lange. Als Streu eignen sich Kokosfaser-Briketts, Kleintierstreu aus Hanf oder Sägespäne; jede Nutzung braucht etwa eine Handvoll.",
+        "Tipp: Den Feststoffbehälter mit einem kompostierbaren Beutel auskleiden, dann ist das Leeren eine Sache von einer Minute. Lüfter nicht abschalten, auch nicht über Nacht, der Verbrauch liegt bei 1 bis 2 Watt. Und einen zweiten Urinkanister mitführen, dann reicht das Leeren einmal am Tag."
+      ]
+    },
+    {
+      "q": "Was kostet eine Trenntoilette für den Camper?",
+      "a": [
+        "Fertige Trenntoiletten kosten ca. 250 bis 500 € für kompakte Modelle aus Kunststoff und ca. 600 bis 1200 € für Varianten mit Holzgehäuse, Lüfter und größeren Behältern, Stand Oktober 2026. Ein Selbstbau mit gekauftem Trenneinsatz liegt bei ca. 80 bis 200 € Material.",
+        "Der Preis hängt am Gehäuse, am Trenneinsatz und am Zubehör. Ein Trenneinsatz aus Kunststoff kostet ca. 30 bis 80 €, Urinkanister und Feststoffeimer zusammen ca. 20 bis 50 €, ein 12-V-Lüfter mit Schlauch ca. 15 bis 40 €, dazu Holz oder eine Kunststoffkiste. Markenmodelle bringen fertige Lüftung, Füllstandsanzeige und passgenaue Maße mit, was im engen Kastenwagen den Unterschied macht. Laufende Kosten sind gering: Streu für ca. 2 bis 5 € im Monat, keine Chemie.",
+        "Rechne gegen die Chemietoilette: Sie kostet in der Anschaffung weniger, verbraucht aber Zusätze für ca. 5 bis 15 € im Monat und zwingt dich zu Entsorgungsstationen. Nach zwei bis drei Saisons hat sich die Trenntoilette oft bezahlt gemacht, vor allem bei häufigem freiem Stehen."
+      ],
+      "link": "#",
+      "link_text": "Zur Selbstbau-Anleitung"
+    },
+    {
+      "q": "Passt eine Campingtoilette in den VW California oder Ford Nugget?",
+      "a": [
+        "Ja, kompakte Chemietoiletten mit 30 bis 35 cm Höhe passen bei beiden Modellen in den Stauraum unter der Sitzbank, in den Heckschrank des California oder in den Fußraum vor der Rückbank. Fest verbaute Trenntoiletten brauchen mehr Platz und sind nur mit Umbau sinnvoll.",
+        "Im California wird die Toilette meist im Schrank hinten links oder im Stauraum der Sitzbank untergebracht; der Schrank ist für kompakte Modelle gedacht, miss vorher nach, denn die Innenmaße unterscheiden sich zwischen T5, T6 und T7. Im Nugget bleibt der Platz zwischen Küche und Rückbank oder, bei der Plus-Variante mit Hochdach, der eigene Toilettenraum hinten. Kleine Trenntoiletten mit 30 bis 35 cm Höhe lassen sich als mobile Box nutzen, dann ohne festen Lüfter und mit täglichem Leeren.",
+        "Die Nutzung im Fahrzeug ist bei beiden eng: Türen schließen, Sitzbank frei räumen, Dach oder Hecktür als Sichtschutz. Viele Besitzer nutzen die Toilette deshalb nur nachts im Notfall und tagsüber Stationen oder die Natur mit Spaten. Vergiss die Sicherung während der Fahrt nicht, ein umgekippter Tank ist ein Albtraum."
+      ]
+    }
+  ]
+}

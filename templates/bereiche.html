@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% import "macros.html" as m with context %}
+{% block body %}
+
+<div class="portal-hero">
+  <div class="wrap">
+    <p class="kicker-light">Bereiche</p>
+    <h1>Worum willst du dich k&uuml;mmern?</h1>
+    <p class="lead">{{ bereiche|length }} Bereiche rund um Camper-Ausr&uuml;stung, jeder mit Video-Tests, Ratgebern, einer Empfehlung und den h&auml;ufigsten Fragen. W&auml;hle dein Thema.</p>
+  </div>
+</div>
+
+<section>
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Alle Bereiche</h2></div>
+  <div class="kicker-line"></div>
+  <div class="areas cols-4">{% for b in bereiche %}{{ m.area_card(b, show_latest=True, big=True) }}{% endfor %}</div>
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  {{ m.freebie() }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Oder direkt nach deinem Camper</h2><a class="more" href="camper.html">Alle Camper &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="areas cols-4">{% for c in camper %}{{ m.camper_card(c) }}{% endfor %}</div>
+</div>
+</section>
+
+{% endblock %}

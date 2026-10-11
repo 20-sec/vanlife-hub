@@ -1,0 +1,159 @@
+{
+  "typ": "bereich",
+  "slug": "stauraum",
+  "name": "Stauraum",
+  "kurzname": "Stauraum",
+  "kurz": "Heckauszug, Boxen, Organizer, Dachbox, Packsystem.",
+  "h1": "Stauraum im Camper",
+  "lead": "Wo im Camper noch Platz steckt, welche Boxen und Organizer wirklich passen und wie du Zuladung und Ordnung im Griff behältst. Ratgeber, Vergleiche und eine Kaufempfehlung für den Alltag.",
+  "meta_title": "Stauraum im Camper: Boxen, Organizer, Auszug | VanKompass",
+  "meta_desc": "Stauraum im Camper clever nutzen: Welche Boxen und Organizer passen, wie du Heck, Dach und Garage packst und die Zuladung im Blick behältst. Mit Kaufempfehlung.",
+  "empfehlung": {
+    "name": "Fiamma Pack Organizer",
+    "one": "Der faltbare Hängeorganizer, der aus einer freien Schrank- oder Türfläche fünf greifbare Fächer macht.",
+    "pills": ["Hängeorganizer", "Mehrere offene Fächer", "Faltbar zum Verstauen", "Mehrere Varianten"],
+    "why": "Passt an Kleiderschrank, Hecktür oder Trennwand und macht kleinteiliges Zeug wie Ladekabel, Mützen oder Kosmetik ohne Wühlen greifbar. Im Winter zusammenfalten und flach in die Garage legen.",
+    "preis": "ca. 20 bis 40 €",
+    "stand": "Stand Oktober 2026",
+    "merchant": "amazon",
+    "asin": "B0PLATZHALTER",
+    "img": "img/produkt-stauraum.svg",
+    "trust": "Preis bleibt für dich gleich.",
+    "alt_link": null,
+    "alt_text": null,
+    "platzhalter": true
+  },
+  "beitraege": [
+    {
+      "slug": "stauraum-packsystem-camper",
+      "title": "Packsystem für den Camper: Boxen, Taschen und feste Plätze für alles",
+      "teaser": "Wie du mit wenigen Boxen und klaren Zonen Ordnung hältst, die auch nach drei Wochen Reise noch funktioniert.",
+      "lead_teaser": "Wenn du jeden Morgen den halben Camper ausräumst, um an die Kaffeedose zu kommen, fehlt kein Stauraum, sondern ein System. Dieser Beitrag zeigt dir, wie du Zonen festlegst, welche Boxengrößen in gängige Fächer passen, wie du Gewicht tief und mittig verteilst und welche Dinge gar nicht erst mitfahren sollten. Mit Packliste zum Abhaken.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Packsystem:",
+      "thumb_l2": "Feste Plätze für alles",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "stauraum-heckauszug",
+      "title": "Heckauszug im Kastenwagen: Schublade für Küche, Werkzeug und Campingmöbel",
+      "teaser": "Welche Auszüge es gibt, wie viel Last sie tragen und was beim Einbau in Ducato und Sprinter zu beachten ist.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Heckauszug:",
+      "thumb_l2": "Schublade im Heck",
+      "camper": ["poessl-ducato", "sprinter-ausbau"],
+      "status": "geplant"
+    },
+    {
+      "slug": "stauraum-dachbox-camper",
+      "title": "Dachbox auf dem Camper: Wann sie sich lohnt und was sie kostet",
+      "teaser": "Dachlast, Höhe, Verbrauch und Aufstelldach: Für welche Modelle eine Dachbox passt und wann die Heckbox besser ist.",
+      "kategorie": "Ratgeber",
+      "thumb_l1": "Dachbox auf dem",
+      "thumb_l2": "Camper: Lohnt sich das?",
+      "camper": ["vw-grand-california", "marco-polo"],
+      "status": "geplant"
+    },
+    {
+      "slug": "stauraum-zuladung-wiegen",
+      "title": "Zuladung im Camper: So rechnest du dein Gewicht vor der Reise aus",
+      "teaser": "Leergewicht, Personen, Wasser, Gas und Gepäck: Ein Rechenbeispiel zeigt, wie schnell 3,5 Tonnen erreicht sind.",
+      "kategorie": "Rechenbeispiel",
+      "thumb_l1": "Zuladung:",
+      "thumb_l2": "Gewicht vor der Reise",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "stauraum-boxen-vergleich",
+      "title": "Stapelboxen für den Camper: Eurobox, Faltbox oder Softbag?",
+      "teaser": "Welche Boxen in Heckgarage und unter Sitzbänke passen, was sie wiegen und wie sie beim Bremsen an Ort bleiben.",
+      "kategorie": "Vergleich",
+      "thumb_l1": "Stapelboxen:",
+      "thumb_l2": "Eurobox oder Faltbox?",
+      "camper": [],
+      "status": "geplant"
+    },
+    {
+      "slug": "stauraum-checkliste-abfahrt",
+      "title": "Checkliste vor der Abfahrt: Was im Camper gesichert sein muss",
+      "teaser": "Schubladen, Kühlbox, Powerstation, Fahrräder und Dachlast: Der Rundgang in fünf Minuten, bevor du losfährst.",
+      "kategorie": "Checkliste",
+      "thumb_l1": "Checkliste:",
+      "thumb_l2": "Vor der Abfahrt sichern",
+      "camper": [],
+      "status": "geplant"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie schafft man mehr Stauraum im Camper?",
+      "a": [
+        "Mehr Stauraum entsteht zuerst durch weniger Zeug und feste Plätze, dann durch ungenutzte Flächen: Türen, Trennwände, der Raum unter dem Bett und hinter den Sitzen. Erst wenn das ausgereizt ist, lohnen Anbauten wie Heckbox, Dachbox oder Heckauszug.",
+        "Die meisten Camper verlieren Platz durch lose Gegenstände, die sich im Fach gegenseitig blockieren. Boxen in passender Größe stapeln sich, lassen sich einzeln herausziehen und halten das Fach übersichtlich. Hängeorganizer an der Hecktür oder Schranktür nutzen senkrechte Fläche, die sonst leer bleibt. Netze unter der Decke tragen Jacken und leichte Sachen. Vakuumbeutel schrumpfen Bettzeug und Winterkleidung auf einen Bruchteil.",
+        "Typischer Fehler: schwere Dinge oben oder weit hinten verstauen. Das verändert den Schwerpunkt und das Fahrverhalten. Wasser, Werkzeug und Powerstation gehören tief und möglichst zwischen die Achsen. Wer regelmäßig umpackt, sollte seine Zonen einmal aufschreiben und nach der Reise prüfen, was nie benutzt wurde. Das ist der günstigste Stauraumgewinn überhaupt."
+      ],
+      "link": "#",
+      "link_text": "Zum Beitrag Packsystem für den Camper"
+    },
+    {
+      "q": "Welche Boxen passen in die Heckgarage vom Kastenwagen?",
+      "a": [
+        "In die Heckgarage von Kastenwagen auf Ducato-Basis passen in der Regel Euroboxen im Maß 60 mal 40 Zentimeter oder 40 mal 30 Zentimeter, weil der Raum zwischen Radkästen etwa 120 bis 130 Zentimeter breit ist. Vorher messen, denn Betten, Tankstutzen und Heizung schränken die Höhe ein.",
+        "Euroboxen aus Kunststoff sind stapelbar, formstabil und wiegen je nach Größe ein bis zwei Kilogramm. Faltboxen sparen Platz, wenn sie leer sind, tragen aber weniger und knicken bei schwerer Ladung. Softbags passen in Winkel, in die keine Box kommt, schützen den Inhalt aber kaum. Für Werkzeug, Gasflasche und Powerstation sind feste Boxen oder eigene Halterungen die bessere Wahl.",
+        "Oft vergessen: Boxen müssen beim Bremsen an Ort bleiben. Zurrösen, Spanngurte oder eine Antirutschmatte sind Pflicht, sonst rutscht beim ersten Vollbremsen die ganze Garage nach vorn. Beschriftete Deckel sparen Suchzeit, und ein leerer Zwischenraum von einigen Zentimetern erleichtert das Herausziehen."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich Stapelboxen für den Camper"
+    },
+    {
+      "q": "Lohnt sich eine Dachbox auf dem Camper?",
+      "a": [
+        "Eine Dachbox lohnt sich auf Campern ohne Aufstelldach, die regelmäßig mit viel Gepäck oder Sportausrüstung reisen. Bei Modellen mit Aufstelldach wie VW California oder Ford Nugget ist sie meist keine Option. Dort ist eine Heckbox am Fahrradträger die praktischere Lösung.",
+        "Die Dachlast liegt bei vielen Kastenwagen und Vans zwischen 75 und 150 Kilogramm, davon gehen Träger und leere Box schon mit 20 bis 40 Kilogramm ab. Eine Box mit 400 bis 500 Litern kostet ca. 300 bis 700 Euro, dazu kommt der Träger. Der Mehrverbrauch liegt je nach Form und Tempo spürbar über dem einer Heckbox, und die Fahrzeughöhe wächst um 35 bis 45 Zentimeter, was bei Parkhäusern und Fähren zählt.",
+        "Praxistipp: Nur leichtes und sperriges Gepäck nach oben, also Stühle, Schlafsäcke, Kleidung. Schwere Dinge gehören in den Innenraum. Vor dem Kauf die Fahrzeughöhe mit Box notieren und ins Cockpit kleben. Und beim Händler nachfragen, ob das Aufstelldach oder ein Hochdach überhaupt Trägerpunkte hat."
+      ],
+      "link": "#",
+      "link_text": "Zum Ratgeber Dachbox auf dem Camper"
+    },
+    {
+      "q": "Was kostet ein Heckauszug für den Kastenwagen?",
+      "a": [
+        "Ein Heckauszug für den Kastenwagen kostet als fertiges System ca. 300 bis 900 Euro, je nach Tragkraft, Auszugslänge und Material. Selbstbaulösungen mit Schwerlastschienen und Siebdruckplatte liegen bei ca. 100 bis 250 Euro Materialkosten.",
+        "Die Spanne erklärt sich über die Schienen: Vollauszüge mit 100 bis 200 Kilogramm Tragkraft kosten ein Vielfaches einfacher Möbelschienen. Dazu kommen Verriegelung, Bodenplatte und Befestigungspunkte am Fahrzeugboden. Komplettsysteme bringen meist eine Arretierung mit, die den Auszug im Fahrbetrieb sichert, und sind auf gängige Ducato- oder Sprinter-Maße zugeschnitten.",
+        "Beim Einbau zählt die Befestigung: Nur in den Fahrzeugboden schrauben, wenn du weißt, was darunter liegt, also Tank, Leitungen und Abgasanlage. Viele Auszüge lassen sich stattdessen an den vorhandenen Zurrösen oder einer Bodenplatte des Ausbaus befestigen. Und beim Beladen immer prüfen, ob der ausgezogene Auszug noch stabil steht, sonst kippt der Van bei schwerer Küche nach hinten."
+      ],
+      "link": "#",
+      "link_text": "Zum Vergleich Heckauszug im Kastenwagen"
+    },
+    {
+      "q": "Wie viel darf man im Camper zuladen?",
+      "a": [
+        "Bei Campern mit 3,5 Tonnen zulässigem Gesamtgewicht bleiben nach Abzug der fahrfertigen Masse meist nur 300 bis 600 Kilogramm für Personen, Wasser, Gepäck und Zubehör. Bei VW California und Marco Polo liegt die Zuladung oft zwischen 500 und 700 Kilogramm, bei voll ausgestatteten Kastenwagen teils unter 400.",
+        "So rechnest du: Fahrfertige Masse laut Fahrzeugschein oder Herstellerangabe, dann addierst du Personen mit realem Gewicht, Frischwasser mit einem Kilogramm pro Liter, Gasflaschen, Fahrräder, Markise, Powerstation und das gesamte Gepäck. Zwei Erwachsene, zwei Kinder, 80 Liter Wasser und zwei Räder erreichen schnell 400 Kilogramm, noch bevor Kleidung und Lebensmittel eingepackt sind.",
+        "Der sicherste Weg ist eine Fahrzeugwaage, zum Beispiel bei einem Entsorgungsbetrieb oder einer Spedition, für wenige Euro. Überladung kostet Bußgeld und im Schadensfall den Versicherungsschutz. Wer dauerhaft knapp liegt, prüft eine Auflastung oder fährt mit halbvollem Wassertank los und füllt am Ziel nach."
+      ],
+      "link": "#",
+      "link_text": "Zum Rechenbeispiel Zuladung im Camper"
+    },
+    {
+      "q": "Wo lagert man Fahrräder im Camper am besten?",
+      "a": [
+        "Für die meisten Camper ist ein Heckträger an Hecktür oder Anhängerkupplung die beste Lösung. Innen gelagerte Fahrräder in der Heckgarage sind diebstahlsicherer und wettergeschützt, kosten aber den wichtigsten Stauraum des Fahrzeugs.",
+        "Hecktürträger für Ducato und Sprinter tragen zwei bis vier Räder und kosten ca. 250 bis 500 Euro, Kupplungsträger ca. 400 bis 900 Euro. Kupplungsträger lassen sich oft abklappen, damit die Hecktür aufgeht, und tragen auch E-Bikes mit 25 bis 30 Kilogramm. Bei Hecktürträgern ist die Last pro Tür begrenzt, bei E-Bikes vorher die Herstellerangabe prüfen. Für die Heckgarage brauchst du Schienen oder Spanngurte und oft ausgebaute Vorderräder.",
+        "Häufig vergessen: Mit Rädern am Heck wächst die Fahrzeuglänge um 50 bis 80 Zentimeter, das betrifft Parkplätze und Fähren. Räder abdecken, Akkus bei E-Bikes mit ins Fahrzeug nehmen, und bei längerer Standzeit mit einem zweiten Schloss an einem festen Punkt sichern."
+      ]
+    },
+    {
+      "q": "Wie sichert man Ladung im Camper richtig?",
+      "a": [
+        "Ladung im Camper ist richtig gesichert, wenn bei einer Vollbremsung nichts nach vorn fliegt: Schwere Teile tief und formschlüssig verstauen, Schubladen und Klappen verriegeln, lose Gegenstände in Boxen und Boxen mit Gurten oder Antirutschmatten fixieren.",
+        "Die Physik dahinter: Bei einer Vollbremsung wirkt auf jedes Teil etwa sein eigenes Gewicht nach vorn, bei einem Unfall ein Vielfaches davon. Eine zehn Kilogramm schwere Kühlbox wird zum Geschoss. Formschluss heißt, dass Lücken ausgefüllt sind, sodass nichts Anlauf nehmen kann. Dafür reichen oft Handtücher oder Decken zwischen Boxen. Zurrösen am Boden der Heckgarage sind die stärksten Punkte, Möbelgriffe und Schranktüren nicht.",
+        "Vor der Abfahrt einmal durchgehen: Kühlbox mit Gurt gesichert, Powerstation im Fach oder festgezurrt, Gasflasche verriegelt, Dachfenster zu, Tisch eingehängt, Fahrräder am Träger geprüft. Fünf Minuten, die den Unterschied machen. Eine Checkliste an der Innenseite der Schranktür spart das Nachdenken."
+      ],
+      "link": "#",
+      "link_text": "Zur Checkliste vor der Abfahrt"
+    }
+  ]
+}
