@@ -53,7 +53,6 @@
     <a class="aff-btn primary" data-merchant="{{ e.merchant }}" data-asin="{{ e.asin }}" data-label="{{ e.name }} bei Amazon">Bei Amazon ansehen<span class="ad">Affiliate-Link *</span></a>
     {% if e.alt_link %}<a class="alt" href="{{ e.alt_link }}">{{ e.alt_text }}</a>{% endif %}
     <p class="trust">{{ e.trust }}</p>
-    {% if e.platzhalter %}<p class="ph">Platzhalter: Produkt gemeinsam festlegen</p>{% endif %}
   </div>
 </div>
 {%- endmacro %}

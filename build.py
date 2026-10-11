@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Erzeugt alle Portalseiten (Magazin, Bereiche, Camper + 16 Bereichs- und 7 Camper-Portale)
 aus data/fragments/*.json. Aufruf: python3 build.py"""
+import datetime
 import glob
 import json
 import os
@@ -16,6 +17,8 @@ SITE = {
     "base": "https://vankompass.de/",
     "css_v": "5",
     "top_bereich": "strom",
+    "top_beitrag": "aferiy-p180-pro-ford-nugget",
+    "indexnow_key": "757ee0c8954ba62d7df91e7af93af9ea",
     "asset_v": "20261011",
     "kontakt": "redaktion@vankompass.de",
     "affiliate_hinweis": "Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du darüber ein, erhalten wir eine kleine Provision. Für dich ändert sich am Preis nichts. So können wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke für deine Unterstützung.",
@@ -147,7 +150,29 @@ def sort_posts(posts):
 
 def flagship_of(posts):
     s = sort_posts(posts)
-    return s[0] if s else None
+    top = [p for p in s if p.get("top") and p["status"] == "live"]
+    return (top or s or [None])[0]
+
+
+def load_beitraege():
+    out = []
+    for path in sorted(glob.glob("data/beitraege/*.json")):
+        with open(path, encoding="utf-8") as f:
+            a = json.load(f)
+        a["status"] = "live"
+        a["url"] = a["out"]
+        a.setdefault("quelle", "Video von " + a["video"]["kanal"])
+        a.setdefault("extra", a["video"]["dauer_text"] + " Video")
+        out.append(a)
+    return out
+
+
+def merge_beitraege(beitraege, bereiche):
+    by_slug = {b["slug"]: b for b in bereiche}
+    for a in beitraege:
+        b = by_slug[a["bereich"]]
+        a["bereich_name"] = b["name"]
+        b["beitraege"] = [a] + [p for p in b["beitraege"] if p["slug"] != a["slug"]]
 
 
 def jsonld(graph):
@@ -175,6 +200,8 @@ def main():
     env.globals.update(site=SITE, icons=ICONS)
     bereiche, camper = load_fragments()
     enrich(bereiche, camper)
+    beitraege = load_beitraege()
+    merge_beitraege(beitraege, bereiche)
 
     all_area_posts = [p for b in bereiche for p in b["beitraege"]]
     env.globals["top"] = next(b for b in bereiche if b["slug"] == SITE["top_bereich"])["empfehlung"]
@@ -187,7 +214,7 @@ def main():
             if p["slug"] not in seen:
                 seen.add(p["slug"]); merged.append(p)
         c["posts"] = merged
-        c["flagship"] = merged[0] if merged else None
+        c["flagship"] = flagship_of(merged)
 
     written = []
 
@@ -226,15 +253,16 @@ def main():
     counts = {}
     for p in mag_posts:
         counts[p["bereich"]] = counts.get(p["bereich"], 0) + 1
+    top_post = next((p for p in mag_posts if p["slug"] == SITE["top_beitrag"]), mag_posts[0])
     bmp = [{"slug": b["slug"], "name": b["kurzname"], "count": counts[b["slug"]]} for b in bereiche if b["slug"] in counts]
     crumbs = [{"name": "Start", "url": ""}, {"name": "Magazin", "url": "magazin.html"}]
     graph = [crumbs_ld(crumbs), {"@type": "CollectionPage", "@id": SITE["base"] + "magazin.html", "name": "VanKompass Magazin",
              "description": "Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife.",
              "url": SITE["base"] + "magazin.html", "isPartOf": {"@id": SITE["base"] + "#site"}, "mainEntity": list_ld(mag_posts)}]
-    render("magazin.html", "magazin.html", nav="magazin", crumbs=crumbs, flagship=mag_posts[0], posts=mag_posts, bereiche=bereiche,
+    render("magazin.html", "magazin.html", nav="magazin", crumbs=crumbs, flagship=top_post, posts=mag_posts, bereiche=bereiche,
            bereiche_mit_posts=bmp, meta_title="VanKompass Magazin: Camper-Wissen aus Video-Tests und Ratgebern",
            meta_desc="Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife: Strom, Schlafen, Küche, Sanitär, Heizung und mehr. Neutral zusammengefasst mit allen Fakten.",
-           og_image=mag_posts[0]["thumb"], jsonld=jsonld(graph))
+           og_image=top_post["thumb"], jsonld=jsonld(graph))
 
     # Startseite
     crumbs = [{"name": "Start", "url": ""}]
@@ -246,10 +274,10 @@ def main():
         {"@type": "ItemList", "name": "Camper-Ausrüstung nach Bereich", "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "name": b["name"], "url": SITE["base"] + b["out"]} for i, b in enumerate(bereiche)]},
     ]
-    render("index.html", "index.html", nav="", crumbs=crumbs, flagship=mag_posts[0], posts=mag_posts[:6], bereiche=bereiche, camper=camper,
+    render("index.html", "index.html", nav="", crumbs=crumbs, flagship=top_post, posts=mag_posts[:6], bereiche=bereiche, camper=camper,
            meta_title="VanKompass: Camper-Ausrüstung nach Bereich und nach deinem Modell",
            meta_desc="Camper-Ausrüstung nach Bereich und nach deinem Camper-Modell. Video-Tests, Ratgeber und klare Empfehlungen: Strom, Schlafen, Küche, Sanitär, Heizung und mehr.",
-           og_image=mag_posts[0]["thumb"], jsonld=jsonld(graph))
+           og_image=top_post["thumb"], jsonld=jsonld(graph))
 
     # Bereiche-Hub
     crumbs = [{"name": "Start", "url": ""}, {"name": "Bereiche", "url": "bereiche.html"}]
@@ -271,10 +299,45 @@ def main():
            meta_desc="Ausrüstung, Tests und Tipps für dein Camper-Modell: VW California, Grand California, Ford Nugget, Marco Polo, Pössl, Knaus und Sprinter-Ausbau. Passgenau statt pauschal.",
            og_image="img/thumb-aferiy-p180-pro.svg", jsonld=jsonld(graph))
 
+    # Magazin-Beitraege (Artikel)
+    cmap = {c["slug"]: c for c in camper}
+    for a in beitraege:
+        b = next(x for x in bereiche if x["slug"] == a["bereich"])
+        cl = [cmap[sl] for sl in a.get("camper", []) if sl in cmap]
+        crumbs = [{"name": "Start", "url": ""}, {"name": "Magazin", "url": "magazin.html"}, {"name": b["name"], "url": b["out"]}, {"name": a.get("crumb", a["title"]), "url": a["out"]}]
+        related = [p for p in sort_posts(b["beitraege"]) if p["status"] == "live" and p["slug"] != a["slug"]][:2]
+        weiterlesen = ([{"url": b["out"], "text": f'Bereich {b["h1"]}: Empfehlung, Beiträge, FAQ'}]
+                       + [{"url": c["out"], "text": f'Alles zum {c["name"]}'} for c in cl]
+                       + [{"url": p["url"], "text": p["title"]} for p in related]
+                       + [{"url": f'magazin.html#{b["slug"]}', "text": f'Alle Beiträge zu {b["kurzname"]} im Magazin'}, {"url": "bereiche.html", "text": "Alle Bereiche"}])
+        v = a["video"]
+        yt_img = f'https://img.youtube.com/vi/{v["id"]}/maxresdefault.jpg'
+        graph = [crumbs_ld(crumbs),
+                 {"@type": "Organization", "@id": SITE["base"] + "#org", "name": "VanKompass", "url": SITE["base"], "logo": {"@type": "ImageObject", "url": SITE["base"] + "favicon.svg"}},
+                 {"@type": "Article", "headline": a["title"], "description": a["meta_desc"], "image": yt_img,
+                  "mainEntityOfPage": {"@type": "WebPage", "@id": SITE["base"] + a["out"]},
+                  "datePublished": a["datum"], "dateModified": a.get("geaendert", a["datum"]),
+                  "author": {"@type": "Organization", "name": "VanKompass"}, "publisher": {"@id": SITE["base"] + "#org"},
+                  "video": {"@type": "VideoObject", "name": v["title"], "description": v["beschreibung"], "thumbnailUrl": yt_img, "uploadDate": v["upload"],
+                            "duration": v["dauer_iso"], "contentUrl": f'https://www.youtube.com/watch?v={v["id"]}', "embedUrl": f'https://www.youtube-nocookie.com/embed/{v["id"]}'}},
+                 faq_ld(a["faq"])]
+        render("artikel.html", a["out"], a=a, bereich=b, camper_list=cl, weiterlesen=weiterlesen, nav="magazin", crumbs=crumbs,
+               meta_title=a["meta_title"], meta_desc=a["meta_desc"], og_image=yt_img, og_type="article", jsonld=jsonld(graph))
+
     # Weiterleitungen alter URLs
     for old, target in {"silo-strom.html": "strom.html", "magazin-strom.html": "magazin.html#strom"}.items():
         write(old, env.get_template("redirect.html").render(target=target))
         written.append(old)
+
+    # Sitemap, robots.txt, IndexNow-Schluessel
+    today = datetime.date.today().isoformat()
+    mod = {a["out"]: a.get("geaendert", a["datum"]) for a in beitraege}
+    pages = [w for w in written if w not in ("silo-strom.html", "magazin-strom.html")]
+    urls = "".join(f"  <url><loc>{SITE['base']}{'' if p == 'index.html' else p}</loc><lastmod>{mod.get(p, today)}</lastmod></url>\n" for p in pages)
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + "</urlset>\n")
+    write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /freebies/\nDisallow: /tools/\nDisallow: /lp-camper-strom-checkliste.html\n\nSitemap: {SITE['base']}sitemap.xml\n")
+    write(SITE["indexnow_key"] + ".txt", SITE["indexnow_key"])
+    written += ["sitemap.xml", "robots.txt"]
 
     print(f"{len(written)} Seiten geschrieben:", ", ".join(written))
 

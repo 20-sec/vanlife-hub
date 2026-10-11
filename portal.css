@@ -133,3 +133,36 @@ header.site nav a.active { color: #fff; font-weight: 600; }
 .area.cta { background: var(--sand-2); border-style: dashed; }
 
 footer.site .legal .star { color: var(--amber); font-weight: 700; }
+
+/* ---------- Magazin-Beitrag (Artikel) ---------- */
+article.beitrag h1 { font-size: clamp(24px, 4.5vw, 38px); line-height: 1.15; margin: 16px 0 8px; letter-spacing: -.5px; color: var(--petrol); }
+article.beitrag .trust a { color: inherit; text-decoration: none; }
+article.beitrag .trust a:hover { text-decoration: underline; }
+article.beitrag .answer-box { margin-top: 20px; }
+article.beitrag h2 { font-size: clamp(20px, 3vw, 26px); color: var(--petrol); margin: 32px 0 12px; letter-spacing: -.3px; }
+article.beitrag h3 { font-size: 18px; color: var(--petrol); margin: 24px 0 8px; }
+article.beitrag p { font-size: 16.5px; line-height: 1.7; margin: 0 0 14px; }
+article.beitrag ul { margin: 0 0 14px; padding-left: 20px; }
+article.beitrag li { margin: 4px 0; font-size: 16px; line-height: 1.6; }
+article.beitrag .specs-note { font-size: 13.5px; color: var(--muted); }
+.video-wrap { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius); margin: 20px 0; box-shadow: var(--shadow); }
+.video-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: var(--radius); }
+.video-source { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin: 0 0 24px; font-size: 14.5px; display: flex; gap: 12px; align-items: center; }
+.video-source .av { width: 40px; height: 40px; border-radius: 50%; background: var(--petrol); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 14px; flex: 0 0 auto; }
+.video-source a { color: var(--amber-dark); text-decoration: none; font-weight: 600; }
+.video-source a:hover { text-decoration: underline; }
+.video-source .hinweis { color: var(--muted); font-size: 13px; }
+.toc { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin: 0 0 24px; }
+.toc h3 { margin: 0 0 8px; font-size: 15px; color: var(--petrol); text-transform: uppercase; letter-spacing: 1px; }
+.toc ul { margin: 0; padding-left: 18px; }
+.toc li { margin: 4px 0; font-size: 15px; }
+.toc a { color: var(--amber-dark); text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+.spec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 16px 0; }
+@media (max-width: 540px) { .spec-grid { grid-template-columns: 1fr; } }
+.spec-card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.spec-card .label { font-size: 12px; text-transform: uppercase; letter-spacing: .8px; color: var(--muted); font-weight: 600; }
+.spec-card .value { font-size: 18px; font-weight: 700; color: var(--petrol); margin-top: 2px; }
+.magazin-nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+.magazin-nav a { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px 16px; text-decoration: none; color: var(--petrol); font-weight: 600; font-size: 14.5px; }
+.magazin-nav a:hover { border-color: var(--amber); background: var(--sand-2); }

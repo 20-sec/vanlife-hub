@@ -5,15 +5,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<meta name="robots" content="noindex, nofollow">
 <title>{{ meta_title }}</title>
 <meta name="description" content="{{ meta_desc }}">
-<link rel="canonical" href="{{ site.base }}{{ out }}">
-<meta property="og:type" content="website">
+<link rel="canonical" href="{{ site.base }}{{ '' if out == 'index.html' else out }}">
+<meta property="og:type" content="{{ og_type|default('website') }}">
 <meta property="og:title" content="{{ meta_title }}">
 <meta property="og:description" content="{{ meta_desc }}">
-<meta property="og:url" content="{{ site.base }}{{ out }}">
-<meta property="og:image" content="{{ site.base }}{{ og_image }}">
+<meta property="og:url" content="{{ site.base }}{{ '' if out == 'index.html' else out }}">
+<meta property="og:image" content="{{ og_image if og_image.startswith('http') else site.base ~ og_image }}">
 <meta property="og:locale" content="de_DE">
 <meta property="og:site_name" content="VanKompass">
 <meta name="twitter:card" content="summary_large_image">
@@ -26,8 +25,6 @@
 </script>
 </head>
 <body>
-
-<div class="proto-banner">ENTWURF / Prototyp &middot; <strong>VanKompass</strong></div>
 
 <header class="site">
   <div class="wrap">

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% import "macros.html" as m with context %}
+{% block body %}
+
+<article class="beitrag">
+<div class="wrap">
+
+<h1>{{ a.title }}</h1>
+
+<div class="trust">
+  <span>Magazin-Beitrag</span>
+  <span class="dot">&middot;</span>
+  <span>Bereich: <b><a href="{{ bereich.out }}">{{ bereich.name }}</a></b></span>
+  {% if camper_list %}<span class="dot">&middot;</span><span>Camper: {% for c in camper_list %}<b><a href="{{ c.out }}">{{ c.name }}</a></b>{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}
+  <span class="dot">&middot;</span>
+  <span>Stand: {{ a.datum_text }}</span>
+</div>
+
+<div class="answer-box">
+  <div class="tag">Auf den Punkt</div>
+  <p>{{ a.answer|safe }}</p>
+</div>
+
+<div class="video-wrap">
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ a.video.id }}" title="{{ a.video.title }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+
+<div class="video-source">
+  <div class="av">{{ a.video.kanal_kuerzel }}</div>
+  <div>
+    <strong>Video von <a href="{{ a.video.kanal_url }}" target="_blank" rel="noopener">{{ a.video.kanal }}</a></strong>{% if a.video.abonnenten %} ({{ a.video.abonnenten }} Abonnenten){% endif %}<br>
+    Ver&ouml;ffentlicht am {{ a.video.upload_text }} &middot; {{ a.video.dauer_text }}{% if a.video.aufrufe %} &middot; {{ a.video.aufrufe }} Aufrufe{% endif %}
+    {% if a.video.werbung %}<br><span class="hinweis">Hinweis: {{ a.video.werbung }}</span>{% endif %}
+  </div>
+</div>
+
+<nav class="toc">
+  <h3>Inhalt</h3>
+  <ul>
+    {% for s in a.sections %}<li><a href="#{{ s.id }}">{{ s.h2 }}</a></li>
+    {% endfor %}<li><a href="#faq">H&auml;ufige Fragen</a></li>
+    <li><a href="#weiterlesen">Weiterlesen</a></li>
+  </ul>
+</nav>
+
+{% for s in a.sections %}
+<h2 id="{{ s.id }}">{{ s.h2 }}</h2>
+{% if s.specs %}
+<div class="spec-grid">
+  {% for sp in s.specs %}<div class="spec-card"><div class="label">{{ sp.label }}</div><div class="value">{{ sp.value }}</div></div>
+  {% endfor %}
+</div>
+{% if s.specs_note %}<p class="specs-note">{{ s.specs_note }}</p>{% endif %}
+{% endif %}
+{{ s.html|safe }}
+{% endfor %}
+
+<h2 id="faq">H&auml;ufige Fragen{% if a.faq_thema %} {{ a.faq_thema }}{% endif %}</h2>
+<div class="faq">
+  {% for f in a.faq %}
+  <details{% if loop.first %} open{% endif %}>
+    <summary>{{ f.q }}</summary>
+    {% for p in f.a %}<p>{{ p }}</p>{% endfor %}
+  </details>
+  {% endfor %}
+</div>
+
+<h2 id="weiterlesen">Weiterlesen bei VanKompass</h2>
+<div class="magazin-nav">
+  {% for l in weiterlesen %}<a href="{{ l.url }}">{{ l.text }}</a>
+  {% endfor %}
+</div>
+
+<div class="disclosure">
+  <strong>Transparenz:</strong> {{ a.transparenz }}
+</div>
+
+</div>
+</article>
+
+<section class="tight">
+<div class="wrap">
+  {{ m.freebie(compact=True) }}
+</div>
+</section>
+
+{% endblock %}

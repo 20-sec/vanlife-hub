@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""Meldet URLs per IndexNow (Bing, Yandex, DuckDuckGo, Naver, Seznam) an.
+Aufruf: python3 tools/indexnow.py <url-oder-pfad> [...]   Pfade wie 'strom.html' werden zu vollen URLs."""
+import json
+import os
+import sys
+import urllib.request
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from build import SITE  # noqa: E402
+
+
+def main(args):
+    urls = [u if u.startswith("http") else SITE["base"] + ("" if u == "index.html" else u) for u in args]
+    body = json.dumps({"host": SITE["base"].split("//")[1].strip("/"), "key": SITE["indexnow_key"],
+                       "keyLocation": f'{SITE["base"]}{SITE["indexnow_key"]}.txt', "urlList": urls}).encode()
+    req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            print(f"IndexNow: HTTP {r.status} fuer {len(urls)} URL(s)")
+    except urllib.error.HTTPError as e:
+        print(f"IndexNow: HTTP {e.code} {e.reason}")
+        return 1
+    for u in urls:
+        print("  ", u)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

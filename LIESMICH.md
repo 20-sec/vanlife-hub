@@ -25,7 +25,13 @@ Magazin, Bereiche, Camper sowie alle 16 Bereichs- und 7 Camper-Portale entstehen
 
 Freebie (Camper-Packliste), Affiliate-Hinweis, Kontaktadresse und Asset-Version stehen zentral in `SITE` in `build.py`. Newsletter-Formulare sind Mock-ups (JS zeigt nur "Danke"), Brevo kommt später dahinter. Cookie-Banner, GA4-Consent (`js/cookie-consent.js`) und Affiliate-Klick-Tracking (`js/klick-tracking.js`) sitzen im Basis-Template und damit auf jeder generierten Seite.
 
-Deploy: alle `*.html` (außer `templates/`), `portal.css`, `vanlife-styles.css`, `vanlife-config-v2.js`, `js/`, `img/`, `favicon.svg` ins Repo `rc-com-domains/vankompass.de` kopieren und pushen; GitHub Actions lädt per FTP zu ALL-INKL hoch.
+**Magazin-Beiträge** liegen als Daten in `data/beitraege/<slug>.json` (Schema: `aferiy-p180-pro-ford-nugget.json`) und werden über `templates/artikel.html` gebaut. Der Beitrag mit `"top": true` ist der "wichtigste Beitrag" seines Bereichs; der Site-weite Top-Beitrag steht in `SITE["top_beitrag"]`. Beides wird händisch gesetzt, neue Beiträge sortieren sich nur ein.
+
+**Neues Video aufnehmen:** Skill `/neues-video <youtube-url>` (liegt in `.claude/skills/neues-video/`, wird mitversioniert). Er nutzt `tools/video_fetch.py` (Metadaten + Transkript), `tools/pruefe_beitrag.py` (Qualitätsprüfung), `tools/deploy.sh` (Build, Commit, Push in beide Repos, Live-Check) und `tools/indexnow.py` (Suchmaschinen-Ping). `build.py` schreibt außerdem `sitemap.xml`, `robots.txt` und die IndexNow-Schlüsseldatei.
+
+**Deploy von Hand:** `bash tools/deploy.sh "Commit-Nachricht" [datei-die-live-sein-muss.html]`. Kopiert alle Web-Dateien ins Repo `rc-com-domains/vankompass.de` (Klon unter `/tmp/vankompass-deploy`, wird bei Bedarf angelegt); GitHub Actions lädt per FTP zu ALL-INKL hoch.
+
+Die Site ist seit 2026-10-11 **indexierbar** (kein noindex, kein Prototyp-Balken mehr). Ausgenommen: Weiterleitungen, `freebies/`, `tools/`, die alte Landingpage `lp-camper-strom-checkliste.html`.
 
 ## Aufmachen
 

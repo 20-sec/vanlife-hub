@@ -11,7 +11,12 @@
   "empfehlung": {
     "name": "AFERIY P180 PRO",
     "one": "Die 1-kWh-Powerstation, die unter die Küche kleiner Campervans passt und trotzdem Airfryer und Eierkocher stemmt.",
-    "pills": ["1024 Wh LiFePO4", "1800 W Reinsinus", "USB-C 140 W", "7 Jahre Garantie"],
+    "pills": [
+      "1024 Wh LiFePO4",
+      "1800 W Reinsinus",
+      "USB-C 140 W",
+      "7 Jahre Garantie"
+    ],
     "why": "Kompakt, leise, LiFePO4 für tausende Ladezyklen und ein Reinsinus-Wechselrichter für empfindliche Geräte. Im Praxistest von Die2Mays läuft sie unter der Nugget-Küche ohne Platzprobleme.",
     "preis": "600 bis 800 €",
     "stand": "Stand Oktober 2026",
@@ -24,21 +29,6 @@
     "platzhalter": false
   },
   "beitraege": [
-    {
-      "slug": "aferiy-p180-pro-ford-nugget",
-      "url": "magazin-strom-aferiy-p180-pro-ford-nugget.html",
-      "title": "AFERIY P180 PRO im Ford Nugget: 1 kWh Powerstation im Praxistest",
-      "teaser": "Passt unter die Nugget-Küche, 1024 Wh LiFePO4, 1800 W Reinsinus. Alle Fakten aus dem Video von Die2Mays.",
-      "lead_teaser": "Wenn du wissen willst, ob eine 1-kWh-Powerstation in einen kleinen Campervan passt und was sie im Alltag wirklich leistet: Dieser Beitrag beantwortet es. 1024 Wh LiFePO4, 1800 W Reinsinus, USB-C mit 140 W, passt unter die Nugget-Küche, wiegt 11,6 kg. Mit Praxistests, Lade-Optionen und allen Fakten aus dem Video.",
-      "kategorie": "Video-Test",
-      "datum": "2026-10-10",
-      "datum_text": "Oktober 2026",
-      "extra": "21 Min. Video",
-      "quelle": "Video von Die2Mays",
-      "thumb": "img/thumb-aferiy-p180-pro.svg",
-      "camper": ["ford-nugget"],
-      "status": "live"
-    },
     {
       "slug": "strom-powerstation-laden",
       "title": "Powerstation im Camper laden: 230 V, Solar oder während der Fahrt?",
@@ -56,7 +46,10 @@
       "kategorie": "Vergleich",
       "thumb_l1": "LiFePO4 oder AGM?",
       "thumb_l2": "Bordbatterie im Van",
-      "camper": ["poessl-ducato", "sprinter-ausbau"],
+      "camper": [
+        "poessl-ducato",
+        "sprinter-ausbau"
+      ],
       "status": "geplant"
     },
     {
@@ -76,7 +69,10 @@
       "kategorie": "Ratgeber",
       "thumb_l1": "Ladebooster erklärt:",
       "thumb_l2": "Laden über Lichtmaschine",
-      "camper": ["sprinter-ausbau", "poessl-ducato"],
+      "camper": [
+        "sprinter-ausbau",
+        "poessl-ducato"
+      ],
       "status": "geplant"
     },
     {
