@@ -14,7 +14,8 @@ os.chdir(ROOT)
 
 SITE = {
     "base": "https://vankompass.de/",
-    "css_v": "2",
+    "css_v": "4",
+    "asset_v": "20261011",
     "kontakt": "redaktion@vankompass.de",
     "affiliate_hinweis": "Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du darüber ein, erhalten wir eine kleine Provision. Für dich ändert sich am Preis nichts. So können wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke für deine Unterstützung.",
     "freebie": {
@@ -233,6 +234,21 @@ def main():
            meta_desc="Video-Tests, Ratgeber und Praxisberichte aus allen Bereichen rund um Camper und Vanlife: Strom, Schlafen, Küche, Sanitär, Heizung und mehr. Neutral zusammengefasst mit allen Fakten.",
            og_image=mag_posts[0]["thumb"], jsonld=jsonld(graph))
 
+    # Startseite
+    crumbs = [{"name": "Start", "url": ""}]
+    graph = [
+        {"@type": "Organization", "@id": SITE["base"] + "#org", "name": "VanKompass", "url": SITE["base"],
+         "description": "Redaktionelle Kaufberatung für Camper-Ausrüstung nach Bereich und Modell."},
+        {"@type": "WebSite", "@id": SITE["base"] + "#site", "url": SITE["base"], "name": "VanKompass", "publisher": {"@id": SITE["base"] + "#org"}},
+        crumbs_ld(crumbs),
+        {"@type": "ItemList", "name": "Camper-Ausrüstung nach Bereich", "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "name": b["name"], "url": SITE["base"] + b["out"]} for i, b in enumerate(bereiche)]},
+    ]
+    render("index.html", "index.html", nav="", crumbs=crumbs, flagship=mag_posts[0], posts=mag_posts[:6], bereiche=bereiche, camper=camper,
+           meta_title="VanKompass: Camper-Ausrüstung nach Bereich und nach deinem Modell",
+           meta_desc="Camper-Ausrüstung nach Bereich und nach deinem Camper-Modell. Video-Tests, Ratgeber und klare Empfehlungen: Strom, Schlafen, Küche, Sanitär, Heizung und mehr.",
+           og_image=mag_posts[0]["thumb"], jsonld=jsonld(graph))
+
     # Bereiche-Hub
     crumbs = [{"name": "Start", "url": ""}, {"name": "Bereiche", "url": "bereiche.html"}]
     graph = [crumbs_ld(crumbs), {"@type": "CollectionPage", "@id": SITE["base"] + "bereiche.html", "name": "Camper-Ausrüstung nach Bereich",
@@ -260,39 +276,7 @@ def main():
 
     print(f"{len(written)} Seiten geschrieben:", ", ".join(written))
 
-    for path in sys.argv[1:]:
-        patch_index(env, path, bereiche, camper)
 
-
-def patch_index(env, path, bereiche, camper):
-    """Startseite (dev oder deploy-Repo) auf Hubs, Icon-Karten und ohne Rechner-Block bringen. Idempotent."""
-    import re
-    with open(path, encoding="utf-8") as f:
-        html = f.read()
-    if "portal.css" not in html:
-        html = html.replace('<link rel="stylesheet" href="vanlife-styles.css?v=3">',
-                            '<link rel="stylesheet" href="vanlife-styles.css?v=3">\n<link rel="stylesheet" href="portal.css?v=' + SITE["css_v"] + '">', 1)
-    html = re.sub(r"<nav>.*?</nav>", '<nav>\n      <a href="magazin.html">Magazin</a>\n      <a href="bereiche.html">Bereiche</a>\n      <a href="camper.html">Camper</a>\n    </nav>', html, count=1, flags=re.S)
-    html = re.sub(r'<section id="tools">.*?</section>\s*', "", html, count=1, flags=re.S)
-    html = html.replace("Ehrliche Kaufberatung mit Rechnern statt Bauchgefühl", "Ehrliche Kaufberatung aus Video-Tests und Praxis statt Bauchgefühl")
-    for label, slug in {"VW California": "vw-california", "Ford Nugget": "ford-nugget", "Marco Polo": "marco-polo", "Kastenwagen-Ausbau": "sprinter-ausbau"}.items():
-        html = html.replace(f'<a class="chip">{label}</a>', f'<a class="chip" href="camper-{slug}.html">{label}</a>')
-    for old, new in {"strom/": "strom.html", "solar/": "solar.html", "schlafen/": "schlafen.html", "sanitär/": "sanitaer.html", "küche/": "kueche.html", "heizung/": "heizung.html"}.items():
-        html = html.replace(f'"url": "https://vankompass.de/{old}"', f'"url": "https://vankompass.de/{new}"')
-    m = env.from_string('{% import "macros.html" as m with context %}{% for b in bereiche %}{{ m.area_card(b) }}\n{% endfor %}')
-    areas_html = '<div class="areas cols-4"><!-- BEREICHE:START -->\n' + m.render(bereiche=bereiche) + '<!-- BEREICHE:END --></div>'
-    m2 = env.from_string('{% import "macros.html" as m with context %}{% for c in camper %}{{ m.camper_card(c) }}\n{% endfor %}')
-    camper_html = ('<div class="areas cols-4"><!-- CAMPER:START -->\n' + m2.render(camper=camper)
-                   + '<a class="area cta" href="mailto:' + SITE["kontakt"] + '?subject=Mein%20Camper%20fehlt"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + ICONS["plus"] + '</svg></span><span class="txt"><h3>Dein Modell fehlt?</h3><p>Sag es uns.</p></span><span class="arrow">&rsaquo;</span></a>\n<!-- CAMPER:END --></div>')
-    if "BEREICHE:START" in html:
-        html = re.sub(r'<div class="areas cols-4"><!-- BEREICHE:START -->.*?<!-- BEREICHE:END --></div>', lambda _: areas_html, html, count=1, flags=re.S)
-        html = re.sub(r'<div class="areas cols-4"><!-- CAMPER:START -->.*?<!-- CAMPER:END --></div>', lambda _: camper_html, html, count=1, flags=re.S)
-    else:
-        html = re.sub(r'<div class="grid cols-4">\n(?:\s*<a class="tile" href[^\n]*\n)+\s*</div>', lambda _: areas_html, html, count=1)
-        html = re.sub(r'<div class="grid cols-4">\n(?:\s*<a class="tile model"[^\n]*\n)+\s*</div>', lambda _: camper_html, html, count=1)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(html)
-    print("index gepatcht:", path)
 
 
 if __name__ == "__main__":

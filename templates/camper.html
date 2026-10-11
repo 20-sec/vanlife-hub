@@ -16,10 +16,7 @@
   <div class="kicker-line"></div>
   <div class="areas cols-4">
     {% for c in camper %}{{ m.camper_card(c, show_latest=True, big=True) }}{% endfor %}
-    <a class="area big cta" href="mailto:{{ site.kontakt }}?subject=Mein%20Camper%20fehlt%20auf%20VanKompass">
-      <span class="ico">{{ m.icon('plus') }}</span>
-      <span class="txt"><h3>Dein Modell fehlt?</h3><p>Sag uns, welchen Camper du f&auml;hrst. Die meistgenannten Modelle bauen wir als N&auml;chstes aus.</p></span>
-    </a>
+    {{ m.camper_cta(big=True) }}
   </div>
 </div>
 </section>

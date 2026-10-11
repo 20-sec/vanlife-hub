@@ -19,11 +19,13 @@ Magazin, Bereiche, Camper sowie alle 16 Bereichs- und 7 Camper-Portale entstehen
 - `data/fragments/bereich-<slug>.json` und `camper-<slug>.json`: Inhalte (Empfehlung, Beiträge, FAQ, Meta). Ein neuer Beitrag wird hier **einmal** eingetragen und erscheint automatisch im Magazin-Hub, im Bereichs-Portal, auf der Bereiche-Übersicht und in den Camper-Portalen, die er im Feld `camper` nennt.
 - `templates/*.html`: Jinja2-Templates (base, macros, portal, magazin, bereiche, camper, redirect).
 - `portal.css`: Styles der Portalseiten, ergänzt `vanlife-styles.css`.
-- `build.py`: `python3 build.py` erzeugt alle Seiten plus fehlende Thumbnails (`img/thumb-*.svg`) und Produkt-Platzhalter (`img/produkt-*.svg`). Mit `python3 build.py index.html` wird zusätzlich die Startseite gepatcht (Navigation, Icon-Karten). Für das Deploy-Repo: `python3 build.py /pfad/zum/deploy/index.html`.
+- `build.py`: `python3 build.py` erzeugt alle Seiten inklusive Startseite plus fehlende Thumbnails (`img/thumb-*.svg`) und Produkt-Platzhalter (`img/produkt-*.svg`).
 
-**Generierte Dateien nicht von Hand editieren**, sie werden beim nächsten Build überschrieben: `magazin.html`, `bereiche.html`, `camper.html`, `<bereichsslug>.html`, `camper-<slug>.html`, `silo-strom.html`, `magazin-strom.html` (die letzten beiden sind Weiterleitungen).
+**Generierte Dateien nicht von Hand editieren**, sie werden beim nächsten Build überschrieben: `index.html`, `magazin.html`, `bereiche.html`, `camper.html`, `<bereichsslug>.html`, `camper-<slug>.html`, `silo-strom.html`, `magazin-strom.html` (die letzten beiden sind Weiterleitungen).
 
-Freebie (Camper-Packliste), Affiliate-Hinweis und Kontaktadresse stehen zentral in `SITE` in `build.py`. Newsletter-Formulare sind Mock-ups (JS zeigt nur "Danke"), Brevo kommt später dahinter.
+Freebie (Camper-Packliste), Affiliate-Hinweis, Kontaktadresse und Asset-Version stehen zentral in `SITE` in `build.py`. Newsletter-Formulare sind Mock-ups (JS zeigt nur "Danke"), Brevo kommt später dahinter. Cookie-Banner, GA4-Consent (`js/cookie-consent.js`) und Affiliate-Klick-Tracking (`js/klick-tracking.js`) sitzen im Basis-Template und damit auf jeder generierten Seite.
+
+Deploy: alle `*.html` (außer `templates/`), `portal.css`, `vanlife-styles.css`, `vanlife-config-v2.js`, `js/`, `img/`, `favicon.svg` ins Repo `rc-com-domains/vankompass.de` kopieren und pushen; GitHub Actions lädt per FTP zu ALL-INKL hoch.
 
 ## Aufmachen
 

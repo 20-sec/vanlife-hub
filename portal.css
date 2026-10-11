@@ -111,7 +111,7 @@ header.site nav a.active { color: #fff; font-weight: 600; }
 .faq details p a { color: var(--amber-dark); font-weight: 600; text-decoration: none; }
 
 /* Bereiche / Camper Karten (ohne Emojis) */
-.areas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.areas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; align-items: start; }
 .areas.cols-4 { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 1000px) { .areas.cols-4 { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 860px) { .areas, .areas.cols-4 { grid-template-columns: repeat(2, 1fr); } }

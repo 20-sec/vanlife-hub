@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% import "macros.html" as m with context %}
+{% block body %}
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Camper-Ausr&uuml;stung nach Bereich. Und nach deinem Modell.</h1>
+    <p class="lead">Video-Tests, Ratgeber und klare Empfehlungen statt Bauchgef&uuml;hl. Sag uns, worum du dich k&uuml;mmern willst, oder w&auml;hle direkt deinen Camper.</p>
+    <div class="chips" aria-label="Schnelleinstieg nach Camper-Modell">
+      <span class="chip">Mein Camper:</span>
+      {% for c in camper %}<a class="chip" href="{{ c.out }}">{{ c.name }}</a>{% endfor %}
+    </div>
+  </div>
+</div>
+
+<section>
+<div class="wrap">
+  {{ m.lead_article(flagship, 'Lies das zuerst') }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Worum willst du dich k&uuml;mmern?</h2><a class="more" href="bereiche.html">Alle {{ bereiche|length }} Bereiche &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="areas cols-4">{% for b in bereiche[:8] %}{{ m.area_card(b) }}{% endfor %}</div>
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Oder direkt nach deinem Camper</h2><a class="more" href="camper.html">Alle Camper &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="areas cols-4">{% for c in camper %}{{ m.camper_card(c) }}{% endfor %}{{ m.camper_cta() }}</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="sec-head"><h2 class="kicker">Neueste Beitr&auml;ge</h2><a class="more" href="magazin.html">Zum Magazin &rarr;</a></div>
+  <div class="kicker-line"></div>
+  <div class="post-grid">{% for p in posts %}{{ m.post_card(p, show_area=True) }}{% endfor %}</div>
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  {{ m.freebie() }}
+</div>
+</section>
+
+<section class="tight">
+<div class="wrap">
+  <div class="author">
+    <div class="av">RED</div>
+    <div class="meta">
+      <b>So arbeiten wir.</b> Wir fassen YouTube-Videos und Praxiswissen rund um Camper-Ausr&uuml;stung zusammen: neutral, mit allen Fakten, immer mit Link zum Original und Nennung des Kanals. Empfehlungen begr&uuml;nden wir, und wir sagen auch, wann ein Produkt nicht passt. Links mit * sind Affiliate-Links, der Preis bleibt f&uuml;r dich gleich.
+      <br><span class="muted">Stand: Oktober 2026</span>
+    </div>
+  </div>
+</div>
+</section>
+
+{% endblock %}
