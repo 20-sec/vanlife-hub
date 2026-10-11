@@ -12,6 +12,14 @@ from build import SITE  # noqa: E402
 
 def main(args):
     urls = [u if u.startswith("http") else SITE["base"] + ("" if u == "index.html" else u) for u in args]
+    key_url = f'{SITE["base"]}{SITE["indexnow_key"]}.txt'
+    try:
+        live = urllib.request.urlopen(key_url, timeout=20).read().decode().strip()
+    except Exception as e:
+        live = f"FEHLER {e}"
+    if live != SITE["indexnow_key"]:
+        print(f"IndexNow abgebrochen: Schluesseldatei nicht live oder falsch ({key_url}: {live[:40]}). Erst deployen, dann pingen.")
+        return 1
     body = json.dumps({"host": SITE["base"].split("//")[1].strip("/"), "key": SITE["indexnow_key"],
                        "keyLocation": f'{SITE["base"]}{SITE["indexnow_key"]}.txt', "urlList": urls}).encode()
     req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8"})

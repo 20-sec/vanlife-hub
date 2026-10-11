@@ -19,7 +19,7 @@ SITE = {
     "build_id": datetime.datetime.now().strftime("%Y%m%d-%H%M%S"),
     "top_bereich": "strom",
     "top_beitrag": "aferiy-p180-pro-ford-nugget",
-    "indexnow_key": "757ee0c8954ba62d7df91e7af93af9ea",
+    "indexnow_key": "ea011f5adae5b0e552cedca6e1224425",
     "asset_v": "20261011",
     "kontakt": "redaktion@vankompass.de",
     "affiliate_hinweis": "Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du darüber ein, erhalten wir eine kleine Provision. Für dich ändert sich am Preis nichts. So können wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke für deine Unterstützung.",
