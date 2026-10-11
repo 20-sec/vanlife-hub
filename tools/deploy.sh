@@ -7,7 +7,7 @@ SRC="$(cd "$(dirname "$0")/.." && pwd)"
 DEP=/tmp/vankompass-deploy
 MSG="${1:-Update}"
 WAIT="${2:-}"
-TRAILER="Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>"
+TRAILER="Co-Authored-By: Claude Haiku 5.5 <noreply@anthropic.com>"
 
 cd "$SRC"
 python3 build.py | tail -1
