@@ -74,8 +74,8 @@
           "value": "fast 46 Grad"
         }
       ],
-      "specs_note": "Angaben aus dem Video der Campervan Crew vom 5. Juli 2026. Preise und Werte sind Angaben des Kanals und nicht unabhängig geprüft.",
-      "html": "<p>Die Zahlen stammen aus dem Video. Es sind Erfahrungswerte und Angaben des Kanals, keine Messreihe.</p>"
+      "specs_note": "Angaben aus dem Video der Campervan Crew vom 5. Juli 2026. Preise und Werte sind Angaben des Kanals.",
+      "html": "<p>Die Zahlen stammen aus dem Video. Es sind Erfahrungswerte und Angaben des Kanals.</p>"
     },
     {
       "id": "frontscheibe",
@@ -100,7 +100,7 @@
     {
       "id": "grenzen",
       "h2": "Wenn nichts mehr hilft",
-      "html": "<div class=\"nope\">\n<h4>Was die Tipps nicht leisten</h4>\n<ul>\n<li>Eine echte Klimaanlage ersetzen sie laut Crew nicht.</li>\n<li>Die Sprühflasche wirkt bei schwüler Hitze deutlich schwächer.</li>\n<li>Bei fast 46 Grad im Camper hilft im Video nur noch der Gang ins Freie.</li>\n</ul>\n</div>"
+      "html": "<div class=\"nope\">\n<h4>Was die Tipps nicht leisten</h4>\n<ul>\n<li>Eine echte Klimaanlage ersetzen sie laut Crew nicht.</li>\n<li>Die Sprühflasche wirkt bei schwüler Hitze etwas schwächer.</li>\n<li>Bei fast 46 Grad im Camper hilft im Video nur noch der Gang ins Freie.</li>\n</ul>\n</div>"
     },
     {
       "id": "fazit-video",
@@ -161,7 +161,7 @@
     {
       "q": "Was kostet eine Frontscheibenabdeckung für den Camper?",
       "a": [
-        "Die Campervan Crew nennt für ihre Abdeckung für den Fiat Ducato rund 80 Euro, so viel hat sie damals bezahlt. Aktuell liege der Preis eher knapp bei 100 Euro. Das sind Angaben des Kanals, die nicht geprüft sind und sich geändert haben können.",
+        "Die Campervan Crew nennt für ihre Abdeckung für den Fiat Ducato rund 80 Euro, so viel hat sie damals bezahlt. Aktuell liege der Preis eher knapp bei 100 Euro. Das sind Angaben des Kanals.",
         "Eine günstigere Variante ist laut Video die Rettungsdecke für 1 bis 2 Euro. Für die Crew ist die große Abdeckung eine Investition, die sich jeden Sommer aufs Neue auszahlt. Seit fünf Jahren ist sie im Einsatz.",
         "Praxis: Vor dem Kauf prüfen, ob die Abdeckung zum eigenen Fahrzeugmodell passt. Die Crew-Variante ist laut Video speziell für den Ducato gebaut."
       ]
@@ -175,5 +175,5 @@
       ]
     }
   ],
-  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal Campervan Crew und ist laut Beschreibung nicht gesponsert. Die Beschreibung enthält Affiliate-Links, darunter Amazon-Partnerlinks und Links anderer Partnerprogramme, über die der Kanal ohne Mehrkosten für Käufer mitverdient. Außerdem nennt sie Rabattcodes des Kanals für Alb Filter (5 Prozent) und Matebrush (10 Prozent). Ob der Kanal für diese Rabattcodes bezahlt wird, geht aus der Beschreibung nicht hervor. VanKompass hat die Tipps nicht selbst getestet. Alle Angaben basieren auf dem Video und seiner Beschreibung."
+  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal Campervan Crew und ist laut Beschreibung nicht gesponsert. Die Beschreibung enthält Affiliate-Links, darunter Amazon-Partnerlinks und Links anderer Partnerprogramme, über die der Kanal ohne Mehrkosten für Käufer mitverdient. Außerdem nennt sie Rabattcodes des Kanals für Alb Filter (5 Prozent) und Matebrush (10 Prozent). VanKompass hat die Tipps nicht selbst getestet. Alle Angaben basieren auf dem Video und seiner Beschreibung."
 }

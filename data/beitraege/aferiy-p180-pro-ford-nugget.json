@@ -32,7 +32,7 @@
     "aufrufe": "1.392",
     "werbung": "Das Video ist vom Kanal als Werbevideo gekennzeichnet. Das Produkt wurde Die2Mays kostenfrei zur Verfügung gestellt. Die Meinungsäußerung ist laut Angabe frei."
   },
-  "answer": "Die AFERIY P180 PRO (Nomad 1800 Pro) ist eine kompakte <strong>1024-Wh-Powerstation mit LiFePO4-Akku</strong>, die laut dem Praxistest von Die2Mays problemlos unter die Küche des Ford Nugget passt. Mit 1800 W Sinus-Wechselrichter, USB-C PD 140 W und Solarladen per XT60 deckt sie die typischen Camping-Verbraucher ab. Gewicht: 11,64 kg. Garantie: 7 Jahre bei Registrierung.",
+  "answer": "Die AFERIY P180 PRO (Nomad 1800 Pro) ist eine kompakte <strong>1024-Wh-Powerstation mit LiFePO4-Akku</strong>, die laut dem Praxistest von Die2Mays problemlos unter die Küche des Ford Nugget passt. Sie bietet einen 1800-W-Sinus-Wechselrichter, USB-C PD mit 140 W und Solarladen per XT60. Gewicht: 11,64 kg. Garantie: 7 Jahre bei Registrierung.",
   "sections": [
     {
       "id": "ueberblick",
@@ -87,7 +87,7 @@
     {
       "id": "praxis-nugget",
       "h2": "Praxistest im Ford Nugget",
-      "html": "<div class=\"praxis\">\n<h4>Passt unter die Küche</h4>\n<p>Der Tester hebt hervor, dass die P180 PRO problemlos unter die Küche des Ford Nugget passt, in den Stauraum, der auch zum Lagern genutzt wird. Dank der versenkten Griffe und der kompakten Bauform muss nichts umständlich eingefädelt werden.</p>\n</div>\n<p>Im Video werden mehrere Verbraucher getestet:</p>\n<ul>\n<li><strong>Eierkocher</strong> (ca. 230 W): Funktioniert problemlos. Bei 99 % Akkustand zeigt die App eine Restlaufzeit von 4 Stunden und 5 Minuten an.</li>\n<li><strong>Handmixer und Pürierstab:</strong> Funktionieren einwandfrei für Teig oder Suppen.</li>\n<li><strong>Föhn:</strong> Funktioniert, aber nur auf niedrigerer Stufe. Bei voller Leistung (bis 2000 W) überschreitet der Föhn die 1800 W des Wechselrichters.</li>\n<li><strong>Airfryer (Haushaltsgerät, 2100 W):</strong> Zu viel. Die Powerstation schafft maximal 1800 W. Mit einem Camping-Airfryer (weniger Leistung) wäre es möglich.</li>\n</ul>\n<div class=\"nope\">\n<h4>Grenzen der Powerstation</h4>\n<ul>\n<li>Geräte über 1800 W (z. B. große Haushalts-Airfryer, leistungsstarke Haartrockner auf Höchststufe) überlasten die Station.</li>\n<li>Für dauerhafte Versorgung von mehreren Hochlast-Verbrauchern gleichzeitig ist die Kapazität von 1024 Wh begrenzt.</li>\n</ul>\n</div>"
+      "html": "<div class=\"praxis\">\n<h4>Passt unter die Küche</h4>\n<p>Der Tester hebt hervor, dass die P180 PRO problemlos unter die Küche des Ford Nugget passt, in den Stauraum, der auch zum Lagern genutzt wird. Dank der versenkten Griffe und der kompakten Bauform muss nichts umständlich eingefädelt werden.</p>\n</div>\n<p>Im Video werden mehrere Verbraucher getestet:</p>\n<ul>\n<li><strong>Eierkocher</strong> (ca. 230 W): Funktioniert problemlos. Bei 99 % Akkustand zeigt die App eine Restlaufzeit von 4 Stunden und 5 Minuten an.</li>\n<li><strong>Handmixer und Pürierstab:</strong> Funktionieren laut Video gut, etwa für Kuchen- und Brotteig.</li>\n<li><strong>Airfryer (Haushaltsgerät, 2100 W):</strong> Zu viel. Die Powerstation schafft maximal 1800 W. Mit einem Camping-Airfryer (weniger Leistung) wäre es möglich.</li>\n</ul>\n<div class=\"nope\">\n<h4>Grenzen der Powerstation</h4>\n<ul>\n<li>Geräte über 1800 W (z. B. großer Haushalts-Airfryer) überlasten die Station.</li>\n</ul>\n</div>"
     },
     {
       "id": "laden",
@@ -119,15 +119,14 @@
       "q": "Wie schwer ist die AFERIY P180 PRO?",
       "a": [
         "Die Powerstation wiegt laut Video 11,64 kg. Für eine Station mit 1024 Wh Kapazität und 1800 W Wechselrichter ist das laut dem Tester deutlich kompakter als vergleichbare Modelle.",
-        "Zum Einordnen: Die Kapazität von 1024 Wh entspricht etwa einer 80-Ah-LiFePO4-Bordbatterie, nur dass Wechselrichter, Ladegerät, Display und alle Anschlüsse schon eingebaut sind. Das erklärt, warum die Station trotz Kompaktheit nicht unter zehn Kilo kommt.",
         "Für den Alltag heißt das: Die Station lässt sich an den versenkten Griffen tragen, aber täglich über Kopf heben will man sie nicht. Ein bodennaher Stauraum wie der unter der Nugget-Küche ist deshalb die passende Stelle."
       ]
     },
     {
       "q": "Wie lange hält der Akku der AFERIY P180 PRO?",
       "a": [
-        "Der LiFePO4-Akku ist für 4000 Ladezyklen ausgelegt. Bei normaler Nutzung entspricht das laut Hersteller und Tester einer Lebensdauer von rund 10 bis 11 Jahren.",
-        "LiFePO4-Zellen halten deutlich mehr Zyklen als klassische Lithium-Ionen-Akkus, das ist der wichtigste Grund, warum diese Chemie bei Camper-Powerstations inzwischen Standard ist. Ein Zyklus bedeutet dabei eine komplette Entladung und Ladung; wer die Station meist nur halb leert, kommt entsprechend länger.",
+        "Der LiFePO4-Akku ist für 4000 Ladezyklen ausgelegt. Bei normaler Nutzung entspricht das laut dem Tester einer Lebensdauer von rund 10 bis 11 Jahren.",
+        "Ein Ladezyklus bedeutet laut Video eine komplette Entladung bis auf null und eine Ladung bis auf 100 Prozent.",
         "Zur Absicherung gibt es 2 Jahre gesetzliche Gewährleistung plus 5 Jahre Zusatzgarantie, wenn du das Gerät beim Hersteller registrierst, zusammen also 7 Jahre. Die Garantiekarte liegt laut Video im Karton. Die Registrierung solltest du direkt nach dem Kauf erledigen, sonst bleibt es bei zwei Jahren."
       ]
     },
@@ -136,7 +135,7 @@
       "a": [
         "Ja. Über den XT60-Anschluss unter der Klappe und das mitgelieferte MC4-auf-XT60-Adapterkabel lädt die Station mit bis zu 500 Watt Solarleistung.",
         "Im Praxistest erreichte der Tester bei Nachmittagssonne 68 Watt. Bei 65 Prozent Akkustand zeigte das Display noch 5 Stunden und 47 Minuten bis zur Vollladung an. Das zeigt gut, wie weit Nennleistung des Panels und reale Einspeisung am Nachmittag auseinanderliegen.",
-        "Praxis: Die aktuelle Ladeleistung steht in Watt auf dem Display, so siehst du sofort, ob sich das Umstellen des Panels zur Sonne lohnt. Wer die 500 Watt ausnutzen will, braucht entsprechend große Module und Mittagssonne."
+        "Praxis: Die aktuelle Ladeleistung zeigt das Display in Watt."
       ]
     },
     {
@@ -144,7 +143,7 @@
       "a": [
         "Ja, über ein XT60-auf-Zigarettenanzünder-Kabel, das nicht im Lieferumfang ist und separat gekauft werden muss. Der Ladestrom lässt sich in der App einstellen und begrenzen.",
         "Der Tester rät davon ab, den 12-V-Anschluss im Wohnbereich des Nugget stark zu belasten, weil der an der Aufbaubatterie hängt und mit etwa 4 A (rund 50 W) ohnehin wenig liefert. Besser ist der 12-V-Anschluss im Armaturenbereich: Dort kommt der Strom von der Lichtmaschine, die Bordbatterie bleibt unbelastet.",
-        "Sein konkreter Tipp aus dem Video: In der App den Ladestrom auf maximal 10 A begrenzen, damit Steckdose und Kabel nicht am Limit laufen. Und nur bei laufendem Motor laden."
+        "Sein Tipp aus dem Video: Am 12-V-Anschluss im Armaturenbereich lässt sich der Ladestrom in der App auf 10 A hochdrehen, weil dort die Lichtmaschine den Strom liefert."
       ]
     },
     {
@@ -159,8 +158,7 @@
       "q": "Hat die Powerstation eine USV-Funktion?",
       "a": [
         "Ja. Die P180 PRO kann als unterbrechungsfreie Stromversorgung arbeiten: Sie wird zwischen Steckdose und Verbraucher gesteckt und schaltet bei einem Stromausfall innerhalb weniger Millisekunden auf Batteriebetrieb um.",
-        "Im Video wird das vor allem für Computer, Büroarbeit und medizinische Geräte hervorgehoben, zum Beispiel Beatmungsgeräte in der Nacht, bei denen ein Ausfall nicht passieren darf.",
-        "Für den Camper bedeutet das: Am Landstrom auf dem Campingplatz hängen die Verbraucher an der Station, die Station am Netz. Fällt der Platzstrom aus, läuft Kühlbox oder CPAP-Gerät ohne Unterbrechung weiter."
+        "Im Video wird das vor allem für Computer, Büroarbeit und medizinische Geräte hervorgehoben, zum Beispiel Beatmungsgeräte in der Nacht, bei denen ein Ausfall nicht passieren darf."
       ]
     },
     {

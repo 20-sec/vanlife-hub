@@ -11,8 +11,8 @@
   "crumb": "Gebraucht oder neu: der Campervan-Check",
   "meta_title": "Gebrauchter Campervan oder neu? Händler-Video im Check",
   "meta_desc": "Lohnt sich ein gebrauchter Campervan noch? Ein Händler rechnet vor: Knaus Boxlife mit 76.900 km gegen neuen Sunlight Cliff mit 2 Jahren Garantie.",
-  "teaser": "Ein Händler vergleicht einen Knaus Boxlife von 2016 mit einem neuen Sunlight Cliff. Was das Video zeigt und wo die These an Grenzen stößt.",
-  "lead_teaser": "Ein Wohnmobilhändler stellt im Video die These auf, dass sich gebrauchte Campervans aktuell oft nicht mehr lohnen. Er filtert auf mobile.de nach höchstens 10 Jahren und 100.000 km und vergleicht einen Knaus Boxlife aus 2016 mit einem neuen Sunlight Cliff. Hier steht, was das Video zeigt, welche Gegenargumente der Tester selbst nennt und wo seine Sicht Grenzen hat.",
+  "teaser": "Ein Händler vergleicht einen Knaus Boxlife von 2016 mit einem neuen Sunlight Cliff. Was das Video zeigt und welche Gegenargumente er nennt.",
+  "lead_teaser": "Ein Wohnmobilhändler stellt im Video die These auf, dass sich gebrauchte Campervans aktuell oft nicht mehr lohnen. Er filtert auf mobile.de nach höchstens 10 Jahren und 100.000 km und vergleicht einen Knaus Boxlife aus 2016 mit einem neuen Sunlight Cliff. Hier steht, was das Video zeigt und welche Gegenargumente der Tester selbst nennt.",
   "datum": "2026-10-11",
   "datum_text": "Oktober 2026",
   "geaendert": "2026-10-11",
@@ -68,7 +68,7 @@
           "value": "Markise, Dusche, WC, Rückfahrkamera, DAB+"
         }
       ],
-      "specs_note": "Angaben aus dem Inserat, das der Tester auf mobile.de zeigt (Stand der Aufnahme, März 2026). Der Tester hat das Fahrzeug nicht geprüft.",
+      "specs_note": "Angaben aus dem Inserat, das der Tester auf mobile.de zeigt (Stand der Aufnahme, März 2026).",
       "html": "<p>Als Beispiel für ein gebrauchtes Fahrzeug zeigt der Tester einen Knaus Boxlife 600 MQ. Knaus hält er grundsätzlich für eine gute Marke. Renommierte Hersteller wie Knaus, Sunlight, Dethleffs oder Hymer würden ihren Preis im Gebrauchtmarkt besser halten, sagt er.</p>"
     },
     {
@@ -79,7 +79,7 @@
     {
       "id": "preisvergleich",
       "h2": "Gebraucht gegen neu: der Preisvergleich",
-      "html": "<p>Im Video stehen ein Knaus Boxlife aus 2016 für 40.990 Euro und ein Sunlight Cliff aus dem Bestand des Hauses für 49.990 Euro nebeneinander. Der Tester sagt, der Neuwagen sei nur 5.000 bis 10.000 Euro teurer. Dafür gebe es zwei Jahre Garantie, weniger Wartungsanfälligkeit und geringere Kosten in den nächsten Jahren.</p>\n<p>Zusätzlich lasse sich beim Neuwagen eine Neuwagen-Anschlussgarantie abschließen. Der Tester geht davon aus, dass sein Haus diese im Verkaufsgespräch wahrscheinlich einräumen würde.</p>"
+      "html": "<p>Im Video stehen ein Knaus Boxlife aus 2016 für 40.990 Euro und ein Sunlight Cliff aus dem Bestand des Hauses für 49.990 Euro nebeneinander. Der Tester sagt, der Neuwagen sei nur 5.000 bis 10.000 Euro teurer. Dafür gebe es zwei Jahre Garantie, weniger Wartungsanfälligkeit und geringere Kosten in den nächsten Jahren.</p>\n<p>Zusätzlich lasse sich beim Neuwagen eine Neuwagen-Anschlussgarantie abschließen.</p>"
     },
     {
       "id": "suche",
@@ -89,7 +89,7 @@
     {
       "id": "fazit-video",
       "h2": "Fazit aus dem Video",
-      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Die These des Händlers und ihre Grenzen</h2>\n<p>Der Tester stellt die These auf: Gebrauchte Campervans lohnen sich aktuell oft nicht mehr. Im Video geht er weiter und sagt als Wohnmobilhändler, dass sich ein Neuwagen in jedem Fall lohne. Das ist seine Einzelmeinung. Seine Begründung: hohe Preise für Gebrauchte trotz Alter und Laufleistung, vergleichsweise günstige Neufahrzeuge und die Garantie.</p>\n<p>Er nennt auch Gegenargumente. Ältere Motoren gelten vielen als robuster, und ein günstiger Einstieg sei zumindest theoretisch möglich. Ein älteres Fahrzeug sei zudem schon durchgetestet, Kinderkrankheiten seien meist behoben. Seine Aussagen beruhen auf einer Momentaufnahme einzelner Inserate auf mobile.de. Der Kanal gehört einem Wohnmobilhändler, der selbst neue und gebrauchte Fahrzeuge verkauft.</p>\n</div>\n<div class=\"nope\">\n<h4>Was das Video nicht belegt</h4>\n<ul>\n<li>Keine Statistik zu Schäden oder Reparaturkosten bei gebrauchten Campern.</li>\n<li>Kein Vergleich mit Fahrzeugen anderer Händler oder mit Angeboten außerhalb von mobile.de.</li>\n<li>Die gezeigten Gebrauchtfahrzeuge wurden nicht geprüft. Zustand und Historie stammen aus den Inseraten.</li>\n</ul>\n</div>"
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Die These des Händlers im Überblick</h2>\n<p>Der Tester stellt die These auf: Gebrauchte Campervans lohnen sich aktuell oft nicht mehr. Im Video geht er weiter und sagt als Wohnmobilhändler, dass sich ein Neuwagen in jedem Fall lohne. Seine Begründung: hohe Preise für Gebrauchte trotz Alter und Laufleistung, vergleichsweise günstige Neufahrzeuge und die Garantie.</p>\n<p>Er nennt auch Gegenargumente. Ältere Motoren gelten vielen als robuster. Ein älteres Fahrzeug sei zudem schon durchgetestet, Kinderkrankheiten seien meist behoben. Der Kanal gehört einem Wohnmobilhändler, der selbst neue und gebrauchte Fahrzeuge verkauft.</p>\n</div>"
     }
   ],
   "faq_thema": "zu gebrauchten Campervans",
@@ -107,7 +107,7 @@
       "a": [
         "Laut dem Tester altern Gummis und Kunststoffe, Dichtungen verlieren ihre Elastizität und Elektrik-Kontakte oxidieren. Auch wenn ein Fahrzeug im Stand steht, kann Feuchtigkeit eindringen und Steuergeräte beschädigen.",
         "Beim Motor können trotz Ölwechseln Rückstände im Öl und im Motor bleiben, die Leistung kosten und den Motor wartungsanfälliger machen. Rost entsteht laut ihm ebenfalls im Stand, Bremsen können festrosten und Reifen Standschäden bekommen.",
-        "Das Video nennt diese Punkte als Risiken, nicht als sichere Schäden. Wer einen gebrauchten Camper prüft, kann gezielt nach Zustand von Dichtungen, Elektrik, Bremsen und Reifen fragen."
+        "Wer einen gebrauchten Camper prüft, kann gezielt nach Zustand von Dichtungen, Elektrik, Bremsen und Reifen fragen."
       ]
     },
     {
@@ -115,7 +115,7 @@
       "a": [
         "Nach Aussage des Testers nicht automatisch. Ein zehn Jahre altes Fahrzeug mit 10.000 Kilometern könne genauso viele Probleme machen wie ein fünf Jahre altes mit 100.000 Kilometern. Alter und Laufleistung zählen beide.",
         "Er sagt außerdem, dass Vielfahrer und Wenigfahrer jeweils eigene Nachteile haben. Ein Fahrzeug, das lange still steht, leidet unter anderen Problemen als eines, das viel unterwegs ist.",
-        "Für den Kauf heißt das laut Video: Den Zustand von Gummis, Dichtungen, Elektrik und Bremsen gezielt prüfen, nicht nur den Kilometerstand betrachten."
+        "Praxis: Den Zustand von Gummis, Dichtungen, Elektrik und Bremsen gezielt prüfen, nicht nur den Kilometerstand betrachten."
       ]
     },
     {
@@ -123,15 +123,15 @@
       "a": [
         "Im Video steht ein Knaus Boxlife 600 MQ aus April 2016 mit 76.900 Kilometern und 116 PS für 40.990 Euro im Inserat. Ausstattung laut Video: Markise, Dusche, WC, Rückfahrkamera, DAB+ und Schiebetür.",
         "Ein neuer Sunlight Cliff aus dem Bestand des Händlers kostet 49.990 Euro. Der Tester nennt den Unterschied zu einem Neufahrzeug 5.000 bis 10.000 Euro.",
-        "Die Zahlen stammen aus dem Video und dem gezeigten Inserat. Ob der Gebrauchte im Preis verhandelbar ist, zeigt das Video nicht."
+        "Die Zahlen stammen aus dem Video und dem gezeigten Inserat."
       ]
     },
     {
       "q": "Welche Garantie gibt es bei gebrauchten Campervans?",
       "a": [
         "Der Händler stellt laut Video nur Fahrzeuge bis zehn Jahre aus, weil für diese eine Gebrauchtwagengarantie abgeschlossen werden kann. Laut ihm sichert das auch den Kunden besser ab. Die einjährige Sachmangelhaftung nennt er als Absicherung für den Händler.",
-        "Neufahrzeuge haben laut Video zwei Jahre Garantie. Zusätzlich lässt sich eine Neuwagen-Anschlussgarantie abschließen, die der Tester bei seinem Haus für wahrscheinlich verhandelbar hält.",
-        "Welche Garantie du konkret bekommst, hängt vom Vertrag ab. Das Video nennt dazu keine Einzelheiten und ersetzt keine Vertragsprüfung."
+        "Neufahrzeuge haben laut Video zwei Jahre Garantie. Zusätzlich lässt sich eine Neuwagen-Anschlussgarantie abschließen,.",
+        "Welche Garantie du konkret bekommst, hängt vom Vertrag ab."
       ]
     },
     {
@@ -139,7 +139,7 @@
       "a": [
         "Sein Haus stellt laut Tester nur Fahrzeuge bis zehn Jahre in die Ausstellung, weil dafür eine Gebrauchtwagengarantie möglich ist. Ältere Fahrzeuge gibt das Haus in der Regel an Aufkäufer weiter, ebenso Fahrzeuge mit sehr hoher Laufleistung.",
         "Der Filter auf 100.000 Kilometer ist eine eigene Wahl des Testers. Er wollte nach eigenen Worten nicht zu weit vom Neuwagen entfernt sein, was Zustand und Technik angeht.",
-        "Das ist eine Geschäftsentscheidung eines Händlers. Sie sagt nichts über den Gebrauchtmarkt insgesamt aus, der im Video nur anhand einiger Inserate betrachtet wird."
+        "Das ist eine Geschäftsentscheidung eines Händlers."
       ]
     },
     {
@@ -147,7 +147,7 @@
       "a": [
         "Laut Tester sind die günstigsten Angebote unter 40.000 Euro überwiegend Selbstausbauten. Das heißt nach seinen Worten nicht, dass die Qualität minderwertig ist, aber es ist dann oft kein klassisches Reisemobil.",
         "Er rät, auf einen ordentlichen Reisemobilhändler oder einen Hersteller zu achten.",
-        "Im Video werden keine konkreten Selbstausbauten geprüft. Die Aussagen beruhen auf Angeboten, die der Tester auf mobile.de gesehen hat."
+        "Daneben gibt es laut Tester Camper, die gar keine richtigen Campervans sind."
       ]
     }
   ],

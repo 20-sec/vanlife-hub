@@ -66,8 +66,8 @@
           "value": "Camptraum, 654 Abos"
         }
       ],
-      "specs_note": "Angaben laut Video vom 13. Juni 2026. App-Preise nennt das Video nicht. Genannt werden nur Übernachtungspreise auf ACSI-Plätzen. Funktionen können sich ändern. Bitte beim Anbieter prüfen.",
-      "html": "<p>Das Video nennt keine Preise der Apps. Die Macher erwähnen eine Jahresgebühr für ACSI, geben aber keinen Betrag an.</p>"
+      "specs_note": "Angaben laut Video vom 13. Juni 2026.",
+      "html": "<p>Für ACSI nennen die Macher eine Jahresgebühr.</p>"
     },
     {
       "id": "park4night-landvergnuegen",
@@ -82,7 +82,7 @@
     {
       "id": "trackiwi",
       "h2": "Trackiwi: Reisetagebuch und Diebstahlschutz",
-      "html": "<p>Trackiwi ist für die Macher die Nummer 1, weil die App zwei Dinge gut kann: ein Reisetagebuch und GPS-Tracking. Das Tagebuch zeigt, wo man war, welche Routen man gefahren ist und wie viele Nächte man auf welchen Plätzen verbracht hat.</p>\n<p>Den GPS-Tracker im Fahrzeug haben die Macher nach eigener Aussage selbst verbaut, dazu gibt es ein eigenes Video des Kanals. Wird am Wohnmobil manipuliert, kommt ein Alarm aufs Handy, dazu ein akustischer Alarm im Fahrzeug. Weitere Funktionen sind laut Video noch nicht freigeschaltet, ob und wann das passiert, wissen die Macher nicht.</p>\n<p>Im Video nennen die Macher außerdem einen Rabattcode über 10 Prozent. Sie sagen, den hätten sie nach eigener Aussage von Trackiwi bekommen.</p>"
+      "html": "<p>Trackiwi ist für die Macher die Nummer 1, weil die App zwei Dinge gut kann: ein Reisetagebuch und GPS-Tracking. Das Tagebuch zeigt, wo man war, welche Routen man gefahren ist und wie viele Nächte man auf welchen Plätzen verbracht hat.</p>\n<p>Den GPS-Tracker im Fahrzeug haben die Macher nach eigener Aussage selbst verbaut, dazu gibt es ein eigenes Video des Kanals. Wird am Wohnmobil manipuliert, kommt ein Alarm aufs Handy, dazu ein akustischer Alarm im Fahrzeug.</p>\n<p>Im Video nennen die Macher außerdem einen Rabattcode über 10 Prozent. Sie sagen, den hätten sie nach eigener Aussage von Trackiwi bekommen.</p>"
     },
     {
       "id": "praxis-tipps",
@@ -92,7 +92,7 @@
     {
       "id": "fazit-video",
       "h2": "Fazit aus dem Video",
-      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Die Macher über ihre Apps</h2>\n<p>Camptraum nennt diese fünf Apps als Favoriten, ohne die sie nach eigener Aussage nicht mehr losfahren würden. Die Empfehlung ist persönlich. Die Macher bitten die Zuschauer um Geheimtipps in den Kommentaren.</p>\n<p style=\"margin-bottom:0;\">Das Video ist nicht als Werbung gekennzeichnet. In der Beschreibung stehen Amazon-Affiliate-Links für Zubehör und Technik, im Video wird außerdem ein Rabattcode von Trackiwi über 10 Prozent genannt. Ob es dafür eine Gegenleistung gab, geht aus dem Video nicht hervor.</p>\n</div>"
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Die Macher über ihre Apps</h2>\n<p>Camptraum nennt diese fünf Apps als Favoriten, ohne die sie nach eigener Aussage nicht mehr losfahren würden. Die Empfehlung ist persönlich. Die Macher bitten die Zuschauer um Geheimtipps in den Kommentaren.</p>\n<p style=\"margin-bottom:0;\">Das Video ist nicht als Werbung gekennzeichnet. In der Beschreibung stehen Amazon-Affiliate-Links für Zubehör und Technik, im Video wird außerdem ein Rabattcode von Trackiwi über 10 Prozent genannt.</p>\n</div>"
     }
   ],
   "faq_thema": "zu den Camping-Apps von Camptraum",
@@ -109,8 +109,7 @@
       "q": "Was bietet park4night laut Camptraum?",
       "a": [
         "Laut Ingo hat park4night bei der Anzahl der Stellplätze und Campingplätze weltweit kaum Konkurrenz. Für einen schnellen Zwischenstopp an der Autobahn oder einen Platz in Skandinavien sei die App ideal.",
-        "Der wichtigste Tipp der Macher: Nicht nur auf die Sterne achten, sondern nach den neuesten Kommentaren sortieren. Viele Plätze, die früher gut bewertet waren, sind heute geschlossen.",
-        "Das Video nennt keine Kosten für park4night."
+        "Der wichtigste Tipp der Macher: Nicht nur auf die Sterne achten, sondern nach den neuesten Kommentaren sortieren. Viele Plätze, die früher gut bewertet waren, sind heute geschlossen."
       ]
     },
     {
@@ -118,7 +117,7 @@
       "a": [
         "Laut Video bekommt man in der Nebensaison auf über 3000 Campingplätzen in Europa Rabatte. Teilweise zahle man nur 15, 17 oder 19 Euro für zwei Personen pro Nacht, inklusive Strom.",
         "Die App hat eine Offline-Funktion. Das hilft, wenn man in den Bergen kein Netz hat und trotzdem den nächsten Rabattplatz finden will.",
-        "Die Macher sagen, die Jahresgebühr sei bei Frühjahrs- oder Herbsturlaub nach zwei Nächten wieder drin. Den Betrag der Gebühr nennt das Video nicht."
+        "Die Macher sagen, die Jahresgebühr sei bei Frühjahrs- oder Herbsturlaub nach zwei Nächten wieder drin."
       ]
     },
     {
@@ -134,7 +133,6 @@
       "a": [
         "Trackiwi kombiniert ein Reisetagebuch mit GPS-Tracking. Das Tagebuch zeigt Standorte, Routen und die Zahl der Nächte pro Platz.",
         "Den GPS-Tracker haben die Macher nach eigener Aussage selbst im Fahrzeug verbaut. Wird am Wohnmobil manipuliert, gibt es einen Alarm aufs Handy und einen akustischen Alarm im Fahrzeug.",
-        "Weitere Funktionen sind laut Video noch nicht freigeschaltet. Ob und wann das passiert, ist offen.",
         "Im Video wird außerdem ein Rabattcode über 10 Prozent genannt, den die Macher nach eigener Aussage von Trackiwi bekommen haben."
       ]
     },
@@ -149,11 +147,10 @@
     {
       "q": "Lohnt sich die Jahresgebühr von ACSI?",
       "a": [
-        "Die Macher sagen, man habe die Jahresgebühr bei Frühjahrs- oder Herbsturlaub nach zwei Nächten wieder raus. Das ist ihre Rechnung, keine geprüfte Zahl.",
-        "Die Macher nennen die Rabatte vor allem für Frühjahr und Herbst, also dann, wenn man die Nebensaison-Preise nutzen kann.",
-        "Den Preis der Jahresgebühr nennt das Video nicht. Vor dem Kauf sollte man ihn direkt bei ACSI prüfen."
+        "Die Macher sagen, man habe die Jahresgebühr bei Frühjahrs- oder Herbsturlaub nach zwei Nächten wieder raus.",
+        "Die Macher nennen die Rabatte vor allem für Frühjahr und Herbst, also dann, wenn man die Nebensaison-Preise nutzen kann. Teilweise zahle man dann nur 15, 17 oder 19 Euro für zwei Personen pro Nacht inklusive Strom."
       ]
     }
   ],
-  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal Camptraum und ist laut Videodaten nicht als Werbung gekennzeichnet. Die Macher nennen im Video einen Rabattcode über 10 Prozent für Trackiwi, den sie nach eigener Aussage von Trackiwi bekommen haben. Ob es dafür eine Gegenleistung gab, ist nicht bekannt. In der Videobeschreibung stehen Amazon-Affiliate-Links für Zubehör und Technik (etwa Drohnen, Powerstationen und Gasgrills), über die der Kanal eine Provision erhält. VanKompass hat die Apps nicht selbst getestet. Alle Angaben basieren auf dem Video und seiner Beschreibung. Links zu Produkten können Affiliate-Links enthalten."
+  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal Camptraum und ist laut Videodaten nicht als Werbung gekennzeichnet. Die Macher nennen im Video einen Rabattcode über 10 Prozent für Trackiwi, den sie nach eigener Aussage von Trackiwi bekommen haben. In der Videobeschreibung stehen Amazon-Affiliate-Links für Zubehör und Technik (etwa Drohnen, Powerstationen und Gasgrills), über die der Kanal eine Provision erhält. VanKompass hat die Apps nicht selbst getestet. Alle Angaben basieren auf dem Video und seiner Beschreibung. Links zu Produkten können Affiliate-Links enthalten."
 }

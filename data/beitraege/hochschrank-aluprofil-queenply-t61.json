@@ -35,7 +35,7 @@
     {
       "id": "ueberblick",
       "h2": "Was zeigt das Video?",
-      "html": "<p>Küstenvan (YouTube-Kanal zum Selbstausbau eines VW T6.1) stellt den Hochschrank vor, der hinter der Küchenzeile Platz für Kleidung schafft, angelehnt an die Anordnung im VW California. Wie die anderen Möbel im Fahrzeug besteht er aus schwarzen Aluprofilen in Kombination mit Queenply-Platten. Der Erbauer sagt selbst, dass er den Schrank nebenbei gebaut hat, um voranzukommen, aber viel gefilmt hat, weil einige Tricks drinstecken.</p>\n<p>Das Video zeigt den Weg vom Frontrahmen über das Abnehmen der Tiefenmaße im Fahrzeug, den Zuschnitt der Platten, die vier Klappen mit Magnetverschluss, die Anpassung an die Fahrzeugkontur bis zu den nachträglich gefrästen Aussparungen für die Elektrik. Der untere Bereich des Schranks bleibt im Video noch offen, dort ist die Elektrik mit Victron-Geräten geplant.</p>"
+      "html": "<p>Küstenvan (YouTube-Kanal zum Selbstausbau eines VW T6.1) stellt den Hochschrank vor, der hinter der Küchenzeile Platz für Kleidung schafft, angelehnt an die Anordnung im VW California. Wie die anderen Möbel im Fahrzeug besteht er aus schwarzen Aluprofilen in Kombination mit Queenply-Platten. Der Erbauer sagt selbst, dass er den Schrank nebenbei gebaut hat, um voranzukommen, aber viel gefilmt hat, weil einige Tricks drinstecken.</p>\n<p>Das Video zeigt den Weg vom Frontrahmen über das Abnehmen der Tiefenmaße im Fahrzeug, den Zuschnitt der Platten, die vier Klappen mit Magnetverschluss, die Anpassung an die Fahrzeugkontur bis zu den nachträglich gefrästen Aussparungen für die Elektrik.</p>"
     },
     {
       "id": "material",
@@ -74,7 +74,7 @@
           "value": "Kleidung"
         }
       ],
-      "specs_note": "Angaben laut Video und Videobeschreibung von Küstenvan, Stand Juni 2024. Maße des Schranks nennt das Video nicht.",
+      "specs_note": "Angaben laut Video und Videobeschreibung von Küstenvan, Stand Juni 2024.",
       "html": "<p>Die Holzoberflächen hat der Erbauer nach dem Zuschnitt lackiert, damit die Oberfläche laut seiner Aussage etwas fester wird. Schrauben und Scharniere sind schwarz beziehungsweise gepulvert, damit sie optisch zu den schwarzen Profilen und der Eichenoberfläche passen. In der Videobeschreibung verlinkt Küstenvan Scharniere, 12-V-Steckdosen, 12-V-Taster und Magnete; das sind Affiliate-Links des Kanals, nicht von VanKompass. Eine Materialliste gibt es laut Beschreibung auf der Website des Kanals.</p>"
     },
     {
@@ -90,7 +90,7 @@
     {
       "id": "reihenfolge",
       "h2": "Die größte Hürde: die Reihenfolge beim Einfädeln der Blenden",
-      "html": "<p>An dieser Stelle hat der Erbauer nach eigener Aussage lange gebraucht und deshalb wenig gefilmt. Die Blenden müssen in einer bestimmten Reihenfolge in das Profilgestell eingefädelt werden, sonst verhakt man sich oder bekommt eine Blende am Ende nicht mehr hinein. Diese Reihenfolge zu finden hat er nach eigener Aussage deutlich unterschätzt.</p>\n<div class=\"nope\">\n<h4>Wo es im Video hakte</h4>\n<ul>\n<li>Im hinteren Bereich des Schranks funktionierten die Schnellspannverbinder wegen der Einbaureihenfolge nicht mehr.</li>\n<li>Lösung: Er bohrt und fräst eine Flachsenkung ins Profil, sodass er nachträglich von außen mit einer normalen M5-Schraube in das Profil schrauben kann.</li>\n</ul>\n</div>\n<div class=\"praxis\">\n<h4>Lehre aus dem Video</h4>\n<p>Vor dem Zusammenbau durchdenken, welche Blende zuerst in das Gestell muss und welche zuletzt. Sonst verhakt man sich laut Erbauer oder bekommt eine Blende am Ende nicht mehr hinein. Das Video zeigt von diesem Schritt wenig, weil er währenddessen kaum gefilmt hat.</p>\n</div>"
+      "html": "<p>An dieser Stelle hat der Erbauer nach eigener Aussage lange gebraucht. Die Blenden müssen in einer bestimmten Reihenfolge in das Profilgestell eingefädelt werden, sonst verhakt man sich oder bekommt eine Blende am Ende nicht mehr hinein. Diese Reihenfolge zu finden hat er nach eigener Aussage deutlich unterschätzt.</p>\n<div class=\"nope\">\n<h4>Wo es im Video hakte</h4>\n<ul>\n<li>Im hinteren Bereich des Schranks funktionierten die Schnellspannverbinder wegen der Einbaureihenfolge nicht mehr.</li>\n<li>Lösung: Er bohrt und fräst eine Flachsenkung ins Profil, sodass er nachträglich von außen mit einer normalen M5-Schraube in das Profil schrauben kann.</li>\n</ul>\n</div>\n<div class=\"praxis\">\n<h4>Lehre aus dem Video</h4>\n<p>Vor dem Zusammenbau durchdenken, welche Blende zuerst in das Gestell muss und welche zuletzt. Sonst verhakt man sich laut Erbauer oder bekommt eine Blende am Ende nicht mehr hinein.</p>\n</div>"
     },
     {
       "id": "fahrzeugkontur",
@@ -100,12 +100,12 @@
     {
       "id": "elektrik",
       "h2": "Aussparungen für Steckdosen und 12-V-Verteiler",
-      "html": "<p>Die Aussparungen in den Seitenblenden sind erst deutlich später entstanden, weil der Erbauer erst im Rahmen der Elektroinstallation festgelegt hat, wo welche Steckdose sitzen soll. Dafür zieht er die Seitenblende wieder heraus und fräst mit der Shaper das Bohrbild für die 12-V-Dosen und später auch 230-V-Steckdosen hinein.</p>\n<p>Hinten im Schrank entsteht auf dieselbe Weise der Platz für den 12-V-Verteiler mit den einzelnen Sicherungen. Der untere Bereich des Schranks ist im Video noch offen; eine Blende ist dort noch nicht vorgesehen, weil der Erbauer nach eigener Aussage noch nicht weiß, was er dort machen will. Die Elektrik mit Victron-Geräten folgt in den nächsten Videos. Die nächsten Videos des Kanals behandeln laut Ankündigung das Elektrik-Layout, die 12-V-Elektrik und die 230-V-Elektrik.</p>\n<div class=\"praxis\">\n<h4>Reihenfolge beim Ausbau</h4>\n<p>Blenden erst dann fräsen, wenn die Elektroplanung steht. Im Video zieht der Erbauer die Seitenblende dafür wieder heraus und setzt sie nach dem Fräsen erneut ein.</p>\n</div>"
+      "html": "<p>Die Aussparungen in den Seitenblenden sind erst deutlich später entstanden, weil der Erbauer erst im Rahmen der Elektroinstallation festgelegt hat, wo welche Steckdose sitzen soll. Dafür zieht er die Seitenblende wieder heraus und fräst mit der Shaper das Bohrbild für die 12-V-Dosen und später auch 230-V-Steckdosen hinein.</p>\n<p>Hinten im Schrank entsteht auf dieselbe Weise der Platz für den 12-V-Verteiler mit den einzelnen Sicherungen. Die Elektrik mit Victron-Geräten folgt in den nächsten Videos. Die nächsten Videos des Kanals behandeln laut Ankündigung das Elektrik-Layout, die 12-V-Elektrik und die 230-V-Elektrik.</p>\n<div class=\"praxis\">\n<h4>Reihenfolge beim Ausbau</h4>\n<p>Blenden erst dann fräsen, wenn die Elektroplanung steht. Im Video zieht der Erbauer die Seitenblende dafür wieder heraus und setzt sie nach dem Fräsen erneut ein.</p>\n</div>"
     },
     {
       "id": "fazit-video",
       "h2": "Fazit aus dem Video",
-      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Einschätzung des Erbauers</h2>\n<p>Küstenvan gefällt die Optik aus Eichenoberfläche, schwarzen Profilen, schwarzen Muschelgriffen und schwarzen Scharnieren sehr gut. Die Klappen rasten über die Magnete fest ein und wirken wertig; für die Lagerung von Kleidung reicht ihm das völlig aus.</p>\n<p style=\"margin-bottom:0;\">Offen ist, ob die unteren beiden Türen bleiben, weil dahinter später eine Matratze liegt; er fragt die Zuschauer ausdrücklich nach ihrer Meinung zur Optik mit vier Türen. Sein Ansatz: erst fertig bauen, dann im Feld erproben, und die Türen fliegen notfalls wieder raus. Das Video ist nicht als Werbung gekennzeichnet; die verlinkten Produkte in der Videobeschreibung sind Affiliate-Links des Kanals.</p>\n</div>"
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Einschätzung des Erbauers</h2>\n<p>Küstenvan gefällt die Optik aus Eichenoberfläche, schwarzen Profilen, schwarzen Muschelgriffen und schwarzen Scharnieren sehr gut. Die Klappen rasten über die Magnete fest ein und wirken wertig; für die Lagerung von Kleidung reicht ihm das völlig aus.</p>\n<p style=\"margin-bottom:0;\">Sein Ansatz: erst fertig bauen, dann im Feld erproben, und die Türen fliegen notfalls wieder raus. Das Video ist nicht als Werbung gekennzeichnet; die verlinkten Produkte in der Videobeschreibung sind Affiliate-Links des Kanals.</p>\n</div>"
     }
   ],
   "faq_thema": "zum Hochschrank aus Aluprofil und Queenply",
@@ -139,7 +139,7 @@
       "a": [
         "Im Video gibt es keine pauschale Antwort, sondern einen Vergleich am eigenen Ausbau: Küchenzeile mit Schubladen, Rolloschrank mit Rollo, Hochschrank bewusst mit vier Klappen, um das einmal auszuprobieren.",
         "Die Klappen schließen über eingeklebte Magnete gegen pulverbeschichtete Stahlblech-Dreiecke und rasten laut Erbauer sehr fest ein. Für einen Kleiderschrank hält er das für völlig ausreichend.",
-        "Praxis: Ob die unteren beiden Klappen bleiben, lässt er offen, weil dahinter später eine Matratze liegt. Sein Vorgehen: erst fertig bauen, dann im Feld erproben und bei Bedarf Türen wieder ausbauen."
+        "Praxis: Erst fertig bauen, dann im Feld erproben und bei Bedarf Türen wieder ausbauen."
       ]
     },
     {
@@ -154,7 +154,7 @@
       "q": "Wie bekommt man Steckdosen in einen selbstgebauten Camperschrank?",
       "a": [
         "Küstenvan fräst die Aussparungen für 12-V-Dosen und 230-V-Steckdosen erst nachträglich mit der Shaper in die Seitenblenden, nachdem die Elektroplanung festgelegt hat, wo welche Dose sitzen soll.",
-        "Dafür zieht er die Seitenblende aus dem Profilgestell heraus, fräst das Bohrbild und setzt sie wieder ein. Hinten im Schrank entsteht auf dieselbe Weise der Platz für den 12-V-Verteiler mit den einzelnen Sicherungen. Der untere Bereich bleibt im Video offen, weil dort die Elektrik mit Victron-Geräten folgt.",
+        "Dafür zieht er die Seitenblende aus dem Profilgestell heraus, fräst das Bohrbild und setzt sie wieder ein. Hinten im Schrank entsteht auf dieselbe Weise der Platz für den 12-V-Verteiler mit den einzelnen Sicherungen.",
         "Praxis: Die Blenden erst dann fräsen, wenn das Elektrik-Layout steht. In der Videobeschreibung verlinkt der Kanal die verwendeten 12-V-Steckdosen und 12-V-Taster als Affiliate-Links."
       ]
     },
