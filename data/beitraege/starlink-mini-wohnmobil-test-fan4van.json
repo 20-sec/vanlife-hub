@@ -1,0 +1,179 @@
+{
+  "slug": "starlink-mini-wohnmobil-test-fan4van",
+  "out": "magazin-internet-starlink-mini-wohnmobil-test-fan4van.html",
+  "bereich": "internet",
+  "camper": [],
+  "kategorie": "Video-Test",
+  "top": true,
+  "title": "Starlink Mini im Wohnmobil: Test mit Speedtests, Tarifen und USB-C-Betrieb",
+  "crumb": "Starlink Mini im Wohnmobil-Test",
+  "meta_title": "Starlink Mini Wohnmobil Test: Speed, Preis, USB-C",
+  "meta_desc": "Starlink Mini im Wohnmobil-Test von fan 4 van: 1,5 kg, Router integriert, 399 € Hardware, Speedtests draußen, auf dem Dach und während der Fahrt, USB-C-Betrieb.",
+  "teaser": "1,5 kg, Router integriert, knapp 500 Mbit/s in der Spitze während der Fahrt und ein USB-C-Kabel zum Selberbauen. Alle Fakten von fan 4 van.",
+  "lead_teaser": "Wenn du wissen willst, ob Starlink Mini im Wohnmobil wirklich reisetauglich ist, bekommst du hier die Antwort aus dem Test von fan 4 van: rund 1,5 kg, WLAN-Router in der Antenne integriert, 399 € für die Hardware und Tarife ab 40 € im Monat. Dazu Speedtests draußen, auf dem Dach, hinter dem Dachfenster und während der Fahrt, plus die Bastellösung für den Betrieb per USB-C mit 100 Watt.",
+  "datum": "2026-10-12",
+  "datum_text": "Oktober 2026",
+  "geaendert": "2026-10-12",
+  "thumb": "img/thumb-starlink-mini-wohnmobil-test-fan4van.svg",
+  "video": {
+    "id": "MWSOntISuyM",
+    "title": "Starlink Mini - ist das die beste Lösung für Wohnmobil und Camping?",
+    "beschreibung": "Markus vom Kanal fan 4 van testet die Starlink Mini im Wohnmobil: Lieferumfang, Spezifikationen, Einrichtung per App, Speedtests draußen, auf dem Dach, hinter dem Dachfenster und während der Fahrt sowie ein selbst gebautes USB-C-Kabel für den Betrieb am Bordnetz.",
+    "kanal": "fan 4 van",
+    "kanal_url": "https://www.youtube.com/@fan4van",
+    "kanal_kuerzel": "F4V",
+    "abonnenten": "164.000",
+    "upload": "2024-08-05",
+    "upload_text": "5. August 2024",
+    "dauer_iso": "PT18M22S",
+    "dauer_text": "18:22 Min.",
+    "aufrufe": "204.630",
+    "werbung": "Die Videobeschreibung enthält Affiliate-Links zu den gezeigten Kabeln, zum USB-C-Trigger und zur USB-C-Einbausteckdose. Das Video ist laut Tester nicht gesponsert, die Antenne hat er selbst gekauft."
+  },
+  "answer": "Starlink Mini ist laut dem Test von fan 4 van eine <strong>rund 1,5 kg leichte Satellitenantenne mit integriertem WLAN-Router</strong>, kleiner als 30 x 26 x 4 cm. Hardware im August 2024: 399 €, Tarife ab 40 € im Monat. Im Speedtest erreichte der Tester draußen etwa 90 Mbit/s im Download, während der Fahrt im Schnitt 200 Mbit/s. Per USB-C mit 100 Watt läuft sie über ein selbst gebautes Kabel.",
+  "sections": [
+    {
+      "id": "ueberblick",
+      "h2": "Was zeigt das Video?",
+      "html": "<p>Markus vom YouTube-Kanal fan 4 van nimmt die <strong>Starlink Mini</strong> kurz nach dem Start in Deutschland unter die Lupe. Die früheren Starlink-Varianten hatten ihn im Campingbereich nicht überzeugt: zu schwer, zu stromhungrig und nur mit 230 Volt zu betreiben. Die Mini verspricht, leichter und kleiner zu sein und mit 12 Volt zu laufen. Genau das prüft er im Video.</p>\n<p>Der Ablauf: erst der Lieferumfang und die Spezifikationen, dann die Einrichtung per App, danach Speedtests an vier Positionen (draußen, auf dem Dach, hinter dem Dachfenster, während der Fahrt) und zum Schluss der Bau eines USB-C-Kabels, mit dem die Antenne am Bordnetz läuft. Das Video ist nicht gesponsert, der Tester hat die Antenne laut eigener Aussage selbst gekauft.</p>"
+    },
+    {
+      "id": "technische-daten",
+      "h2": "Technische Daten der Starlink Mini",
+      "specs": [
+        {
+          "label": "Gewicht",
+          "value": "ca. 1,5 kg*"
+        },
+        {
+          "label": "Maße",
+          "value": "unter 30 x 26 x 4 cm"
+        },
+        {
+          "label": "Stromversorgung",
+          "value": "230 V oder DC 5521"
+        },
+        {
+          "label": "DC-Eingang",
+          "value": "20 V / 5 A, 100 W"
+        },
+        {
+          "label": "WLAN",
+          "value": "Router integriert (5. Gen.)"
+        },
+        {
+          "label": "WLAN-Reichweite",
+          "value": "bis ca. 15 m"
+        },
+        {
+          "label": "Ethernet",
+          "value": "Anschluss vorhanden"
+        },
+        {
+          "label": "Hardware-Preis",
+          "value": "399 €"
+        }
+      ],
+      "specs_note": "* Gewicht inklusive Kabel und Ständer. Angaben laut Video, Stand August 2024. Die Videobeschreibung weist auf eine spätere Preiserhöhung hin.",
+      "html": "<h3>Lieferumfang laut Video</h3>\n<ul>\n<li>Starlink Mini Antenne mit integriertem WLAN-Router</li>\n<li>Netzteil mit Stecker für 230 Volt</li>\n<li>Anschlusskabel</li>\n<li>Halterung mit Schelle zur Montage an einem Rohr</li>\n</ul>\n<p>Ein Kabel für den Betrieb an 12 Volt oder per USB-C lag zum Zeitpunkt des Videos nicht bei. Genau das ist der Punkt, den der Tester am Lieferumfang kritisiert, und der Grund für die Bastellösung weiter unten.</p>"
+    },
+    {
+      "id": "tarife",
+      "h2": "Was kostet Starlink Mini? Hardware und Tarife",
+      "html": "<p>Die Hardware kostete im Video (Stand August 2024) einmalig <strong>399 €</strong>. Dazu kommen laufende Kosten. Der Tester nennt drei Tarife:</p>\n<ul>\n<li><strong>Mini Reise:</strong> 40 € im Monat, begrenzt auf 50 GB</li>\n<li><strong>Mobil Regional:</strong> 59 € im Monat, diesen Tarif hat der Tester gewählt und will ihn auf der Reise nach Italien prüfen</li>\n<li><strong>Business:</strong> 248 € im Monat, Flat für den ganzen Kontinent, die ersten 50 GB mit Priorität, nach oben aufstockbar</li>\n</ul>\n<p>In der Videobeschreibung weist der Kanal darauf hin, dass Starlink die Preise nach dem Dreh erhöht hat, und verlinkt dazu ein eigenes Kurzvideo.</p>"
+    },
+    {
+      "id": "installation",
+      "h2": "Einrichtung über die Starlink-App",
+      "html": "<p>Für die Einrichtung schaltet der Tester den Wechselrichter im Wohnmobil ein, weil die Antenne ab Werk nur mit dem 230-Volt-Netzteil läuft. Dann öffnet er die Starlink-App, wählt die Mini aus, bestätigt die Hindernisprüfung, verbindet sich mit dem WLAN der Antenne und vergibt einen Netzwerknamen. Kurz darauf ist die Verbindung da. Anschließend lädt die Antenne ein Update herunter.</p>\n<p>Inklusive Update dauerte das Ganze laut Video rund <strong>15 Minuten</strong>, die reine Installation etwa 5 Minuten. Du brauchst dafür drei Dinge: Strom, freie Sicht zum Himmel und ein Smartphone mit der App.</p>"
+    },
+    {
+      "id": "speedtest",
+      "h2": "Speedtest: draußen, auf dem Dach, innen und während der Fahrt",
+      "html": "<p>Der Tester führt an jeder Position drei Speedtests durch und nennt den Durchschnitt:</p>\n<ul>\n<li><strong>Draußen mit freier Sicht nach oben:</strong> etwa 90 Mbit/s im Download, etwa 20 Mbit/s im Upload</li>\n<li><strong>Auf dem Dach liegend:</strong> knapp 80 Mbit/s im Download, etwa 10 Mbit/s im Upload. Der Tester vermutet die Bewölkung als Ursache für das leicht schlechtere Ergebnis.</li>\n<li><strong>Innen unter dem Dachfenster (Fenster geschlossen, Scheibe nicht gereinigt):</strong> etwa 70 Mbit/s im Download, etwas unter 10 Mbit/s im Upload</li>\n<li><strong>Während der Fahrt (Antenne unter dem Dachfenster eingeklemmt):</strong> im Schnitt etwa 200 Mbit/s im Download und 50 Mbit/s im Upload, in der Spitze knapp 500 Mbit/s im Download</li>\n</ul>\n<p>Die Fahrt fand in einem Umkreis von etwa 10 km statt. Der Tester kündigt an, den Betrieb während der Fahrt über einen längeren Zeitraum nachzutesten.</p>\n<div class=\"nope\">\n<h4>Hinweis des Testers</h4>\n<ul>\n<li>Die Antenne während der Fahrt lose unter das Dachfenster zu klemmen, bezeichnet er ausdrücklich als nicht zum Nachmachen gedacht. Wenn der Fahrbetrieb dauerhaft funktioniert, will er über eine feste Montage auf dem Dach nachdenken.</li>\n</ul>\n</div>"
+    },
+    {
+      "id": "usb-c",
+      "h2": "Starlink Mini mit USB-C und 12 Volt betreiben",
+      "html": "<p>Die Mini lässt sich laut Video nicht nur mit 230 Volt versorgen, sondern über einen <strong>DC-5521-Eingang</strong> (5,5 mm auf 2,1 mm) mit 100 Watt, 20 Volt bei 5 Ampere. Ein passendes Kabel vom Hersteller gab es zum Zeitpunkt des Videos nicht. Der Tester baut sich deshalb selbst eines aus drei Teilen:</p>\n<ul>\n<li><strong>USB-C-Kabel</strong>, das 100 Watt durchlässt</li>\n<li><strong>DC-5521-Kabel</strong> (Pigtail), wie es zum Laden von Powerstations verwendet wird. Die Maße 5,5 auf 2,1 mm sind wichtig, sonst passt der Stecker nicht in die Buchse der Antenne.</li>\n<li><strong>USB-C-Trigger</strong>: ein kleines Modul, das dem Netzteil oder Akku per Taster mitteilt, dass das Gerät 20 Volt braucht</li>\n</ul>\n<p>Zusammenbau: Rotes Kabel an Plus, schwarzes an Minus des Triggers schrauben, Trigger per Taster so lange umschalten, bis die LED blau leuchtet (20 Volt), dann USB-C an den USB-C-Anschluss im Fahrzeug und den DC-Stecker in die Antenne. Im Video verbindet sich die Antenne damit sofort.</p>\n<div class=\"praxis\">\n<h4>Worauf du bei der Bastellösung achten musst</h4>\n<p>Das selbst gebaute Kabel hat an der Antenne keine Wasserbarriere wie das Originalkabel. Außerdem müssen die USB-C-Leitungen im Fahrzeug 100 Watt liefern können. Der Tester hat in seinem Fahrzeug Leitungen verlegt, die das leisten. In der Videobeschreibung verlinkt er zusätzlich ein fertiges USB-C-auf-Starlink-Mini-Kabel und eine USB-C-Einbausteckdose mit bis zu 100 Watt.</p>\n</div>\n<p>Als Alternative ohne Bastelei nennt er USB-C-auf-DC-Kabel, wie sie zum Laden von Notebooks verwendet werden. Die hatte er zum Zeitpunkt des Videos bestellt, aber noch nicht getestet.</p>"
+    },
+    {
+      "id": "praxis-camper",
+      "h2": "Praxis im Wohnmobil: WLAN-Reichweite, Winter und Einsatzzweck",
+      "html": "<h3>WLAN ohne Zusatzgerät</h3>\n<p>Der WLAN-Router steckt in der Antenne, ein zweites Gerät entfällt. Laut Tester reicht das Signal bis etwa 15 Meter, auch durch die Fahrzeugwand: Er kann die Antenne 10 bis 15 Meter vom Fahrzeug entfernt aufstellen und hat im Wohnmobil weiterhin sehr guten Empfang. Wer einen eigenen Router betreiben will, kann ihn über den Ethernet-Anschluss anbinden.</p>\n<h3>Heizung im Winter</h3>\n<p>Die Antenne hat eine Enteisung, die laut Video temperaturabhängig arbeitet: Sobald es auf etwa 2 bis 3 Grad oder darunter geht, heizt sie und verbraucht dabei viel Energie. Die Idee des Testers: Bei freiem Dachfenster die Antenne im Winter innen unter das Fenster legen und so die Heizenergie sparen. Ob das aufgeht, will er erst im Winter prüfen.</p>\n<div class=\"praxis\">\n<h4>Für wen die Starlink Mini laut Video passt</h4>\n<p>Wer im Urlaub nur WhatsApp und ein paar Nachrichten braucht, kommt laut Tester ohne aus. Wer unterwegs viel arbeitet und oft an Orten mit schlechtem Mobilfunk steht, bekommt eine sehr gute Alternative. Sein Beispiel: der Gardasee im August, wo das Mobilfunknetz bei vielen Nutzern in einer Funkzelle regelmäßig zusammenbricht.</p>\n</div>"
+    },
+    {
+      "id": "fazit-video",
+      "h2": "Fazit aus dem Video",
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Einschätzung des Testers</h2>\n<p>Markus von fan 4 van ist nach dem ersten Eindruck begeistert: Die Mini ist klein, leicht und damit endlich reisetauglich, die Haptik wirkt hochwertig, der Ethernet-Anschluss gefällt ihm, das integrierte WLAN reicht weit, und der Betrieb während der Fahrt hat ihn beeindruckt. Die Bandbreite reicht ihm für seine Arbeit inklusive Video-Upload.</p>\n<p>Kritik gibt es an einem Punkt: Starlink bewirbt den USB-C-Betrieb, liefert aber kein passendes Kabel mit. Bis das Originalkabel kommt, behilft er sich mit der Bastellösung ohne Wasserschutz.</p>\n<p style=\"margin-bottom:0;\">Der Tester betont, dass es sich um einen ersten Eindruck handelt. Er kündigt an, die Mini acht Wochen lang in Österreich, Slowenien und Italien im Vergleich zum Mobilfunk zu testen. Das Video ist nicht gesponsert, die Antenne hat er selbst gekauft.</p>\n</div>"
+    }
+  ],
+  "faq_thema": "zur Starlink Mini im Wohnmobil",
+  "faq": [
+    {
+      "q": "Wie schnell ist Starlink Mini im Wohnmobil?",
+      "a": [
+        "Im Test von fan 4 van erreichte die Starlink Mini mit freier Sicht nach oben im Durchschnitt etwa 90 Mbit/s im Download und 20 Mbit/s im Upload. Auf dem Dach des Wohnmobils liegend waren es knapp 80 Mbit/s im Download und etwa 10 Mbit/s im Upload.",
+        "Der Tester hat an jeder Position drei Speedtests gemacht und den Durchschnitt genannt. Das schlechtere Ergebnis auf dem Dach führt er auf die Bewölkung zurück. Innen unter dem Dachfenster kamen noch etwa 70 Mbit/s im Download an.",
+        "Die Bandbreite reicht laut Tester für seine Arbeit aus dem Wohnmobil aus, inklusive Video-Upload."
+      ]
+    },
+    {
+      "q": "Funktioniert Starlink Mini während der Fahrt?",
+      "a": [
+        "Ja, im Video funktioniert sie während der Fahrt sogar auffällig gut. Mit der Antenne unter dem Dachfenster eingeklemmt maß der Tester im Schnitt etwa 200 Mbit/s im Download und 50 Mbit/s im Upload, in der Spitze knapp 500 Mbit/s im Download.",
+        "Die Testfahrt fand in einem Umkreis von etwa 10 km statt. Der Tester will den Fahrbetrieb über einen längeren Zeitraum nachtesten und dazu ein Update veröffentlichen.",
+        "Wichtig: Die lose eingeklemmte Antenne bezeichnet er ausdrücklich als nicht zum Nachmachen gedacht. Wenn der Fahrbetrieb dauerhaft funktioniert, denkt er über eine feste Montage auf dem Dach nach."
+      ]
+    },
+    {
+      "q": "Was kostet Starlink Mini mit Tarif?",
+      "a": [
+        "Zum Zeitpunkt des Videos (August 2024) kostete die Hardware einmalig 399 €. Dazu kommt ein monatlicher Tarif: Mini Reise für 40 € mit 50 GB, Mobil Regional für 59 € oder Business für 248 € mit Flat für den ganzen Kontinent und 50 GB Priorität.",
+        "Der Tester hat sich für Mobil Regional entschieden und will prüfen, ob der Tarif auch in Italien funktioniert.",
+        "In der Videobeschreibung weist der Kanal darauf hin, dass Starlink die Preise nach dem Dreh erhöht hat."
+      ]
+    },
+    {
+      "q": "Kann man Starlink Mini mit 12 Volt oder USB-C betreiben?",
+      "a": [
+        "Ja. Die Mini hat laut Video neben dem 230-Volt-Netzteil einen DC-5521-Eingang, der 100 Watt bei 20 Volt und 5 Ampere braucht. Ein passendes Kabel lag zum Zeitpunkt des Videos nicht bei.",
+        "Der Tester baut sich die Verbindung selbst: ein USB-C-Kabel für 100 Watt, ein DC-5521-Kabel mit 5,5 auf 2,1 mm und ein USB-C-Trigger, der am USB-C-Anschluss 20 Volt anfordert. Rot an Plus, Schwarz an Minus, Trigger per Taster auf die blaue LED für 20 Volt stellen, fertig. Im Video verbindet sich die Antenne damit sofort.",
+        "Die USB-C-Leitungen im Fahrzeug müssen die 100 Watt liefern können. Das selbst gebaute Kabel hat an der Antenne keine Wasserbarriere wie das Originalkabel. In der Beschreibung verlinkt der Kanal ein fertiges USB-C-auf-Starlink-Mini-Kabel."
+      ]
+    },
+    {
+      "q": "Funktioniert Starlink Mini hinter dem Dachfenster im Camper?",
+      "a": [
+        "Im Video ja. Mit der Antenne innen unter dem geschlossenen Dachfenster maß der Tester etwa 70 Mbit/s im Download und etwas unter 10 Mbit/s im Upload, also nur wenig weniger als draußen. Das Dachfenster war dafür nicht einmal gereinigt.",
+        "Der Tester hat dafür zwei Gründe: Zum einen will er die Antenne so während der Fahrt nutzen. Zum anderen heizt die Antenne bei Temperaturen um 2 bis 3 Grad und darunter automatisch, was viel Energie kostet. Innen unter dem Fenster will er sich diese Heizenergie im Winter sparen.",
+        "Ob das im Winter aufgeht, will er erst dann testen. Voraussetzung ist in jedem Fall ein Dachfenster mit einigermaßen freier Sicht nach oben."
+      ]
+    },
+    {
+      "q": "Wie groß und schwer ist Starlink Mini?",
+      "a": [
+        "Laut Video wiegt die Starlink Mini mit Kabel und Ständer etwa 1,5 kg. Die Antenne ist unter 30 cm lang, unter 26 cm breit und unter 4 cm tief.",
+        "Damit ist sie laut Tester deutlich leichter und kleiner als die früheren Starlink-Varianten, die ihm fürs Reisen zu schwer und zu stromhungrig waren. Der WLAN-Router steckt bereits in der Antenne, ein zweites Gerät entfällt.",
+        "Im Lieferumfang ist eine Halterung mit Schelle, mit der sich die Antenne an einem Rohr befestigen lässt."
+      ]
+    },
+    {
+      "q": "Braucht Starlink Mini einen extra Router?",
+      "a": [
+        "Nein. Der WLAN-Router ist in der Antenne integriert, laut Video WLAN der fünften Generation. Du verbindest dich direkt mit dem WLAN der Antenne.",
+        "Die Reichweite ist laut Tester gut: bis etwa 15 Meter, auch durch das Fahrzeug hindurch. Er kann die Antenne 10 bis 15 Meter vom Wohnmobil entfernt aufstellen und hat drinnen weiterhin sehr guten Empfang.",
+        "Wer trotzdem einen eigenen Router nutzen will, etwa für mehr Geräte oder ein eigenes Netzwerk, schließt ihn über den Ethernet-Anschluss der Mini an."
+      ]
+    },
+    {
+      "q": "Für wen lohnt sich Starlink Mini im Wohnmobil?",
+      "a": [
+        "Laut Tester nicht für alle. Wer im Urlaub nur WhatsApp schreiben und ein paar Nachrichten lesen will, braucht sie nicht.",
+        "Wer unterwegs viel arbeitet und auf eine stabile Verbindung angewiesen ist, bekommt mit der Mini eine sehr gute Alternative zum Mobilfunk, vor allem an Orten, wo das Netz überlastet ist. Sein Beispiel ist der Gardasee im August, wo bei vielen Nutzern in einer Funkzelle das Netz regelmäßig zusammenbricht.",
+        "Zum Zeitpunkt des Videos (August 2024) kostete die Hardware 399 €, dazu kommt ein laufender Tarif ab 40 € im Monat."
+      ]
+    }
+  ],
+  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal fan 4 van und ist laut Angabe des Testers nicht gesponsert, die Antenne hat er selbst gekauft. VanKompass hat das Produkt nicht selbst getestet. Alle Angaben basieren auf dem Video. Die Videobeschreibung kennzeichnet mit Sternchen markierte Händler-Links als Affiliate-Links, über die der Kanal bei einem Kauf eine Provision erhält. Links zu Produkten auf VanKompass können Affiliate-Links enthalten."
+}
