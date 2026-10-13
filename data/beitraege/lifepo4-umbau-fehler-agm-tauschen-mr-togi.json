@@ -1,0 +1,178 @@
+{
+  "slug": "lifepo4-umbau-fehler-agm-tauschen-mr-togi",
+  "out": "magazin-strom-lifepo4-umbau-fehler-agm-tauschen-mr-togi.html",
+  "bereich": "strom",
+  "camper": [],
+  "kategorie": "Ratgeber",
+  "top": false,
+  "title": "LiFePO4 oder AGM im Wohnmobil: Die größten Fehler beim Umbau vermeiden",
+  "crumb": "LiFePO4 statt AGM: Umbau-Fehler",
+  "meta_title": "LiFePO4 oder AGM Wohnmobil: Umbau-Fehler vermeiden",
+  "meta_desc": "Mr. Togi erklärt den Umbau von AGM auf LiFePO4 im Wohnmobil: Vor- und Nachteile, welche drei Geräte passen müssen, warum das Trennrelais raus muss, Kosten.",
+  "teaser": "Halbes Gewicht, fast doppelt nutzbare Kapazität, aber drei Geräte müssen mitspielen. Der LiFePO4-Umbau aus dem Video von Mr. Togi.",
+  "lead_teaser": "Wenn du überlegst, die AGM-Batterie in deinem Wohnmobil gegen einen LiFePO4-Akku zu tauschen, und wissen willst, worauf es dabei ankommt: Dieser Beitrag fasst das Video von Mr. Togi zusammen. Er stellt AGM und LiFePO4 gegenüber, erklärt, warum Solarladeregler, Landstromladegerät und Trennrelais oder Ladebooster zum neuen Akku passen müssen, nennt grobe Kosten und sagt, für wen sich der Umbau lohnt und für wen nicht.",
+  "datum": "2026-10-13",
+  "datum_text": "Oktober 2026",
+  "geaendert": "2026-10-13",
+  "thumb": "img/thumb-lifepo4-umbau-fehler-agm-tauschen-mr-togi.svg",
+  "video": {
+    "id": "BtZKOQ62-uY",
+    "title": "GRÖSSTE FEHLER beim LiFePO4 - Umbau! AGM tauschen | #17 SO geht Wohnmobil",
+    "beschreibung": "Mr. Togi zeigt die größten Fehler beim LiFePO4-Umbau im Wohnmobil und worauf du achten musst, wenn du deine AGM-Batterie gegen einen Lithium-Akku tauschst. Teil 17 der Videoreihe SO geht Wohnmobil.",
+    "kanal": "Mr. Togi",
+    "kanal_url": "https://www.youtube.com/@MrTogi",
+    "kanal_kuerzel": "MT",
+    "abonnenten": "92.400",
+    "upload": "2025-08-18",
+    "upload_text": "18. August 2025",
+    "dauer_iso": "PT22M3S",
+    "dauer_text": "22:03 Min.",
+    "aufrufe": "143.346",
+    "werbung": "Das Video ist als Werbevideo gekennzeichnet. Der Tester stellt darin die LiFePO4-Akkus von Wattstunde vor, die er selbst nutzt. Die Videobeschreibung enthält Affiliate-Links und Rabattcodes."
+  },
+  "answer": "Laut Mr. Togi lässt sich fast jedes Wohnmobil von AGM auf LiFePO4 umrüsten. Ein <strong>LiFePO4-Akku wiegt bei 100 Ah 15 kg statt 30 kg</strong>, liefert <strong>95 bis 100 Prozent nutzbare Kapazität statt 50 bis 60 Prozent</strong> und hält 2000 bis über 5000 Ladezyklen. Drei Geräte müssen passen: Solarladeregler, Landstromladegerät und Ladebooster. Ein Trennrelais muss raus. Kosten: Akku plus 50 bis 100 Euro Einbau, bei alten Fahrzeugen bis 3000 Euro.",
+  "sections": [
+    {
+      "id": "ueberblick",
+      "h2": "Was zeigt das Video?",
+      "html": "<p>Mr. Togi erklärt in Teil 17 seiner Reihe <strong>SO geht Wohnmobil</strong>, was beim Umbau von einer AGM-Batterie auf einen LiFePO4-Akku zu beachten ist. Die gute Nachricht vorweg: Laut dem Tester lässt sich nahezu jedes Wohnmobil auf LiFePO4 umrüsten. Damit du lange Freude daran hast, müssen aber ein paar technische Voraussetzungen im Fahrzeug stimmen.</p>\n<p>Das Video beginnt mit einer Gegenüberstellung von AGM und LiFePO4: Gewicht, nutzbare Kapazität, Ladezyklen, Temperaturverhalten, Batteriemanagement, Einbaulage und die Ladestandsanzeige. Danach geht es um die drei Geräte im Wohnmobil, die mit dem neuen Akku harmonieren müssen, um die groben Kosten und um die Frage, für wen sich der Umbau lohnt. Zwischendurch stellt der Tester die Wattstunde-Akkus vor, die er selbst nutzt.</p>"
+    },
+    {
+      "id": "agm-vs-lifepo4",
+      "h2": "AGM oder LiFePO4 im Wohnmobil: Vor- und Nachteile",
+      "html": "<h3>Gewicht und nutzbare Kapazität</h3>\n<p>Ein AGM-Akku mit rund 100 Ah wiegt laut Video etwa 30 kg, ein LiFePO4-Akku gleicher Kapazität etwa 15 kg. Dazu kommt: Bei einem AGM-Akku sind laut dem Tester meist nur 50 bis 60 Prozent der Kapazität nutzbar, also 50 bis 60 Ah von 100 Ah. Bei LiFePO4 sind es 95 bis 100 Prozent. Bezogen auf die nutzbare Energie wiegt der AGM-Akku damit nicht das Doppelte, sondern fast das Dreifache.</p>\n<h3>Ladezyklen und Ströme</h3>\n<p>Ein Ladezyklus bedeutet laut Video, einmal die volle Nennkapazität zu entladen und wieder zu laden. AGM kommt auf etwa 500 bis 800 Zyklen, LiFePO4 auf 2000 bis über 5000, je nach Qualität. LiFePO4 lädt zudem schneller und verträgt höhere Ströme: Ein relativ kleiner LiFePO4-Akku kann laut dem Tester auch einen Wechselrichter mit 2000 oder 2500 Watt versorgen, ein AGM-Akku geht dabei eher schneller kaputt.</p>\n<h3>Temperatur</h3>\n<p>Hier hat AGM laut Video den Vorteil: Ein AGM-Akku lässt sich problemlos bis minus 20 Grad nutzen. Ein LiFePO4-Akku darf nur bis 0 Grad geladen werden. Akkus mit integrierter Heizung lösen das: Sie heizen sich bei Frost erst auf, etwa mit Solarstrom, und laden dann, sobald sie über 0 Grad liegen.</p>\n<h3>BMS, Einbaulage, Umwelt</h3>\n<ul>\n<li><strong>Batteriemanagementsystem (BMS):</strong> Ein LiFePO4-Akku hat laut Video einen integrierten Schutz gegen Tiefentladung, Überladung und falsche Temperaturen beim Laden und Entladen. Ein AGM-Akku hat das nicht. Ein tief entladener AGM-Akku verliert schnell Kapazität, laut dem Tester bleiben dann oft nur noch 20 bis 30 Ah nutzbar.</li>\n<li><strong>Einbaulage:</strong> AGM muss stehend verbaut werden. LiFePO4 kann laut Video in jeder Lage eingebaut werden, hochkant, quer oder liegend.</li>\n<li><strong>Umwelt:</strong> Laut dem Tester lässt sich ein LiFePO4-Akku gut recyceln, ein AGM-Akku nicht so ohne Weiteres.</li>\n<li><strong>Preis:</strong> LiFePO4 ist in der Anschaffung teurer. Über Lebensdauer und nutzbare Kapazität gerechnet hält der Tester LiFePO4 für die wertstabilere Wahl.</li>\n</ul>"
+    },
+    {
+      "id": "technische-daten",
+      "h2": "AGM und LiFePO4 in Zahlen",
+      "specs": [
+        {
+          "label": "Gewicht AGM (100 Ah)",
+          "value": "ca. 30 kg"
+        },
+        {
+          "label": "Gewicht LiFePO4 (100 Ah)",
+          "value": "ca. 15 kg"
+        },
+        {
+          "label": "Nutzbare Kapazität AGM",
+          "value": "50 bis 60 %"
+        },
+        {
+          "label": "Nutzbare Kapazität LiFePO4",
+          "value": "95 bis 100 %"
+        },
+        {
+          "label": "Ladezyklen AGM",
+          "value": "500 bis 800"
+        },
+        {
+          "label": "Ladezyklen LiFePO4",
+          "value": "2000 bis über 5000"
+        },
+        {
+          "label": "Laden LiFePO4",
+          "value": "nur über 0 °C"
+        },
+        {
+          "label": "Einbaulage LiFePO4",
+          "value": "beliebig"
+        }
+      ],
+      "specs_note": "Richtwerte laut Video von Mr. Togi, Stand August 2025. Die Zyklenzahl bei LiFePO4 hängt laut dem Tester von der Qualität des Akkus ab.",
+      "html": "<p>Die Werte sind die Vergleichszahlen, die der Tester im Video nennt. Der Wattstunde Nova Core Akku, den er selbst nutzt, kommt laut Video auf bis zu 6000 Ladezyklen und hat danach noch 80 Prozent der Kapazität.</p>"
+    },
+    {
+      "id": "ladestandsanzeige",
+      "h2": "Warum die Ladestandsanzeige nach dem Umbau nicht mehr stimmt",
+      "html": "<p>Ein Nachteil beim Wechsel: Das Panel im Wohnmobil bestimmt den Ladestand eines AGM-Akkus über die Spannung. Als grobe Orientierung nennt der Tester 12,0 Volt für etwa 50 Prozent und 13 Volt für etwa 80 Prozent. Bei LiFePO4 funktioniert das nicht, weil der Akku laut Video rund 80 Prozent seiner Zeit zwischen 13 und 14 Volt liegt und dann relativ schnell absackt. Das Panel zeigt dann meist 100 Prozent an und kurz darauf null, nichts dazwischen.</p>\n<div class=\"praxis\">\n<h4>Zwei Lösungen aus dem Video</h4>\n<p>Entweder du kaufst einen Akku mit Bluetooth-Schnittstelle und liest den Ladestand per App ab. Oder du lässt zusätzlich einen Shunt mit Zusatzdisplay einbauen, zum Beispiel von Victron, der den korrekten Ladestand anzeigt.</p>\n</div>"
+    },
+    {
+      "id": "drei-geraete",
+      "h2": "Die drei Geräte, die zum LiFePO4-Akku passen müssen",
+      "html": "<p>Der Einbauort ist laut dem Tester fast egal: Meist hat der LiFePO4-Akku die gleichen Abmaße wie der alte AGM-Akku und kommt an dieselbe Stelle, bei doppelter nutzbarer Kapazität. Wer mehr Kapazität will, braucht mehr Platz. Mr. Togi hat in seinem Wohnmobil zwei LiFePO4-Akkus im AGM-Format übereinander gestapelt und so über 300 Ah dort, wo vorher ein 100-Ah-AGM-Akku saß. Entscheidend sind aber drei Geräte im Wohnmobil.</p>\n<h3>1. Solarladeregler</h3>\n<p>Der Solarladeregler muss für LiFePO4 geeignet sein. Aktuelle Victron-Regler mit App-Steuerung lassen sich laut Video einfach in der App auf LiFePO4 umstellen. Bei einem alten PWM-Laderegler empfiehlt der Tester: Typenschild abschreiben, bei Google eingeben und LiFePO4 dahinter schreiben. So bekommst du in der Regel eine klare Aussage, ob das Gerät passt.</p>\n<h3>2. Landstromladegerät</h3>\n<p>Das Landstromladegerät lädt den Aufbauakku, wenn du auf dem Campingplatz am Strom hängst. Du musst es im Fahrzeug erst einmal finden, bei Mr. Togi sitzt es unter dem Fahrersitz. Dann gilt wieder: Herstellerbezeichnung abschreiben und mit dem Zusatz LiFePO4 suchen. Bei vielen Geräten gibt es kleine Dip-Schalter, die sich mit einem Schraubenzieher nach der Reihenfolge in der Bedienungsanleitung auf LiFePO4 umstellen lassen. Dann brauchst du kein neues Gerät.</p>\n<h3>3. Trennrelais oder Ladebooster</h3>\n<div class=\"nope\">\n<h4>Trennrelais muss raus</h4>\n<ul>\n<li>Ein Trennrelais ist laut dem Tester nicht intelligent: Es schaltet die Fahrzeugbatterie und die Lichtmaschine stumpf auf den LiFePO4-Akku, ohne den Ladestrom zu begrenzen.</li>\n<li>Dadurch kann die Lichtmaschine laut Video überhitzen oder überlastet werden. Das Trennrelais muss abgeklemmt werden.</li>\n<li>Wer weiter während der Fahrt laden will, ersetzt es durch einen Ladebooster, auch DC-DC-Ladegerät genannt.</li>\n</ul>\n</div>\n<p>Ist bereits ein Ladebooster verbaut, ist die Wahrscheinlichkeit laut dem Tester hoch, dass er mit LiFePO4 klarkommt. Auch hier können Dip-Schalter oder eine Brücke umgestellt werden müssen.</p>"
+    },
+    {
+      "id": "kosten",
+      "h2": "Was kostet der Umbau auf LiFePO4?",
+      "html": "<p>Die Kosten hängen laut Video davon ab, was gemacht werden muss. Sind die Geräte bereits LiFePO4-tauglich, zahlst du nur den Akku plus laut dem Tester etwa 50 bis 100 Euro für den Einbau in der Fachwerkstatt, die die Geräte umstellt und den Akku einsetzt.</p>\n<p>Bei einem älteren Fahrzeug, der Tester nennt 5, 8, 10 Jahre oder älter, ist die Wahrscheinlichkeit gering, dass die Peripherie passt. Dann müssen Geräte getauscht, eventuell neue Kabel gezogen und mehr Arbeitsstunden bezahlt werden, etwa weil Sitze oder andere Teile ausgebaut werden müssen. Das kann laut Video je nach Werkstatt bis 2500 oder 3000 Euro gehen. Die Arbeitsleistung ist dabei der größte Posten.</p>\n<div class=\"praxis\">\n<h4>Der Sinn der Vorab-Recherche</h4>\n<p>Laut dem Tester soll das Video eine Orientierung sein, damit du nicht planlos in die Werkstatt gehst. Wenn du vorher weißt, dass Ladegerät, Ladebooster und Solarladeregler nicht getauscht werden müssen, lässt du dich nicht mit der Aussage abspeisen, dass alles neu muss.</p>\n</div>"
+    },
+    {
+      "id": "fuer-wen",
+      "h2": "Für wen lohnt sich der Wechsel auf LiFePO4?",
+      "html": "<h3>Sinnvoll laut Video</h3>\n<ul>\n<li>Wer einen hohen Strombedarf hat und viel autark steht, länger als zwei bis drei Tage.</li>\n<li>Wer im mobilen Office arbeitet, mit Laptop, Monitoren und Handys, viel TV schaut oder einen Kompressorkühlschrank versorgen muss.</li>\n<li>Wer viel im Winter unterwegs ist: Dort braucht man mehr Strom, und über Solar kommt wenig nach.</li>\n<li>Wer die passende Technik schon im Fahrzeug hat und ohnehin vor der Wahl steht, einen neuen AGM- oder einen LiFePO4-Akku zu kaufen. Hier rät der Tester klar zu LiFePO4.</li>\n</ul>\n<h3>Eher nicht laut Video</h3>\n<ul>\n<li>Wer ein sehr geringes Budget hat oder ein sehr altes Wohnmobil fährt, 10, 15, 20 Jahre oder älter, und bewusst günstig gekauft hat. Dann rät der Tester zu einem neuen AGM-Akku.</li>\n<li>Wer überwiegend auf Campingplätzen am Landstrom steht. Dann kannst du laut Video problemlos bei AGM bleiben.</li>\n</ul>\n<div class=\"nope\">\n<h4>Sicherheitshinweis aus dem Video</h4>\n<ul>\n<li>Laut dem Tester sollten nur Leute, die sich wirklich auskennen, am besten mit elektrischem oder elektronischem Beruf, einen Akku selbst tauschen.</li>\n<li>Wer sich nicht sicher ist, soll in eine Fachwerkstatt gehen. Auch bei Kleinspannung im Wohnmobil kann laut Video viel passieren, bis hin zu tödlichen Folgen, und bei falschen Kabelquerschnitten bis zum Fahrzeugbrand.</li>\n</ul>\n</div>"
+    },
+    {
+      "id": "fazit-video",
+      "h2": "Fazit aus dem Video",
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Einschätzung des Testers</h2>\n<p>Für Mr. Togi überwiegen die Vorteile von LiFePO4 deutlich: halbes Gewicht, fast die gesamte Kapazität nutzbar, ein Vielfaches an Ladezyklen, hohe Ströme für große Wechselrichter, integriertes BMS und freie Einbaulage. Der Umbau selbst ist überschaubar, wenn Solarladeregler, Landstromladegerät und Ladebooster zum Akku passen. Ein Trennrelais muss in jedem Fall raus. Wer die Peripherie schon hat, zahlt wenig für den Einbau. Bei älteren Fahrzeugen kann es teuer werden, und wer vor allem am Landstrom steht oder knapp kalkuliert, fährt laut dem Tester mit AGM weiter gut.</p>\n<p style=\"margin-bottom:0;\">Das Video ist als Werbevideo gekennzeichnet. Der Tester stellt darin die Wattstunde-Akkus vor, die er selbst nutzt, und nennt einen Rabattcode. Die Videobeschreibung enthält Affiliate-Links.</p>\n</div>\n<h3>Was der Tester selbst nutzt</h3>\n<ul>\n<li>Im ersten Wohnmobil: zwei LiFePO4-Akkus von Wattstunde aus der ersten Serie, später auf 150-Ah-Akkus der Nova Core Serie aufgerüstet</li>\n<li>Zwei LiFePO4-Akkus im Format einer AGM-Batterie übereinander gestapelt: über 300 Ah dort, wo vorher ein 100-Ah-AGM-Akku saß</li>\n<li>Im neuen Wohnmobil: Wattstunde Nova Core 480-Ah-Untersitzbatterie mit BMS, Überstromüberwachung, maximal 250 A Entladestrom, Temperaturüberwachung, integrierter Heizung und bis zu 6000 Ladezyklen im Blechgehäuse</li>\n<li>Der ausgebaute Akku versorgt heute seine Amateurfunkgeräte</li>\n</ul>"
+    }
+  ],
+  "faq_thema": "zum LiFePO4-Umbau",
+  "faq": [
+    {
+      "q": "Kann man jedes Wohnmobil von AGM auf LiFePO4 umrüsten?",
+      "a": [
+        "Nahezu jedes, sagt Mr. Togi im Video. Der Einbauort ist dabei fast egal, weil ein LiFePO4-Akku in jeder Lage verbaut werden darf und meist dieselben Abmaße wie der alte AGM-Akku hat.",
+        "Entscheidend ist die Peripherie: Solarladeregler, Landstromladegerät und Ladebooster müssen für LiFePO4 geeignet oder umstellbar sein. Ein Trennrelais muss abgeklemmt und bei Bedarf durch einen Ladebooster ersetzt werden.",
+        "Praxis: Schreib bei jedem Gerät das Typenschild ab und such bei Google nach der Bezeichnung mit dem Zusatz LiFePO4. So weißt du vor dem Werkstattbesuch, was getauscht werden muss."
+      ]
+    },
+    {
+      "q": "Was ist der Unterschied zwischen AGM und LiFePO4 im Wohnmobil?",
+      "a": [
+        "Laut Video wiegt ein AGM-Akku mit 100 Ah etwa 30 kg, ein LiFePO4-Akku etwa 15 kg. Bei AGM sind nur 50 bis 60 Prozent der Kapazität nutzbar, bei LiFePO4 95 bis 100 Prozent. AGM schafft etwa 500 bis 800 Ladezyklen, LiFePO4 2000 bis über 5000.",
+        "LiFePO4 lädt schneller, verträgt höhere Ströme für große Wechselrichter, hat ein integriertes BMS gegen Tiefentladung und Überladung und darf in jeder Lage eingebaut werden. AGM hat laut dem Tester einen Vorteil bei Kälte: Er lässt sich bis minus 20 Grad nutzen, LiFePO4 darf nur über 0 Grad geladen werden.",
+        "Der LiFePO4-Akku ist in der Anschaffung teurer. Über Lebensdauer und nutzbare Energie gerechnet hält der Tester ihn für die wertstabilere Wahl."
+      ]
+    },
+    {
+      "q": "Muss das Trennrelais beim Umbau auf LiFePO4 raus?",
+      "a": [
+        "Ja. Laut dem Tester muss ein Trennrelais unbedingt abgeklemmt werden, wenn ein LiFePO4-Akku eingebaut wird.",
+        "Der Grund aus dem Video: Das Trennrelais ist nicht intelligent. Es schaltet die Fahrzeugbatterie und die Lichtmaschine direkt auf den Aufbauakku, ohne den Ladestrom zu begrenzen. Dadurch kann die Lichtmaschine überhitzen oder überlastet werden.",
+        "Wer weiterhin während der Fahrt laden will, ersetzt das Trennrelais durch einen Ladebooster, auch DC-DC-Ladegerät genannt. Ist schon ein Ladebooster verbaut, kommt er laut Video mit hoher Wahrscheinlichkeit mit LiFePO4 klar, eventuell nach dem Umstellen von Dip-Schaltern oder einer Brücke."
+      ]
+    },
+    {
+      "q": "Passt mein Ladegerät zum LiFePO4-Akku?",
+      "a": [
+        "Das musst du am Gerät prüfen. Der Tipp aus dem Video: Herstellerbezeichnung vom Typenschild abschreiben, bei Google eingeben und LiFePO4 dahinter schreiben. In der Regel bekommst du so eine klare Aussage.",
+        "Viele Landstromladegeräte haben laut dem Tester kleine Dip-Schalter, die sich mit einem Schraubenzieher umstellen lassen. Die richtige Reihenfolge für AGM oder LiFePO4 steht in der Bedienungsanleitung. Dann ist kein neues Gerät nötig.",
+        "Dasselbe gilt für den Solarladeregler: Aktuelle Victron-Regler mit App lassen sich in der App auf LiFePO4 umprogrammieren. Bei einem alten PWM-Regler hilft die Suche nach dem Typenschild."
+      ]
+    },
+    {
+      "q": "Warum zeigt die Batterieanzeige nach dem Umbau falsche Werte?",
+      "a": [
+        "Weil das Panel im Wohnmobil den Ladestand über die Spannung bestimmt. Das funktioniert bei AGM, aber nicht bei LiFePO4.",
+        "Laut Video liegt ein LiFePO4-Akku rund 80 Prozent seiner Zeit zwischen 13 und 14 Volt und sackt dann relativ schnell ab. Das Panel zeigt deshalb meist 100 Prozent an und kurz darauf null. Für AGM nennt der Tester als grobe Orientierung 12,0 Volt für etwa 50 Prozent und 13 Volt für etwa 80 Prozent.",
+        "Lösung aus dem Video: ein Akku mit Bluetooth-Schnittstelle und App, oder ein zusätzlich eingebauter Shunt mit Zusatzdisplay, zum Beispiel von Victron."
+      ]
+    },
+    {
+      "q": "Was kostet der Umbau von AGM auf LiFePO4?",
+      "a": [
+        "Das hängt laut Video davon ab, was getauscht werden muss. Passt die Peripherie bereits, zahlst du den Akku plus etwa 50 bis 100 Euro für den Einbau in der Fachwerkstatt.",
+        "Bei älteren Fahrzeugen, der Tester nennt 5, 8, 10 Jahre oder älter, passt die Peripherie meist nicht. Dann kommen die Gerätepreise, eventuell neue Kabel und vor allem die Arbeitsstunden dazu. Das kann je nach Werkstatt bis 2500 oder 3000 Euro gehen.",
+        "Praxis: Informier dich vorher, welche Geräte bleiben können. So gehst du laut dem Tester nicht planlos in die Werkstatt und lässt dich nicht mit einem Pauschalangebot über den Tisch ziehen."
+      ]
+    },
+    {
+      "q": "Kann ein LiFePO4-Akku im Winter geladen werden?",
+      "a": [
+        "Nur über 0 Grad. Laut Video darf ein LiFePO4-Akku bei Minustemperaturen nicht geladen werden, während ein AGM-Akku bis minus 20 Grad problemlos genutzt werden kann.",
+        "Viele aktuelle LiFePO4-Akkus haben laut dem Tester eine integrierte Heizung. Liegt die Temperatur unter 0 Grad und kommt Strom über Solar, wird erst der Akku aufgewärmt und dann geladen. Die Elektrik im Wohnmobil kannst du auch bei Kälte weiter betreiben, nur das Laden ist eingeschränkt.",
+        "Gerade für Wintercamper empfiehlt der Tester LiFePO4, weil im Winter mehr Strom gebraucht wird und über Solar wenig nachkommt."
+      ]
+    },
+    {
+      "q": "Für wen lohnt sich LiFePO4 nicht?",
+      "a": [
+        "Laut dem Tester für Leute mit sehr geringem Budget, mit einem sehr alten Wohnmobil von 10, 15 oder 20 Jahren und für alle, die überwiegend auf Campingplätzen am Landstrom stehen.",
+        "In diesen Fällen rät Mr. Togi dazu, wieder einen AGM-Akku zu kaufen. Wer dagegen viel autark steht, im mobilen Office arbeitet, im Winter unterwegs ist oder die passende Technik schon im Fahrzeug hat, soll laut Video zu LiFePO4 greifen."
+      ]
+    }
+  ],
+  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal Mr. Togi, ist dort als Werbevideo gekennzeichnet und stellt die LiFePO4-Akkus von Wattstunde vor, die der Tester selbst nutzt. VanKompass hat keinen Akku selbst getestet. Alle Angaben basieren auf dem Video und seiner Beschreibung. Links zu Produkten können Affiliate-Links enthalten."
+}
