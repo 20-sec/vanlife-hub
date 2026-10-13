@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<!-- GA4 wird erst nach Cookie-Zustimmung geladen (js/cookie-consent.js) -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="build" content="20261013-130118">
+<title>Sprinter Ausbau Elektrik: 12V und 230V Setup mit Schaltplan</title>
+<meta name="description" content="hinundwiederweg zeigen die Elektrik ihres Sprinter 4x4: 400 Ah Lithium, 390 W Solar, 3000 W Wechselrichter, Ladebooster, Schaltplan und Fazit nach einem Monat.">
+<link rel="canonical" href="https://vankompass.de/magazin-strom-sprinter-camper-elektrik-schaltplan-hinundwiederweg.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sprinter Ausbau Elektrik: 12V und 230V Setup mit Schaltplan">
+<meta property="og:description" content="hinundwiederweg zeigen die Elektrik ihres Sprinter 4x4: 400 Ah Lithium, 390 W Solar, 3000 W Wechselrichter, Ladebooster, Schaltplan und Fazit nach einem Monat.">
+<meta property="og:url" content="https://vankompass.de/magazin-strom-sprinter-camper-elektrik-schaltplan-hinundwiederweg.html">
+<meta property="og:image" content="https://img.youtube.com/vi/_imA_3Aci_I/maxresdefault.jpg">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="VanKompass">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sprinter Ausbau Elektrik: 12V und 230V Setup mit Schaltplan">
+<meta name="twitter:description" content="hinundwiederweg zeigen die Elektrik ihres Sprinter 4x4: 400 Ah Lithium, 390 W Solar, 3000 W Wechselrichter, Ladebooster, Schaltplan und Fazit nach einem Monat.">
+<link rel="stylesheet" href="vanlife-styles.css?v=3">
+<link rel="stylesheet" href="portal.css?v=5">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Start",
+          "item": "https://vankompass.de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Magazin",
+          "item": "https://vankompass.de/magazin.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Batterie & Strom",
+          "item": "https://vankompass.de/strom.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Sprinter-Elektrik mit Schaltplan",
+          "item": "https://vankompass.de/magazin-strom-sprinter-camper-elektrik-schaltplan-hinundwiederweg.html"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://vankompass.de/#org",
+      "name": "VanKompass",
+      "url": "https://vankompass.de/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://vankompass.de/favicon.svg"
+      }
+    },
+    {
+      "@type": "Article",
+      "headline": "Sprinter Ausbau Elektrik: Autarkes 12V- und 230V-Setup mit Schaltplan",
+      "description": "hinundwiederweg zeigen die Elektrik ihres Sprinter 4x4: 400 Ah Lithium, 390 W Solar, 3000 W Wechselrichter, Ladebooster, Schaltplan und Fazit nach einem Monat.",
+      "image": "https://img.youtube.com/vi/_imA_3Aci_I/maxresdefault.jpg",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://vankompass.de/magazin-strom-sprinter-camper-elektrik-schaltplan-hinundwiederweg.html"
+      },
+      "datePublished": "2026-10-13",
+      "dateModified": "2026-10-13",
+      "author": {
+        "@type": "Organization",
+        "name": "VanKompass"
+      },
+      "publisher": {
+        "@id": "https://vankompass.de/#org"
+      },
+      "video": {
+        "@type": "VideoObject",
+        "name": "Camper Elektrik um AUTARK zu Reisen | 12V & 230V Strom Setup Schaltplan | Sprinter 4x4 | ECTIVE #06",
+        "description": "hinundwiederweg zeigen das komplette Elektrik-Setup ihres Mercedes Sprinter 4x4 Campers: Hauptkomponenten von Ective, Schaltplan für 12 V und 230 V, Berechnung des Energiebedarfs und worauf bei 12 V und 230 V im Camper zu achten ist. Teil 6 der Ausbau-Reihe.",
+        "thumbnailUrl": "https://img.youtube.com/vi/_imA_3Aci_I/maxresdefault.jpg",
+        "uploadDate": "2023-10-15",
+        "duration": "PT17M58S",
+        "contentUrl": "https://www.youtube.com/watch?v=_imA_3Aci_I",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/_imA_3Aci_I"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie berechne ich den Strombedarf für meinen Camper-Ausbau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "hinundwiederweg haben dafür den kostenlosen Strombedarf-Rechner von Ective genutzt, eine Excel-Liste, in die alle Verbraucher eingetragen werden. Als Ergebnis kam bei ihnen ein Bedarf von 370 Ah Batteriekapazität heraus. Daraus wurde die Entscheidung für zwei 200-Ah-Lithiumbatterien, also 400 Ah. Treiber des hohen Bedarfs ist laut Video der komplette Verzicht auf Gas: Gekocht wird mit einem 1500-W-Induktionskochfeld, dazu kommen Boiler, Kühlschrank, Pumpe, Licht und 230-V-Steckdosen. Praxis: Trag wirklich jeden Verbraucher ein und bedenke laut den Ausbauern, dass mehrere Geräte gleichzeitig laufen können. Das ist nicht zu unterschätzen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Batterie braucht ein Sprinter-Camper ohne Gas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Im Video sind es zwei 200-Ah-Lithiumbatterien von Ective, zusammen 400 Ah. Mario bezeichnet sie als Herzstück des Setups und begründet die Größe mit dem Kochen per Induktion. Gewählt wurde die Slim-Variante, weil die schmalen Batterien im Sprinter genau neben die Radkastenverkleidung passen. Der Platz im Fahrzeug entscheidet also mit über die Bauform. Nach dem ersten Monat unterwegs mit fast dreimal täglich Induktionskochen, Wasserkocher, Föhn und Glätteisen ist die Kapazität laut den Ausbauern nie unter 60 Prozent gefallen. Dazu beigetragen hat allerdings durchgehender Sonnenschein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viel Solar passt auf ein Sprinter-Dach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bei hinundwiederweg sind es 390 W: ein 170-W-Lightweight-Modul, ein 120-W-Lightweight-Modul und zwei 50-W-Module in normaler Ausführung, die in Reihe geschaltet sind. Die drei verschiedenen Größen waren laut Video nötig, weil die Dachfläche trotz L2-Sprinter relativ klein bleibt, sobald zwei Dachluken verbaut sind und hinten noch eine kleine Dachterrasse entstehen soll. Die Anordnung war ein Puzzle. Montiert sind die Module über Aluschienen auf einem Front-Runner-Dachträger. Die sechs Solarkabel laufen durch eine modifizierte Dachdurchführung ins Fahrzeug, die Kabel sind mit Kabelbindern an den Trägerstreben fixiert."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welcher Wechselrichter für 230 V im Camper?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Im Video ist ein Ective CSI Wechselrichter mit 3000 W verbaut. Über ihn laufen die 230-V-Verbraucher, darunter vier Steckdosen mit integrierten USB-Buchsen. Der Wasserboiler kann ebenfalls mit 230 V erhitzt werden, gekocht wird mit einem 1500-W-Induktionskochfeld. Der Wechselrichter hat eine Landstromfunktion. Ursprünglich wollten die beiden gar keinen Landstrom, weil die Installation darüber aber einfach war, haben sie ihn doch vorgesehen. Zum Zeitpunkt des Videos fehlte noch der FI-Schalter, der dafür zwischengeschaltet wird. Praxis: Eingeschaltet wird der Wechselrichter über eine Fernbedienung im Wohnraum, die zusätzlich eine grobe Anzeige der Batteriekapazität hat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wozu dient ein Ladebooster im Camper?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Ladebooster lädt die Aufbaubatterien während der Fahrt über die Lichtmaschine. Im Video ist es der Ective SBB 60, der zusätzlich einen integrierten MPPT-Solarladeregler hat, an dem das 170-W-Modul hängt. Besonderheit bei hinundwiederweg: Ein Schalter an der Sitzkonsole sitzt in der D+-Leitung von der Lichtmaschine zum Ladebooster. So lässt sich der Booster abschalten, um zu sehen, was die Solarmodule allein leisten, und um die Batterien nicht ständig auf 100 Prozent zu halten, was laut Mario wahrscheinlich auf die Lebensdauer geht. Im ersten Reisemonat war der Ladebooster nie eingeschaltet. Die Solaranlage reichte laut den Ausbauern aus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dürfen 12-V- und 230-V-Kabel im selben Kabelkanal liegen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Laut dem Video dürfen 230-V-Leitungen und 12-V-Leitungen nicht im selben Kabelkanal verlegt werden. Die Ausbauer nennen das als ganz wichtigen Punkt beim Verlegen. Bei hinundwiederweg wurden alle Kabel vorab in Kabelschläuchen verlegt, damit sie gut geschützt sind. Laut Produktliste in der Videobeschreibung kamen für 230 V Leitungen vom Typ H07RN-F zum Einsatz, für 12 V Kabel mit 50 mm², 10 mm² und 2,5 mm² sowie 6-mm²-Solarkabel. Praxis: Vor dem Einbau der Wandverkleidung alle Kabel noch einmal kontrollieren. Danach kommt man laut Video nur noch schlecht heran."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Sicherungen sind für den Camper ungeeignet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sicherungen aus dem KFZ-Audio-Bereich. Laut Mario sind sie nicht für den Dauerbetrieb ausgelegt, und die beiden haben bereits unschöne Fälle gesehen, in denen solche Sicherungen geschmolzen sind. Die Ausbauer hatten versehentlich drei davon bestellt und tauschen sie nach dem Video aus. Welche Kabelquerschnitte und Sicherungen man braucht, lässt sich laut Mario relativ schnell herausfinden, er betont aber auch, dass er kein ausgebildeter Elektriker ist. Praxis: Sicherungen gleich beim Bestellen auf Dauerbetrieb prüfen, damit sie nicht nach dem Einbau wieder raus müssen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum Stromverteilerschienen statt Anschluss am Batteriepol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Weil es übersichtlicher ist. Ohne Verteilerschienen müssten laut Video alle Pluskabel direkt am Batteriepol angeschlossen werden, das wollten die beiden auf keinen Fall. Mit den zwei Verteilerschienen lässt sich bei Bedarf jedes Kabel einzeln abmontieren und schnell tauschen, falls etwas kaputtgeht. Die 230-V-Kabel der Steckdosen sind getrennt davon in einem Kasten mit Wago-Klemmen verbunden und gehen direkt zum Wechselrichter. Die 12-V-Verbraucher wie Pumpe, Kühlschrank und Außenbeleuchtung hängen am 12-V-Sicherungskasten."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark">V</span> VanKompass</a>
+    <nav>
+      <a href="magazin.html" class="active">Magazin</a>
+      <a href="bereiche.html">Bereiche</a>
+      <a href="camper.html">Camper</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="breadcrumb"><a href="">Start</a> &rsaquo; <a href="magazin.html">Magazin</a> &rsaquo; <a href="strom.html">Batterie &amp; Strom</a> &rsaquo; Sprinter-Elektrik mit Schaltplan</p>
+</div>
+
+
+<article class="beitrag">
+<div class="wrap">
+
+<h1>Sprinter Ausbau Elektrik: Autarkes 12V- und 230V-Setup mit Schaltplan</h1>
+
+<div class="trust">
+  <span>Magazin-Beitrag</span>
+  <span class="dot">&middot;</span>
+  <span>Bereich: <b><a href="strom.html">Batterie &amp; Strom</a></b></span>
+<span class="dot">&middot;</span><span>Camper: <b><a href="camper-sprinter-ausbau.html">Sprinter-Ausbau</a></b></span>  <span class="dot">&middot;</span>
+  <span>Stand: Oktober 2026</span>
+</div>
+
+<div class="answer-box">
+  <div class="tag">Auf den Punkt</div>
+  <p>hinundwiederweg haben ihren Sprinter 4x4 für autarkes Stehen ohne Gas ausgebaut. Das Setup laut Video: <strong>zwei 200-Ah-Lithiumbatterien (400 Ah)</strong>, <strong>390 W Solar</strong> auf dem Dach, ein 3000-W-Wechselrichter mit Landstromfunktion, ein SBB-60-Ladebooster mit MPPT sowie zwei weitere MPPT-Laderegler. Der Strombedarf wurde vorher mit dem Ective-Rechner ermittelt. Nach einem Monat Reise fiel die Batterie nie unter 60 Prozent.</p>
+</div>
+
+<div class="video-wrap">
+  <iframe src="https://www.youtube-nocookie.com/embed/_imA_3Aci_I" title="Camper Elektrik um AUTARK zu Reisen | 12V &amp; 230V Strom Setup Schaltplan | Sprinter 4x4 | ECTIVE #06" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+
+<div class="video-source">
+  <div class="av">HW</div>
+  <div>
+    <strong>Video von <a href="https://www.youtube.com/@hinundwiederweg" target="_blank" rel="noopener">hinundwiederweg</a></strong> (24.800 Abonnenten)<br>
+    Ver&ouml;ffentlicht am 15. Oktober 2023 &middot; 17:58 Min. &middot; 47.120 Aufrufe<br><span class="hinweis">Hinweis: Das Video ist als Werbung gekennzeichnet. Die Hauptkomponenten des Stromsetups stammen von Ective, die Videobeschreibung enthält einen Ective-Rabattcode des Kanals sowie Affiliate-Links zu den verbauten Produkten.</span>  </div>
+</div>
+
+<nav class="toc">
+  <h3>Inhalt</h3>
+  <ul>
+<li><a href="#ueberblick">Was zeigt das Video?</a></li>
+<li><a href="#grundgedanken-strombedarf">Autark stehen ohne Gas: Grundgedanken und Strombedarf</a></li>
+<li><a href="#technische-daten">Die Komponenten des Stromsetups im Sprinter</a></li>
+<li><a href="#solar-ladebooster">390 W Solar auf dem Sprinter-Dach und drei Laderegler</a></li>
+<li><a href="#verkabelung-schaltplan">Verkabelung, Verteilerschienen und Schaltplan für 12 V und 230 V</a></li>
+<li><a href="#verbraucher">Alle Verbraucher im Sprinter: Induktion, Boiler, Licht, Kühlschrank</a></li>
+<li><a href="#ladebooster-schalter">Ladebooster per Schalter am D+ abschaltbar</a></li>
+<li><a href="#fazit-video">Fazit aus dem Video: Erfahrungen nach einem Monat</a></li>
+<li><a href="#faq">H&auml;ufige Fragen</a></li>
+    <li><a href="#weiterlesen">Weiterlesen</a></li>
+  </ul>
+</nav>
+
+<h2 id="ueberblick">Was zeigt das Video?</h2>
+<p>Silvia und Mario vom Kanal <strong>hinundwiederweg</strong> bauen einen Mercedes Sprinter 4x4 zum Camper aus. In Teil 6 ihrer Reihe geht es um die Elektrik: Sie erklären ihre Grundgedanken, die Berechnung des Strombedarfs, die Platzierung und Verkabelung der Komponenten, die Montage der Solarmodule auf dem Dachträger und stellen anschließend jede Komponente ihres Stromsetups vor.</p>
+<p>Dazu gibt es eine Detailaufnahme des fertigen Setups, einen selbst erstellten Schaltplan für 12 V und 230 V, einen Rundgang durch alle fest verbauten Verbraucher im Bus und am Ende die Erfahrungen nach dem ersten Monat unterwegs. Beide betonen im Video, dass sie keine gelernten Elektriker sind; Mario hat sich die Themen Kabelquerschnitte und Sicherungen selbst angelesen. Gleich zu Beginn warnen sie: Elektrik ist ein komplexes Thema, und Fehler dabei können sehr böse Folgen haben.</p>
+<h2 id="grundgedanken-strombedarf">Autark stehen ohne Gas: Grundgedanken und Strombedarf</h2>
+<p>Der Ausgangspunkt laut den Ausbauern: Sie wollen so lange wie möglich autark stehen, waren in der Vergangenheit so gut wie nie auf einem Campingplatz und wollten deshalb zunächst gar keinen Landstrom verbauen. Dazu kommt, dass sie im Ausbau komplett auf Gas verzichten und mit Induktion kochen. Beides zusammen bedeutet einen hohen Strombedarf. Die Antwort darauf: eine Solaranlage auf dem Dach, ein Ladebooster zum Laden während der Fahrt und zwei große Batterien.</p>
+<h3>Strombedarf berechnen</h3>
+<p>Vor der Komponentenwahl haben sie ihren Strombedarf ermittelt. Dafür nutzten sie den kostenlosen Strombedarf-Rechner von Ective, eine Excel-Liste, in die alle Verbraucher eingetragen werden. Das Ergebnis laut Video: ein rechnerischer Bedarf von 370 Ah Batteriekapazität. Verbaut wurden daraufhin zwei 200-Ah-Lithiumbatterien, also 400 Ah. Mario weist darauf hin, dass es trotzdem nicht zu unterschätzen ist, wenn alle Verbraucher gleichzeitig laufen.</p>
+<div class="praxis">
+<h4>Warum Ective?</h4>
+<p>Laut den Ausbauern passte das Preis-Leistungs-Verhältnis, der Hersteller war bei den vielen Fragen freundlich und hilfsbereit, und vor allem waren alle gewünschten Komponenten auf Lager. Das Video ist als Werbung gekennzeichnet, die Beschreibung enthält einen Rabattcode des Kanals.</p>
+</div>
+<h2 id="technische-daten">Die Komponenten des Stromsetups im Sprinter</h2>
+<div class="spec-grid">
+<div class="spec-card"><div class="label">Batterien</div><div class="value">2x 200 Ah Lithium (Ective Slim), 400 Ah</div></div>
+<div class="spec-card"><div class="label">Wechselrichter</div><div class="value">Ective CSI 3000 W mit Landstromfunktion</div></div>
+<div class="spec-card"><div class="label">Ladebooster</div><div class="value">Ective SBB 60 mit integriertem MPPT</div></div>
+<div class="spec-card"><div class="label">Solarladeregler</div><div class="value">Ective DSC 12 und DSC 25 (MPPT)</div></div>
+<div class="spec-card"><div class="label">Solar gesamt</div><div class="value">390 W (170 W + 120 W + 2x 50 W)</div></div>
+<div class="spec-card"><div class="label">Verteilung</div><div class="value">2 Stromverteilerschienen, 12-V-Sicherungskasten</div></div>
+<div class="spec-card"><div class="label">Kabelquerschnitte</div><div class="value">50 mm², 10 mm², 2,5 mm², Solar 6 mm²</div></div>
+<div class="spec-card"><div class="label">230-V-Leitung</div><div class="value">H07RN-F</div></div>
+</div>
+<p class="specs-note">Angaben laut Video und Videobeschreibung von hinundwiederweg, Stand Oktober 2023. Die Kabelquerschnitte stammen aus der Produktliste in der Beschreibung.</p><p>Das Herzstück sind laut Mario die beiden 200-Ah-Lithiumbatterien. Gewählt wurde die Slim-Variante von Ective, weil die schmalen Batterien im Sprinter genau neben die Radkastenverkleidung passen. Die Kapazität von 400 Ah begründet er mit dem Verzicht auf Gas: Kochen mit Induktion braucht Leistung.</p>
+<p>Für die 230-V-Verbraucher ist der Ective CSI Wechselrichter mit 3000 W zuständig. Er hat eine Landstromfunktion. Ursprünglich wollten die beiden keinen Landstrom, weil die Installation über den Wechselrichter aber einfach war, haben sie ihn doch vorgesehen. Zum Zeitpunkt des Videos fehlte dafür noch der FI-Schalter, der zwischengeschaltet wird.</p>
+<p>Ergänzend zum Batteriemonitor, der den aktuellen Ladezustand anzeigt, sind Bluetooth-Dongles verbaut. Damit lässt sich am Handy verfolgen, wie viel Strom gerade produziert wird.</p>
+<h2 id="solar-ladebooster">390 W Solar auf dem Sprinter-Dach und drei Laderegler</h2>
+<p>Insgesamt sind vier Solarmodule verbaut: ein 170-W-Lightweight-Modul, ein 120-W-Lightweight-Modul und zwei 50-W-Module in normaler Ausführung. Die beiden 50-W-Module sind in Reihe geschaltet. Zusammen ergibt das 390 W auf dem Dach.</p>
+<p>Die drei verschiedenen Größen haben einen Grund: Obwohl es ein L2-Sprinter ist, bleibt die Dachfläche laut den Ausbauern relativ klein, sobald zwei Dachluken eingebaut sind und hinten am Heck noch eine kleine Dachterrasse entstehen soll. Die Anordnung war deshalb ein Puzzle.</p>
+<h3>So sind die Module angeschlossen</h3>
+<ul>
+<li><strong>170-W-Modul:</strong> am SBB-60-Ladebooster von Ective, der einen integrierten MPPT-Solarladeregler hat und zusätzlich während der Fahrt über die Lichtmaschine lädt.</li>
+<li><strong>2x 50 W in Reihe:</strong> am DSC-12-MPPT-Laderegler.</li>
+<li><strong>120-W-Modul:</strong> am DSC-25-MPPT-Laderegler.</li>
+</ul>
+<h3>Montage auf dem Dachträger</h3>
+<p>Die Module sitzen auf einem Dachträger von Front Runner. An jedem Modul wurden vorne und hinten Aluschienen befestigt, die dann fest mit dem Dachträger verschraubt wurden. Laut Video hält das auch bei höheren Geschwindigkeiten auf der Autobahn. Die sechs Solarkabel laufen durch eine etwas modifizierte Dachdurchführung ins Fahrzeuginnere, die Kabel für die Außenbeleuchtung separat durch wohnmobilübliche Dachdurchführungen. Damit nichts während der Fahrt flattert, sind die Kabel mit Kabelbindern an den Streben des Dachträgers befestigt.</p>
+<h2 id="verkabelung-schaltplan">Verkabelung, Verteilerschienen und Schaltplan für 12 V und 230 V</h2>
+<p>Die Kabel wurden schon Wochen vor dem eigentlichen Elektrik-Tag verlegt, geschützt in Kabelschläuchen. Danach haben die beiden geschaut, wo die einzelnen Komponenten sitzen sollen, damit sich alles möglichst effizient und ordentlich verkabeln lässt. Das war laut Video gar nicht so einfach.</p>
+<div class="nope">
+<h4>Zwei Regeln aus dem Video</h4>
+<ul>
+<li>230-V-Leitungen und 12-V-Leitungen dürfen nicht im selben Kabelkanal verlegt werden.</li>
+<li>Sicherungen aus dem KFZ-Audio-Bereich sind nicht für den Dauerbetrieb ausgelegt. Die Ausbauer hatten versehentlich drei davon bestellt und tauschen sie aus, weil sie bereits gesehen haben, dass solche Sicherungen schmelzen können.</li>
+</ul>
+</div>
+<h3>Vormontage auf der Holzwand</h3>
+<p>Die Holzwandverkleidung wurde aus dem Bus genommen, alle Komponenten wurden darauf platziert und fest verschraubt. Gleichzeitig wurden die Löcher gebohrt, durch die die Kabel später gefädelt und versteckt werden. Vor dem Einbau wurden alle Kabel noch einmal kontrolliert, weil man später nur noch schlecht herankommt. Dann kam die Verkleidung mit der kompletten Elektrik in den Bus, die Kabel wurden durchgefädelt, an den Komponenten angeschlossen, die Sicherungen eingesetzt und alles getestet.</p>
+<h3>Stromverteilerschienen statt Batteriepol</h3>
+<p>Zwei Stromverteilerschienen sorgen für Übersicht. Ohne sie müssten alle Pluskabel direkt am Batteriepol angeschlossen werden. So lässt sich bei Bedarf ein Kabel schnell abmontieren und tauschen, falls etwas kaputtgeht. Die Kabel der 230-V-Steckdosen laufen in einem Kasten zusammen, sind dort mit Wago-Klemmen verbunden und gehen direkt weiter zum Wechselrichter. Ganz vorne sitzt der 12-V-Sicherungskasten, an dem alle 12-V-Verbraucher hängen: Pumpe, Kühlschrank, Außenbeleuchtung und weitere.</p>
+<p>Damit sich das Ganze besser nachvollziehen lässt, zeigen die beiden im Video einen selbst erstellten Schaltplan für 12 V und 230 V sowie eine Detailaufnahme des fertigen Setups.</p>
+<h2 id="verbraucher">Alle Verbraucher im Sprinter: Induktion, Boiler, Licht, Kühlschrank</h2>
+<p>Der Bus ist im Video bereits fertig ausgebaut, deshalb gehen die beiden alle fest verbauten Verbraucher durch:</p>
+<ul>
+<li><strong>Heckgarage:</strong> Füllstandsanzeige für das Wasser, daneben der Batteriemonitor, der den aktuellen Stromvorrat anzeigt, und versteckt im Eck ein Schalter für den Wasserboiler. Der Boiler kann mit 230 V erhitzt werden und zusätzlich über die Standheizung.</li>
+<li><strong>Steckdosen:</strong> vier Stück mit integrierten USB-Ladebuchsen. Damit sie funktionieren, muss der Wechselrichter eingeschaltet werden. Dafür gibt es eine Fernbedienung, die auch eine grobe Anzeige der Batteriekapazität hat.</li>
+<li><strong>Kochen:</strong> ein Induktionskochfeld mit 1500 W, da komplett auf Gas verzichtet wurde, mit eigenem Bedienpanel.</li>
+<li><strong>Licht:</strong> dimmbarer Schalter für das indirekte Licht, drei LED-Leuchten mit Touch-Bedienung unter den Hängeschränken, solche Leuchten auch in der Dusche.</li>
+<li><strong>Lüftung und Kühlung:</strong> ein 12-V-Dachlüfter mit Fernbedienung und ein 12-V-Kühlschrank.</li>
+<li><strong>Wasserpumpe:</strong> eine Druckwasserpumpe mit eigenem Schalter.</li>
+</ul>
+<div class="praxis">
+<h4>Warum die Wasserpumpe einen Schalter hat</h4>
+<p>Die Druckwasserpumpe springt an, sobald sie einen Druckverlust in der Leitung erkennt. Bei einem Leck würde sie laut Mario so lange pumpen, bis der Bus unter Wasser steht. Mit dem Schalter lässt sie sich deshalb komplett abschalten.</p>
+</div>
+<h2 id="ladebooster-schalter">Ladebooster per Schalter am D+ abschaltbar</h2>
+<p>Eine Besonderheit im Setup: Der Ladebooster lässt sich ein- und ausschalten. Dafür sitzt unten an der Sitzkonsole ein Schalter in der D+-Leitung, die das Signal von der Lichtmaschine zum Ladebooster führt.</p>
+<p>Zwei Gründe nennt Mario dafür. Erstens aus Interesse: So lässt sich beobachten, wie viel Strom die Solarmodule tatsächlich produzieren. Zweitens wollte er nicht, dass die Batterien immer randvoll sind. Unterwegs fahren die beiden fast jeden Tag ein paar Stunden, dadurch waren die Batterien ständig zu 100 Prozent geladen, und das wirkt sich laut ihm wahrscheinlich irgendwann auf die Lebensdauer der Batterien aus.</p>
+<h2 id="fazit-video">Fazit aus dem Video: Erfahrungen nach einem Monat</h2>
+<div class="fazit">
+<h2 style="font-size:22px;">Einschätzung der Ausbauer</h2>
+<p>Nach einem Monat mit dem Sprinter unterwegs ziehen Silvia und Mario eine positive Bilanz. Sie haben fast dreimal täglich mit Induktion gekocht, hatten Wasserkocher, Föhn und sogar ein Glätteisen dabei, also ziemlich hohe Verbraucher. Trotzdem ist die Batteriekapazität nie unter 60 Prozent gefallen, weil die Sonne durchgehend schien und die Solarmodule gut nachgeladen haben. Stromprobleme gab es keine. Den Ladebooster hatten sie in dieser Zeit nie eingeschaltet. Die Elektrik war zum Zeitpunkt des Videos zu etwa 95 Prozent fertig: Drei Sicherungen mussten noch getauscht werden, und für den Landstrom fehlte noch der FI-Schalter.</p>
+<p style="margin-bottom:0;">Das Video ist als Werbung gekennzeichnet. Die Hauptkomponenten stammen von Ective, die Videobeschreibung enthält einen Rabattcode des Kanals und Affiliate-Links. Die beiden bitten darum, nicht zu streng zu sein, falls sie etwas falsch gesagt haben: Sie sind keine gelernten Elektriker und haben die Informationen nach bestem Wissen zusammengetragen.</p>
+</div>
+<h3>Hinweis zu den Begriffen</h3>
+<p>Im Video ist oft von PV die Rede. Gemeint sind damit die Photovoltaik-Module, laut den Ausbauern dasselbe wie Solar, nur ein anderer Begriff.</p>
+
+<h2 id="faq">H&auml;ufige Fragen zur Sprinter-Elektrik</h2>
+<div class="faq">
+  <details open>
+    <summary>Wie berechne ich den Strombedarf für meinen Camper-Ausbau?</summary>
+<p>hinundwiederweg haben dafür den kostenlosen Strombedarf-Rechner von Ective genutzt, eine Excel-Liste, in die alle Verbraucher eingetragen werden. Als Ergebnis kam bei ihnen ein Bedarf von 370 Ah Batteriekapazität heraus.</p><p>Daraus wurde die Entscheidung für zwei 200-Ah-Lithiumbatterien, also 400 Ah. Treiber des hohen Bedarfs ist laut Video der komplette Verzicht auf Gas: Gekocht wird mit einem 1500-W-Induktionskochfeld, dazu kommen Boiler, Kühlschrank, Pumpe, Licht und 230-V-Steckdosen.</p><p>Praxis: Trag wirklich jeden Verbraucher ein und bedenke laut den Ausbauern, dass mehrere Geräte gleichzeitig laufen können. Das ist nicht zu unterschätzen.</p>  </details>
+  <details>
+    <summary>Welche Batterie braucht ein Sprinter-Camper ohne Gas?</summary>
+<p>Im Video sind es zwei 200-Ah-Lithiumbatterien von Ective, zusammen 400 Ah. Mario bezeichnet sie als Herzstück des Setups und begründet die Größe mit dem Kochen per Induktion.</p><p>Gewählt wurde die Slim-Variante, weil die schmalen Batterien im Sprinter genau neben die Radkastenverkleidung passen. Der Platz im Fahrzeug entscheidet also mit über die Bauform.</p><p>Nach dem ersten Monat unterwegs mit fast dreimal täglich Induktionskochen, Wasserkocher, Föhn und Glätteisen ist die Kapazität laut den Ausbauern nie unter 60 Prozent gefallen. Dazu beigetragen hat allerdings durchgehender Sonnenschein.</p>  </details>
+  <details>
+    <summary>Wie viel Solar passt auf ein Sprinter-Dach?</summary>
+<p>Bei hinundwiederweg sind es 390 W: ein 170-W-Lightweight-Modul, ein 120-W-Lightweight-Modul und zwei 50-W-Module in normaler Ausführung, die in Reihe geschaltet sind.</p><p>Die drei verschiedenen Größen waren laut Video nötig, weil die Dachfläche trotz L2-Sprinter relativ klein bleibt, sobald zwei Dachluken verbaut sind und hinten noch eine kleine Dachterrasse entstehen soll. Die Anordnung war ein Puzzle.</p><p>Montiert sind die Module über Aluschienen auf einem Front-Runner-Dachträger. Die sechs Solarkabel laufen durch eine modifizierte Dachdurchführung ins Fahrzeug, die Kabel sind mit Kabelbindern an den Trägerstreben fixiert.</p>  </details>
+  <details>
+    <summary>Welcher Wechselrichter für 230 V im Camper?</summary>
+<p>Im Video ist ein Ective CSI Wechselrichter mit 3000 W verbaut. Über ihn laufen die 230-V-Verbraucher, darunter vier Steckdosen mit integrierten USB-Buchsen. Der Wasserboiler kann ebenfalls mit 230 V erhitzt werden, gekocht wird mit einem 1500-W-Induktionskochfeld.</p><p>Der Wechselrichter hat eine Landstromfunktion. Ursprünglich wollten die beiden gar keinen Landstrom, weil die Installation darüber aber einfach war, haben sie ihn doch vorgesehen. Zum Zeitpunkt des Videos fehlte noch der FI-Schalter, der dafür zwischengeschaltet wird.</p><p>Praxis: Eingeschaltet wird der Wechselrichter über eine Fernbedienung im Wohnraum, die zusätzlich eine grobe Anzeige der Batteriekapazität hat.</p>  </details>
+  <details>
+    <summary>Wozu dient ein Ladebooster im Camper?</summary>
+<p>Der Ladebooster lädt die Aufbaubatterien während der Fahrt über die Lichtmaschine. Im Video ist es der Ective SBB 60, der zusätzlich einen integrierten MPPT-Solarladeregler hat, an dem das 170-W-Modul hängt.</p><p>Besonderheit bei hinundwiederweg: Ein Schalter an der Sitzkonsole sitzt in der D+-Leitung von der Lichtmaschine zum Ladebooster. So lässt sich der Booster abschalten, um zu sehen, was die Solarmodule allein leisten, und um die Batterien nicht ständig auf 100 Prozent zu halten, was laut Mario wahrscheinlich auf die Lebensdauer geht.</p><p>Im ersten Reisemonat war der Ladebooster nie eingeschaltet. Die Solaranlage reichte laut den Ausbauern aus.</p>  </details>
+  <details>
+    <summary>Dürfen 12-V- und 230-V-Kabel im selben Kabelkanal liegen?</summary>
+<p>Nein. Laut dem Video dürfen 230-V-Leitungen und 12-V-Leitungen nicht im selben Kabelkanal verlegt werden. Die Ausbauer nennen das als ganz wichtigen Punkt beim Verlegen.</p><p>Bei hinundwiederweg wurden alle Kabel vorab in Kabelschläuchen verlegt, damit sie gut geschützt sind. Laut Produktliste in der Videobeschreibung kamen für 230 V Leitungen vom Typ H07RN-F zum Einsatz, für 12 V Kabel mit 50 mm², 10 mm² und 2,5 mm² sowie 6-mm²-Solarkabel.</p><p>Praxis: Vor dem Einbau der Wandverkleidung alle Kabel noch einmal kontrollieren. Danach kommt man laut Video nur noch schlecht heran.</p>  </details>
+  <details>
+    <summary>Welche Sicherungen sind für den Camper ungeeignet?</summary>
+<p>Sicherungen aus dem KFZ-Audio-Bereich. Laut Mario sind sie nicht für den Dauerbetrieb ausgelegt, und die beiden haben bereits unschöne Fälle gesehen, in denen solche Sicherungen geschmolzen sind.</p><p>Die Ausbauer hatten versehentlich drei davon bestellt und tauschen sie nach dem Video aus. Welche Kabelquerschnitte und Sicherungen man braucht, lässt sich laut Mario relativ schnell herausfinden, er betont aber auch, dass er kein ausgebildeter Elektriker ist.</p><p>Praxis: Sicherungen gleich beim Bestellen auf Dauerbetrieb prüfen, damit sie nicht nach dem Einbau wieder raus müssen.</p>  </details>
+  <details>
+    <summary>Warum Stromverteilerschienen statt Anschluss am Batteriepol?</summary>
+<p>Weil es übersichtlicher ist. Ohne Verteilerschienen müssten laut Video alle Pluskabel direkt am Batteriepol angeschlossen werden, das wollten die beiden auf keinen Fall.</p><p>Mit den zwei Verteilerschienen lässt sich bei Bedarf jedes Kabel einzeln abmontieren und schnell tauschen, falls etwas kaputtgeht. Die 230-V-Kabel der Steckdosen sind getrennt davon in einem Kasten mit Wago-Klemmen verbunden und gehen direkt zum Wechselrichter. Die 12-V-Verbraucher wie Pumpe, Kühlschrank und Außenbeleuchtung hängen am 12-V-Sicherungskasten.</p>  </details>
+</div>
+
+<h2 id="weiterlesen">Weiterlesen bei VanKompass</h2>
+<div class="magazin-nav">
+<a href="strom.html">Bereich Strom im Camper: Empfehlung, Beiträge, FAQ</a>
+<a href="camper-sprinter-ausbau.html">Alles zum Sprinter-Ausbau</a>
+<a href="magazin-strom-lifepo4-umbau-fehler-agm-tauschen-mr-togi.html">LiFePO4 oder AGM im Wohnmobil: Die größten Fehler beim Umbau vermeiden</a>
+<a href="magazin-strom-lifepo4-180ah-vw-grand-california-vantertainment.html">VW Grand California Lithium-Batterie nachrüsten: 180 Ah LiFePO4 statt 92 Ah AGM</a>
+<a href="magazin.html#strom">Alle Beiträge zu Strom im Magazin</a>
+<a href="bereiche.html">Alle Bereiche</a>
+</div>
+
+<div class="disclosure">
+  <strong>Transparenz:</strong> Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal hinundwiederweg, ist dort als Werbung gekennzeichnet und zeigt Komponenten von Ective; die Videobeschreibung enthält einen Rabattcode und Affiliate-Links. VanKompass hat das Setup nicht selbst geprüft. Alle Angaben basieren auf dem Video und seiner Beschreibung. Links zu Produkten können Affiliate-Links enthalten.
+</div>
+
+</div>
+</article>
+
+<section class="tight">
+<div class="wrap">
+  <div class="freebie compact">
+  <div>
+    <p class="kick">Noch nicht geholt?</p>
+    <h2>Die Camper-Packliste als PDF, kostenlos</h2>
+    <p>120 Punkte nach Bereichen sortiert. Dazu neue Video-Tests und Ratgeber, sobald sie online sind.</p>
+  </div>
+  <form class="nl-form" action="#" method="post" data-nl>
+    <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required autocomplete="email">
+    <button type="submit">Packliste holen</button>
+    <div class="done">Danke! Die Packliste ist unterwegs. Schau in dein Postfach.</div>
+    <small>Kein Spam, jederzeit abbestellbar. <a href="datenschutz.html">Datenschutz</a></small>
+  </form>
+</div>
+</div>
+</section>
+
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div><strong style="color:#fff;">VanKompass</strong><br>Camper-Ausr&uuml;stung mit Plan.</div>
+      <div><a href="magazin.html">Magazin</a> &middot; <a href="bereiche.html">Bereiche</a> &middot; <a href="camper.html">Camper</a> &middot; <a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a> &middot; <a href="#" onclick="tsShowCookieBanner(); return false;">Cookie-Einstellungen</a></div>
+    </div>
+    <div class="legal">
+      <span class="star">*</span> Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du darüber ein, erhalten wir eine kleine Provision. Für dich ändert sich am Preis nichts. So können wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke für deine Unterstützung.
+    </div>
+  </div>
+</footer>
+
+<div id="ts-cookie-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:#FFFFFF; border-top:3px solid #0f3d3e; padding:1.1rem 1.4rem; align-items:center; justify-content:space-between; gap:1.4rem; flex-wrap:wrap; font-family:system-ui,-apple-system,sans-serif; box-shadow:0 -4px 22px rgba(0,0,0,0.12);">
+  <div style="flex:1; min-width:240px;">
+    <strong style="color:#1c2321; font-size:1rem; display:block;">Diese Website nutzt Cookies</strong>
+    <p style="color:#463939; font-size:0.875rem; margin:0.3rem 0 0; line-height:1.5;">Wir verwenden Google Analytics, um zu verstehen, wie Besucher diese Seite nutzen. <a href="datenschutz.html" style="color:#1c2321;">Datenschutz</a></p>
+  </div>
+  <div style="display:flex; gap:0.7rem; flex-shrink:0; flex-wrap:wrap;">
+    <button onclick="tsDeclineCookies()" style="padding:0.6rem 1.25rem; border:2px solid #1c2321; background:transparent; color:#1c2321; border-radius:4px; font-size:0.875rem; cursor:pointer; font-family:inherit;">Nur notwendige</button>
+    <button onclick="tsAcceptCookies()" style="padding:0.6rem 1.25rem; border:none; background:#0f3d3e; color:#fff; border-radius:4px; font-size:0.875rem; cursor:pointer; font-weight:700; font-family:inherit;">Alle akzeptieren</button>
+  </div>
+</div>
+
+<script src="vanlife-config-v2.js?v=20261011"></script>
+<script src="js/cookie-consent.js?v=20261011"></script>
+<script src="js/klick-tracking.js?v=20261011" defer></script>
+<script>
+document.querySelectorAll("form[data-nl]").forEach(function (f) {
+  f.addEventListener("submit", function (e) { e.preventDefault(); f.classList.add("sent"); });
+});
+</script>
+</body>
+</html>

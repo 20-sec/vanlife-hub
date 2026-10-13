@@ -1,0 +1,181 @@
+{
+  "slug": "lifepo4-180ah-vw-grand-california-vantertainment",
+  "out": "magazin-strom-lifepo4-180ah-vw-grand-california-vantertainment.html",
+  "bereich": "strom",
+  "camper": [
+    "vw-grand-california"
+  ],
+  "kategorie": "Praxis",
+  "top": false,
+  "title": "VW Grand California Lithium-Batterie nachrüsten: 180 Ah LiFePO4 statt 92 Ah AGM",
+  "crumb": "180 Ah LiFePO4 im Grand California",
+  "meta_title": "Grand California: 180 Ah LiFePO4 statt AGM nachrüsten",
+  "meta_desc": "VANTERTAINMENT tauscht im VW Grand California 600 die 92-Ah-AGM gegen eine 180-Ah-LiFePO4 von VANVOLT: Einbau, Codierung, Ladestrom, Kosten, Grenzen.",
+  "teaser": "180 Ah statt 92 Ah, 10 kg leichter, rund 1000 Euro, Codierung Pflicht. Der Batterietausch im Grand California bei VANTERTAINMENT.",
+  "lead_teaser": "Wenn du wissen willst, ob eine LiFePO4-Batterie im VW Grand California eine Gefahr oder eine sinnvolle Aufrüstung ist: Dieser Beitrag fasst das Video von VANTERTAINMENT zusammen. Freunde mit Erfahrung tauschen die 92-Ah-AGM-Batterie im Motorraum gegen eine 180-Ah-LiFePO4 von VANVOLT, codieren das Fahrzeug auf den neuen Batterietyp und berichten drei Tage später vom Schweriner See, was sich an Autarkie, Gewicht und Ladezeit geändert hat.",
+  "datum": "2026-10-13",
+  "datum_text": "Oktober 2026",
+  "geaendert": "2026-10-13",
+  "thumb": "img/thumb-lifepo4-180ah-vw-grand-california-vantertainment.svg",
+  "video": {
+    "id": "sPu5uJqY56g",
+    "title": "180Ah LiFePO4 Batterie im VW Grand California: Gefahr oder geniale Aufrüstung?",
+    "beschreibung": "VANTERTAINMENT zeigt den Einbau der VANVOLT 180 Ah LiFePO4 Lithium-Batterie in einen VW Grand California 600, Baujahr 12/2022, anstelle der originalen 92-Ah-Batterie. Mit Vor- und Nachteilen der LiFePO4-Technologie, Kosten des Umbaus und Tipps für den Einbau.",
+    "kanal": "VANTERTAINMENT",
+    "kanal_url": "https://www.youtube.com/@VANTERTAINMENT",
+    "kanal_kuerzel": "VT",
+    "abonnenten": "12.800",
+    "upload": "2024-04-03",
+    "upload_text": "3. April 2024",
+    "dauer_iso": "PT34M24S",
+    "dauer_text": "34:24 Min.",
+    "aufrufe": "23.675",
+    "werbung": "Das Video trägt eine Werbekennzeichnung. Laut Kanal wurde die Batterie selbst gekauft, es besteht keine Kooperation und kein Werbevertrag mit dem Hersteller. Die Videobeschreibung enthält einen Kooperationslink zu FraRon Wohnmobil-Elektronik mit Rabattcode sowie Amazon-Affiliate-Links."
+  },
+  "answer": "Laut VANTERTAINMENT lässt sich im VW Grand California 600 (Baujahr 12/2022) die <strong>92-Ah-AGM-Batterie gegen eine 180-Ah-LiFePO4 von VANVOLT</strong> tauschen. Gleiche Außenmaße, 17 kg statt 27 kg, rund 1000 Euro, Einbau in etwa 10 Minuten. Pflicht ist die Codierung des Fahrzeugs auf den neuen Batterietyp, sonst droht Überladung. Der Ladestrom ist auf 90 bis 100 A eingestellt, nach etwa zwei Stunden Fahrt ist die Batterie voll.",
+  "sections": [
+    {
+      "id": "ueberblick",
+      "h2": "Was zeigt das Video?",
+      "html": "<p>Der Kanal <strong>VANTERTAINMENT</strong> baut in einen neuen VW Grand California 600 (Baujahr 12/2022) eine 180-Ah-LiFePO4-Batterie von VANVOLT ein. Die originale 92-Ah-AGM-Batterie war laut dem Kanal schnell erschöpft: Nach einem Tag ohne Landstrom war sie platt. Freunde übernehmen den Einbau, einer von ihnen fährt dieselbe Batterie seit November. Ob Lithium an dieser Stelle geeignet ist, wird laut dem Tester kontrovers diskutiert.</p>\n<p>Das Video zeigt den Ausbau der alten Batterie, den Einbau der neuen, die Codierung des Fahrzeugs auf den neuen Batterietyp, die Kontrolle des Ladestroms über die Camper Unit und die App der Batterie. Drei Tage später folgt ein Feedback vom Schweriner See: Verbrauch, Ladezeit, Nachteile, die Alternative für rund 10.000 Euro und die Frage nach der Garantie.</p>\n<p>Laut Videobeschreibung gelten ab Baujahr 2024 andere Voraussetzungen, dort ist der Einbau nicht einfach so möglich.</p>"
+    },
+    {
+      "id": "technische-daten",
+      "h2": "Technische Daten: VANVOLT 180 Ah LiFePO4 im Grand California",
+      "specs": [
+        {
+          "label": "Batterie",
+          "value": "VANVOLT 180 Ah Pro LiFePO4"
+        },
+        {
+          "label": "Spannung / Bauform",
+          "value": "12,8 V, DIN H8"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP67"
+        },
+        {
+          "label": "Lade-/Entladestrom",
+          "value": "bis 200 A"
+        },
+        {
+          "label": "Gewicht",
+          "value": "17 kg (AGM: 27 kg)"
+        },
+        {
+          "label": "Zyklen laut Hersteller",
+          "value": "5000 bei 90 % Entladung"
+        },
+        {
+          "label": "Eingestellter Ladestrom",
+          "value": "90 bis 100 A"
+        },
+        {
+          "label": "Preis laut Video",
+          "value": "ca. 1000 Euro"
+        }
+      ],
+      "specs_note": "Angaben laut Video und Videobeschreibung von VANTERTAINMENT, Stand April 2024. Die Batterie wurde laut Beschreibung vom Hersteller von Arctic in Arctic Pro umbenannt.",
+      "html": "<p>Die Batterie hat laut Video ein Arctic-BMS, das die Zellen bei niedrigen Temperaturen vorheizt, so dass sie bis minus 30 Grad geladen werden kann. Dazu kommen Bluetooth und laut Beschreibung ein aktiver und passiver Dual-Balancer. Die Außenabmessungen sind gleich wie bei der AGM-Batterie, innen sitzt ein anderes Innenleben.</p>"
+    },
+    {
+      "id": "einbau",
+      "h2": "Einbau: Batterie im Motorraum des Grand California tauschen",
+      "html": "<p>Beim Grand California sitzt laut Video an der Stelle, an der man die Starterbatterie erwartet, die Aufbaubatterie. Deshalb braucht die neue Batterie Spritzwasserschutz, bei der VANVOLT ist das IP67. Vor dem Ausbau wird der Strom am Hauptschalter im Technikschrank getrennt.</p>\n<ul>\n<li><strong>Minuspol zuerst:</strong> Links sitzt Minus, rechts Plus. Erst die Minusklemme lösen. Wenn danach ein Werkzeug die Karosserie berührt, ist das kein Kurzschluss mehr, weil der Massepol schon getrennt ist.</li>\n<li><strong>Werkzeug:</strong> 10er Maulschlüssel für die Polklemmen, 13er Schlüssel mit Verlängerung für die Halteschraube der Pratze am Boden.</li>\n<li><strong>Zu zweit heben:</strong> Die alte AGM wiegt 27 kg, laut dem Tester bekommt man sie allein kaum heraus. Im Video heben drei Leute gemeinsam.</li>\n<li><strong>Einbau:</strong> Hinten einrasten, Pratze festschrauben, dann Plus und zuletzt Minus anklemmen.</li>\n</ul>\n<p>Der mechanische Teil dauert laut dem Tester etwa 10 Minuten.</p>"
+    },
+    {
+      "id": "codierung",
+      "h2": "Codierung: Warum ohne Anlernen Überladung droht",
+      "html": "<p>Nach dem Einbau muss das Fahrzeug codiert werden, damit es weiß, dass ein anderer Batterietyp verbaut ist, und die Ladekennlinie der Lichtmaschine angepasst wird. Im Video geschieht das mit einem OBD-Dongle per Bluetooth über das Handy. Laut dem Tester geht es auch mit VCDS oder den Systemen der VW-Werkstätten. Zum Codieren muss die Motorhaube offen sein, sonst übernimmt das Fahrzeug die Werte nicht. Im Gateway wird der neue Batterietyp eingetragen.</p>\n<div class=\"nope\">\n<h4>Das passiert ohne Codierung</h4>\n<ul>\n<li>Die bordeigenen Steuergeräte kennen den neuen Batterietyp nicht. Im Schubbetrieb, etwa bergab oder bei hohen Drehzahlen, würde das Fahrzeug laut dem Tester viel zu viel Strom in die Batterie pumpen.</li>\n<li>Die Lichtmaschine kann laut Video über 200 A liefern. Das Batteriemanagement registriert Überstrom, schaltet irgendwann ab, und bei Dauerbelastung geht die Batterie kaputt.</li>\n<li>Laut dem Tester sollte die Codierung nur machen, wer sich damit auskennt.</li>\n</ul>\n</div>\n<p>Im Video wird der Ladestrom auf 90 bis maximal 100 A eingestellt. Die Batterie verträgt laut Angabe bis 200 A, rund 100 A hält der Tester für die ideale Größe für dieses Fahrzeug. Nach dem Motorstart und einem Druck auf die Ladetaste zeigt die Camper Unit 68 A Ladestrom an. Die App der Batterie zeigt in diesem Moment 115,7 von 180 Ah, 17 Grad Batterietemperatur, 955 W Ladeleistung von der Lichtmaschine und eine prognostizierte Ladezeit von 55 Minuten im Stand.</p>"
+    },
+    {
+      "id": "praxis",
+      "h2": "Praxis im Grand California: Drei Tage ohne Landstrom",
+      "html": "<div class=\"praxis\">\n<h4>Feedback nach drei Tagen am Schweriner See</h4>\n<p>Heizung, Laptops, iPhones, Kühlschrank, Router, Licht, Fernsehen und Musik über das Notebook: Nach drei Tagen waren laut dem Tester etwa zwei Drittel der Batterie verbraucht, und dafür mussten sie sich schon anstrengen. Vorher war die AGM nach einem Tag leer. Der Grand California im Video hat kein Solar auf dem Dach.</p>\n</div>\n<h3>Laden über die Lichtmaschine</h3>\n<p>Mit 90 A Ladestrom sind laut dem Tester nach einer Stunde rein rechnerisch 90 Ah geladen, nach zwei Stunden Fahrt ist die 180-Ah-Batterie voll. Das liegt laut Video weit über dem, was ein konventioneller Ladebooster schafft. Der Tester spricht von drei bis fünf Tagen Autarkie, die er gewonnen hat.</p>\n<h3>Den Ladeknopf drücken</h3>\n<p>Wegen der Abgasnorm Euro 6 final muss laut Video während der Fahrt der Knopf für die Vollladung der Batterie gedrückt werden. Ohne diesen Knopf wird die Batterie nie bis zum Maximum geladen, und im Zusammenspiel mit der weiterhin verbauten AGM-Starterbatterie führt das laut dem Tester zu Schwierigkeiten. Nach dem Druck erhöht sich die Drehzahl, und die Batterie lädt voll.</p>\n<h3>Verbrauch im Stand</h3>\n<p>Mit Heizung, Kühlschrank, voller Beleuchtung und Ambientelicht zeigt die Camper Unit im Video 6 A Entnahme. Das ist laut dem Tester schon eine Hausnummer, im Normalbetrieb liegt der Verbrauch eher seltener so hoch.</p>"
+    },
+    {
+      "id": "nachteile",
+      "h2": "Nachteile: Ladestandsanzeige, App und Garantie",
+      "html": "<h3>Die Camper Unit zeigt den Ladestand nicht mehr korrekt</h3>\n<p>Weil die Lade- und Entladekennlinie der LiFePO4 anders verläuft als die der werkseitigen AGM, kann die Camper Unit laut dem Tester die Kapazität nicht mehr korrekt anzeigen. Das Balkendiagramm steht sehr lange auf 100 Prozent. Bei 20 und 10 Prozent gibt es eine Meldung, erst orange, dann rot, und irgendwann schaltet das Fahrzeug ab. Den Bereich dazwischen sieht man im Panel nicht. Der Tester beschreibt das als Manko, das sich leicht ausgleichen lässt.</p>\n<div class=\"praxis\">\n<h4>Lösung aus dem Video: die App der Batterie</h4>\n<p>Die Batterie hat Bluetooth und eine eigene App, laut Beschreibung Powerbely. Sie zeigt Ladespannung, Ladestrom, Entladestrom, Zellspannungen, eine Hochrechnung bis voll oder leer sowie die Zähler des Batteriemanagements für Überspannung und Überstrom. Im Video stehen alle Fehlerzähler auf Null.</p>\n</div>\n<div class=\"nope\">\n<h4>Grenzen und Risiken laut Video</h4>\n<ul>\n<li>Beim Losfahren an den Ladeknopf denken, sonst wird die Batterie nicht voll.</li>\n<li>Ob Lithium an dieser Einbauposition geeignet ist, wird laut dem Tester kontrovers diskutiert. In die Einstellmöglichkeiten der Codierung ist er nach eigener Aussage nicht tief eingestiegen.</li>\n<li>Ein Zertifikat von Volkswagen für den Garantieerhalt gibt es für diese Lösung nicht. Bei einem Schaden, der auf den Umbau zurückzuführen ist, kann es laut dem Tester eine Diskussion mit dem Hersteller geben. Ausprobieren mussten sie das bisher nicht.</li>\n<li>Die Tester betonen, dass sie keine Batterie-Experten sind, keine Garantie für den Einbau übernehmen und dass der Umbau auf eigene Verantwortung geschieht.</li>\n<li>Laut Videobeschreibung gelten ab Baujahr 2024 andere Voraussetzungen, der Einbau ist dort nicht einfach so möglich.</li>\n</ul>\n</div>"
+    },
+    {
+      "id": "alternative",
+      "h2": "Alternative: Komplettlösung im Technikschrank für rund 10.000 Euro",
+      "html": "<p>Im Video wird eine zweite Variante angesprochen, für die sich laut dem Tester viele Grand-California-Fahrer entscheiden: eine Komplettlösung für ungefähr 10.000 Euro mit zwei kleineren Batterien hinten im Technikschrank, einem Booster und einem Wechselrichter. Dafür wird mit einem Zertifikat von Volkswagen geworben, mit dem die Garantie erhalten bleibt.</p>\n<ul>\n<li><strong>Aufwand:</strong> Vom Motorraum bis in den Technikschrank müssen laut Video viele dicke Stromkabel verlegt werden, die wegen der hohen Ströme nötig sind und ebenfalls Gewicht bringen.</li>\n<li><strong>Einbauort:</strong> Die Position vorn im Motorraum ist laut dem Tester beim Grand California nicht ideal, aber genau dort sitzt die Aufbaubatterie ab Werk.</li>\n<li><strong>Budget:</strong> Der Tester rechnet mit rund 1000 Euro gegen rund 10.000 Euro. Die Komplettlösung stand bei den Besitzern des Vans ebenfalls auf dem Zettel.</li>\n</ul>"
+    },
+    {
+      "id": "fazit-video",
+      "h2": "Fazit aus dem Video",
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Einschätzung der Tester</h2>\n<p>Für VANTERTAINMENT ist die 180-Ah-LiFePO4 im Grand California eine Aufrüstung, keine Gefahr, solange das Fahrzeug codiert wird und der Ladeknopf während der Fahrt gedrückt wird. Gleiche Außenmaße, 10 kg weniger Gewicht, etwa 90 Prozent nutzbare Kapazität statt rund 50 Prozent bei der AGM und laut Hersteller 5000 Zyklen statt 200 bis 400. Mit der 92-Ah-AGM war laut dem Tester von Autarkie keine Rede, mit der neuen Batterie steht der Van drei Tage am See mit Heizung, Kühlschrank und Laptops. Die Besitzer sind nach den ersten Tagen deutlich unabhängiger und brauchen weniger Landstrom. Laut Videobeschreibung hat die Batterie seither Hochsommer und Winter bis minus 17 Grad ohne Probleme überstanden.</p>\n<p style=\"margin-bottom:0;\">Das Video trägt eine Werbekennzeichnung. Laut Kanal wurde die Batterie selbst gekauft, es besteht keine Kooperation mit dem Hersteller. Die Videobeschreibung enthält einen Kooperationslink zu FraRon Wohnmobil-Elektronik mit Rabattcode sowie Amazon-Affiliate-Links.</p>\n</div>\n<h3>Vorteile laut Video</h3>\n<ul>\n<li>180 Ah statt 92 Ah, davon etwa 90 Prozent nutzbar statt etwa 50 Prozent bei AGM</li>\n<li>17 kg statt 27 kg bei gleichen Außenabmessungen; eine 180-Ah-AGM würde 50 kg wiegen und vorn nicht passen</li>\n<li>Laut Hersteller 5000 Zyklen bei etwa 90 Prozent Entladung, AGM 200 bis 400 Zyklen</li>\n<li>Nach etwa zwei Stunden Fahrt wieder voll</li>\n<li>Einbau in etwa 10 Minuten, Kosten rund 1000 Euro</li>\n</ul>"
+    }
+  ],
+  "faq_thema": "zur LiFePO4-Batterie im Grand California",
+  "faq": [
+    {
+      "q": "Kann man im VW Grand California eine Lithium-Batterie nachrüsten?",
+      "a": [
+        "Ja, laut VANTERTAINMENT lässt sich im Grand California 600 mit Baujahr 12/2022 die 92-Ah-AGM-Batterie gegen eine 180-Ah-LiFePO4 von VANVOLT tauschen. Die neue Batterie hat die gleichen Außenabmessungen und sitzt an derselben Stelle im Motorraum.",
+        "Im Video wird der Einbau in etwa 10 Minuten erledigt. Danach muss das Fahrzeug auf den neuen Batterietyp codiert werden, sonst droht laut dem Tester eine Überladung durch die Lichtmaschine. Im Freundeskreis des Kanals laufen mehrere dieser Batterien im Grand California 600.",
+        "Wichtig: Laut Videobeschreibung gelten ab Baujahr 2024 andere Voraussetzungen, dort ist der Einbau nicht einfach so möglich. Die Tester betonen außerdem, dass der Umbau auf eigene Verantwortung geschieht."
+      ]
+    },
+    {
+      "q": "Ist eine LiFePO4-Batterie im Grand California gefährlich?",
+      "a": [
+        "Laut dem Tester nicht, wenn das Fahrzeug codiert wird. Die Gefahr liegt im Ladestrom: Ohne Codierung kennen die Steuergeräte den neuen Batterietyp nicht und würden im Schubbetrieb, etwa bergab oder bei hohen Drehzahlen, viel zu viel Strom in die Batterie pumpen.",
+        "Die Lichtmaschine kann laut Video über 200 A liefern. Das Batteriemanagement der Batterie registriert Überstrom, speichert ihn im Fehlerspeicher und schaltet irgendwann ab. Bei Dauerbelastung ist das BMS laut dem Tester irgendwann erschöpft und die Batterie geht kaputt.",
+        "Im Video ist der Ladestrom auf 90 bis 100 A eingestellt, die Batterie verträgt bis 200 A. Laut Videobeschreibung hat die Batterie seit dem Einbau Hochsommer und Winter bis minus 17 Grad überstanden, ohne zu überhitzen."
+      ]
+    },
+    {
+      "q": "Muss der Grand California nach dem Batterietausch codiert werden?",
+      "a": [
+        "Ja. Laut dem Tester ist die Codierung definitiv erforderlich, damit das Fahrzeug weiß, dass ein anderer Batterietyp verbaut ist, und die Ladekennlinie der Lichtmaschine angepasst wird.",
+        "Im Video geschieht das mit einem OBD-Dongle per Bluetooth über das Handy. Alternativ nennt der Tester VCDS oder die Systeme der VW-Werkstätten. Beim Codieren muss die Motorhaube offen sein, sonst übernimmt das Fahrzeug die Werte nicht. Im Gateway wird der neue Batterietyp eingetragen.",
+        "Der Erfolg lässt sich prüfen: Nach dem Motorstart zeigt die Camper Unit den Ladestrom an, im Video 68 A nach dem Druck auf die Ladetaste. Laut dem Tester sollte die Codierung nur machen, wer sich damit auskennt."
+      ]
+    },
+    {
+      "q": "Was kostet die 180-Ah-LiFePO4 für den Grand California?",
+      "a": [
+        "Laut Video liegt die VANVOLT 180 Ah Pro bei ungefähr 1000 Euro. Der Einbau dauert laut dem Tester etwa 10 Minuten und wurde im Video von Freunden gemacht.",
+        "Zum Vergleich nennt der Tester eine Komplettlösung für rund 10.000 Euro mit zwei kleineren Batterien im Technikschrank, Booster und Wechselrichter, für die mit einem Zertifikat von Volkswagen zum Garantieerhalt geworben wird. Die Besitzer des Vans im Video hatten diese Variante ebenfalls auf dem Zettel.",
+        "Ein Zertifikat von Volkswagen für den Garantieerhalt gibt es bei dieser Lösung nicht. Bei einem Schaden, der auf den Umbau zurückzuführen ist, kann es laut dem Tester eine Diskussion mit dem Hersteller geben."
+      ]
+    },
+    {
+      "q": "Wie lange hält die LiFePO4 im Grand California ohne Landstrom?",
+      "a": [
+        "Im Video stand der Grand California drei Tage am Schweriner See mit Heizung, Kühlschrank, Router, Licht, Laptops, iPhones sowie Fernsehen und Musik über das Notebook. Danach waren laut dem Tester etwa zwei Drittel der Batterie verbraucht.",
+        "Mit der originalen 92-Ah-AGM war der Van vorher nach einem Tag leer. Der Tester spricht von drei bis fünf Tagen Autarkie, die er gewonnen hat. Solar hat der Van im Video nicht, das wäre laut dem Tester eine Option, um im Sommer den Kühlschrank zu versorgen.",
+        "Von der Nennkapazität sind laut Video bei LiFePO4 etwa 90 Prozent nutzbar, bei der AGM nur etwa 50 Prozent. Aus 92 Ah AGM werden so rund 50 Ah, aus 180 Ah LiFePO4 deutlich mehr."
+      ]
+    },
+    {
+      "q": "Wie schnell lädt die Lichtmaschine die 180-Ah-Batterie?",
+      "a": [
+        "Im Video ist der Ladestrom auf 90 bis maximal 100 A eingestellt. Laut dem Tester sind damit nach einer Stunde Fahrt rein rechnerisch 90 Ah geladen, nach zwei Stunden ist die 180-Ah-Batterie komplett voll.",
+        "Die Batterie verträgt laut Angabe bis 200 A, rund 100 A hält der Tester für die ideale Größe für dieses Fahrzeug. Selbst mit 100 A liegt der Wert laut Video weit über dem, was ein konventioneller Ladebooster schafft. Im Stand zeigt die App bei 115,7 von 180 Ah eine prognostizierte Ladezeit von 55 Minuten und 955 W Ladeleistung.",
+        "Voraussetzung ist der Ladeknopf: Wegen Euro 6 final muss während der Fahrt die Taste für die Vollladung gedrückt werden, sonst wird die Batterie laut dem Tester nie bis zum Maximum geladen."
+      ]
+    },
+    {
+      "q": "Warum zeigt die Camper Unit den Ladestand nicht mehr richtig an?",
+      "a": [
+        "Weil die Lade- und Entladekennlinie der LiFePO4 anders verläuft als die der werkseitigen AGM. Die Camper Unit kann die Kapazität laut dem Tester dadurch nicht mehr korrekt anzeigen und steht sehr lange auf 100 Prozent.",
+        "Bei 20 und 10 Prozent kommt laut Video eine Meldung, erst orange, dann rot, und irgendwann schaltet das Fahrzeug ab. Den Bereich dazwischen sieht man im Panel nicht. Der Tester hat beobachtet, dass das Fahrzeug bei der Hochrechnung weiß, dass mehr Kapazität als ab Werk vorhanden ist.",
+        "Lösung aus dem Video: die App der Batterie per Bluetooth. Sie zeigt Spannung, Ladestrom, Entladestrom, Zellspannungen und eine Hochrechnung, wie lange es bei konstanter Entnahme noch dauert, bis die Batterie voll oder leer ist."
+      ]
+    },
+    {
+      "q": "Wie viel Gewicht spart die LiFePO4 im Grand California?",
+      "a": [
+        "Laut Video wiegt die VANVOLT 180 Ah 17 kg, die originale AGM-Batterie in gleicher Bauform 27 kg. Das sind rund 10 kg weniger bei fast doppelter Nennkapazität und gleichen Außenabmessungen.",
+        "Eine AGM-Batterie mit 180 Ah würde laut dem Tester 50 kg wiegen und vorn gar nicht mehr hineinpassen. Für einen Kastenwagen, der bis 3,5 Tonnen beladen werden darf, zählt laut Video jedes Kilo.",
+        "Praxis: Die alte AGM bekommt man laut dem Tester allein kaum aus dem Motorraum. Im Video heben drei Leute gemeinsam, um das Fahrzeug zu schonen."
+      ]
+    }
+  ],
+  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal VANTERTAINMENT und trägt eine Werbekennzeichnung; laut Kanal wurde die Batterie selbst gekauft, die Videobeschreibung enthält einen Kooperationslink zu FraRon Wohnmobil-Elektronik mit Rabattcode sowie Amazon-Affiliate-Links. VanKompass hat die Batterie nicht selbst getestet. Alle Angaben basieren auf dem Video und seiner Beschreibung. Links zu Produkten können Affiliate-Links enthalten."
+}
