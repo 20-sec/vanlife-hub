@@ -11,7 +11,7 @@ os.chdir(ROOT)
 SKIP = {"slug", "out", "url", "thumb", "id", "kanal_url", "bereich", "camper", "kanal_kuerzel", "dauer_iso", "datum", "upload", "geaendert"}
 OK_PREFIX = ("bequem", "quell", "zuerst", "kabelquer", "thermoelektr", "quer", "frequen", "sequen", "konsequen", "aqua", "manuell", "aktuell",
              "individuell", "eventuell", "virtuell", "visuell", "duell", "poet", "koeff", "aero", "israel", "michael", "bluetooth", "steuer",
-             "neue", "dauer", "genau", "bau", "feuer", "trauer", "mauer", "sauer", "frau", "schau", "kau", "grau", "vertrau", "lau", "due", "que")
+             "neue", "dauer", "genau", "bau", "feuer", "trauer", "mauer", "sauer", "frau", "schau", "kau", "grau", "vertrau", "lau", "due", "que", "bezugsquell", "truepassion")
 
 
 def texts(o, key=None):

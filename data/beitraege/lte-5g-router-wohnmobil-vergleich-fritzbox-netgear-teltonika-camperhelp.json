@@ -1,0 +1,179 @@
+{
+  "slug": "lte-5g-router-wohnmobil-vergleich-fritzbox-netgear-teltonika-camperhelp",
+  "out": "magazin-internet-lte-5g-router-wohnmobil-vergleich-fritzbox-netgear-teltonika-camperhelp.html",
+  "bereich": "internet",
+  "camper": [],
+  "kategorie": "Vergleich",
+  "top": false,
+  "title": "LTE und 5G Router im Wohnmobil: Fritzbox, Netgear und Teltonika im Vergleich",
+  "crumb": "5G Router im Wohnmobil-Vergleich",
+  "meta_title": "5G Router Wohnmobil Vergleich: Fritzbox, Netgear, Teltonika",
+  "meta_desc": "Vier LTE und 5G Router im Wohnmobil-Test von camperhelp: Fritzbox 6850 5G, Fritzbox 6860 5G, Netgear Nighthawk M3 und Teltonika RUTX50. Strom, Antennen, Fazit.",
+  "teaser": "Fritzbox 6850 und 6860 5G, Netgear Nighthawk M3 und Teltonika RUTX50 im Feldtest in Kastenwagen und GFK-Wohnmobil. Fakten von camperhelp.",
+  "lead_teaser": "Wenn du wissen willst, welcher LTE und 5G Router im Wohnmobil wirklich Empfang bringt, bekommst du hier die Antwort aus dem Feldtest von camperhelp: Fritzbox 6850 5G, Fritzbox 6860 5G, Netgear Nighthawk M3 und Teltonika RUTX50 im Kastenwagen und im GFK-Wohnmobil, rund 1,5 km vom Funkmast entfernt. Dazu Stromversorgung per USB-C und Power over Ethernet, Antennenanschlüsse, Stärken, Schwächen und die zwei Testsieger der beiden Camper.",
+  "datum": "2026-10-13",
+  "datum_text": "Oktober 2026",
+  "geaendert": "2026-10-13",
+  "thumb": "img/thumb-lte-5g-router-wohnmobil-vergleich-fritzbox-netgear-teltonika-camperhelp.svg",
+  "video": {
+    "id": "k0UC5Vw3Ibs",
+    "title": "Internet-Router im Test & Vergleich /Fritzbox 6850 & 6860 5G, Netgear Nighthawk M3, Teltonica RUTX50",
+    "beschreibung": "Flo und Patrick von camperhelp testen vier Internet-Router im Kastenwagen und im GFK-Wohnmobil: AVM Fritzbox 6850 5G, AVM Fritzbox 6860 5G, Netgear Nighthawk M3 und Teltonika RUTX50. Mit Speedtest an mehreren Standorten, Stromversorgung per USB-C und PoE, Antennen und zwei Testsiegern.",
+    "kanal": "camperhelp",
+    "kanal_url": "https://www.youtube.com/@camperhelp",
+    "kanal_kuerzel": "CH",
+    "abonnenten": "10.200",
+    "upload": "2025-07-06",
+    "upload_text": "6. Juli 2025",
+    "dauer_iso": "PT25M58S",
+    "dauer_text": "25:58 Min.",
+    "aufrufe": "37.316",
+    "werbung": null
+  },
+  "answer": "Im Feldtest von camperhelp treten <strong>vier LTE und 5G Router</strong> im Kastenwagen und im GFK-Wohnmobil gegeneinander an: AVM Fritzbox 6850 5G, AVM Fritzbox 6860 5G, Netgear Nighthawk M3 und Teltonika RUTX50. Rund 1,5 km vom Funkmast entfernt überzeugen laut den Testern der <strong>Netgear Nighthawk M3</strong> als Router für fast alle und der <strong>Teltonika RUTX50</strong> als Profigerät. Die neue Fritzbox 6860 5G landet beim Empfang auf dem letzten Platz.",
+  "sections": [
+    {
+      "id": "ueberblick",
+      "h2": "Was zeigt das Video?",
+      "html": "<p>Flo und Patrick vom YouTube-Kanal camperhelp stellen in ihrem Feldtest <strong>vier Internet-Router für das Wohnmobil</strong> gegenüber: die AVM Fritzbox 6850 5G, die neuere AVM Fritzbox 6860 5G, den mobilen Netgear Nighthawk M3 und den Industrie-Router Teltonika RUTX50. Getestet wird in zwei unterschiedlichen Fahrzeugen: Patrick fährt einen Kastenwagen, Flo ein GFK-Wohnmobil.</p>\n<p>Der Ablauf: erst die Unterschiede bei Mobilfunk, LAN-Anschlüssen, Stromversorgung und Antennen, dann die Besonderheiten der vier Geräte, danach Speedtests an mehreren Standorten im und am Fahrzeug, zum Schluss das Fazit beider Tester und die Frage, warum überhaupt ein Router statt des Handy-Hotspots. Laut Video und Videobeschreibung gibt es keine Sponsoren und keine Verpflichtungen.</p>\n<p>Alle vier Router funken laut Video mit <strong>5G</strong> und fallen auf <strong>LTE</strong> zurück, wenn kein 5G verfügbar ist oder der Tarif kein 5G enthält.</p>"
+    },
+    {
+      "id": "technische-daten",
+      "h2": "Die vier Router im Überblick",
+      "specs": [
+        {
+          "label": "Getestete Router",
+          "value": "Fritzbox 6850 5G, Fritzbox 6860 5G, Nighthawk M3, RUTX50"
+        },
+        {
+          "label": "Mobilfunk",
+          "value": "5G, Rückfall auf LTE (alle vier)"
+        },
+        {
+          "label": "LAN-Ports",
+          "value": "6850: 4, 6860: 1, M3: keiner (USB-C), RUTX50: 4"
+        },
+        {
+          "label": "Antennenanschlüsse",
+          "value": "6850: 2x SMA, 6860: keine, M3: 2x TS9, RUTX50: 4x SMA"
+        },
+        {
+          "label": "Stromversorgung",
+          "value": "6850: 12 V Rundstecker, 6860: PoE, M3: USB-C, RUTX50: PoE"
+        },
+        {
+          "label": "PoE-Adapter",
+          "value": "passiv, Gigabit, ca. 13 €"
+        },
+        {
+          "label": "Akku",
+          "value": "nur Nighthawk M3 (entnehmbar)"
+        },
+        {
+          "label": "Testsieger laut Video",
+          "value": "Nighthawk M3 (für fast alle), RUTX50 (Profi)"
+        }
+      ],
+      "specs_note": "Angaben laut Video und Videobeschreibung von camperhelp, Stand Juli 2025.",
+      "html": "<h3>Was die vier Geräte auszeichnet</h3>\n<ul>\n<li><strong>AVM Fritzbox 6850 5G:</strong> der Camping-Klassiker. Wer eine Fritzbox zu Hause hat, fühlt sich laut den Testern sofort heimisch. Vier LAN-Ports und zwei SMA-Antennenanschlüsse. Einer der Tester hat sie seit drei Jahren im Einsatz.</li>\n<li><strong>AVM Fritzbox 6860 5G:</strong> die neue, kompakte Fritzbox mit nur einem LAN-Port, dafür mit Power over Ethernet und Schutzklasse IP54 (staub- und spritzwassergeschützt). Sie kann laut Video auch draußen hängen, solange es nicht in Strömen regnet. Die Antennen sind integriert, es gibt keine Antennenanschlüsse.</li>\n<li><strong>Netgear Nighthawk M3:</strong> sehr kompakter mobiler Router mit Einknopf-Bedienung am Gerät und Konfiguration per App. Als einziger im Test hat er einen eingebauten, entnehmbaren Akku. Kein LAN-Port, nur USB-C.</li>\n<li><strong>Teltonika RUTX50:</strong> Industrie-Router im Metallgehäuse, der laut Spezifikation einige Temperaturen aushält. Dual-SIM, vier LAN-Ports, vier SMA-Anschlüsse plus zwei Anschlüsse für externe WLAN-Antennen, WiFi-Offloading und Umgang mit Captive Portals.</li>\n</ul>"
+    },
+    {
+      "id": "stromversorgung",
+      "h2": "Stromversorgung im Wohnmobil: 12 Volt, USB-C und Power over Ethernet",
+      "html": "<p>Bei der Stromversorgung gehen die vier Router laut Video unterschiedliche Wege:</p>\n<ul>\n<li><strong>Fritzbox 6850 5G:</strong> ein spezielles Kabel mit Rundstecker bringt die 12 Volt in die Fritzbox, am anderen Ende sitzt ein normaler USB-C-Stecker.</li>\n<li><strong>Fritzbox 6860 5G:</strong> Power over Ethernet. Die Tester nutzen einen passiven Gigabit-PoE-Adapter für rund 13 € und ein Netzwerkkabel, das theoretisch bis zu 100 Meter lang sein darf. Kabellängen im Wohnmobil sind damit kein Thema.</li>\n<li><strong>Netgear Nighthawk M3:</strong> USB-C-auf-USB-C-Kabel, Ladestecker dran, fertig.</li>\n<li><strong>Teltonika RUTX50:</strong> ebenfalls Power over Ethernet, mit demselben passiven PoE-Adapter und Ladestecker wie die 6860.</li>\n</ul>\n<div class=\"praxis\">\n<h4>Powerbank-Betrieb</h4>\n<p>Alle vier Router lassen sich laut den Testern auch an einer Powerbank betreiben. Die passenden Lösungen haben sie im Blog auf camper.help dokumentiert, in der Videobeschreibung ist eine Anker Prime Powerbank mit 27.650 mAh und 250 Watt verlinkt. Im Test hängt der RUTX50 zeitweise an einer Powerbank.</p>\n</div>"
+    },
+    {
+      "id": "antennen",
+      "h2": "Antennen: von Werksantennen bis 4x4 MIMO auf dem Dach",
+      "html": "<p>Bei den Antennen liegen die größten Unterschiede. Laut Video sieht es so aus:</p>\n<ul>\n<li><strong>Fritzbox 6850 5G:</strong> zwei SMA-Anschlüsse, entweder für die mitgelieferten Antennen oder für eine externe Antenne.</li>\n<li><strong>Fritzbox 6860 5G:</strong> keine Antennenanschlüsse, die Antennen sind im Gerät integriert. Die Tester wollen deshalb ausprobieren, ob sich die ganze Fritzbox als Antenne nutzen lässt, etwa draußen am Kastenwagen.</li>\n<li><strong>Netgear Nighthawk M3:</strong> zwei TS9-Anschlüsse an der Unterseite. Daran passen kleine Steckantennen, eine Klebeantenne in zweifacher Ausführung oder eine externe Dachantenne.</li>\n<li><strong>Teltonika RUTX50:</strong> vier SMA-Anschlüsse, ab Werk mit den mitgelieferten Rundstrahlantennen bestückt. Dazu zwei Anschlüsse für externe WLAN-Antennen, die sich auseinanderstellen lassen. Der RUTX50 ist laut Video der einzige im Test, der eine externe 4x4-MIMO-Antenne komplett ansprechen kann.</li>\n</ul>\n<p>Dieser Punkt wird im Fazit wichtig: Fritzbox 6850 und Nighthawk M3 können an einer 4x4-MIMO-Dachantenne nur zwei der vier Antennen nutzen. Bei Richtantennen, die nicht auf den Sendemast zeigen, brechen laut Patrick Download und Upload dann ein. Wer eine Fritzbox 6850 mit vier Antennenanschlüssen sucht, findet laut Video Umbausätze von Drittanbietern, das ist aber etwas für Enthusiasten.</p>"
+    },
+    {
+      "id": "teststandort",
+      "h2": "Teststandort und Messung: bewusst schwieriger Empfang",
+      "html": "<p>Gedreht wird im Kammeltal auf einem Biohof, auf dem die Tester über staybetter.farm eingemietet sind. Der nächste Funkmast liegt laut Video rund <strong>1,5 km entfernt hinter einem Hügel</strong>, gemessen wird im Vodafone-Netz. Die Tester wählen diese Bedingungen bewusst: Neben einem Funkmast funktioniert jeder Router, realistisch ist das nicht. An dem Tag herrschen 33 Grad im Schatten.</p>\n<p>Gemessen wird an mehreren Positionen: im Staukasten des Kastenwagens, also abgeschirmt durch Metall und Fahrzeug, an der Fensterscheibe vorn und mit externer Antenne. Das Wohnmobil wird dafür zwischendurch umgeparkt, damit das Signal nicht direkt über die Scheiben hereinkommt. Pro Durchlauf machen die Tester mehrere Messungen und geben jedem Router mehrere Chancen, damit kein Gerät wegen eines Ausreißers schlecht dasteht. Die Tester weisen selbst darauf hin, dass solche Tests mit Vorsicht zu genießen sind.</p>\n<div class=\"praxis\">\n<h4>Starlink als Alternative? Für Flo zu teuer geworden</h4>\n<p>Flo war laut eigener Aussage bis vor einigen Monaten Starlink-Fan. Dann wurde sein Tarif fast drei Monate gesperrt. Der letzte Preis lag laut Video bei 89 € im Monat, und wer den Tarif pausiert, zahlt inzwischen etwa 5 € Standby-Gebühr im Monat, rund 55 € im Jahr, um später wieder einzusteigen. Flo nennt das einen schlauen Marketing-Gag, findet es aber blöd.</p>\n</div>"
+    },
+    {
+      "id": "ergebnisse",
+      "h2": "Ergebnisse: wie sich die vier Router geschlagen haben",
+      "html": "<h3>AVM Fritzbox 6850 5G: solide in allen Disziplinen</h3>\n<p>Patrick war überrascht, wie gut sich der Klassiker schlägt, egal wo er lag: zuverlässig verbunden, schnell verbunden, Geschwindigkeiten top. Für ein Gerät, das schon ein paar Jahre alt ist, laut ihm eine sehr gute Leistung. Einziger Kritikpunkt: nur zwei SMA-Anschlüsse, was in Verbindung mit einer 4x4-MIMO-Antenne auf dem Dach nicht optimal ist.</p>\n<h3>Netgear Nighthawk M3: der Überraschungssieger</h3>\n<p>Für Patrick der Überraschungssieger. Der kompakte Router funktionierte laut ihm egal wo und wie er lag, selbst im Staukasten noch einigermaßen zuverlässig. Beim Upload gab es dort Schwierigkeiten, trotzdem lag er beim Upload auf dem Niveau des RUTX50. Dazu kommt die Vielseitigkeit mit dem entnehmbaren Akku. Mit externer Antenne wurde es schlechter: Über die zwei TS9-Anschlüsse hängen nur zwei der vier Richtantennen am Gerät.</p>\n<h3>AVM Fritzbox 6860 5G: der Favorit mit Schwächen</h3>\n<p>Beide Tester hatten die neue Fritzbox als Favoriten im Kopf: kompakt, Power over Ethernet, spritzwassergeschützt, überall einsetzbar. In der Praxis zeigte sie auf der Distanz von rund 1,5 km im Vodafone-Netz deutliche Schwächen im Antennenbereich. Die Messungen schwankten laut Flo stark: mal sehr schlecht, dann plötzlich wieder gut.</p>\n<div class=\"nope\">\n<h4>Schlusslicht beim Empfang</h4>\n<ul>\n<li>Beim Empfang und bei der Zuverlässigkeit setzen die Tester die Fritzbox 6860 5G auf den letzten Platz. Flo: Bei Campern geht es um solide Leistung und guten Empfang, und da ist sie Schlusslicht.</li>\n<li>Die PoE-Versorgung und der Spritzwasserschutz begeistern ihn weiterhin, am Ergebnis ändert das nichts.</li>\n</ul>\n</div>\n<h3>Teltonika RUTX50: auf ganzer Linie überzeugt</h3>\n<p>Der RUTX50 hat laut Flo auf ganzer Linie überzeugt, in erster Linie wegen der werkseitigen Rundstrahlantennen. Erstaunlich fand er die Robustheit von Download- und Uploadrate im Staukasten des Kastenwagens, abgeschirmt durch Metall und nicht optimal ausgerichtet. Dazu kommt die Flexibilität: Als einziger kann er eine externe 4x4-MIMO-Antenne komplett ansprechen, und die zwei WLAN-Anschlüsse lassen sich nach außen führen, um die WLAN-Abdeckung im Fahrzeug zu verändern. Flo nennt ihn seine künftige Maschine.</p>"
+    },
+    {
+      "id": "router-statt-handy",
+      "h2": "Warum ein Router im Wohnmobil statt Handy-Hotspot?",
+      "html": "<p>Am Ende des Videos gehen die Tester auf die Frage ein, warum sie überhaupt einen Router nutzen statt einfach das Handy. Ihre Gründe:</p>\n<ul>\n<li><strong>Stabilität:</strong> Mit Router stellen die Tester eine deutlich stabilere, zuverlässigere Verbindung mit weniger verlorenen Paketen fest. Mit dem Handy im Fahrzeug und dessen kleiner Antenne kommt man da laut ihnen meist nicht hin.</li>\n<li><strong>Stromverbrauch:</strong> Ein Handy nimmt sich laut den Testern etwa 2 Watt, die Router liegen nach ihren Messungen zwischen unter 3 und maximal 7 Watt. Der Router setzt die Leistung aber komplett für seine eine Aufgabe ein.</li>\n<li><strong>Hitze:</strong> Ein Handy am Ladegerät wird heiß, weil es gleichzeitig lädt und funkt. Im Alkoven herrschen bei Sonne laut den Testern locker über 50 Grad, da will man kein Handy dauerhaft hängen haben.</li>\n<li><strong>Externe Antenne:</strong> Flo hat eine Dachantenne und schließt sie gern an, für besseren Empfang und mehr Stabilität. Bei seiner Arbeit hat er wenig Geduld, wenn die Verbindung zwei- oder dreimal pro Session wegbricht.</li>\n<li><strong>Viele Geräte:</strong> Einer der Tester zählt mit zwei Kindern im internetfähigen Alter und den eigenen Geräten acht Geräte. Der andere kommt zu zweit mit zwei Laptops und zwei Handys schon auf vier. Ein Handy-Hotspot ist für eine Person gedacht, nicht für acht mobile Geräte.</li>\n</ul>\n<div class=\"praxis\">\n<h4>Der Rat der Tester: klein anfangen</h4>\n<p>Erst einen Router holen, dann schauen, was man antennenmäßig macht: mit den kleinen Antennen anfangen, innen ins Dach kleben oder vorn an die Frontscheibe des Fahrerhauses, und erst dann Richtung externe Antenne gehen. Für Patrick wird die externe Antenne am Kastenwagen eines der nächsten Projekte, weil sich im Test gezeigt hat, dass sie gerade beim Upload viele Vorteile bringt, etwa für Bilder, Videos und Video-Calls.</p>\n</div>"
+    },
+    {
+      "id": "fazit-video",
+      "h2": "Fazit aus dem Video",
+      "html": "<div class=\"fazit\">\n<h2 style=\"font-size:22px;\">Einschätzung der Tester</h2>\n<p>Die beiden Tester haben ihr Fazit laut eigener Aussage nicht abgesprochen und kommen trotzdem zu zwei klaren Siegern. Der <strong>Netgear Nighthawk M3</strong> ist für beide der Router für fast alle: kompakt, mit Akku zum Mitnehmen in den Rucksack, ohne Akku im Dauerbetrieb, und ganz ohne externe Antenne. Flo schätzt, dass 95 bis 98 Prozent der Camper mit dem Gerät zufrieden sein werden. Nicht einmal die kleinen Saugnapf-Antennen von Netgear empfiehlt Flo, die könne man sich schenken.</p>\n<p>Der <strong>Teltonika RUTX50</strong> ist das Profigerät für alle, die mehr brauchen und wissen, worauf sie achten: Industrie-Router, Dual-SIM, WiFi-Offloading, Captive Portals und als einziger voll kompatibel mit einer 4x4-MIMO-Dachantenne. Für Flo persönlich reicht der Nighthawk nicht, er wählt den RUTX50.</p>\n<p>Die <strong>Fritzbox 6850 5G</strong> bleibt der grundsolide Klassiker mit dem Manko der nur zwei Antennenanschlüsse. Die <strong>Fritzbox 6860 5G</strong> enttäuschte beide beim Empfang und landet auf dem letzten Platz, trotz der praktischen PoE-Versorgung und des Spritzwasserschutzes.</p>\n<p style=\"margin-bottom:0;\">Laut Video und Videobeschreibung gibt es keine bezahlte Werbung, kein Sponsoring und keine bezahlten Tests. Die Produktlinks in der Beschreibung führen zu Amazon.</p>\n</div>"
+    }
+  ],
+  "faq_thema": "zu LTE und 5G Routern im Wohnmobil",
+  "faq": [
+    {
+      "q": "Welcher LTE oder 5G Router ist der beste fürs Wohnmobil?",
+      "a": [
+        "Im Feldtest von camperhelp gibt es zwei Sieger: Der Netgear Nighthawk M3 ist laut beiden Testern der Router für fast alle Camper, der Teltonika RUTX50 das Profigerät für alle, die mehr wollen.",
+        "Der Nighthawk M3 funktionierte laut Patrick egal wo und wie er lag, selbst im Staukasten des Kastenwagens noch einigermaßen zuverlässig. Flo schätzt, dass 95 bis 98 Prozent der Nutzer mit ihm zufrieden sein werden. Der RUTX50 überzeugte mit seinen werkseitigen Rundstrahlantennen, mit robusten Download- und Uploadraten auch im abgeschirmten Staukasten und als einziger mit voller Unterstützung einer 4x4-MIMO-Dachantenne.",
+        "Praxis: Wer einfach stabiles Internet im Camper will, nimmt laut den Testern den Nighthawk ohne externe Antenne. Wer mit Dachantenne, Dual-SIM und WiFi-Offloading arbeiten will, greift zum RUTX50."
+      ]
+    },
+    {
+      "q": "Fritzbox 6850 5G oder Fritzbox 6860 5G: welche ist besser im Camper?",
+      "a": [
+        "Im Test von camperhelp schneidet die ältere Fritzbox 6850 5G beim Empfang deutlich besser ab als die neue Fritzbox 6860 5G. Die 6850 lief laut Patrick in allen Disziplinen solide, die 6860 landete beim Empfang auf dem letzten Platz.",
+        "Die 6860 hat Vorteile bei der Ausstattung: Sie ist kompakt, wird per Power over Ethernet versorgt und ist nach IP54 staub- und spritzwassergeschützt. Dafür hat sie nur einen LAN-Port und keine Antennenanschlüsse, die Antennen sind integriert. Genau da lagen laut den Testern die Schwächen: Auf rund 1,5 km Distanz zum Funkmast im Vodafone-Netz schwankten die Messungen stark, mal sehr schlecht, dann wieder gut.",
+        "Die 6850 hat vier LAN-Ports und zwei SMA-Anschlüsse für externe Antennen. Ihr Manko: Mit zwei Anschlüssen nutzt sie an einer 4x4-MIMO-Dachantenne nur die Hälfte der Antennen."
+      ]
+    },
+    {
+      "q": "Wie versorge ich einen LTE Router im Wohnmobil mit Strom?",
+      "a": [
+        "Das hängt vom Modell ab. Im Video von camperhelp läuft die Fritzbox 6850 5G über ein spezielles Kabel mit Rundstecker, das 12 Volt in die Box bringt und am anderen Ende einen normalen USB-C-Stecker hat. Der Netgear Nighthawk M3 wird schlicht per USB-C-auf-USB-C-Kabel am Ladestecker versorgt.",
+        "Fritzbox 6860 5G und Teltonika RUTX50 beherrschen Power over Ethernet. Die Tester nutzen dafür einen passiven Gigabit-PoE-Adapter für rund 13 € und ein Netzwerkkabel, das theoretisch bis zu 100 Meter lang sein darf. Die Kabellänge im Wohnmobil spielt damit keine Rolle.",
+        "Alle vier Router lassen sich laut den Testern auch an einer Powerbank betreiben. Die Lösungen dafür beschreibt camperhelp im Blog, in der Videobeschreibung ist eine Anker Prime Powerbank mit 27.650 mAh verlinkt."
+      ]
+    },
+    {
+      "q": "Braucht der Netgear Nighthawk M3 im Wohnmobil eine externe Antenne?",
+      "a": [
+        "Nein, laut beiden Testern nicht. Patrick und Flo empfehlen den Nighthawk M3 ausdrücklich ohne externe Antenne.",
+        "Der Grund: Der M3 hat nur zwei TS9-Anschlüsse. An einer 4x4-MIMO-Dachantenne hängen damit nur zwei der vier Antennen, und das sind Richtantennen. Zeigen die nicht auf einen Sendemast, brechen laut Patrick Download und Upload ein. Im Test lief der M3 ohne externe Antenne besser. Auch die kleinen Saugnapf-Antennen von Netgear können sich Camper laut Flo schenken.",
+        "Praxis-Tipp aus dem Video: Im Dauerbetrieb den M3 ohne Akku laufen lassen. Den Akku einsetzen, wenn man den Router mitnehmen, kurz aufs Dach legen oder in den Rucksack stecken will."
+      ]
+    },
+    {
+      "q": "Was kann der Teltonika RUTX50 im Wohnmobil besser als eine Fritzbox?",
+      "a": [
+        "Der Teltonika RUTX50 ist laut camperhelp ein Industrie-Router im Metallgehäuse mit vier LAN-Ports, vier SMA-Antennenanschlüssen und zwei Anschlüssen für externe WLAN-Antennen. Damit ist er der einzige im Test, der eine 4x4-MIMO-Dachantenne komplett ansprechen kann.",
+        "Dazu kommen Funktionen, die die Fritzboxen im Video nicht bieten: Dual-SIM für eine zweite Karte unterwegs, WiFi-Offloading, bei dem der Router das WLAN vom Campingplatz oder Stellplatz übernimmt und im eigenen Netz weitergibt, und der Umgang mit Captive Portals. Die Anmeldung mit Nutzername und Passwort erledigt man einmal am Router statt an jedem Gerät.",
+        "Im Test überzeugten laut Flo vor allem die werkseitigen Rundstrahlantennen und die robusten Download- und Uploadraten im metallabgeschirmten Staukasten. Für Flo ist der RUTX50 das Profigerät und seine künftige Wahl."
+      ]
+    },
+    {
+      "q": "Warum ein Router im Wohnmobil statt Handy-Hotspot?",
+      "a": [
+        "Laut den Testern von camperhelp liefert ein Router eine deutlich stabilere Verbindung mit weniger verlorenen Paketen als ein Handy-Hotspot im Fahrzeug. Das Handy hat nur eine kleine Antenne, der Router kann an eine externe Antenne angeschlossen werden.",
+        "Ein zweiter Punkt ist die Zahl der Geräte. Einer der Tester kommt mit zwei Kindern und den eigenen Geräten auf acht Geräte, der andere zu zweit mit Laptops und Handys auf vier. Ein Handy-Hotspot ist laut den Testern für eine Person gedacht, nicht für acht Geräte. Dazu kommt die Hitze: Ein Handy, das gleichzeitig lädt und funkt, wird heiß. Im Alkoven herrschen bei Sonne über 50 Grad.",
+        "Der Rat der Tester: klein anfangen. Erst einen Router, dann kleine Antennen innen im Dach oder an der Frontscheibe, später bei Bedarf eine externe Antenne."
+      ]
+    },
+    {
+      "q": "Wie viel Strom verbraucht ein LTE Router im Wohnmobil?",
+      "a": [
+        "Laut den Testern von camperhelp nimmt sich ein Handy etwa 2 Watt. Die Router im Test liegen nach ihren Messungen zwischen unter 3 Watt und maximal 7 Watt.",
+        "Die Tester ordnen das so ein: Der Router setzt seine Leistung komplett für die eine Aufgabe ein, das Routing. Ein Handy macht nebenbei noch mehr und lädt dabei seinen Akku, wird also heiß und braucht zusätzlich Energie fürs Funken.",
+        "Für den Betrieb unterwegs lassen sich laut Video alle vier Router auch über eine Powerbank versorgen, je nach Modell per USB-C, PoE-Adapter oder 12-Volt-Rundstecker."
+      ]
+    },
+    {
+      "q": "Wie realistisch war der Router-Test von camperhelp?",
+      "a": [
+        "Die Tester haben bewusst schwierige Bedingungen gewählt. Der nächste Funkmast lag laut Video rund 1,5 km entfernt hinter einem Hügel, gemessen wurde im Vodafone-Netz auf einem Biohof im Kammeltal. Neben einem Funkmast funktioniert laut Flo jeder Router, das sei aber nicht realistisch.",
+        "Gemessen wurde an mehreren Positionen, unter anderem im metallabgeschirmten Staukasten des Kastenwagens und an der Frontscheibe. Pro Durchlauf gab es mehrere Messungen, jeder Router bekam mehrere Chancen. Das Wohnmobil wurde zwischendurch umgeparkt, damit das Signal nicht direkt über die Scheiben hereinkommt.",
+        "Die Tester sagen selbst, dass solche Tests mit Vorsicht zu genießen sind, und dass es keine Sponsoren oder Verpflichtungen gibt. Flo ergänzt, dass er froh über Patrick als zweite Meinung ist."
+      ]
+    }
+  ],
+  "transparenz": "Dieser Magazin-Beitrag fasst die Inhalte des oben eingebetteten YouTube-Videos zusammen. Das Video stammt vom Kanal camperhelp, der auch den Blog camper.help betreibt, und ist laut Videobeschreibung ohne bezahlte Werbung, Sponsoring oder bezahlte Tests entstanden. VanKompass hat die Router nicht selbst getestet. Alle Angaben basieren auf dem Video und der Videobeschreibung. Die Produktlinks in der Videobeschreibung führen zu Amazon. Links zu Produkten auf VanKompass können Affiliate-Links enthalten."
+}
