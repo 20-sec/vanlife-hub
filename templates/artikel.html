@@ -16,11 +16,14 @@
   <span>Stand: {{ a.datum_text }}</span>
 </div>
 
+{% if a.affiliate %}<p class="werbehinweis"><strong>Werbung:</strong> Dieser Beitrag enth&auml;lt Affiliate-Links, markiert mit <span class="star">*</span>. Kaufst du dar&uuml;ber ein, erhalten wir eine Provision. F&uuml;r dich &auml;ndert sich am Preis nichts.</p>
+{% endif %}
 <div class="answer-box">
   <div class="tag">Auf den Punkt</div>
   <p>{{ a.answer|safe }}</p>
 </div>
 
+{% if a.video %}
 <div class="video-wrap">
   <iframe src="https://www.youtube-nocookie.com/embed/{{ a.video.id }}" title="{{ a.video.title }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
@@ -33,12 +36,14 @@
     {% if a.video.werbung %}<br><span class="hinweis">Hinweis: {{ a.video.werbung }}</span>{% endif %}
   </div>
 </div>
+{% endif %}
 
 <nav class="toc">
   <h3>Inhalt</h3>
   <ul>
     {% for s in a.sections %}<li><a href="#{{ s.id }}">{{ s.h2 }}</a></li>
     {% endfor %}<li><a href="#faq">H&auml;ufige Fragen</a></li>
+    {% if a.quellen %}<li><a href="#quellen">Quellen</a></li>{% endif %}
     <li><a href="#weiterlesen">Weiterlesen</a></li>
   </ul>
 </nav>
@@ -64,6 +69,26 @@
   </details>
   {% endfor %}
 </div>
+
+{% if a.quellen %}
+<h2 id="quellen">Quellen</h2>
+<ul class="quellen">
+  {% for q in a.quellen %}<li>{% if q.url %}<a href="{{ q.url }}" target="_blank" rel="noopener">{{ q.name }}</a>{% else %}{{ q.name }}{% endif %}{% if q.stand %}, Stand {{ q.stand }}{% endif %}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if a.cta %}
+<aside class="cta-box" id="empfehlung">
+  <div class="cta-img"><img src="{{ a.cta.bild }}" alt="{{ a.cta.bild_alt }}" width="680" height="400" loading="lazy"></div>
+  <div class="cta-info">
+    <p class="tag">Unsere Empfehlung zum Thema</p>
+    <h2>{{ a.cta.titel }}</h2>
+    <p>{{ a.cta.text }}</p>
+    <a class="cta-btn" href="{{ a.cta.url }}" target="_blank" rel="noopener sponsored nofollow" data-affiliate="{{ a.cta.programm|default('amazon') }}" title="Affiliate-Link">{{ a.cta.button }}<span class="ad">Affiliate-Link *</span></a>
+  </div>
+</aside>
+{% endif %}
 
 <h2 id="weiterlesen">Weiterlesen bei VanKompass</h2>
 <div class="magazin-nav">

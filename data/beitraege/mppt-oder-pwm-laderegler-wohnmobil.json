@@ -1,0 +1,168 @@
+{
+  "slug": "mppt-oder-pwm-laderegler-wohnmobil",
+  "out": "magazin-solar-mppt-oder-pwm-laderegler-wohnmobil.html",
+  "bereich": "solar",
+  "camper": [],
+  "kategorie": "Vergleich",
+  "top": false,
+  "title": "MPPT oder PWM: Welcher Laderegler holt mehr aus deinem Solarmodul?",
+  "crumb": "MPPT oder PWM Laderegler",
+  "meta_title": "MPPT oder PWM Laderegler im Wohnmobil: Was lohnt sich?",
+  "meta_desc": "MPPT oder PWM im Wohnmobil: Rechenweg mit Datenblattwerten, wann PWM reicht, welcher Regler zu 200 oder 400 Watt passt und typische Fehler.",
+  "teaser": "Rechenweg mit echten Datenblattwerten, der ehrliche Fall für PWM und wie du den MPPT-Regler richtig dimensionierst.",
+  "lead_teaser": "Du willst wissen, ob sich ein MPPT-Laderegler für deinen Camper lohnt oder ob der günstige PWM-Regler reicht? Hier rechnest du den Unterschied mit echten Datenblattwerten nach, siehst, warum er im Sommer schrumpft und im Winter wächst, und findest den passenden Regler für 200 bis 440 Watt. Dazu die typischen Fehler beim Anschluss.",
+  "datum": "2026-11-25",
+  "datum_text": "November 2026",
+  "geaendert": "2026-11-25",
+  "thumb": "img/thumb-mppt-oder-pwm-laderegler-wohnmobil.svg",
+  "basis_video": "fTvNqxLCkJc",
+  "answer": "Für fast jedes Wohnmobil ist ein <strong>MPPT-Laderegler</strong> die bessere Wahl. Er wandelt überschüssige Modulspannung in Ladestrom um, der Victron MPPT 100/30 laut Hersteller mit bis zu <strong>98 Prozent</strong> Wirkungsgrad. Ein PWM-Regler zieht das Modul auf Batteriespannung herunter und verschenkt bei kühlen Modulen <strong>ein Fünftel bis ein Drittel</strong> der Leistung. PWM reicht nur für ein einzelnes kleines 12-Volt-Modul im Sommer.",
+  "sections": [
+    {
+      "id": "unterschied",
+      "h2": "Was ist der Unterschied zwischen MPPT und PWM?",
+      "html": "<p>Ein Solarladeregler sitzt zwischen Solarmodul und Aufbaubatterie. Er sorgt dafür, dass die Batterie mit der richtigen Spannung geladen wird und nicht überladen wird. Im Camper gibt es dafür zwei Bauarten, und sie gehen mit der Modulspannung grundverschieden um.</p><p><strong>PWM</strong> steht für Pulsweitenmodulation. Der Regler ist im Kern ein schneller Schalter, der das Modul direkt mit der Batterie verbindet. Das Modul arbeitet dadurch ungefähr auf Batteriespannung, also bei 13 bis 14 Volt. Ein typisches 12-Volt-Modul mit 36 Zellen hätte seinen besten Arbeitspunkt aber bei rund 18 Volt. Die Spannung darüber geht verloren, der Strom bleibt gleich.</p><p><strong>MPPT</strong> steht für Maximum Power Point Tracking. Der Regler sucht laufend den Arbeitspunkt, an dem das Modul die meiste Leistung abgibt, und wandelt die überschüssige Spannung in zusätzlichen Ladestrom um. Aus 18 Volt und 5,5 Ampere am Modul werden so bei 13,3 Volt an der Batterie gut 7 Ampere. Laut Victron erreicht etwa der SmartSolar MPPT 100/30 dabei einen maximalen Wirkungsgrad von 98 Prozent.</p><p>Daraus folgt der wichtigste Unterschied für die Praxis: Ein PWM-Regler braucht ein Modul, dessen Spannung knapp über der Batteriespannung liegt. Ein MPPT-Regler verträgt auch höhere Spannungen, etwa zwei oder drei Module in Reihe oder große Module aus dem Hausdach-Bereich.</p>"
+    },
+    {
+      "id": "mehrertrag",
+      "h2": "Wie viel mehr Ertrag bringt ein MPPT-Laderegler wirklich?",
+      "html": "<p>Die Herstellerangaben gehen weit auseinander. Morningstar nennt 5 bis 30 Prozent mehr Ertrag je nach Klima, Victron 10 bis 40 Prozent bei Zelltemperaturen unter 45 °C und weitere Vorteile bei sehr heißen Modulen und schwachem Licht. Der Grund für die Spanne ist die Modultemperatur. Mit den Daten eines gewöhnlichen 100-Watt-Moduls mit 36 Zellen lässt sich das selbst nachrechnen.</p><p>Das Datenblatt des Beispielmoduls (AIMS, 100 W) nennt: 18,0 V und 5,56 A im besten Arbeitspunkt, 21,6 V Leerlaufspannung, Temperatur-Koeffizient der Leistung minus 0,37 Prozent pro Grad, der Leerlaufspannung minus 0,29 Prozent pro Grad, jeweils bezogen auf 25 °C Zelltemperatur. Der PWM-Regler liefert ungefähr Batteriespannung mal Modulstrom. Wir rechnen mit 13,3 V an der Batterie. Der Strom liegt bei dieser Spannung zwischen 5,56 A im besten Arbeitspunkt und 5,97 A Kurzschlussstrom, deshalb steht für PWM eine Spanne.</p><div class=\"table-scroll\"><table class=\"cmp\"><thead><tr><th>Zelltemperatur</th><th>Modulleistung</th><th>PWM an der Batterie</th><th>PWM-Anteil</th><th>MPPT bei 98 %</th></tr></thead><tbody><tr><td class=\"row-name\">0 °C (klarer, kalter Tag)</td><td>ca. 109 W</td><td>74 bis 79 W</td><td>68 bis 73 %</td><td class=\"best\">ca. 107 W</td></tr><tr><td class=\"row-name\">25 °C (Normbedingung)</td><td>100 W</td><td>74 bis 79 W</td><td>74 bis 79 %</td><td class=\"best\">ca. 98 W</td></tr><tr><td class=\"row-name\">60 °C (Hochsommer auf dem Dach)</td><td>ca. 87 W</td><td>74 bis 79 W</td><td>85 bis 91 %</td><td class=\"best\">ca. 85 W</td></tr></tbody></table></div><p>Eigene Näherung aus den Datenblattwerten bei voller Einstrahlung. Kabelverluste und Verschattung sind nicht eingerechnet, der MPPT-Regler steht mit dem Höchstwirkungsgrad laut Victron in der Tabelle und liegt real etwas darunter. 0 °C Zelltemperatur bei voller Sonne ist ein Grenzfall für klare Wintertage. Die Tendenz zeigt die Tabelle trotzdem klar: Der PWM-Regler gibt fast immer dieselben 74 bis 79 Watt weiter. Was das Modul bei Kälte mehr leisten könnte, kommt nur beim MPPT-Regler an.</p><div class=\"praxis\"><h4>Was die Zahl für dich bedeutet</h4><p>Bei einem einzelnen 100-Watt-Modul im Hochsommer liegen beide Regler nur 5 bis 10 Watt auseinander. Im Frühjahr, Herbst und Winter, wenn du jede Wattstunde brauchst, verschenkt der PWM-Regler ein Fünftel bis knapp ein Drittel der möglichen Leistung.</p></div>"
+    },
+    {
+      "id": "temperatur",
+      "h2": "Warum schrumpft der Abstand im Sommer und wächst im Winter?",
+      "html": "<p>Die Spannung eines Solarmoduls sinkt, wenn es warm wird. Beim Beispielmodul sind es 0,29 Prozent pro Grad bei der Leerlaufspannung. Ein heißes Modul arbeitet deshalb näher an der Batteriespannung, und genau dort arbeitet auch der PWM-Regler. Er verliert dann weniger, weil weniger überschüssige Spannung da ist, die er wegschneiden könnte. Besser wird der PWM-Regler dadurch nicht, das Modul liefert einfach insgesamt weniger.</p><p>Bei Kälte passiert das Gegenteil: Die Spannung steigt, die mögliche Leistung auch, und der PWM-Regler schneidet umso mehr ab. Victron beschreibt den Bereich, in dem PWM mithalten kann, mit Zelltemperaturen zwischen 45 und 75 °C. Darunter, darüber und bei schwachem Licht liegt der MPPT-Regler laut Victron deutlich vorn. Auch Morningstar sieht den größten Vorteil in kälteren Klimazonen.</p><p>Für Camper heißt das: Wer vor allem im Hochsommer im Süden steht, merkt den Unterschied kaum. Wer im Herbst, im Winter oder in Skandinavien autark stehen will, profitiert am meisten vom MPPT-Regler. Wie groß deine Anlage dafür sein muss, rechnest du im Beitrag <a href=\"magazin-solar-solaranlage-wohnmobil-watt-berechnung.html\">Solaranlage im Wohnmobil richtig berechnen</a> durch.</p>"
+    },
+    {
+      "id": "wann-pwm",
+      "h2": "Wann reicht ein PWM-Laderegler im Wohnmobil?",
+      "html": "<p>Es gibt den ehrlichen Fall, in dem ein PWM-Regler genügt. Er trifft zu, wenn alle diese Punkte gelten:</p><ul><li>Du hast <strong>ein einzelnes Modul</strong> oder mehrere kleine Module parallel, jeweils mit 36 Zellen für 12-Volt-Systeme.</li><li>Die Anlage ist <strong>klein</strong>, etwa bis 100 Watt, und dient vor allem der Erhaltungsladung.</li><li>Du bist hauptsächlich <strong>im Sommer</strong> unterwegs, oft auf Campingplätzen mit Landstrom.</li><li>Ein vorhandener PWM-Regler <strong>funktioniert</strong>, und dir fehlt im Alltag kein Strom.</li></ul><div class=\"nope\"><h4>Hier ist PWM die falsche Wahl</h4><ul><li>Module mit 60 oder 72 Zellen: Morningstar nennt für 60-Zellen-Module rund 30 V im besten Arbeitspunkt und hält sie für PWM-Regler ungeeignet.</li><li>Zwei oder mehr Module in Reihe: Die höhere Spannung würde der PWM-Regler komplett verschenken.</li><li>Anlagen ab einigen hundert Watt: Victron empfiehlt dort MPPT auch wegen der dünneren Kabel. Doppelte Modulspannung erlaubt laut Victron ein Viertel des Kabelquerschnitts.</li><li>Lange Standzeiten im Winterhalbjahr: Hier fehlt dir mit PWM am meisten Ertrag.</li></ul></div><p>Fällt deine Antwort nicht eindeutig aus, ist MPPT die sichere Wahl, weil er bei jeder Modultemperatur mindestens gleichauf liegt.</p>"
+    },
+    {
+      "id": "dimensionieren",
+      "h2": "Welcher MPPT-Laderegler passt zu deiner Solaranlage?",
+      "html": "<p>Zwei Zahlen auf dem Regler entscheiden: die maximale Leerlaufspannung der Module und der Ladestrom. Beim Victron SmartSolar MPPT 100/30 steht die 100 für 100 V maximale PV-Leerspannung, die 30 für 30 A Ladestrom. Victron nennt dafür 440 W Modulleistung an einer 12-Volt-Batterie und 880 W an 24 V.</p><h3>Schritt 1: Leerlaufspannung bei Kälte prüfen</h3><p>Laut Victron-Handbuch steigt die Leerlaufspannung unter 25 °C, und die 100 V dürfen nie überschritten werden. Rechne deshalb mit der kältesten Morgensonne. Beim Beispielmodul mit 21,6 V und minus 0,29 Prozent pro Grad ergeben sich bei minus 10 °C Zelltemperatur rund 23,8 V, bei minus 20 °C rund 24,4 V. Drei Module in Reihe kommen so auf höchstens 73 V und passen sicher. Vier Module lägen bei minus 20 °C mit fast 98 V schon gefährlich nah an der Grenze.</p><h3>Schritt 2: Ladestrom abschätzen</h3><p>Teile die Modulleistung durch die Ladespannung von 14,4 V, so rechnet auch Fritz Berger in seinem Technikratgeber. 200 W ergeben rund 14 A, 400 W rund 28 A. Plane etwas Reserve ein: Für rechnerisch 10,4 A bei 150 W rät der Ratgeber zu mindestens 15 A. Für 400 W an 12 V passt ein Regler mit 30 A. Hängt mehr Leistung an, begrenzt der Victron-Regler laut Handbuch die Eingangsleistung. Der Kurzschlussstrom der Module darf beim MPPT 100/30 aber 35 A nicht übersteigen.</p><h3>Schritt 3: Mit dem Rechner gegenprüfen</h3><p>Victron bietet einen kostenlosen <a href=\"https://www.victronenergy.de/mppt-calculator\" target=\"_blank\" rel=\"noopener\">MPPT-Größenrechner</a> an, in den du die Datenblattwerte deiner Module einträgst. Er zeigt, welche Reglergrößen bei deiner Verschaltung zulässig sind.</p><p>Für die typische Camper-Anlage mit zwei bis drei Modulen und 300 bis 440 W an 12 V ist der <a href=\"https://www.amazon.de/dp/B073ZJ3L13?th=1&amp;linkCode=ll2&amp;tag=vankompass-21&amp;linkId=d33e6cbdfbcfbfff3e14df2726d206c2&amp;ref_=as_li_ss_tl\" target=\"_blank\" rel=\"noopener sponsored nofollow\" data-affiliate=\"amazon\" title=\"Affiliate-Link\">Victron SmartSolar MPPT 100/30</a><sup class=\"aff\">*</sup> eine naheliegende Wahl: 100 V Eingangsspannung reichen für drei 36-Zellen-Module in Reihe, Bluetooth ist eingebaut, und das Ladeprogramm lässt sich auf die Batterie einstellen. Für eine einzelne Solartasche reicht ein kleinerer Regler.</p>"
+    },
+    {
+      "id": "powerstation",
+      "h2": "Powerstation statt Laderegler: Wann brauchst du gar keinen?",
+      "html": "<p>Eine Powerstation hat ihren Solarladeregler schon eingebaut. Du steckst das Modul direkt an, ein separater Regler entfällt. Entscheidend sind dann die Eingangsgrenzen der Powerstation, nicht die eines Reglers.</p><p>Ein Beispiel ist die <a href=\"https://www.amazon.de/dp/B0GRHP57JJ?th=1&amp;linkCode=ll2&amp;tag=vankompass-21&amp;linkId=e14fe2fead29ecd96b79074a8203204e&amp;ref_=as_li_ss_tl\" target=\"_blank\" rel=\"noopener sponsored nofollow\" data-affiliate=\"amazon\" title=\"Affiliate-Link\">AFERIY P180 PRO</a><sup class=\"aff\">*</sup> mit 1024 Wh. Laut dem Test von <a href=\"https://www.igorslab.de/en/aferiy-p180pro-power-station-review/\" target=\"_blank\" rel=\"noopener\">igor'sLAB</a> nimmt sie über XT60 bis 500 W bei bis zu 55 V auf. Zwei 36-Zellen-Module in Reihe bleiben selbst bei minus 20 °C mit rund 49 V darunter. Drei Module liegen schon bei 25 °C mit 64,8 V Leerlaufspannung darüber. Für eine Solartasche oder zwei Dachmodule reicht der eingebaute Eingang.</p><p>Sinnvoll ist das vor allem in Campervans ohne fest verbaute Aufbaubatterie oder wenn du flexibel bleiben willst. Welche Solartasche zu einer Powerstation passt und was sie real liefert, zeigt unser <a href=\"magazin-solar-solartasche-kaufberatung-wattstunde-ecoflow-bergbrise.html\">Vergleich von Solartaschen</a>. Wer eine feste Bordbatterie mit Dachmodulen lädt, braucht weiterhin einen eigenen Regler.</p>"
+    },
+    {
+      "id": "fehler",
+      "h2": "Typische Fehler beim Anschluss des Solarladereglers",
+      "html": "<ul><li><strong>Falsche Reihenfolge:</strong> Laut Victron-Handbuch wird zuerst die Batterie angeschlossen, damit der Regler die Systemspannung erkennt, danach erst die Module. Beim Abbauen umgekehrt.</li><li><strong>Keine Batteriesicherung:</strong> Für den MPPT 100/30 nennt Victron eine Sicherung zwischen 35 und 40 A in der Batterieleitung.</li><li><strong>Leerlaufspannung bei Normtemperatur gerechnet:</strong> Wer nur mit 25 °C plant, kann an einem frostigen Morgen die Höchstspannung überschreiten. Victron setzt beim MPPT 100/30 eine harte Grenze von 100 V.</li><li><strong>Zu wenig Spannung zum Starten:</strong> Laut Victron startet der Regler erst, wenn die Modulspannung mindestens 5 V über der Batteriespannung liegt, danach reicht 1 V darüber.</li><li><strong>Regler und Batterie an verschiedenen Orten:</strong> Victron rät, Temperaturunterschiede von mehr als 5 °C zwischen Regler und Batterie zu vermeiden, weil die Ladespannung temperaturabhängig geregelt wird.</li><li><strong>Falsches Ladeprogramm:</strong> Die Werkseinstellung passt nicht zu jeder Batterie. Stell bei LiFePO4 die Werte des Batterieherstellers ein.</li></ul>"
+    }
+  ],
+  "faq_thema": "zu MPPT- und PWM-Ladereglern",
+  "faq": [
+    {
+      "q": "Was ist besser, MPPT oder PWM?",
+      "a": [
+        "Im Wohnmobil ist fast immer der MPPT-Laderegler besser. Er wandelt die überschüssige Modulspannung in Ladestrom um, während ein PWM-Regler das Modul auf Batteriespannung herunterzieht und den Rest verschenkt.",
+        "Wie groß der Vorteil ist, hängt von der Modultemperatur ab. Bei kühlen Modulen liegt er nach unserer Rechnung mit Datenblattwerten bei rund 25 Prozent und mehr, bei heißen Modulen im Hochsommer bei rund 10 bis 15 Prozent. Morningstar nennt 5 bis 30 Prozent, Victron 10 bis 40 Prozent bei Zelltemperaturen unter 45 °C."
+      ]
+    },
+    {
+      "q": "Lohnt sich ein MPPT-Laderegler bei 100 Watt Solar?",
+      "a": [
+        "Bei einem einzelnen 100-Watt-Modul ist der Unterschied am kleinsten. Im Hochsommer liegen PWM und MPPT nur 5 bis 10 Watt auseinander, an kühlen, sonnigen Tagen eher 20 bis 30 Watt.",
+        "Ein MPPT-Regler lohnt sich trotzdem, wenn du die Anlage später erweitern willst, außerhalb des Sommers autark stehst oder ein Modul mit mehr als 36 Zellen nutzt. Ist ein PWM-Regler schon verbaut und dir fehlt kein Strom, kannst du ihn behalten."
+      ]
+    },
+    {
+      "q": "Welcher Laderegler für 200 Watt Solar am Wohnmobil?",
+      "a": [
+        "Teile die Leistung durch die Ladespannung von 14,4 V: 200 W ergeben rund 14 A Ladestrom. Ein MPPT-Regler mit 15 bis 20 A reicht also für eine 12-Volt-Batterie.",
+        "Prüfe zusätzlich die Leerlaufspannung bei Kälte. Zwei 36-Zellen-Module in Reihe kommen bei minus 20 °C auf rund 49 V. Ein Regler mit 75 V oder 100 V Eingangsspannung hat damit genug Reserve. Willst du später auf 300 bis 400 W erweitern, ist ein 30-A-Regler wie der Victron MPPT 100/30 die vorausschauende Wahl."
+      ]
+    },
+    {
+      "q": "Kann ich Solarmodule an einem PWM-Regler in Reihe schalten?",
+      "a": [
+        "Technisch ja, sinnvoll ist es nicht. Ein PWM-Regler zieht das Modul immer auf Batteriespannung herunter. Zwei Module in Reihe hätten zusammen rund 36 V im besten Arbeitspunkt, nutzbar wären davon nur etwa 13 bis 14 V.",
+        "Damit verschenkst du mehr als die Hälfte der Leistung. Wer Module in Reihe schalten will, etwa wegen dünnerer Kabel, braucht einen MPPT-Regler mit ausreichend hoher Eingangsspannung."
+      ]
+    },
+    {
+      "q": "Wie viele Solarmodule darf ich an einen MPPT 100/30 in Reihe anschließen?",
+      "a": [
+        "Das hängt von der Leerlaufspannung deiner Module bei Kälte ab, die 100 V nie überschreiten darf. Bei typischen 36-Zellen-Modulen mit 21,6 V Leerlaufspannung sind drei Module in Reihe sicher, sie kommen bei minus 20 °C auf höchstens etwa 73 V.",
+        "Vier solcher Module lägen bei starkem Frost knapp unter 100 V und damit ohne Reserve. Rechne mit den Werten aus deinem Moduldatenblatt nach oder nutze den MPPT-Rechner von Victron."
+      ]
+    },
+    {
+      "q": "Braucht eine Powerstation einen extra Laderegler?",
+      "a": [
+        "Nein. Eine Powerstation hat einen Solarladeregler eingebaut, das Modul wird direkt angesteckt. Wichtig sind die Eingangsgrenzen der Powerstation: maximale Spannung, maximale Leistung und der Steckertyp, meist XT60.",
+        "Die AFERIY P180 PRO nimmt laut igor'sLAB bis 500 W bei bis zu 55 V auf. Zwei 36-Zellen-Module in Reihe passen, drei überschreiten die Spannungsgrenze schon bei 25 °C. Einen externen Regler brauchst du nur, wenn die Module eine fest verbaute Aufbaubatterie laden sollen."
+      ]
+    },
+    {
+      "q": "Warum lädt mein MPPT-Regler morgens nicht?",
+      "a": [
+        "Der Regler braucht zum Starten eine Modulspannung, die laut Victron mindestens 5 V über der Batteriespannung liegt. Bei einer 12-Volt-Batterie sind das rund 18 bis 19 V. In der Dämmerung oder bei Verschattung reicht das einzelnen Modulen oft nicht.",
+        "Sobald der Regler läuft, genügt laut Victron eine Modulspannung von 1 V über der Batteriespannung. Lädt er auch mittags nicht, prüfe Sicherung, Polung, Anschlussreihenfolge und das eingestellte Ladeprogramm."
+      ]
+    }
+  ],
+  "quellen": [
+    {
+      "name": "Victron Energy: Handbuch SmartSolar MPPT 100/30 und 100/50, Technische Angaben",
+      "url": "https://www.victronenergy.com/media/pg/Manual_SmartSolar_MPPT_100-30__100-50/de/technical-specifications.html",
+      "stand": "November 2026"
+    },
+    {
+      "name": "Victron Energy: Handbuch SmartSolar MPPT 100/30 und 100/50, Installation",
+      "url": "https://www.victronenergy.com/media/pg/Manual_SmartSolar_MPPT_100-30__100-50/de/installation.html",
+      "stand": "November 2026"
+    },
+    {
+      "name": "Victron Energy: Which solar charge controller, PWM or MPPT?",
+      "url": "https://www.victronenergy.com/blog/2014/07/21/which-solar-charge-controller-pwm-or-mppt/",
+      "stand": "Juli 2014"
+    },
+    {
+      "name": "Morningstar: What are the different types of solar charge controllers?",
+      "url": "https://www.morningstarcorp.com/faq/what-are-the-different-types-of-solar-charge-controllers/",
+      "stand": "November 2026"
+    },
+    {
+      "name": "AIMS Power: Datenblatt Monokristallines Solarmodul 100 W, 36 Zellen",
+      "url": "https://www.aimscorp.net/documents/100W.pdf",
+      "stand": "November 2026"
+    },
+    {
+      "name": "Fritz Berger: Wechselrichter, Laderegler und Ladebooster im Wohnmobil einfach erklärt",
+      "url": "https://www.fritz-berger.de/blog/hilfe-beratung/technikratgeber/wechselrichter,-laderegler-und-ladebooster-im-wohnmobil-einfach-erklaert/",
+      "stand": "Juli 2026"
+    },
+    {
+      "name": "igor'sLAB: Aferiy P180Pro Power Station Review",
+      "url": "https://www.igorslab.de/en/aferiy-p180pro-power-station-review/",
+      "stand": "2026"
+    }
+  ],
+  "affiliate": [
+    {
+      "name": "Victron SmartSolar MPPT 100/30",
+      "url": "https://www.amazon.de/dp/B073ZJ3L13?th=1&linkCode=ll2&tag=vankompass-21&linkId=d33e6cbdfbcfbfff3e14df2726d206c2&ref_=as_li_ss_tl",
+      "programm": "amazon"
+    },
+    {
+      "name": "AFERIY P180 PRO Powerstation",
+      "url": "https://www.amazon.de/dp/B0GRHP57JJ?th=1&linkCode=ll2&tag=vankompass-21&linkId=e14fe2fead29ecd96b79074a8203204e&ref_=as_li_ss_tl",
+      "programm": "amazon"
+    }
+  ],
+  "cta": {
+    "titel": "Unsere Empfehlung für die Solaranlage im Camper",
+    "text": "Der Victron SmartSolar MPPT 100/30 deckt mit 100 V Eingangsspannung und 30 A Ladestrom die typische Camper-Anlage mit zwei bis drei Modulen bis 440 W ab und lässt sich per Bluetooth einstellen.",
+    "url": "https://www.amazon.de/dp/B073ZJ3L13?th=1&linkCode=ll2&tag=vankompass-21&linkId=d33e6cbdfbcfbfff3e14df2726d206c2&ref_=as_li_ss_tl",
+    "button": "Bei Amazon ansehen",
+    "bild": "img/cta-mppt-oder-pwm-laderegler-wohnmobil.svg",
+    "bild_alt": "Themenbild: MPPT-Laderegler für die Solaranlage im Camper",
+    "programm": "amazon"
+  },
+  "transparenz": "Dieser Beitrag beruht auf ausgewerteten Herstellerangaben, Handbüchern, einem Moduldatenblatt, Fachratgebern und einem Testbericht, die in der Quellenliste stehen. Die Rechenbeispiele sind eigene Näherungen aus Datenblattwerten. VanKompass hat die genannten Produkte nicht selbst getestet. Der Beitrag enthält Affiliate-Links, markiert mit Sternchen."
+}

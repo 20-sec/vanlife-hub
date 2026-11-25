@@ -36,7 +36,7 @@ def main(slug):
     if not os.path.exists(path):
         print("FEHLT:", path); return 1
     a = json.load(open(path, encoding="utf-8"))
-    for k in ("slug", "out", "bereich", "camper", "kategorie", "title", "meta_title", "meta_desc", "teaser", "lead_teaser", "datum", "datum_text", "thumb", "video", "answer", "sections", "faq", "transparenz"):
+    for k in ("slug", "out", "bereich", "camper", "kategorie", "title", "meta_title", "meta_desc", "teaser", "lead_teaser", "datum", "datum_text", "thumb", "answer", "sections", "faq", "transparenz"):
         if k not in a:
             errs.append(f"Feld fehlt: {k}")
     if errs:
@@ -62,9 +62,21 @@ def main(slug):
         n = sum(words(p) for p in f["a"])
         if not 40 <= n <= 220: errs.append(f"FAQ '{f['q'][:40]}' {n} Woerter (40 bis 220)")
         if not f["q"].endswith("?"): errs.append(f"FAQ-Frage ohne Fragezeichen: {f['q'][:40]}")
-    v = a["video"]
-    for k in ("id", "title", "kanal", "kanal_url", "upload", "upload_text", "dauer_iso", "dauer_text", "beschreibung"):
-        if not v.get(k): errs.append(f"video.{k} fehlt")
+    v = a.get("video")
+    if v:
+        for k in ("id", "title", "kanal", "kanal_url", "upload", "upload_text", "dauer_iso", "dauer_text", "beschreibung"):
+            if not v.get(k): errs.append(f"video.{k} fehlt")
+    else:
+        # Magazin-Beitrag ohne Video (seit 2026-11-25): eigenstaendiger Ratgeber mit benannten Quellen
+        q = a.get("quellen") or []
+        if len(q) < 3: errs.append(f"{len(q)} Quellen im Feld quellen (mindestens 3)")
+        for e in q:
+            if not e.get("name"): errs.append("Quelle ohne name")
+        n = sum(words(s.get("html", "")) for s in a["sections"])
+        if n < 900: errs.append(f"Abschnitte zusammen {n} Woerter (mindestens 900)")
+        alles = json.dumps(a, ensure_ascii=False).lower()
+        for wort in ("youtube", "im video", "das video", "des videos"):
+            if wort in alles: errs.append(f"Hinweis auf ein Video im Beitrag: '{wort}'")
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", a["datum"]): errs.append("datum nicht YYYY-MM-DD")
     if not os.path.exists(a["thumb"]): errs.append(f"Thumbnail fehlt: {a['thumb']}")
     txt = " ".join(texts(a))
@@ -73,6 +85,49 @@ def main(slug):
     if re.search(r"\*\*|`", txt): errs.append("Markdown-Zeichen gefunden")
     sus = sorted({w for w in re.findall(r"\b\w+\b", txt) if re.search(r"(?<![aeiouAEIOU])(ae|oe|ue)", w) and not w.lower().startswith(OK_PREFIX)})
     if sus: errs.append("Ersatzschreibung? " + ", ".join(sus[:8]))
+
+    # Affiliate-Beitraege (Feld "affiliate" vorhanden): Links nur aus der zentralen Linkliste der Knowledge Base,
+    # jeder in neuem Fenster und als bezahlt ausgezeichnet, dazu interne und externe Links und die Empfehlung am Ende.
+    if "affiliate" in a:
+        body = " ".join(s.get("html", "") for s in a["sections"])
+        liste_pfad = os.path.expanduser("~/KB/MARKUS-KNOWLEDGE-SYSTEM/03_PROJECTS/Websites/Affiliate-Seiten/Affiliate-Linkliste.md")
+        erlaubt = None
+        if os.path.exists(liste_pfad):
+            erlaubt = set()
+            for zeile in open(liste_pfad, encoding="utf-8"):
+                if zeile.startswith("|") and re.search(r"\|\s*aktiv\s*\|", zeile):
+                    erlaubt.update(re.findall(r"https?://[^\s|)>]+", zeile))
+        else:
+            errs.append("Linkliste nicht gefunden: " + liste_pfad)
+        aff = a["affiliate"]
+        if not 1 <= len(aff) <= 3: errs.append(f"{len(aff)} Affiliate-Links im Feld affiliate (1 bis 3)")
+        anker = re.findall(r"<a\b[^>]*>", body)
+        for e in aff:
+            u = e.get("url", "")
+            if erlaubt is not None and u not in erlaubt: errs.append(f"Affiliate-Link nicht aktiv in der Linkliste: {e.get('name')}")
+            treffer = [t for t in anker if u.replace("&", "&amp;") in t or u in t]
+            if len(treffer) != 1: errs.append(f"Affiliate-Link {e.get('name')} steht {len(treffer)}-mal im Text (genau 1)")
+            for t in treffer:
+                if 'target="_blank"' not in t: errs.append(f"Affiliate-Link {e.get('name')} ohne target=_blank")
+                if "sponsored" not in t: errs.append(f"Affiliate-Link {e.get('name')} ohne rel sponsored")
+        urls = {e.get("url") for e in aff}
+        for t in anker:
+            if "sponsored" in t or "amazon." in t or "awin" in t or "webgains" in t:
+                h = re.search(r'href="([^"]+)"', t)
+                if h and h.group(1).replace("&amp;", "&") not in urls: errs.append("Partnerlink im Text, der nicht im Feld affiliate steht: " + h.group(1)[:60])
+        intern = [t for t in anker if re.search(r'href="[^":]+\.html', t)]
+        if len(intern) < 2: errs.append(f"{len(intern)} interne Links im Text (mindestens 2)")
+        extern = [t for t in anker if re.search(r'href="https?://', t) and "sponsored" not in t]
+        if len(extern) < 2: errs.append(f"{len(extern)} externe Links im Text (mindestens 2)")
+        for t in extern:
+            if 'target="_blank"' not in t: errs.append("externer Link ohne target=_blank: " + t[:70])
+        c = a.get("cta")
+        if not c: errs.append("Empfehlung am Ende fehlt (Feld cta)")
+        else:
+            for k in ("titel", "text", "url", "button", "bild", "bild_alt"):
+                if not c.get(k): errs.append(f"cta.{k} fehlt")
+            if erlaubt is not None and c.get("url") not in erlaubt: errs.append("cta.url nicht aktiv in der Linkliste")
+            if c.get("bild") and not os.path.exists(c["bild"]): errs.append(f"Bild der Empfehlung fehlt: {c['bild']}")
 
     html_path = a["out"]
     if os.path.exists(html_path):
@@ -83,7 +138,12 @@ def main(slug):
         for href in set(re.findall(r'href="([^"#?]+\.html)', h)):
             if not href.startswith("http") and not os.path.exists(href): errs.append(f"toter Link: {href}")
         if "noindex" in h: errs.append("noindex in HTML")
-        if 'youtube-nocookie.com/embed/' + v["id"] not in h: errs.append("Video-Embed fehlt")
+        if v and 'youtube-nocookie.com/embed/' + v["id"] not in h: errs.append("Video-Embed fehlt")
+        if not v and "youtube" in h.lower(): errs.append("Video-Bezug im HTML eines Beitrags ohne Video")
+        if "affiliate" in a:
+            if 'class="werbehinweis"' not in h: errs.append("Werbehinweis oben fehlt im HTML")
+            if 'class="cta-box"' not in h: errs.append("Empfehlung am Ende fehlt im HTML")
+            if "Als Amazon-Partner" not in h: errs.append("Amazon-Pflichtsatz fehlt im HTML")
     else:
         print("Hinweis: HTML noch nicht gebaut, nur Daten geprueft.")
 

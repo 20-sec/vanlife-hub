@@ -15,14 +15,14 @@ os.chdir(ROOT)
 
 SITE = {
     "base": "https://vankompass.de/",
-    "css_v": "5",
+    "css_v": "6",
     "build_id": datetime.datetime.now().strftime("%Y%m%d-%H%M%S"),
     "top_bereich": "strom",
     "top_beitrag": "aferiy-p180-pro-ford-nugget",
     "indexnow_key": "ea011f5adae5b0e552cedca6e1224425",
     "asset_v": "20261011",
     "kontakt": "redaktion@vankompass.de",
-    "affiliate_hinweis": "Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du darüber ein, erhalten wir eine kleine Provision. Für dich ändert sich am Preis nichts. So können wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke für deine Unterstützung.",
+    "affiliate_hinweis": "Einige Links auf dieser Seite sind Affiliate-Links. Kaufst du darüber ein, erhalten wir eine kleine Provision. Für dich ändert sich am Preis nichts. So können wir VanKompass betreiben und die Inhalte, Checklisten und Packlisten weiterhin kostenlos anbieten. Danke für deine Unterstützung. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.",
     "freebie": {
         "titel": "Die VanKompass Camper-Packliste: 120 Punkte, nach Bereichen sortiert",
         "text": "Strom, Schlafen, Küche, Sanitär, Sicherheit, Werkzeug. Zum Abhaken vor jeder Fahrt, damit du nie wieder ohne Ladekabel, Wasserschlauch oder Keil losfährst.",
@@ -162,8 +162,12 @@ def load_beitraege():
             a = json.load(f)
         a["status"] = "live"
         a["url"] = a["out"]
-        a.setdefault("quelle", "Video von " + a["video"]["kanal"])
-        a.setdefault("extra", a["video"]["dauer_text"] + " Video")
+        if a.get("video"):
+            a.setdefault("quelle", "Video von " + a["video"]["kanal"])
+            a.setdefault("extra", a["video"]["dauer_text"] + " Video")
+        else:  # Magazin-Beitrag ohne Video (seit 2026-11-25): eigene Recherche der Redaktion
+            a.setdefault("quelle", "VanKompass Redaktion")
+            a.setdefault("extra", a["kategorie"])
         out.append(a)
     return out
 
@@ -311,17 +315,20 @@ def main():
                        + [{"url": c["out"], "text": f'Alles zum {c["name"]}'} for c in cl]
                        + [{"url": p["url"], "text": p["title"]} for p in related]
                        + [{"url": f'magazin.html#{b["slug"]}', "text": f'Alle Beiträge zu {b["kurzname"]} im Magazin'}, {"url": "bereiche.html", "text": "Alle Bereiche"}])
-        v = a["video"]
-        yt_img = f'https://img.youtube.com/vi/{v["id"]}/maxresdefault.jpg'
+        v = a.get("video")
+        yt_img = f'https://img.youtube.com/vi/{v["id"]}/maxresdefault.jpg' if v else SITE["base"] + a["thumb"]
         graph = [crumbs_ld(crumbs),
                  {"@type": "Organization", "@id": SITE["base"] + "#org", "name": "VanKompass", "url": SITE["base"], "logo": {"@type": "ImageObject", "url": SITE["base"] + "favicon.svg"}},
                  {"@type": "Article", "headline": a["title"], "description": a["meta_desc"], "image": yt_img,
                   "mainEntityOfPage": {"@type": "WebPage", "@id": SITE["base"] + a["out"]},
                   "datePublished": a["datum"], "dateModified": a.get("geaendert", a["datum"]),
-                  "author": {"@type": "Organization", "name": "VanKompass"}, "publisher": {"@id": SITE["base"] + "#org"},
-                  "video": {"@type": "VideoObject", "name": v["title"], "description": v["beschreibung"], "thumbnailUrl": yt_img, "uploadDate": v["upload"],
-                            "duration": v["dauer_iso"], "contentUrl": f'https://www.youtube.com/watch?v={v["id"]}', "embedUrl": f'https://www.youtube-nocookie.com/embed/{v["id"]}'}},
+                  "author": {"@type": "Organization", "name": "VanKompass"}, "publisher": {"@id": SITE["base"] + "#org"}},
                  faq_ld(a["faq"])]
+        if v:
+            graph[2]["video"] = {"@type": "VideoObject", "name": v["title"], "description": v["beschreibung"], "thumbnailUrl": yt_img, "uploadDate": v["upload"],
+                                 "duration": v["dauer_iso"], "contentUrl": f'https://www.youtube.com/watch?v={v["id"]}', "embedUrl": f'https://www.youtube-nocookie.com/embed/{v["id"]}'}
+        if a.get("quellen"):
+            graph[2]["citation"] = [q["url"] for q in a["quellen"] if q.get("url")]
         render("artikel.html", a["out"], a=a, bereich=b, camper_list=cl, weiterlesen=weiterlesen, nav="magazin", crumbs=crumbs,
                meta_title=a["meta_title"], meta_desc=a["meta_desc"], og_image=yt_img, og_type="article", jsonld=jsonld(graph))
 

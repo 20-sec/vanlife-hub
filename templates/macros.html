@@ -28,7 +28,7 @@
     <div class="body">
       {% if p.status == 'live' %}<span class="badge">Lies das zuerst</span>{% else %}<span class="badge soon">Erster Beitrag in Vorbereitung</span>{% endif %}
       <h2>{{ p.title }}</h2>
-      <div class="meta">{% if p.status == 'live' %}{{ p.quelle }} &middot; {{ p.extra }} &middot; Zusammengefasst von VanKompass{% else %}{{ p.kategorie }} &middot; VanKompass Redaktion{% endif %}</div>
+      <div class="meta">{% if p.status == 'live' %}{% if p.video %}{{ p.quelle }} &middot; {{ p.extra }} &middot; Zusammengefasst von VanKompass{% else %}{{ p.extra }} &middot; {{ p.quelle }}{% endif %}{% else %}{{ p.kategorie }} &middot; VanKompass Redaktion{% endif %}</div>
       <p>{{ p.lead_teaser or p.teaser }}</p>
       {% if p.status == 'live' %}<span class="read">Beitrag lesen</span>{% else %}<span class="read soon">Erscheint in K&uuml;rze</span>{% endif %}
     </div>

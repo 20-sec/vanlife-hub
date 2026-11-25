@@ -30,7 +30,12 @@ def lade_merkliste():
 
 
 def benutzte_ids():
-    return {json.load(open(f, encoding="utf-8"))["video"]["id"] for f in glob.glob("data/beitraege/*.json")}
+    # Beitraege mit eingebettetem Video (Feld video) und Magazin-Beitraege ohne Video, deren Basisvideo im Feld basis_video steht
+    ids = set()
+    for f in glob.glob("data/beitraege/*.json"):
+        a = json.load(open(f, encoding="utf-8"))
+        ids.add((a.get("video") or {}).get("id") or a.get("basis_video"))
+    return ids - {None}
 
 
 def luecken():
